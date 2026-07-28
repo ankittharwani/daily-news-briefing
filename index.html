@@ -3,137 +3,121 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ankit's Morning Briefing — Archive</title>
+<title>Ankit's Morning Briefing</title>
 <style>
   :root {
-    --ink: #2E2C27;
-    --secondary: #6B6A63;
-    --hairline: #E4E3DC;
-    --wash: #F9F9F7;
-    --white: #FCFCFB;
-    --accent: #3E5C8A;
+    --ink: #2E2C27; --secondary: #6B6A63; --hairline: #E4E3DC;
+    --wash: #F9F9F7; --white: #FCFCFB;
+    --sports: #B5563C; --business: #A9822E; --ai: #2C7A73;
+    --geopolitics: #3E5C8A; --portfolio: #4F6B4A; --country: #8C3A3A; --doha: #6B4C7A;
   }
   * { box-sizing: border-box; }
-  html, body {
-    margin: 0; padding: 0;
-    background: var(--white);
-    color: var(--ink);
+  html, body { margin: 0; padding: 0; background: var(--white); color: var(--ink);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-  }
+    -webkit-font-smoothing: antialiased; }
+  a { color: inherit; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 32px; }
+
   .band-top { background: var(--wash); border-bottom: 1px solid var(--hairline); }
-  .wrap { max-width: 980px; margin: 0 auto; padding: 0 32px; }
-  .masthead { padding: 64px 32px 40px; text-align: center; }
-  .masthead .eyebrow {
-    font-size: 12.5px; letter-spacing: 0.16em; text-transform: uppercase;
-    color: var(--secondary); margin: 0 0 14px; font-weight: 600;
-  }
-  .masthead h1 {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-weight: 400; font-size: 48px; line-height: 1.15;
-    margin: 0 0 14px; color: var(--ink); letter-spacing: -0.01em;
-  }
-  .masthead .tagline {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-style: italic; font-size: 18px; color: var(--secondary); margin: 0;
-  }
-  .stats-row {
-    display: flex; justify-content: center; gap: 36px;
-    margin-top: 28px; flex-wrap: wrap;
-  }
-  .stat { text-align: center; }
-  .stat .num {
-    font-family: Georgia, serif; font-size: 26px; color: var(--accent); font-weight: 700;
-  }
-  .stat .label {
-    font-size: 11.5px; color: var(--secondary); text-transform: uppercase; letter-spacing: 0.08em;
-  }
+  .masthead { padding: 48px 32px 26px; text-align: center; }
+  .masthead .eyebrow { font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--secondary); margin: 0 0 12px; font-weight: 600; }
+  .masthead h1 { font-family: Georgia, "Times New Roman", Times, serif; font-weight: 400;
+    font-size: 46px; line-height: 1.1; margin: 0 0 10px; letter-spacing: -0.015em; }
+  .masthead .tagline { font-family: Georgia, serif; font-style: italic; font-size: 17px;
+    color: var(--secondary); margin: 0; }
+  .stats { display: flex; justify-content: center; gap: 34px; margin-top: 22px; flex-wrap: wrap; }
+  .stat .num { font-family: Georgia, serif; font-size: 22px; font-weight: 700; }
+  .stat .label { font-size: 10.5px; color: var(--secondary); text-transform: uppercase;
+    letter-spacing: 0.09em; margin-top: 2px; }
 
-  .search-bar { padding: 28px 32px 0; }
-  .search-input {
-    width: 100%; max-width: 980px; margin: 0 auto; display: block;
-    padding: 13px 18px; border-radius: 10px; border: 1px solid var(--hairline);
-    background: var(--white); font-size: 14.5px; color: var(--ink);
-    font-family: inherit;
-  }
-  .search-input:focus { outline: none; border-color: var(--accent); }
+  .searchbar { max-width: 1180px; margin: 0 auto; padding: 0 32px 26px; }
+  .search-input { width: 100%; padding: 14px 18px; border-radius: 10px;
+    border: 1px solid var(--hairline); background: var(--white); font-size: 15px;
+    color: var(--ink); font-family: inherit; }
+  .search-input:focus { outline: none; border-color: var(--ink); }
 
-  .content { padding: 40px 0 80px; }
+  .topics { display: grid; grid-template-columns: repeat(7, 1fr); gap: 10px;
+    max-width: 1180px; margin: 0 auto; padding: 0 32px 26px; }
+  .topic { display: flex; flex-direction: column; align-items: center; gap: 8px;
+    padding: 15px 8px; border: 1px solid var(--hairline); border-radius: 10px;
+    background: var(--white); cursor: pointer; transition: all .15s ease; text-align: center; }
+  .topic:hover { border-color: var(--t); }
+  .topic.active { background: var(--t); border-color: var(--t); color: #fff; }
+  .topic svg { width: 20px; height: 20px; color: var(--t); }
+  .topic.active svg { color: #fff; }
+  .topic span { font-size: 11.5px; font-weight: 600; line-height: 1.25; }
 
-  .hero {
-    display: block;
-    text-decoration: none;
-    color: inherit;
-    border: 1px solid var(--hairline);
-    border-left: 4px solid var(--accent);
-    border-radius: 14px;
-    padding: 30px 34px;
-    margin-bottom: 48px;
-    transition: box-shadow .15s ease, transform .15s ease;
-  }
-  .hero:hover { box-shadow: 0 6px 24px rgba(46,44,39,0.08); transform: translateY(-1px); }
-  .hero .hero-eyebrow {
-    font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.1em;
-    color: var(--accent); font-weight: 700; margin: 0 0 10px;
-  }
-  .hero h2 {
-    font-family: Georgia, serif; font-weight: 400; font-size: 27px;
-    margin: 0 0 10px; color: var(--ink); line-height: 1.3;
-  }
-  .hero p.hero-caption {
-    font-size: 15.5px; line-height: 1.6; color: #4A4943; margin: 0 0 14px; max-width: 720px;
-  }
-  .hero .hero-cta {
-    font-size: 13.5px; font-weight: 700; color: var(--accent);
-  }
+  .content { padding: 34px 0 80px; }
+  .hero { display: block; position: relative; border-radius: 16px; overflow: hidden;
+    text-decoration: none; margin-bottom: 34px; border: 1px solid var(--hairline);
+    min-height: 340px; background: var(--wash); }
+  .hero img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .hero .scrim { position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(20,19,16,0) 30%, rgba(20,19,16,.85) 100%); }
+  .hero .hero-text { position: relative; padding: 210px 40px 34px; color: #fff; }
+  .hero .kicker { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
+    font-weight: 700; margin: 0 0 10px; opacity: .92; }
+  .hero h2 { font-family: Georgia, serif; font-weight: 400; font-size: 30px; line-height: 1.25;
+    margin: 0 0 10px; max-width: 800px; }
+  .hero .hero-cta { font-size: 13.5px; font-weight: 700; }
+  /* When no verified photo exists (or it fails to load) the hero collapses to a
+     dark type-led card rather than leaving a large empty image well. */
+  .hero.no-img { background: var(--ink); min-height: 0; }
+  .hero.no-img .hero-text { padding: 40px 40px 34px; }
 
-  .month-group { margin-bottom: 36px; }
-  .month-heading {
-    font-family: Georgia, serif; font-style: italic; font-size: 17px;
-    color: var(--secondary); margin: 0 0 14px; padding-bottom: 8px;
-    border-bottom: 1px solid var(--hairline);
-  }
+  .section-label { font-family: Georgia, serif; font-style: italic; font-size: 17px;
+    color: var(--secondary); margin: 0 0 16px; padding-bottom: 9px;
+    border-bottom: 1px solid var(--hairline); }
+  .mosaic { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .ed-card { display: flex; flex-direction: column; border: 1px solid var(--hairline);
+    border-radius: 12px; overflow: hidden; text-decoration: none; background: var(--white);
+    transition: box-shadow .15s ease, transform .15s ease; }
+  .ed-card:hover { box-shadow: 0 8px 26px rgba(46,44,39,.10); transform: translateY(-2px); }
+  .ed-card .ph { position: relative; width: 100%; aspect-ratio: 16/9; background: #F1F0EA;
+    overflow: hidden; }
+  .ed-card .ph img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .ed-card .ph .ph-fallback { position: absolute; inset: 0; display: flex; align-items: center;
+    justify-content: center; font-family: Georgia, serif; font-size: 24px; color: var(--secondary);
+    background: #F1F0EA; }
+  .ed-card .body { padding: 16px 18px 20px; }
+  .ed-card .date { font-family: Georgia, serif; font-weight: 700; font-size: 14px; margin-bottom: 6px; }
+  .ed-card .cap { font-size: 14px; line-height: 1.55; color: #4A4943; }
+  .ed-card.wide { grid-column: span 2; }
+  .ed-card.wide .ph { aspect-ratio: 21/9; }
 
-  .entry-list { display: flex; flex-direction: column; gap: 2px; }
-  .entry {
-    display: flex; align-items: baseline; gap: 20px;
-    text-decoration: none; color: inherit;
-    padding: 14px 12px; border-radius: 8px;
-    transition: background .12s ease;
-  }
-  .entry:hover { background: var(--wash); }
-  .entry .entry-date {
-    font-family: Georgia, serif; font-weight: 700; font-size: 15px;
-    color: var(--ink); width: 108px; flex: none;
-  }
-  .entry .entry-weekday {
-    font-size: 12px; color: var(--secondary); width: 74px; flex: none;
-    text-transform: uppercase; letter-spacing: 0.04em;
-  }
-  .entry .entry-caption {
-    font-size: 14px; color: #4A4943; line-height: 1.5; flex: 1;
-  }
-  .entry .entry-arrow { color: var(--accent); font-weight: 700; flex: none; }
+  .result { display: block; padding: 18px 0; border-bottom: 1px solid var(--hairline);
+    text-decoration: none; }
+  .result:hover .r-headline { text-decoration: underline; }
+  .r-meta { display: flex; align-items: center; gap: 10px; margin-bottom: 7px; flex-wrap: wrap; }
+  .chip { font-size: 10px; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase;
+    padding: 3px 8px; border-radius: 4px; border: 1px solid; }
+  .r-date { font-family: Georgia, serif; font-size: 12.5px; color: var(--secondary); font-weight: 700; }
+  .r-headline { font-size: 16.5px; font-weight: 700; line-height: 1.35; margin: 0 0 5px; }
+  .r-body { font-size: 14px; line-height: 1.6; color: #4A4943; margin: 0; }
+  mark { background: #F3EDD8; color: inherit; padding: 0 2px; }
 
-  .empty-state {
-    text-align: center; color: var(--secondary); font-size: 14px;
-    padding: 40px 20px; border: 1px dashed var(--hairline); border-radius: 12px;
-  }
+  .empty { text-align: center; color: var(--secondary); font-size: 14px; padding: 44px 20px;
+    border: 1px dashed var(--hairline); border-radius: 12px; }
+  footer { max-width: 1180px; margin: 26px auto 0; padding: 22px 32px 60px; color: var(--secondary);
+    font-size: 12.5px; text-align: center; border-top: 1px solid var(--hairline); }
 
-  footer.arc-footer {
-    max-width: 980px; margin: 0 auto; padding: 24px 32px 60px;
-    color: var(--secondary); font-size: 12.5px; text-align: center;
-    border-top: 1px solid var(--hairline); margin-top: 10px;
+  @media (max-width: 900px) {
+    .topics { grid-template-columns: repeat(4, 1fr); }
+    .mosaic { grid-template-columns: repeat(2, 1fr); }
+    .ed-card.wide { grid-column: span 2; }
   }
-
-  @media (max-width: 640px) {
-    .masthead { padding: 44px 20px 28px; }
-    .masthead h1 { font-size: 34px; }
-    .wrap, .search-bar, footer.arc-footer { padding-left: 18px; padding-right: 18px; }
-    .hero { padding: 22px 20px; margin: 0 18px 40px; }
-    .entry { flex-wrap: wrap; gap: 4px 14px; }
-    .entry .entry-caption { width: 100%; order: 3; }
-    .stats-row { gap: 22px; }
+  @media (max-width: 620px) {
+    .masthead { padding: 34px 18px 20px; } .masthead h1 { font-size: 31px; }
+    .wrap, .searchbar, .topics, footer { padding-left: 18px; padding-right: 18px; }
+    .topics { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+    .mosaic { grid-template-columns: 1fr; }
+    .ed-card.wide { grid-column: span 1; }
+    .hero { min-height: 260px; }
+    .hero .hero-text { padding: 150px 22px 26px; }
+    .hero.no-img .hero-text { padding: 26px 22px 26px; }
+    .hero h2 { font-size: 22px; }
+    .stats { gap: 22px; }
   }
 </style>
 </head>
@@ -144,124 +128,173 @@
     <p class="eyebrow">Doha, Qatar</p>
     <h1>Ankit's Morning Briefing</h1>
     <p class="tagline">Every edition, one place to browse.</p>
-    <div class="stats-row">
+    <div class="stats">
       <div class="stat"><div class="num" id="statCount">—</div><div class="label">Editions</div></div>
-      <div class="stat"><div class="num" id="statSince">—</div><div class="label">Since</div></div>
+      <div class="stat"><div class="num" id="statStories">—</div><div class="label">Stories</div></div>
       <div class="stat"><div class="num" id="statLatest">—</div><div class="label">Latest</div></div>
     </div>
   </div>
-  <div class="search-bar">
-    <input class="search-input" type="text" id="searchInput" placeholder="Search by date or story…" autocomplete="off">
+  <div class="searchbar">
+    <input class="search-input" id="q" type="text" autocomplete="off"
+           placeholder="Search every edition — a company, a country, a person…">
   </div>
+  <div class="topics" id="topics"></div>
 </div>
 
 <div class="content">
   <div class="wrap">
-    <div id="heroSlot"></div>
-    <div id="listSlot"></div>
+    <div id="view"></div>
   </div>
-  <footer class="arc-footer">
-    Compiled from public reporting for Ankit &middot; Doha, Qatar
-  </footer>
+  <footer>Compiled from public reporting for Ankit &middot; Doha, Qatar</footer>
 </div>
 
 <script>
 (function () {
-  function escapeHtml(str) {
-    var div = document.createElement('div');
-    div.textContent = str;
-    return div.innerHTML;
+  var TOPICS = [
+    {key:'sports',      label:'Sports',     color:'var(--sports)',      icon:'M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0V4Z'},
+    {key:'business',    label:'Business',   color:'var(--business)',    icon:'M4 20V11M10 20V4M16 20v-6M22 20H2'},
+    {key:'ai',          label:'AI & Tech',  color:'var(--ai)',          icon:'M7 7h10v10H7zM9 1v4M15 1v4M9 19v4M15 19v4M1 9h4M1 15h4M19 9h4M19 15h4'},
+    {key:'geopolitics', label:'Geopolitics',color:'var(--geopolitics)', icon:'M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18M3 12h18M12 3a13.5 13.5 0 0 1 0 18M12 3a13.5 13.5 0 0 0 0 18'},
+    {key:'portfolio',   label:'Market',     color:'var(--portfolio)',   icon:'M3 3v18h18M7 15l4-5 3 3 5-7'},
+    {key:'country',     label:'Countries',  color:'var(--country)',     icon:'M5 21V4M5 4h13l-3 4 3 4H5'},
+    {key:'doha',        label:'Doha',       color:'var(--doha)',        icon:'M3 5h18v16H3zM3 10h18M8 3v4M16 3v4'}
+  ];
+  var COLORS = {sports:'#B5563C', business:'#A9822E', ai:'#2C7A73', geopolitics:'#3E5C8A',
+    portfolio:'#4F6B4A', country:'#8C3A3A', doha:'#6B4C7A', skim:'#6B6A63'};
+
+  var editions = [], index = [], activeTopic = null;
+  var view = document.getElementById('view');
+  var qEl = document.getElementById('q');
+
+  function esc(s) { var d = document.createElement('div'); d.textContent = s == null ? '' : s; return d.innerHTML; }
+  function shortDate(d) {
+    var p = String(d).split('-'), m = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    return m[parseInt(p[1],10)-1] + ' ' + parseInt(p[2],10) + ', ' + p[0];
+  }
+  function highlight(text, terms) {
+    var out = esc(text);
+    (terms || []).forEach(function (t) {
+      if (t.length < 2) return;
+      var safe = t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      out = out.replace(new RegExp('(' + safe + ')', 'ig'), '<mark>$1</mark>');
+    });
+    return out;
   }
 
-  fetch('manifest.json', { cache: 'no-store' })
-    .then(function (r) { return r.json(); })
-    .then(function (data) {
-      // sort newest first by date string (YYYY-MM-DD sorts lexicographically)
-      data.sort(function (a, b) { return b.date.localeCompare(a.date); });
-      render(data);
-    })
-    .catch(function (err) {
-      document.getElementById('listSlot').innerHTML =
-        '<div class="empty-state">Could not load the archive index (' + escapeHtml(String(err)) + ').</div>';
-    });
-
-  var allData = [];
-
-  function render(data) {
-    allData = data;
-    document.getElementById('statCount').textContent = data.length;
-    document.getElementById('statSince').textContent = data.length
-      ? formatShort(data[data.length - 1].date) : '—';
-    document.getElementById('statLatest').textContent = data.length
-      ? formatShort(data[0].date) : '—';
-
-    if (!data.length) {
-      document.getElementById('heroSlot').innerHTML = '';
-      document.getElementById('listSlot').innerHTML =
-        '<div class="empty-state">No editions yet — check back tomorrow morning.</div>';
-      return;
-    }
-
-    var latest = data[0];
-    document.getElementById('heroSlot').innerHTML =
-      '<a class="hero" href="' + latest.file + '">' +
-      '<p class="hero-eyebrow">Latest Edition &middot; ' + escapeHtml(latest.display_date) + '</p>' +
-      '<h2>Today’s top story</h2>' +
-      '<p class="hero-caption">' + escapeHtml(latest.caption) + '</p>' +
-      '<span class="hero-cta">Read this edition &rarr;</span>' +
-      '</a>';
-
-    renderList(data.slice(1));
-  }
-
-  function renderList(rest) {
-    var slot = document.getElementById('listSlot');
-    if (!rest.length) {
-      slot.innerHTML = '<div class="empty-state">More editions will appear here each morning.</div>';
-      return;
-    }
-    var groups = {};
-    var order = [];
-    rest.forEach(function (item) {
-      var key = item.month_label || item.date.slice(0, 7);
-      if (!groups[key]) { groups[key] = []; order.push(key); }
-      groups[key].push(item);
-    });
-    var html = '';
-    order.forEach(function (key) {
-      html += '<div class="month-group"><h3 class="month-heading">' + escapeHtml(key) + '</h3><div class="entry-list">';
-      groups[key].forEach(function (item) {
-        html += '<a class="entry" href="' + item.file + '">' +
-          '<span class="entry-date">' + formatShort(item.date) + '</span>' +
-          '<span class="entry-weekday">' + escapeHtml(item.weekday || '') + '</span>' +
-          '<span class="entry-caption">' + escapeHtml(item.caption) + '</span>' +
-          '<span class="entry-arrow">&rarr;</span>' +
-          '</a>';
+  function renderTopics() {
+    document.getElementById('topics').innerHTML = TOPICS.map(function (t) {
+      var on = activeTopic === t.key ? ' active' : '';
+      return '<div class="topic' + on + '" data-topic="' + t.key + '" style="--t:' + t.color + '">' +
+        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" ' +
+        'stroke-linecap="round" stroke-linejoin="round"><path d="' + t.icon + '"/></svg>' +
+        '<span>' + t.label + '</span></div>';
+    }).join('');
+    document.querySelectorAll('.topic').forEach(function (el) {
+      el.addEventListener('click', function () {
+        var k = el.getAttribute('data-topic');
+        activeTopic = (activeTopic === k) ? null : k;
+        qEl.value = '';
+        renderTopics(); route();
       });
-      html += '</div></div>';
     });
-    slot.innerHTML = html;
   }
 
-  function formatShort(dateStr) {
-    var parts = dateStr.split('-');
-    var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-    return months[parseInt(parts[1], 10) - 1] + ' ' + parseInt(parts[2], 10) + ', ' + parts[0];
+  function editionCard(ed, wide) {
+    var img = ed.hero_image
+      ? '<img src="' + esc(ed.hero_image) + '" alt="" referrerpolicy="no-referrer" loading="lazy" ' +
+        'onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\';">' +
+        '<div class="ph-fallback" style="display:none">' + esc(shortDate(ed.date)) + '</div>'
+      : '<div class="ph-fallback" style="display:flex">' + esc(shortDate(ed.date)) + '</div>';
+    return '<a class="ed-card' + (wide ? ' wide' : '') + '" href="' + esc(ed.file) + '">' +
+      '<div class="ph">' + img + '</div><div class="body">' +
+      '<div class="date">' + esc(ed.display_date) + '</div>' +
+      '<div class="cap">' + esc(ed.caption) + '</div></div></a>';
   }
 
-  document.getElementById('searchInput').addEventListener('input', function (e) {
-    var q = e.target.value.trim().toLowerCase();
-    if (!allData.length) return;
-    if (!q) { render(allData); return; }
-    var filtered = allData.filter(function (item) {
-      return (item.display_date + ' ' + item.caption).toLowerCase().indexOf(q) !== -1;
-    });
-    document.getElementById('heroSlot').innerHTML = '';
-    if (!filtered.length) {
-      document.getElementById('listSlot').innerHTML = '<div class="empty-state">No editions match “' + escapeHtml(e.target.value) + '”.</div>';
-      return;
+  function renderBrowse() {
+    if (!editions.length) { view.innerHTML = '<div class="empty">No editions yet.</div>'; return; }
+    var latest = editions[0], rest = editions.slice(1);
+    var heroImg = latest.hero_image
+      ? '<img src="' + esc(latest.hero_image) + '" alt="" referrerpolicy="no-referrer" ' +
+        'onerror="this.parentElement.classList.add(\'no-img\');this.remove();">'
+      : '';
+    var html = '<a class="hero' + (latest.hero_image ? '' : ' no-img') + '" href="' + esc(latest.file) + '">' +
+      heroImg + '<div class="scrim"></div><div class="hero-text">' +
+      '<p class="kicker">Latest edition &middot; ' + esc(latest.display_date) + '</p>' +
+      '<h2>' + esc(latest.caption) + '</h2>' +
+      '<span class="hero-cta">Read this edition &rarr;</span></div></a>';
+
+    if (rest.length) {
+      html += '<h3 class="section-label">Previous editions</h3><div class="mosaic">' +
+        rest.map(function (ed, i) { return editionCard(ed, i === 0 && rest.length % 3 === 0); }).join('') +
+        '</div>';
+    } else {
+      html += '<div class="empty">More editions appear here each morning.</div>';
     }
-    renderList(filtered);
+    view.innerHTML = html;
+  }
+
+  function editionFile(date) {
+    for (var i = 0; i < editions.length; i++) if (editions[i].date === date) return editions[i].file;
+    return 'briefings/' + date + '.html';
+  }
+
+  function resultRow(r, terms) {
+    var color = COLORS[r.section_key] || '#6B6A63';
+    var href = r.url || editionFile(r.date);
+    var ext = r.url ? ' target="_blank" rel="noopener noreferrer"' : '';
+    return '<a class="result" href="' + esc(href) + '"' + ext + '>' +
+      '<div class="r-meta"><span class="chip" style="color:' + color + ';border-color:' + color + '">' +
+      esc(r.section) + '</span><span class="r-date">' + esc(shortDate(r.date)) + '</span></div>' +
+      '<p class="r-headline">' + highlight(r.headline, terms) + '</p>' +
+      (r.body ? '<p class="r-body">' + highlight(r.body.slice(0, 260) + (r.body.length > 260 ? '…' : ''), terms) + '</p>' : '') +
+      '</a>';
+  }
+
+  function renderResults(list, heading, terms) {
+    if (!list.length) { view.innerHTML = '<div class="empty">Nothing found.</div>'; return; }
+    view.innerHTML = '<h3 class="section-label">' + esc(heading) + '</h3>' +
+      list.map(function (r) { return resultRow(r, terms); }).join('');
+  }
+
+  function route() {
+    var q = qEl.value.trim().toLowerCase();
+    if (q) {
+      var terms = q.split(/\s+/);
+      var hits = index.filter(function (r) {
+        var hay = (r.headline + ' ' + r.body + ' ' + r.section + ' ' + r.date).toLowerCase();
+        return terms.every(function (t) { return hay.indexOf(t) !== -1; });
+      });
+      renderResults(hits, hits.length + ' result' + (hits.length === 1 ? '' : 's') + ' for “' + qEl.value.trim() + '”', terms);
+    } else if (activeTopic) {
+      var t = TOPICS.filter(function (x) { return x.key === activeTopic; })[0];
+      var rows = index.filter(function (r) { return r.section_key === activeTopic; });
+      renderResults(rows, 'Everything in ' + t.label + ' — ' + rows.length + ' stor' + (rows.length === 1 ? 'y' : 'ies'), []);
+    } else {
+      renderBrowse();
+    }
+  }
+
+  var t;
+  qEl.addEventListener('input', function () {
+    clearTimeout(t);
+    t = setTimeout(function () { if (qEl.value.trim()) { activeTopic = null; renderTopics(); } route(); }, 140);
+  });
+
+  renderTopics();
+
+  Promise.all([
+    fetch('manifest.json', {cache:'no-store'}).then(function (r) { return r.json(); }),
+    fetch('search-index.json', {cache:'no-store'}).then(function (r) { return r.json(); }).catch(function () { return []; })
+  ]).then(function (res) {
+    editions = (res[0] || []).sort(function (a, b) { return b.date.localeCompare(a.date); });
+    index = res[1] || [];
+    document.getElementById('statCount').textContent = editions.length;
+    document.getElementById('statStories').textContent = index.filter(function (r) { return r.section_key !== 'skim'; }).length;
+    document.getElementById('statLatest').textContent = editions.length ? shortDate(editions[0].date) : '—';
+    route();
+  }).catch(function (e) {
+    view.innerHTML = '<div class="empty">Could not load the archive (' + esc(String(e)) + ').</div>';
   });
 })();
 </script>
