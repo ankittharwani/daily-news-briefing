@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ankit's Morning Briefing — Archive</title>
+<style>
+  :root {
+    --ink: #2E2C27;
+    --secondary: #6B6A63;
+    --hairline: #E4E3DC;
+    --wash: #F9F9F7;
+    --white: #FCFCFB;
+    --accent: #3E5C8A;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--white);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .band-top { background: var(--wash); border-bottom: 1px solid var(--hairline); }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 32px; }
+  .masthead { padding: 64px 32px 40px; text-align: center; }
+  .masthead .eyebrow {
+    font-size: 12.5px; letter-spacing: 0.16em; text-transform: uppercase;
+    color: var(--secondary); margin: 0 0 14px; font-weight: 600;
+  }
+  .masthead h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 400; font-size: 48px; line-height: 1.15;
+    margin: 0 0 14px; color: var(--ink); letter-spacing: -0.01em;
+  }
+  .masthead .tagline {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic; font-size: 18px; color: var(--secondary); margin: 0;
+  }
+  .stats-row {
+    display: flex; justify-content: center; gap: 36px;
+    margin-top: 28px; flex-wrap: wrap;
+  }
+  .stat { text-align: center; }
+  .stat .num {
+    font-family: Georgia, serif; font-size: 26px; color: var(--accent); font-weight: 700;
+  }
+  .stat .label {
+    font-size: 11.5px; color: var(--secondary); text-transform: uppercase; letter-spacing: 0.08em;
+  }
+
+  .search-bar { padding: 28px 32px 0; }
+  .search-input {
+    width: 100%; max-width: 980px; margin: 0 auto; display: block;
+    padding: 13px 18px; border-radius: 10px; border: 1px solid var(--hairline);
+    background: var(--white); font-size: 14.5px; color: var(--ink);
+    font-family: inherit;
+  }
+  .search-input:focus { outline: none; border-color: var(--accent); }
+
+  .content { padding: 40px 0 80px; }
+
+  .hero {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid var(--hairline);
+    border-left: 4px solid var(--accent);
+    border-radius: 14px;
+    padding: 30px 34px;
+    margin-bottom: 48px;
+    transition: box-shadow .15s ease, transform .15s ease;
+  }
+  .hero:hover { box-shadow: 0 6px 24px rgba(46,44,39,0.08); transform: translateY(-1px); }
+  .hero .hero-eyebrow {
+    font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.1em;
+    color: var(--accent); font-weight: 700; margin: 0 0 10px;
+  }
+  .hero h2 {
+    font-family: Georgia, serif; font-weight: 400; font-size: 27px;
+    margin: 0 0 10px; color: var(--ink); line-height: 1.3;
+  }
+  .hero p.hero-caption {
+    font-size: 15.5px; line-height: 1.6; color: #4A4943; margin: 0 0 14px; max-width: 720px;
+  }
+  .hero .hero-cta {
+    font-size: 13.5px; font-weight: 700; color: var(--accent);
+  }
+
+  .month-group { margin-bottom: 36px; }
+  .month-heading {
+    font-family: Georgia, serif; font-style: italic; font-size: 17px;
+    color: var(--secondary); margin: 0 0 14px; padding-bottom: 8px;
+    border-bottom: 1px solid var(--hairline);
+  }
+
+  .entry-list { display: flex; flex-direction: column; gap: 2px; }
+  .entry {
+    display: flex; align-items: baseline; gap: 20px;
+    text-decoration: none; color: inherit;
+    padding: 14px 12px; border-radius: 8px;
+    transition: background .12s ease;
+  }
+  .entry:hover { background: var(--wash); }
+  .entry .entry-date {
+    font-family: Georgia, serif; font-weight: 700; font-size: 15px;
+    color: var(--ink); width: 108px; flex: none;
+  }
+  .entry .entry-weekday {
+    font-size: 12px; color: var(--secondary); width: 74px; flex: none;
+    text-transform: uppercase; letter-spacing: 0.04em;
+  }
+  .entry .entry-caption {
+    font-size: 14px; color: #4A4943; line-height: 1.5; flex: 1;
+  }
+  .entry .entry-arrow { color: var(--accent); font-weight: 700; flex: none; }
+
+  .empty-state {
+    text-align: center; color: var(--secondary); font-size: 14px;
+    padding: 40px 20px; border: 1px dashed var(--hairline); border-radius: 12px;
+  }
+
+  footer.arc-footer {
+    max-width: 980px; margin: 0 auto; padding: 24px 32px 60px;
+    color: var(--secondary); font-size: 12.5px; text-align: center;
+    border-top: 1px solid var(--hairline); margin-top: 10px;
+  }
+
+  @media (max-width: 640px) {
+    .masthead { padding: 44px 20px 28px; }
+    .masthead h1 { font-size: 34px; }
+    .wrap, .search-bar, footer.arc-footer { padding-left: 18px; padding-right: 18px; }
+    .hero { padding: 22px 20px; margin: 0 18px 40px; }
+    .entry { flex-wrap: wrap; gap: 4px 14px; }
+    .entry .entry-caption { width: 100%; order: 3; }
+    .stats-row { gap: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="band-top">
+  <div class="masthead">
+    <p class="eyebrow">Doha, Qatar</p>
+    <h1>Ankit's Morning Briefing</h1>
+    <p class="tagline">Every edition, one place to browse.</p>
+    <div class="stats-row">
+      <div class="stat"><div class="num" id="statCount">—</div><div class="label">Editions</div></div>
+      <div class="stat"><div class="num" id="statSince">—</div><div class="label">Since</div></div>
+      <div class="stat"><div class="num" id="statLatest">—</div><div class="label">Latest</div></div>
+    </div>
+  </div>
+  <div class="search-bar">
+    <input class="search-input" type="text" id="searchInput" placeholder="Search by date or story…" autocomplete="off">
+  </div>
+</div>
+
+<div class="content">
+  <div class="wrap">
+    <div id="heroSlot"></div>
+    <div id="listSlot"></div>
+  </div>
+  <footer class="arc-footer">
+    Compiled from public reporting for Ankit &middot; Doha, Qatar
+  </footer>
+</div>
+
+<script>
+(function () {
+  function escapeHtml(str) {
+    var div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+  }
+
+  fetch('manifest.json', { cache: 'no-store' })
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      // sort newest first by date string (YYYY-MM-DD sorts lexicographically)
+      data.sort(function (a, b) { return b.date.localeCompare(a.date); });
+      render(data);
+    })
+    .catch(function (err) {
+      document.getElementById('listSlot').innerHTML =
+        '<div class="empty-state">Could not load the archive index (' + escapeHtml(String(err)) + ').</div>';
+    });
+
+  var allData = [];
+
+  function render(data) {
+    allData = data;
+    document.getElementById('statCount').textContent = data.length;
+    document.getElementById('statSince').textContent = data.length
+      ? formatShort(data[data.length - 1].date) : '—';
+    document.getElementById('statLatest').textContent = data.length
+      ? formatShort(data[0].date) : '—';
+
+    if (!data.length) {
+      document.getElementById('heroSlot').innerHTML = '';
+      document.getElementById('listSlot').innerHTML =
+        '<div class="empty-state">No editions yet — check back tomorrow morning.</div>';
+      return;
+    }
+
+    var latest = data[0];
+    document.getElementById('heroSlot').innerHTML =
+      '<a class="hero" href="' + latest.file + '">' +
+      '<p class="hero-eyebrow">Latest Edition &middot; ' + escapeHtml(latest.display_date) + '</p>' +
+      '<h2>Today’s top story</h2>' +
+      '<p class="hero-caption">' + escapeHtml(latest.caption) + '</p>' +
+      '<span class="hero-cta">Read this edition &rarr;</span>' +
+      '</a>';
+
+    renderList(data.slice(1));
+  }
+
+  function renderList(rest) {
+    var slot = document.getElementById('listSlot');
+    if (!rest.length) {
+      slot.innerHTML = '<div class="empty-state">More editions will appear here each morning.</div>';
+      return;
+    }
+    var groups = {};
+    var order = [];
+    rest.forEach(function (item) {
+      var key = item.month_label || item.date.slice(0, 7);
+      if (!groups[key]) { groups[key] = []; order.push(key); }
+      groups[key].push(item);
+    });
+    var html = '';
+    order.forEach(function (key) {
+      html += '<div class="month-group"><h3 class="month-heading">' + escapeHtml(key) + '</h3><div class="entry-list">';
+      groups[key].forEach(function (item) {
+        html += '<a class="entry" href="' + item.file + '">' +
+          '<span class="entry-date">' + formatShort(item.date) + '</span>' +
+          '<span class="entry-weekday">' + escapeHtml(item.weekday || '') + '</span>' +
+          '<span class="entry-caption">' + escapeHtml(item.caption) + '</span>' +
+          '<span class="entry-arrow">&rarr;</span>' +
+          '</a>';
+      });
+      html += '</div></div>';
+    });
+    slot.innerHTML = html;
+  }
+
+  function formatShort(dateStr) {
+    var parts = dateStr.split('-');
+    var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    return months[parseInt(parts[1], 10) - 1] + ' ' + parseInt(parts[2], 10) + ', ' + parts[0];
+  }
+
+  document.getElementById('searchInput').addEventListener('input', function (e) {
+    var q = e.target.value.trim().toLowerCase();
+    if (!allData.length) return;
+    if (!q) { render(allData); return; }
+    var filtered = allData.filter(function (item) {
+      return (item.display_date + ' ' + item.caption).toLowerCase().indexOf(q) !== -1;
+    });
+    document.getElementById('heroSlot').innerHTML = '';
+    if (!filtered.length) {
+      document.getElementById('listSlot').innerHTML = '<div class="empty-state">No editions match “' + escapeHtml(e.target.value) + '”.</div>';
+      return;
+    }
+    renderList(filtered);
+  });
+})();
+</script>
+</body>
+</html>
