@@ -1,5 +1,11 @@
+# Only `public/` is served at db.labs.tocn.ai.
+#
+# Everything else in this repo is deliberately NOT published:
+#   data/   structured content JSON per edition (the clean source for rebuilds)
+#   skill/  a durable copy of the automation skill, including the market
+#           watchlist — which must never be reachable from the public site.
 [build]
-  publish = "."
+  publish = "public"
 
 [[headers]]
   for = "/*"

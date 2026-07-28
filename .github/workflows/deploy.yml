@@ -22,6 +22,6 @@ jobs:
         run: |
           netlify deploy \
             --prod \
-            --dir=. \
+            --dir=public \
             --site="$NETLIFY_SITE_ID" \
             --message "Deploy $(date -u +%Y-%m-%dT%H:%M:%SZ)"
