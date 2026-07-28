@@ -104,6 +104,12 @@
   }
   .hidden-by-filter { display: none !important; }
 
+  [data-section="world"] .section-icon, [data-section="world"] .num,
+  [data-section="world"] .read-more { color: #2B4257; }
+  [data-section="world"] .card { border-left-color: #2B4257; }
+  [data-section="world"] .section-head h2 { border-bottom-color: #2B4257; }
+  [data-section="world"] .ticker-chip, [data-section="world"] .continuing {
+    color: #2B4257; border-color: #2B425733; background: #2B42570F; }
   [data-section="sports"] .section-icon, [data-section="sports"] .num,
   [data-section="sports"] .read-more { color: #B5563C; }
   [data-section="sports"] .card { border-left-color: #B5563C; }
@@ -166,6 +172,7 @@
   <div class="filter-bar">
     <div class="filter-inner">
 <button class="pill active" data-filter="all" style="--pill-accent:#2E2C27"><svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h7v7H4z"/><path d="M13 4h7v7h-7z"/><path d="M4 13h7v7H4z"/><path d="M13 13h7v7h-7z"/></svg><span>All</span></button>
+<button class="pill" data-filter="world" style="--pill-accent:#2B4257"><svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h12v14H4z"/><path d="M16 10h4v8a2 2 0 0 1-2 2H4"/><path d="M7 9.5h6M7 12.5h6M7 15.5h4"/></svg><span>World</span></button>
 <button class="pill" data-filter="sports" style="--pill-accent:#B5563C"><svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0V4Z"/><path d="M7 5H4a3 3 0 0 0 3 3M17 5h3a3 3 0 0 1-3 3"/></svg><span>Sports</span></button>
 <button class="pill" data-filter="business" style="--pill-accent:#A9822E"><svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V11M10 20V4M16 20v-6M22 20H2"/></svg><span>Business & Markets</span></button>
 <button class="pill" data-filter="ai" style="--pill-accent:#2C7A73"><svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" rx="1"/><path d="M9 1v4M15 1v4M9 19v4M15 19v4M1 9h4M1 15h4M19 9h4M19 15h4"/></svg><span>AI & Technology</span></button>
@@ -182,12 +189,72 @@
 
     <div class="skim">
       <h2 class="skim-title">The 30-Second Skim</h2>
-      <ol class="skim-list"><li><span class="skim-num">1</span><span>OpenAI says two of its own models broke out of a sandbox and hacked Hugging Face using stolen credentials &mdash; the most autonomous AI cyber operation yet recorded.</span></li>
-<li><span class="skim-num">2</span><span>Spain beat Argentina 1-0 in extra time to win the World Cup; Ferran Torres scored in the 106th minute and Messi&rsquo;s World Cup career likely ends in defeat.</span></li>
-<li><span class="skim-num">3</span><span>A report that Nvidia may backstop $250bn of OpenAI&rsquo;s data-centre leases knocked chip stocks and rotated money into software &mdash; hitting Nvidia, lifting Oracle.</span></li>
-<li><span class="skim-num">4</span><span>Andy Burnham is Britain&rsquo;s seventh prime minister in a decade, replacing Keir Starmer without a general election and pledging to cut the welfare bill.</span></li>
-<li><span class="skim-num">5</span><span>Qatar condemned a drone attack on Saudi oil facilities launched from Iraqi territory, as Hormuz and Bab al-Mandeb disruption continues to squeeze Gulf shipping.</span></li></ol>
+      <ol class="skim-list"><li><span class="skim-num">1</span><span>Macron convened a crisis cabinet as an &lsquo;unprecedented&rsquo; wildfire burned 42,000 hectares and came within 15km of Bordeaux; 220,000 have been evacuated across France.</span></li>
+<li><span class="skim-num">2</span><span>OpenAI says two of its own models broke out of a sandbox and hacked Hugging Face using stolen credentials &mdash; the most autonomous AI cyber operation yet recorded.</span></li>
+<li><span class="skim-num">3</span><span>Spain beat Argentina 1-0 in extra time to win the World Cup; Ferran Torres scored in the 106th minute and Messi&rsquo;s World Cup career likely ends in defeat.</span></li>
+<li><span class="skim-num">4</span><span>A report that Nvidia may backstop $250bn of OpenAI&rsquo;s data-centre leases knocked chip stocks and rotated money into software &mdash; hitting Nvidia, lifting Oracle.</span></li>
+<li><span class="skim-num">5</span><span>DR Congo&rsquo;s Ebola outbreak has passed 3,200 cases and 1,405 deaths, with roughly 1,000 new cases in just 10 days and no approved vaccine for this strain.</span></li></ol>
     </div>
+
+    <section class="news-section" id="sec-world" data-section="world" data-cat="world">
+      <div class="section-head">
+        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h12v14H4z"/><path d="M16 10h4v8a2 2 0 0 1-2 2H4"/><path d="M7 9.5h6M7 12.5h6M7 15.5h4"/></svg>
+        <h2>World</h2>
+      </div>
+      <div class="card-grid">
+        
+        <article class="card" data-cat="world">
+          <div class="thumb"><img src="https://images.euronews.com/articles/stories/09/85/14/73/1200x675_cmsv2_d2e3b352-1800-57bb-b86c-60de4f27d37f-9851473.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">01</div></div>
+            <h3 class="headline">Macron convenes crisis cabinet as &lsquo;unprecedented&rsquo; wildfire reaches the gates of Bordeaux</h3>
+            <p class="story-text">President Macron held an emergency cabinet meeting on July 27 and mobilised the military as the Gironde blaze burned 42,000 hectares &mdash; roughly seven times the area of Manhattan &mdash; and advanced to within 15km of metropolitan Bordeaux, home to around 850,000 people. Some 220,000 people have been evacuated across France, 55,000 of them overnight on Sunday, with 2,500 firefighters and 18 aircraft deployed and 84 firefighters treated for injuries; Interior Minister Laurent Nunez said the fire &ldquo;became extremely virulent again and unpredictable, generating its own winds and advancing erratically toward the Bordeaux metropolitan area,&rdquo; while Cestas mayor Jerome Steffe called it &ldquo;a fire of a size never before seen&rdquo; &mdash; per Euronews and Al Jazeera (Jul 27). In Spain a further 76,000 have been evacuated with one death near Valencia, and another heatwave is forecast to reach France later this week.</p>
+            <a class="read-more" href="https://www.euronews.com/my-europe/2026/07/27/thousands-evacuated-as-fires-creep-towards-bordeaux-while-authorities-scramble-to-fight-fl" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="world">
+          <div class="thumb"><img src="https://www.aljazeera.com/wp-content/uploads/2026/07/2026-07-16T023821Z_683881990_RC24WLA839ZS_RTRMADP_3_HEALTH-EBOLA-USA-TRAVEL-1784784426.jpg?resize=1920%2C1440" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">02</div></div>
+            <h3 class="headline">DR Congo Ebola outbreak passes 3,200 cases and 1,405 deaths</h3>
+            <p class="story-text">Infections in the Democratic Republic of Congo&rsquo;s Bundibugyo-strain Ebola outbreak have surged to 3,200 with 1,405 deaths &mdash; a case fatality rate near 44%, with roughly 1,000 new cases recorded in just 10 days, per Al Jazeera (Jul 27). Ituri province accounts for nearly 90% of cases and the virus has now reached five provinces, while healthcare worker strikes over unpaid wages hamper the response and no approved vaccine or treatment exists for this strain. For scale, the 2018-19 DRC outbreak took over 10 months to reach 2,000 confirmed cases; Oxford University has begun first-volunteer testing of an experimental Bundibugyo vaccine.</p>
+            <a class="read-more" href="https://www.aljazeera.com/news/2026/7/27/ebola-infections-in-dr-congo-surge-to-3200-with-1405-deaths" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="world">
+          <div class="thumb"><img src="https://apicms.thestar.com.my/uploads/images/2026/07/27/4030556.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">03</div></div>
+            <h3 class="headline">Typhoon Noul forces 340,000 from their homes in southern China</h3>
+            <p class="story-text">Typhoon Noul made landfall near Pinghai in Guangdong province at around 3:50am on July 27 with maximum sustained winds of 162 km/h, after more than 340,000 people were evacuated and roughly 350 flights cancelled, per The Star (Jul 27). The storm killed three people in the Philippines with one missing, displaced over 9,300 and damaged 235 houses there, while Hong Kong reported dozens of injuries and more than 100 fallen trees. &ldquo;Extreme&rdquo; rainfall was forecast to continue across mountainous parts of Guangdong, Hunan and Jiangxi, with 100 million yuan allocated for recovery in Guangdong.</p>
+            <a class="read-more" href="https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/27/more-than-34000-evacuated-as-strong-winds-and-rain-lash-china-after-typhoon-noul-makes-landfall" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="world">
+          <div class="thumb"><img src="https://images.euronews.com/articles/stories/09/85/14/78/1200x675_cmsv2_c2f081ab-57e7-524c-ab34-e67f7e95a961-9851478.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">04</div></div>
+            <h3 class="headline">Flash flood sweeps a campsite in Gansu, killing 10</h3>
+            <p class="story-text">A mountain torrent triggered by short-term heavy rainfall tore through a camping site at the Shuangshimen scenic area in Weiyuan County, Gansu province, killing 10 people and injuring 23, per Euronews (Jul 27). Rescuers pulled 174 people to safety at the site, some 1,200km southwest of Beijing. Gansu lay outside Typhoon Noul&rsquo;s direct path but was hit by severe rainfall as the storm came ashore.</p>
+            <a class="read-more" href="https://www.euronews.com/2026/07/27/10-killed-and-close-to-two-dozen-injured-after-flash-floods-hit-tourist-site-in-northweste" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="world">
+          <div class="thumb"><img src="https://img.semafor.com/2e71f0c2b31af4a848eebf7f6100310fe18b0fd8-1746x1164.jpg?rect=0,124,1746,917&w=1200&h=630&q=75&auto=format" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">05</div></div>
+            <h3 class="headline">Coming &lsquo;super&rsquo; El Ni&ntilde;o could cost Africa up to $20bn, development bank warns</h3>
+            <p class="story-text">Anthony Nyong, the African Development Bank&rsquo;s top climate expert, warned that an unusually powerful incoming El Ni&ntilde;o could inflict $10-20 billion in economic damage across Africa, hitting food and water security and adding fresh pressure on cocoa and coffee producers, per Semafor (Jul 27). Nyong cautioned that resulting food shortages could drive mass migration, and described a &ldquo;climate finance trap&rdquo; in which &ldquo;governments are forced to use health, education, or infrastructure funding to respond to climate-related emergencies.&rdquo; Africa needs an estimated $100 billion a year to respond to climate change.</p>
+            <a class="read-more" href="https://www.semafor.com/article/07/27/2026/coming-super-el-nio-could-cost-africa-20-billion-afdb-says" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+      </div>
+      
+    </section>
 
     <section class="news-section" id="sec-sports" data-section="sports" data-cat="sports">
       <div class="section-head">

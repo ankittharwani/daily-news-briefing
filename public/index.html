@@ -8,7 +8,7 @@
   :root {
     --ink: #2E2C27; --secondary: #6B6A63; --hairline: #E4E3DC;
     --wash: #F9F9F7; --white: #FCFCFB;
-    --sports: #B5563C; --business: #A9822E; --ai: #2C7A73;
+    --world: #2B4257; --sports: #B5563C; --business: #A9822E; --ai: #2C7A73;
     --geopolitics: #3E5C8A; --portfolio: #4F6B4A; --country: #8C3A3A; --doha: #6B4C7A;
   }
   * { box-sizing: border-box; }
@@ -37,7 +37,7 @@
     color: var(--ink); font-family: inherit; }
   .search-input:focus { outline: none; border-color: var(--ink); }
 
-  .topics { display: grid; grid-template-columns: repeat(7, 1fr); gap: 10px;
+  .topics { display: grid; grid-template-columns: repeat(8, 1fr); gap: 10px;
     max-width: 1180px; margin: 0 auto; padding: 0 32px 26px; }
   .topic { display: flex; flex-direction: column; align-items: center; gap: 8px;
     padding: 15px 8px; border: 1px solid var(--hairline); border-radius: 10px;
@@ -151,6 +151,7 @@
 <script>
 (function () {
   var TOPICS = [
+    {key:'world',       label:'World',      color:'var(--world)',       icon:'M4 6h12v14H4zM16 10h4v8a2 2 0 0 1-2 2H4M7 9.5h6M7 12.5h6M7 15.5h4'},
     {key:'sports',      label:'Sports',     color:'var(--sports)',      icon:'M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0V4Z'},
     {key:'business',    label:'Business',   color:'var(--business)',    icon:'M4 20V11M10 20V4M16 20v-6M22 20H2'},
     {key:'ai',          label:'AI & Tech',  color:'var(--ai)',          icon:'M7 7h10v10H7zM9 1v4M15 1v4M9 19v4M15 19v4M1 9h4M1 15h4M19 9h4M19 15h4'},
@@ -159,7 +160,7 @@
     {key:'country',     label:'Countries',  color:'var(--country)',     icon:'M5 21V4M5 4h13l-3 4 3 4H5'},
     {key:'doha',        label:'Doha',       color:'var(--doha)',        icon:'M3 5h18v16H3zM3 10h18M8 3v4M16 3v4'}
   ];
-  var COLORS = {sports:'#B5563C', business:'#A9822E', ai:'#2C7A73', geopolitics:'#3E5C8A',
+  var COLORS = {world:'#2B4257', sports:'#B5563C', business:'#A9822E', ai:'#2C7A73', geopolitics:'#3E5C8A',
     portfolio:'#4F6B4A', country:'#8C3A3A', doha:'#6B4C7A', skim:'#6B6A63'};
 
   var editions = [], index = [], activeTopic = null;

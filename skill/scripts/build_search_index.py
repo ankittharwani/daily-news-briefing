@@ -22,6 +22,7 @@ import os
 import re
 
 SECTION_LABELS = {
+    "world": "World",
     "sports": "Sports",
     "business": "Business & Markets",
     "ai": "AI & Technology",

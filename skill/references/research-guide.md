@@ -6,18 +6,39 @@ the first edition (2026-07-28), including which shortcuts don't work.
 
 ## Sections, in this exact order
 
-1. **Sports** — cricket, football, F1, mixed together (not sub-divided). Aim for
+1. **World** — the day's most important global headlines. This section leads
+   the briefing, and it exists because everything else here is a *special
+   interest*: without it, a national emergency has nowhere to go and the
+   edition opens with cricket. Cover natural disasters and extreme weather,
+   climate, public health and epidemics, major accidents, elections and
+   political upheaval abroad, science breakthroughs, and large humanitarian or
+   societal stories.
+
+   **The boundary with Geopolitics** is the one judgement call worth getting
+   right: Geopolitics is *statecraft* — wars, diplomacy, sanctions, alliances,
+   negotiations between governments. World is everything else of global
+   consequence. A wildfire threatening Bordeaux is World; a ceasefire
+   negotiation is Geopolitics. When a story genuinely spans both (a disaster
+   triggering an international dispute), pick the section matching its primary
+   driver and don't run it twice.
+
+   Also note the overlap with Country Updates: France, China or Brazil belong
+   in World, because Country Updates is specifically India, the UK and
+   Qatar/GCC. If a big story breaks in one of *those three*, it goes in its
+   Country Updates sub-section, not World.
+
+2. **Sports** — cricket, football, F1, mixed together (not sub-divided). Aim for
    a spread across the three sports rather than all one sport.
-2. **Business & Markets**
-3. **AI & Technology**
-4. **Geopolitics**
-5. **Country Updates** — three labeled sub-sections, in this order:
+3. **Business & Markets**
+4. **AI & Technology**
+5. **Geopolitics**
+6. **Country Updates** — three labeled sub-sections, in this order:
    - **India** — prioritize wionews.com as a source. Actively look for a notable
      statement from PM Modi or another world leader in that day's coverage; if
      one exists, it's usually worth a story slot.
    - **United Kingdom**
    - **Qatar & the GCC** — prioritize thepeninsulaqatar.com and aljazeera.com.
-6. **Doha Events** — current/upcoming concerts, exhibitions, festivals, shows.
+7. **Doha Events** — current/upcoming concerts, exhibitions, festivals, shows.
    Qatar Living's weekly "events to check out this week" roundup articles are a
    reliable single source that lists many events at once with dates/venues.
 

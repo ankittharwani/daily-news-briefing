@@ -1,6 +1,6 @@
 ---
 name: ankit-morning-briefing
-description: Builds and publishes Ankit's daily morning news briefing — a seven-section HTML news digest (Sports with fixtures, Business & Markets, AI & Technology, Geopolitics, Market Watch on his stock watchlist, Country Updates for India/UK/Qatar & GCC, and Doha Events) plus a searchable dated archive at db.labs.tocn.ai. Use this whenever asked to run, build, regenerate, or troubleshoot Ankit's morning briefing, its Market Watch/stock section, or its archive site — including when invoked unattended by the daily scheduled task, or when Ankit asks to see a past edition, add or drop tickers from the watchlist, change the home page, add a section, or redeploy. Do not use for a generic personal calendar/schedule "morning brief" — that's a different, unrelated concept.
+description: Builds and publishes Ankit's daily morning news briefing — an eight-section HTML news digest (World, Sports with fixtures, Business & Markets, AI & Technology, Geopolitics, Market Watch on his stock watchlist, Country Updates for India/UK/Qatar & GCC, and Doha Events) plus a searchable dated archive at db.labs.tocn.ai. Use this whenever asked to run, build, regenerate, or troubleshoot Ankit's morning briefing, its Market Watch/stock section, or its archive site — including when invoked unattended by the daily scheduled task, or when Ankit asks to see a past edition, add or drop tickers from the watchlist, change the home page, add a section, or redeploy. Do not use for a generic personal calendar/schedule "morning brief" — that's a different, unrelated concept.
 ---
 
 # Ankit's Morning Briefing
@@ -21,12 +21,17 @@ through normally — that's not an unattended run.)
 
 ## What's in an edition
 
-Seven sections, in this order: **Sports** (with a *Fixtures Ahead* block),
-**Business & Markets**, **AI & Technology**, **Geopolitics**, **Market Watch**,
-**Country Updates** (India / United Kingdom / Qatar & the GCC), and **Doha
-Events** — topped by a five-line **30-Second Skim**.
+Eight sections, in this order: **World**, **Sports** (with a *Fixtures Ahead*
+block), **Business & Markets**, **AI & Technology**, **Geopolitics**, **Market
+Watch**, **Country Updates** (India / United Kingdom / Qatar & the GCC), and
+**Doha Events** — topped by a five-line **30-Second Skim**.
+
+World leads deliberately: every other section is a special interest, so without
+it a major global story has nowhere to sit and the edition opens with sport.
+See `references/research-guide.md` for the World/Geopolitics boundary.
 
 ## Overview of the seven steps
+
 
 1. **Clone the archive repo first** — `github.com/ankittharwani/daily-news-briefing`
    is the source of truth for every prior edition, and yesterday's edition is
@@ -72,7 +77,8 @@ is knowing a Test starts Saturday.
 
 Structure everything into one `content.json`. Read the docstring at the top of
 `scripts/render_briefing.py` for the exact shape; the top-level keys are
-`skim`, `sections`, `fixtures`, `portfolio`, `country_groups` and `doha_events`.
+`skim`, `sections` (world, sports, business, ai, geopolitics), `fixtures`,
+`portfolio`, `country_groups` and `doha_events`.
 
 Collect image URLs into a **separate `images.json`** map of
 `{article_url: image_url}` and apply it rather than writing `img` fields by

@@ -10,6 +10,7 @@ content.json shape:
 {
   "skim": ["one-line takeaway", ...],          # optional, 5 items ideal
   "sections": [
+    {"key": "world", "title": "World", "icon": "news", "stories": [...]},
     {"key": "sports", "title": "Sports", "icon": "trophy", "stories": [...]},
     {"key": "business", ...}, {"key": "ai", ...}, {"key": "geopolitics", ...}
   ],
@@ -48,6 +49,7 @@ ICONS = {
     "globe": '<circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a13.5 13.5 0 0 1 0 18"/><path d="M12 3a13.5 13.5 0 0 0 0 18"/>',
     "flag": '<path d="M5 21V4"/><path d="M5 4h13l-3 4 3 4H5"/>',
     "calendar": '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>',
+    "news": '<path d="M4 6h12v14H4z"/><path d="M16 10h4v8a2 2 0 0 1-2 2H4"/><path d="M7 9.5h6M7 12.5h6M7 15.5h4"/>',
     "chart": '<path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-7"/>',
     "all": '<path d="M4 4h7v7H4z"/><path d="M13 4h7v7h-7z"/><path d="M4 13h7v7H4z"/><path d="M13 13h7v7h-7z"/>',
 }
@@ -59,6 +61,7 @@ FALLBACK_ICON = (
 )
 
 ACCENT_MAP = {
+    "world": "#2B4257",
     "sports": "#B5563C",
     "business": "#A9822E",
     "ai": "#2C7A73",
@@ -70,6 +73,7 @@ ACCENT_MAP = {
 
 PILLS = [
     {"key": "all", "label": "All", "icon": "all"},
+    {"key": "world", "label": "World", "icon": "news"},
     {"key": "sports", "label": "Sports", "icon": "trophy"},
     {"key": "business", "label": "Business & Markets", "icon": "bars"},
     {"key": "ai", "label": "AI & Technology", "icon": "cpu"},
