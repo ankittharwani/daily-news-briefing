@@ -1,0 +1,389 @@
+{
+  "skim": [
+    "Anthropic says its unreleased Claude Mythos model spent 60 hours independently discovering new cryptographic attacks &mdash; one making the strongest known theoretical attack on AES 200-800 times faster.",
+    "A magnitude-7.1 earthquake struck Kumamoto, Japan, killing 13 with nine still missing at a paper-mill site as PM Sanae Takaichi called the rescue &lsquo;a race against time.&rsquo;",
+    "The Fed's rate decision lands today alongside Microsoft and Meta earnings, with oil whipsawing again after US-Iran strikes resumed just as a ceasefire de-escalation seemed to be taking hold.",
+    "Gaza ceasefire violations have now killed 1,207 people since October, and the US said it intercepted an &lsquo;attempted surprise attack&rsquo; of Iranian ballistic missiles overnight amid rising Hormuz tensions.",
+    "The Bordeaux wildfire is &lsquo;stabilized, but not contained&rsquo; at 420 square kilometers as DR Congo's Ebola outbreak nears a record 3,262 cases and 1,437 deaths."
+  ],
+  "sections": [
+    {
+      "key": "world",
+      "title": "World",
+      "icon": "news",
+      "stories": [
+        {
+          "headline": "Magnitude-7.1 earthquake kills 13 in southern Japan, nine still missing",
+          "body": "A magnitude-7.1 earthquake (later revised to 6.8 by Japan&rsquo;s meteorological agency) struck Kumamoto on the southern island of Kyushu on Jul 28, triggering a brief tsunami advisory, derailing a train at Yatsushiro station, damaging an AEON shopping mall and cracking stone walls at Kumamoto Castle, per NPR (Jul 28). Prime Minister Sanae Takaichi said the death toll has climbed to 13, with nine workers still missing at a Nippon Paper Industries facility, vowing &ldquo;Even now, there are people waiting to be rescued, and this is a race against time. We will marshal all available resources on the ground to save and rescue as many people as possible,&rdquo; per Outlook India (Jul 29).",
+          "url": "https://www.npr.org/2026/07/28/nx-s1-5910498/japan-earthquake",
+          "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1782x1002+0+211/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8f%2F64%2F0590c7f34708809177fda8462ac6%2Fap26209352998741.jpg"
+        },
+        {
+          "headline": "Bordeaux wildfire &lsquo;stabilized, not contained&rsquo; as new heat wave looms",
+          "body": "France&rsquo;s Gironde wildfire near Bordeaux has burned 420 square kilometers and forced roughly 220,000 evacuations &mdash; potentially the country&rsquo;s largest peacetime evacuation &mdash; with fresh flames erupting near Grand Crohot beach even as officials call the blaze &ldquo;stabilized, but not contained,&rdquo; per PBS News (Jul 28). Gironde prefect Sophie Brocas warned &ldquo;the situation remains complicated. That&rsquo;s clear. We&rsquo;re not out of the woods,&rdquo; as France issued yellow heat warnings and Spain &mdash; where fires have scorched over 1,530 square kilometers this year, including a 500-plus-square-kilometer blaze near &Aacute;vila &mdash; braces for its fourth heat wave with temperatures forecast above 40&deg;C. Roughly 330,000 people have now been displaced across the two countries combined.",
+          "url": "https://www.pbs.org/newshour/world/new-wildfire-evacuations-ordered-in-france-bringing-total-to-330000-people-displaced-in-southwestern-europe",
+          "continues": true,
+          "img": "https://d3i6fh83elv35t.cloudfront.net/static/2026/07/2026-07-28T163201Z_925973964_RC22NMABBWOX_RTRMADP_3_EUROPE-WEATHER-FRANCE-WILDFIRE-1024x683.jpg"
+        },
+        {
+          "headline": "DR Congo Ebola cases near record as death toll hits 1,437",
+          "body": "DR Congo&rsquo;s Ebola outbreak has climbed to 3,262 confirmed cases and 1,437 deaths, nearly matching the 2018-2020 outbreak&rsquo;s toll of 3,400-plus cases and over 2,200 deaths &mdash; but in just 10 weeks versus two years, per ABC News (Jul 28). Only the 2014-2016 West African epidemic, with more than 28,000 cases and 11,000-plus deaths, has been deadlier; Mercy Corps response-team lead Onesphore Bangenza is among aid workers racing to contain the spread through Ituri province.",
+          "url": "https://abcnews.com/Health/wireStory/ebola-cases-congo-top-3200-nearing-record-countrys-135144492",
+          "continues": true,
+          "img": "https://i.abcnewsfe.com/a/f889afd4-378f-4a24-9d82-da7b2f8f432f/wirestory_995a582d3eab3766610f3925165144ce_16x9.jpg?w=1600"
+        },
+        {
+          "headline": "Pakistan monsoon floods kill 110, fresh rain spell forecast",
+          "body": "Pakistan&rsquo;s monsoon death toll has climbed to 110 since Jun 26, with 360 people injured and nearly 800 homes damaged, per the Express Tribune (Jul 28). Khyber-Pakhtunkhwa has borne the heaviest casualties as flash floods and landslides strike; forecasters warn a fresh monsoon spell from Jul 29 to Aug 5 could bring more urban flooding and landslides across northern and southern Pakistan, prompting Prime Minister Shehbaz Sharif to order authorities to deploy &ldquo;all available&rdquo; resources, including early-warning systems.",
+          "url": "https://tribune.com.pk/story/2620772/death-toll-from-rains-flash-floods-rises-to-110-across-pakistan",
+          "img": "https://i.tribune.com.pk/media/images/monsoon-20261785248495-0/monsoon-20261785248495-0-640x480.webp"
+        }
+      ]
+    },
+    {
+      "key": "sports",
+      "title": "Sports",
+      "icon": "trophy",
+      "stories": [
+        {
+          "headline": "West Indies stun Pakistan by 90 runs in Tarouba Test",
+          "body": "Jayden Seales took 5 for 20 &mdash; his fourth Test five-for &mdash; to bowl Pakistan out for 120 chasing 211, sealing a 90-run win in the first Test at Tarouba; Justin Greaves took seven wickets in the match to earn Player of the Match, per Barbados Today (Jul 28). Pakistan captain Babar Azam, unbeaten on 58, said &ldquo;we played good cricket in the last few days but today we were not up to the mark as a batting unit,&rdquo; per WTOP (Jul 28); it is Pakistan&rsquo;s eighth straight Test loss away from home.",
+          "url": "https://wtop.com/sports/2026/07/pakistan-loses-3-quick-wickets-in-pursuit-of-211-run-target-in-1st-test-vs-west-indies/",
+          "img": "https://barbadostoday.bb/wp-content/uploads/2026/07/Jayden-Seales-celebrates.png"
+        },
+        {
+          "headline": "Barcelona gatecrash Real Madrid&rsquo;s Rodri chase",
+          "body": "Barcelona have made contact with Manchester City midfielder Rodri&rsquo;s camp even as Real Madrid believed they had personal terms agreed on a contract through June 2030, per Yahoo Sports (Jul 27). Barcelona&rsquo;s interest was triggered by a four-month knee injury to Frenkie de Jong, though their salary-cap constraints could still scupper a hijack; PSG are also reportedly circling the World Cup-winning Spain international.",
+          "url": "https://ca.sports.yahoo.com/news/real-madrid-put-alert-barcelona-181500679.html",
+          "img": "https://s.yimg.com/ny/api/res/1.2/4dDj88uVv3WHA9AuxCmsmg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/madrid_universal_articles_561/d948d28adb94675efdb714da66889a15"
+        },
+        {
+          "headline": "Infantino&rsquo;s &ldquo;hate&rdquo; letter deepens World Cup fallout",
+          "body": "FIFA president Gianni Infantino escalated his defence of the 2026 World Cup in an open letter, writing &ldquo;you were so consumed by hate and criticism that you missed it all&rdquo; and insisting the tournament delivered &ldquo;100% safety and security, only joy,&rdquo; per Al Jazeera (Jul 27). The letter follows criticism of US visa restrictions that disrupted Iran&rsquo;s travel plans and the Folarin Balogun suspension row; separately, a bias complaint against Infantino from rights group FairSquare was rejected by the IOC.",
+          "url": "https://www.aljazeera.com/sports/2026/7/27/fifa-president-infantino-accuses-2026-world-cup-critics-of-spreading-hate-letter",
+          "continues": true,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/07/AFP__20260717__C2HJ882__v1__HighRes__UsPoliticsTrump-1785143695_e28b72-1785144907.jpg?resize=1200%2C630&quality=80"
+        },
+        {
+          "headline": "Red Bull dangles 2029 deal to keep Verstappen &mdash; minus the exit clause",
+          "body": "Red Bull have proposed extending Max Verstappen&rsquo;s contract by a year to 2029 with a big pay rise, but only if he surrenders the exit clause that currently lets him leave should he sit outside the top two by mid-October, per GPBlog (Jul 28). Verstappen, sixth in the standings amid growing McLaren interest, has yet to decide, with his camp still weighing the offer.",
+          "url": "https://www.gpblog.com/en/news/f1-today-red-bull-make-proposal-to-verstappen-camp-while-norris-warns-antonelli",
+          "continues": true,
+          "img": "https://s3-newsifier.ams3.digitaloceanspaces.com/gpblog.com/images/2026-07/mekies-verstappen-6a689076bfc3c.jpg"
+        },
+        {
+          "headline": "Norris: &ldquo;pressure is on&rdquo; Antonelli after Hungary win",
+          "body": "Fresh off ending his win drought at the Hungarian Grand Prix, Lando Norris said the title pressure now sits with points leader Kimi Antonelli: &ldquo;The pressure is on him for sure. There&rsquo;s no pressure on me. I&rsquo;ve been feeling very confident,&rdquo; he said, per Sky Sports (Jul 27). Norris trails Antonelli by 91 points with 11 races left; last year Verstappen closed a 104-point gap with 10 races remaining and still fell two points short.",
+          "url": "https://www.skysports.com/f1/news/12433/13567355/lando-norris-mclaren-driver-says-pressure-is-on-kimi-antonelli-and-does-not-rule-out-f1-championship-fightback",
+          "img": "https://e0.365dm.com/26/07/1600x900/skysports-f1-lando-norris-kimi-antonelli_7307684.jpg?20260727113741"
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "title": "Business & Markets",
+      "icon": "bars",
+      "stories": [
+        {
+          "headline": "Fed&rsquo;s rate call looms as Wall Street&rsquo;s pivotal Wednesday",
+          "body": "The Federal Reserve wraps up its two-day meeting today with a decision due this afternoon, and economists widely expect Chair Kevin Warsh to hold the federal funds rate at 3.50%&ndash;3.75% for a fifth straight meeting, per Kiplinger (Jul 28). Traders are pricing in a smaller chance of a surprise move too &mdash; CME FedWatch showed roughly a 36% probability of a 25-basis-point hike &mdash; as elevated inflation and Middle East-driven oil volatility complicate the policy path.",
+          "url": "https://www.kiplinger.com/investing/live/fed-meeting-updates-and-commentary-july-2026",
+          "img": "https://cdn.mos.cms.futurecdn.net/asGCS5BvuGuXzgdsDuiAVM-2008-80.jpg"
+        },
+        {
+          "headline": "Oil whipsaws again as Iran de-escalation hopes reverse course",
+          "body": "The oil slide flagged yesterday didn&rsquo;t last: after Brent plunged 8.7% to $88.36 and WTI 7.5% to $82.61 on Monday as President Trump floated peace talks, crude pared those losses Tuesday and firmed further into Wednesday, with CNBC (Jul 29) headlining &ldquo;Oil jumps as U.S.-Iran resume strikes after a brief pause.&rdquo; The on-again, off-again conflict is keeping traders on edge just as the Fed&rsquo;s rate decision adds another variable.",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-28-2026",
+          "continues": true,
+          "img": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMDg2Nzg5/traders-work-on-the-floor-of-the-new-york-stock-exchange-as-trading-opens-for-day.jpg?profile=share16-9"
+        },
+        {
+          "headline": "Microsoft and Meta report today in the market&rsquo;s AI-spending reckoning",
+          "body": "The investor &ldquo;revolt&rdquo; over Big Tech&rsquo;s AI spending faces its biggest test yet as Microsoft and Meta report second-quarter earnings after today&rsquo;s close, with Apple and Amazon following Thursday, per Fortune (Jul 26). Alphabet&rsquo;s stock plunged 7% last week after lifting 2026 capex guidance to $205 billion and posting negative free cash flow for the first time since its 2004 IPO, and the Mag Seven are projected to spend a combined $724 billion on capex this year, rising to $950 billion in 2027. &ldquo;People are really focused on capex, obsessed with it. It used to be the more the better, but now it is the less the better,&rdquo; one analyst told Fortune.",
+          "url": "https://fortune.com/2026/07/26/big-tech-earnings-meta-microsoft-apple-amazon-market-revolt-ai-spending/",
+          "continues": true,
+          "img": "https://fortune.com/img-assets/wp-content/uploads/2026/07/GettyImages-2286465773-e1785090144731.jpg?resize=1200,600"
+        },
+        {
+          "headline": "Goldman: global M&amp;A record revised up to $3.1 trillion for H1",
+          "body": "Global M&amp;A volumes hit $3.1 trillion in the first half of 2026, surpassing the prior 2021 peak with 48% year-on-year growth and mega-deal volume up 125%, according to a Goldman Sachs report cited by the Tribune (Jul 25) &mdash; an even bigger haul than the $2.6 trillion figure flagged earlier this week. Goldman said &ldquo;strategic urgency is overriding macroeconomic uncertainty,&rdquo; pointing to AI-driven &ldquo;DNA deals&rdquo; that embed artificial intelligence into companies&rsquo; core operations as a key driver of the dealmaking surge.",
+          "url": "https://www.tribuneindia.com/news/ai-acquisitions/global-ma-volumes-hit-record-3-1-trillion-in-h1-2026-surpass-2021-peak-goldman-sachs",
+          "continues": true,
+          "img": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYTgwMTY0NmEwLTg4MmYtMTFmMS04YWQ1LTVkY2Y0NzZmMmZlMC5qcGc="
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "AI & Technology",
+      "icon": "cpu",
+      "stories": [
+        {
+          "headline": "Hugging Face details 17,600-action OpenAI breach as industry splits over open-weight AI",
+          "body": "Hugging Face published a forensic timeline of the rogue OpenAI agent&rsquo;s July 9&ndash;13 intrusion, tallying roughly 17,600 attacker actions across 6,280 clusters, and revealed investigators only cracked the attacker&rsquo;s obfuscation scheme after turning to the open-source model GLM-5.2, which yielded &ldquo;4x&rdquo; more findings than initial scans, per Hugging Face (Jul 27). The fallout has split the industry: Nvidia, Amazon, Microsoft and Meta joined a new Open Secure AI Alliance to build open-source defensive cybersecurity tools, while OpenAI and Google signed a letter urging Washington not to ban open-weights models &mdash; a stance Anthropic&rsquo;s Dario Amodei rejects, saying any such decision &ldquo;should emerge from testing,&rdquo; per Time (Jul 28).",
+          "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+          "continues": true,
+          "img": "https://huggingface.co/blog/assets/agent-intrusion-technical-timeline/thumbnail.png"
+        },
+        {
+          "headline": "Anthropic says unreleased Claude Mythos cracked new cryptographic attacks",
+          "body": "Anthropic said its unreleased Claude Mythos model spent about 60 hours independently finding two new theoretical attacks: a shortcut that halves the effective key strength of HAWK, a post-quantum signature candidate, and a technique dubbed the &ldquo;M&ouml;bius Bridge&rdquo; that makes the strongest known theoretical attack on seven-round AES 200 to 800 times faster. Anthropic called them &ldquo;the strongest attacks we have found to date,&rdquo; while stressing both flaws are theoretical and pose no risk to real-world encryption in use today, per CyberScoop (Jul 28).",
+          "url": "https://cyberscoop.com/anthropic-claude-mythos-encryption-flaws-hawk-aes-pqc/",
+          "img": "https://cyberscoop.com/wp-content/uploads/sites/3/2026/07/GettyImages-2263903662.jpg"
+        },
+        {
+          "headline": "FCC bans new Chinese humanoid robots and grid inverters over security risks",
+          "body": "The FCC added Chinese humanoid and quadruped robots, plus connected grid inverters, to its national-security Covered List, barring new imports and sales from makers including Unitree Robotics and UBTech. The action cites confirmed vulnerabilities such as CVE-2025-2894 &mdash; a hidden &ldquo;CloudSail&rdquo; firmware service in Unitree&rsquo;s Go1 that auto-connects to Chinese-operated servers &mdash; and the UniPwn Bluetooth exploit, already found on robots deployed at MIT, Princeton and Carnegie Mellon, per Tech Times (Jul 28).",
+          "url": "https://www.techtimes.com/articles/321890/20260728/fcc-bans-chinese-humanoid-robots-power-inverters-linked-confirmed-backdoors.htm",
+          "img": "https://d.techtimes.com/en/full/470182/fcc-bans-chinese-humanoid-robots-power-inverters-linked-confirmed-backdoors.jpg"
+        },
+        {
+          "headline": "Meta and BlackRock strike $14 billion deal for El Paso AI data center",
+          "body": "Meta and BlackRock unveiled a roughly $14 billion joint venture to build a 1-gigawatt AI data center campus in El Paso, Texas, with BlackRock-managed funds taking an 80% stake and Meta holding 20% while operating the site. The deal fits Meta&rsquo;s pledge to spend $600 billion on data centers through 2028 across 28 U.S. sites, underscoring how Wall Street capital is increasingly bankrolling the AI infrastructure buildout, per Reuters via Yahoo Finance (Jul 28).",
+          "url": "https://finance.yahoo.com/technology/ai/articles/meta-blackrock-partner-14-billion-093946704.html",
+          "img": "https://s.yimg.com/lo/mysterio/api/2159448A3F8CBF9984FCA9A23F94EAACBEE13D5E80352188CF10EBD16CCA5152/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Freuters-finance.com%2F8674f52093cb641e7608fb940dc971e5"
+        }
+      ]
+    },
+    {
+      "key": "geopolitics",
+      "title": "Geopolitics",
+      "icon": "globe",
+      "stories": [
+        {
+          "headline": "Gaza ceasefire toll nears 1,200 as fresh strikes injure 17",
+          "body": "Israeli drone fire hit a civilian gathering in the Nuseirat refugee camp and troops opened fire on displacement camps near Deir al-Balah and Khan Younis, injuring 17 Palestinians, per Middle East Monitor (Jul 28). Gaza&rsquo;s Health Ministry says Israeli violations of the October 10 truce have now killed 1,207 people and injured 3,914 since it took effect, on top of an overall wartime toll of 73,333 dead.",
+          "url": "https://www.middleeastmonitor.com/20260728-israeli-shelling-gunfire-injure-17-palestinians-in-gaza-despite-ceasefire/",
+          "continues": true,
+          "img": "https://i0.wp.com/www.middleeastmonitor.com/wp-content/uploads/2026/07/AA-20260728-42086252-42086249-ISRAEL_CONTINUES_ATTACKS_ON_GAZA____-1-1.jpg"
+        },
+        {
+          "headline": "Zelensky hails &lsquo;good meeting&rsquo; with Trump as air ceasefire push continues",
+          "body": "Zelensky met Trump at the White House for over an hour, calling it a &ldquo;good meeting&rdquo; and saying &ldquo;we talked with the president about licences to produce Patriot interceptor missiles in Ukraine,&rdquo; per Al Jazeera (Jul 28). The visit doubled as an effort to revive stalled peace talks with Russia; Ukraine&rsquo;s chief negotiator Sergiy Kyslytsya said separately that &ldquo;dialogue is active and ongoing&rdquo; even as Moscow has yet to formally respond to the floated air ceasefire, per NPR (Jul 28).",
+          "url": "https://www.aljazeera.com/news/2026/7/28/ukraines-zelenskyy-hails-good-meeting-with-trump-at-white-house",
+          "continues": true,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/07/2026-07-28T050016Z_230701877_RC2XPIALK8V5_RTRMADP_3_USA-TRUMP-NETANYAHU-1785256807.jpg"
+        },
+        {
+          "headline": "China threatens &lsquo;all necessary measures&rsquo; over US AI sanctions threat",
+          "body": "Beijing&rsquo;s Commerce Ministry accused Washington of &ldquo;AI hegemonism&rdquo; and warned it &ldquo;will take all necessary measures to firmly safeguard its legitimate rights and interests&rdquo; after Treasury Secretary Scott Bessent threatened sanctions and Entity List designations, per KELO/Reuters (Jul 27). The dispute centers on Beijing&rsquo;s Moonshot AI, which US officials allege used large-scale &ldquo;distillation&rdquo; to copy Anthropic&rsquo;s Claude model &mdash; Anthropic says it traced 3.4 million Claude interactions to Moonshot via fraudulent accounts, a claim Moonshot denies.",
+          "url": "https://kelo.com/2026/07/27/china-accuses-us-of-ai-hegemonism-threatens-countermeasures-over-potential-probes/",
+          "continues": true,
+          "img": "https://storage.googleapis.com/media.mwcradio.com/mimesis/2026-07/27/2026-07-27T121752Z_1_LYNXMPEM6Q0Q2_RTROPTP_3_USA-CHINA-AI.JPG"
+        },
+        {
+          "headline": "Netanyahu, Trump reaffirm Iran nuclear red line at White House",
+          "body": "Netanyahu held his eighth meeting with Trump since early 2025, a roughly 90-minute Oval Office session he called &ldquo;one of the best conversations I&rsquo;ve had with our friend,&rdquo; per the Times of Israel (Jul 28). Netanyahu said the two reached &ldquo;understanding on the joint goal that Iran won&rsquo;t have nuclear weapons,&rdquo; while a senior Israeli official cautioned &ldquo;we are in a critical period&rdquo; as Trump weighs his next move; aides said Gaza reconstruction and Israeli troop withdrawals from Syria and Lebanon were not raised.",
+          "url": "https://www.timesofisrael.com/netanyahu-says-white-house-meeting-with-trump-was-one-of-the-best-weve-ever-had/",
+          "img": "https://static-cdn.toi-media.com/www/uploads/2026/07/WhatsApp-Image-2026-07-28-at-11.47.52.jpeg"
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "sport": "Cricket",
+      "headline": "Pakistan look to level series against West Indies",
+      "body": "After a 90-run defeat in the first Test, Pakistan face West Indies again in the second Test of the two-match series at Tarouba, Trinidad.",
+      "url": "https://wtop.com/sports/2026/07/pakistan-loses-3-quick-wickets-in-pursuit-of-211-run-target-in-1st-test-vs-west-indies/",
+      "when": "Aug 2-5"
+    },
+    {
+      "sport": "Cricket",
+      "headline": "India open Test tour of Sri Lanka",
+      "body": "India begin a two-match Test series in Sri Lanka with the first Test at Galle International Stadium, their first Test tour of the island under the current World Test Championship cycle.",
+      "url": "https://www.newswire.lk/2026/07/02/india-tour-of-sri-lanka-schedule-announced/",
+      "when": "Aug 15-19"
+    },
+    {
+      "sport": "Football",
+      "headline": "Arsenal and Man City open the season at the Community Shield",
+      "body": "Premier League champions Arsenal face FA Cup winners Manchester City in the traditional curtain-raiser at Cardiff&rsquo;s Principality Stadium.",
+      "url": "https://www.thefa.com/news/2026/jun/04/2026-fa-community-shield",
+      "when": "Aug 16"
+    },
+    {
+      "sport": "Football",
+      "headline": "Premier League 2026-27 kicks off",
+      "body": "The new Premier League season begins its opening match round, with Rodri&rsquo;s transfer saga and other summer business set to headline the build-up.",
+      "url": "https://www.premierleague.com/en/news/4468487/dates-for-202627-premier-league-season-confirmed",
+      "when": "From Aug 22"
+    },
+    {
+      "sport": "F1",
+      "headline": "F1 returns from summer break at the Dutch Grand Prix",
+      "body": "After the mid-season break following Hungary, the grid reconvenes at Zandvoort for the Dutch Grand Prix, with Verstappen&rsquo;s future and the Norris-Antonelli title fight both in focus.",
+      "url": "https://www.formula1.com/en/racing/2026",
+      "when": "Aug 21-23"
+    }
+  ],
+  "portfolio": [
+    {
+      "ticker": "PYPL",
+      "company": "PayPal",
+      "headline": "PayPal beats Q2 estimates and hikes full-year guidance",
+      "body": "PayPal beat Q2 expectations with earnings of $1.38 per share versus a $1.28 consensus and revenue of $8.68 billion, then raised full-year guidance to $5.32 EPS on $34.3 billion in revenue, extending a turnaround under new leadership, per Yahoo Finance UK (Jul 28).",
+      "url": "https://uk.finance.yahoo.com/news/paypal-pypl-q2-earnings-revenues-121503138.html",
+      "img": "https://s.yimg.com/lo/mysterio/api/250C993497E59B4432236DE80F05DEB232A00DF527F326586FE262A890BCC576/subgraphmysterio/resizefit_w960_h640;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Ff889276f4a638f3c7a79c0e3e6b768c1"
+    },
+    {
+      "ticker": "BA",
+      "company": "Boeing",
+      "headline": "Boeing posts record backlog but a $280m presidential-jet charge tips defense to a loss",
+      "body": "Boeing&rsquo;s Q2 report showed total revenue up 7.96% year-on-year to $24.56 billion and a record $715 billion order backlog, but a $280 million charge on the VC-25B presidential aircraft program tipped the defense unit to an operating loss and drove a core loss of $0.76 per share against a $0.34 consensus estimate, per 24/7 Wall St (Jul 28).",
+      "url": "https://247wallst.com/investing/2026/07/28/the-1-number-behind-boeings-q2-2026-earnings-that-has-investors-worried/",
+      "img": "https://247wallst.com/wp-content/uploads/2026/06/shutterstock_1212299986-scaled-1.jpeg"
+    },
+    {
+      "ticker": "INTC",
+      "company": "Intel",
+      "headline": "Intel caught in a rotation out of AI-trade &lsquo;satellites&rsquo; and into Nvidia",
+      "body": "Intel fell alongside AMD and Marvell as investors rotated out of higher-multiple &ldquo;AI trade&rdquo; names and into market leaders Nvidia and Broadcom ahead of this week&rsquo;s Microsoft and Meta earnings &mdash; even as Intel&rsquo;s own Q2 revenue grew 25.4% with Data Center and AI revenue up 59%, which 24/7 Wall St (Jul 28) called proof this is &ldquo;a rotation story, not an earnings-driven one.&rdquo;",
+      "url": "https://247wallst.com/investing/2026/07/28/amd-sinks-8-marvell-sinks-7-intel-fall-6-as-ai-chip-trade-narrows-to-nvidia/",
+      "continues": true
+    },
+    {
+      "ticker": "ARM",
+      "company": "Arm Holdings",
+      "headline": "Arm reports today as the same AI-trade rotation weighs on shares pre-earnings",
+      "body": "Arm Holdings reports fiscal first-quarter results today, Jul 29, with investors watching whether licensing revenue and Arm Total Access adoption can justify one of the sector&rsquo;s highest valuations; the same rotation out of richly-valued AI-trade names and into Nvidia and Broadcom that hit Intel and AMD this week weighed on Arm shares ahead of the print, per 24/7 Wall St (Jul 28) and The Motley Fool (Jul 28).",
+      "url": "https://247wallst.com/investing/2026/07/28/amd-sinks-8-marvell-sinks-7-intel-fall-6-as-ai-chip-trade-narrows-to-nvidia/",
+      "continues": true
+    },
+    {
+      "ticker": "UBER",
+      "company": "Uber",
+      "headline": "Uber adds Foot Locker to Uber Eats as Waymo tensions escalate",
+      "body": "Uber is expanding into retail delivery, adding Foot Locker, Kids Foot Locker and Champs Sports to Uber Eats from more than 1,000 US locations, even as tensions escalate with Waymo over the robotaxi operator&rsquo;s plans to launch independently in key cities; the company is targeting $77.8 billion in revenue and $11.0 billion in earnings by 2029, a goal some analysts view as optimistic, per Yahoo Finance (Jul 27).",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/uber-uber-leans-deliveries-waymo-130925167.html",
+      "img": "https://s.yimg.com/lo/mysterio/api/84271D294874EACC88B68A1EE7F29FCBA7313DD0732ED702563D422A2A90F3E5/subgraphmysterio/resizefill_w1200_h434;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2Fcfa0f05cef7298ff8df3db38405f2803"
+    },
+    {
+      "ticker": "PLTR",
+      "company": "Palantir",
+      "headline": "Palantir slips again as traders lock in gains ahead of Aug 3 earnings",
+      "body": "Palantir shares slipped again as traders locked in profits from a recent rally and shifted focus to the company&rsquo;s Aug 3 second-quarter earnings, where investors will scrutinize revenue growth, AI platform adoption and government contract renewals; the pullback also reflects broader software-sector caution about whether current AI valuations can be sustained, per Yahoo Finance UK (Jul 28).",
+      "url": "https://uk.finance.yahoo.com/news/palantir-stock-slumps-ahead-q2-201552124.html",
+      "continues": true
+    },
+    {
+      "ticker": "REI",
+      "company": "Ring Energy",
+      "headline": "Ring Energy still tracking oil&rsquo;s whipsaw, no company-specific news",
+      "body": "Ring Energy is a small-cap Permian Basin oil producer with high sensitivity to spot crude prices; no company-specific announcement was found for the session, and its swings continue to track broader oil-price volatility after the ceasefire de-escalation stalled and US-Iran strikes resumed, per CNBC (Jul 29).",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-28-2026",
+      "continues": true,
+      "img": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMDg2Nzg5/traders-work-on-the-floor-of-the-new-york-stock-exchange-as-trading-opens-for-day.jpg?profile=share16-9"
+    },
+    {
+      "ticker": "FIG",
+      "company": "Figma",
+      "headline": "Figma still riding the software rotation, no new catalyst",
+      "body": "Figma remains caught in the same rotation flagged yesterday, as investors continue shifting out of richly-valued AI-chip names and into application software; no new company-specific catalyst was found for the session, per 24/7 Wall St (Jul 27).",
+      "url": "https://247wallst.com/investing/2026/07/27/salesforce-surges-7-servicenow-jumps-8-workday-jumps-10-as-software-rebounds-on-ai-rotation/",
+      "continues": true
+    }
+  ],
+  "country_groups": [
+    {
+      "label": "India",
+      "stories": [
+        {
+          "headline": "Meta pulls, then restores Modi&rsquo;s Gen Z address as new paper-leak bill unveiled",
+          "body": "Meta briefly took down PM Modi&rsquo;s Facebook video addressing NEET-UG paper-leak protesters, calling it a &ldquo;technical error&rdquo; before restoring the clip. In the Jul 23 video &mdash; his first direct message to the Gen Z protesters &mdash; Modi said, &ldquo;Nothing is more important than the welfare and future of our youth,&rdquo; as the government introduced a bill proposing up to 10 years&rsquo; imprisonment for paper-leak offences, per WION (Jul 28).",
+          "url": "https://www.wionews.com/trending/why-did-meta-remove-pm-modi-s-facebook-video-on-paper-leaks-tech-giant-blames-technical-error-1785220710914",
+          "continues": true,
+          "img": "https://cdn1.wionews.com/prod/wion/images/2026/20260728/image-1785220972022.png"
+        },
+        {
+          "headline": "Deep depression triggers heavy-rain alerts across Delhi and eight other states",
+          "body": "The India Meteorological Department issued fresh rain warnings for Delhi, Maharashtra, Gujarat, Karnataka, Rajasthan, Odisha, Jharkhand and Chhattisgarh as a deep depression tracked west-northwest from Odisha, combining with a monsoon trough and a western Himalayan disturbance. Forecasters warned of extremely heavy rainfall, thunderstorms and flood risk in low-lying districts through the week, per Sunday Guardian Live (Jul 29).",
+          "url": "https://sundayguardianlive.com/india/india-weather-today-july-29-imd-issues-rain-alert-across-delhi-maharashtra-gujarat-karnataka-rajasthan-several-other-states-check-latest-weather-update-248518/",
+          "img": "https://sundayguardianlive.com/wp-content/uploads/2026/07/jammu-kashmir-school.jpg"
+        },
+        {
+          "headline": "Priti Patel: fugitive Nirav Modi &ldquo;should not be in this country&rdquo;",
+          "body": "Former UK home secretary Priti Patel said India withheld cooperation on deporting failed asylum seekers as leverage in the years-long extradition fight over fugitive diamond merchant Nirav Modi, adding, &ldquo;He should not be in this country.&rdquo; India&rsquo;s foreign ministry confirmed extradition will proceed &ldquo;once that judicial process concludes,&rdquo; after Modi &mdash; jailed in London since 2019 over the $2 billion Punjab National Bank fraud &mdash; lost his final European rights-court appeal, per Business Today and Asianet Newsable (Jul 28).",
+          "url": "https://www.businesstoday.in/india/story/he-should-not-be-in-this-country-ex-uk-home-secretary-says-india-refused-illegal-migrant-returns-over-nirav-modis-extradition-545599-2026-07-28",
+          "img": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202607/6a685cec60f5b-she-believes-that-nirav-modi-should-already-be-serving-a-prison-sentence-in-india-284022220-16x9.png"
+        }
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "stories": [
+        {
+          "headline": "Bank of England set to hold rates Thursday as inflation hits 15-month low",
+          "body": "UK inflation cooled to a 15-month low of 2.6% in June, well below the Bank of England&rsquo;s earlier forecasts, even as oil prices topped $100 a barrel on US-Iran tensions ahead of Thursday&rsquo;s rate decision. Markets still price a roughly two-thirds chance of a quarter-point hike by September, with MUFG&rsquo;s Henry Cook noting &ldquo;three downside surprises now in a row on inflation and plenty of signs of slack within the labour market,&rdquo; per Cyprus Mail (Jul 28).",
+          "url": "https://cyprus-mail.com/2026/07/28/bank-of-england-expected-to-hold-interest-rates-steady",
+          "continues": true,
+          "img": "https://cyprus-mail.com/wp-content/uploads/2026/03/bank.jpg"
+        },
+        {
+          "headline": "Burnham hosts Zelenskyy, pledges &pound;25bn Ukraine support and new tech transfer",
+          "body": "In his first bilateral as PM, Andy Burnham hosted Volodymyr Zelenskyy at a Portsmouth naval base, declaring, &ldquo;Britain stands with Ukraine shoulder to shoulder, and our support remains unwavering.&rdquo; The UK will hand over intellectual property for its &ldquo;Stone Cloak&rdquo; electronic-warfare system, taking total British support to Kyiv past &pound;25 billion ($33bn) since 2022, per Al Jazeera (Jul 27).",
+          "url": "https://www.aljazeera.com/news/2026/7/27/new-uk-pm-burnham-assures-zelenskyy-of-continuing-ukraine-support",
+          "continues": true,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/07/2024-09-11T141418Z_116592378_RC2EY9A8R8P4_RTRMADP_3_UKRAINE-CRISIS-USA-BLINKEN-1785162199.jpg?resize=1920%2C1440"
+        },
+        {
+          "headline": "Burnham defends small-boats record after record &ldquo;mega dinghy&rdquo; crossing",
+          "body": "Facing criticism after 881 migrants crossed the Channel in 13 boats over four days &mdash; including a record 165 people in a single &ldquo;mega dinghy&rdquo; &mdash; PM Andy Burnham insisted &ldquo;boat crossings are down, down quite significantly year on year,&rdquo; citing a government-claimed 45% drop from 2025. Critics were unmoved, with one social media user writing, &ldquo;Rebranding the same policy doesn&rsquo;t make it a new policy. People want results,&rdquo; per IBTimes UK (Jul 28).",
+          "url": "https://www.ibtimes.co.uk/andy-burnham-small-boats-strategy-criticism-1811152",
+          "img": "https://d.ibtimes.co.uk/en/full/1819905/andy-burnham.png"
+        }
+      ]
+    },
+    {
+      "label": "Qatar & the GCC",
+      "stories": [
+        {
+          "headline": "GCC foreign ministers press for Hormuz &ldquo;freedom of navigation&rdquo;",
+          "body": "Qatar&rsquo;s Prime Minister and Foreign Minister Sheikh Mohammed bin Abdulrahman bin Jassim Al-Thani joined a GCC foreign ministers&rsquo; video conference that prioritised &ldquo;freedom of navigation and its safety in the Strait of Hormuz, ensuring rights of passage and transit,&rdquo; while preserving Gulf states&rsquo; sovereignty. The bloc pledged to keep &ldquo;prioritising political and diplomatic approaches&rdquo; to the regional conflict, per The Peninsula Qatar (Jul 28).",
+          "url": "https://thepeninsulaqatar.com/article/28/07/2026/prime-minister-joins-gcc-foreign-ministers-consultative-meeting-via-video-conference",
+          "continues": true,
+          "img": "https://thepeninsulaqatar.com/get/maximage/20260728_1785243565-811.jpg?1785243566"
+        },
+        {
+          "headline": "US and Saudi forces strike Iran-aligned groups in Iraq as Tehran threatens Hormuz escalation",
+          "body": "The US said it intercepted an &ldquo;attempted surprise attack&rdquo; of multiple Iranian ballistic missiles overnight, while US and Saudi forces struck Iran-aligned groups in Iraq blamed for drone strikes on Saudi oil facilities. Iran warned it would take &ldquo;any action,&rdquo; including resuming fighting, to maintain control of the Strait of Hormuz, even as Tehran and Oman traded new proposals for managing the waterway, per Al Jazeera (Jul 29).",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/7/29/iran-war-live-us-accuses-irgc-of-surprise-ballistic-missile-attacks",
+          "continues": true,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/07/2026-07-27T111759Z_243547532_RC22MMAWRQ83_RTRMADP_3_IRAN-CRISIS-1785282488.jpg"
+        },
+        {
+          "headline": "Qatar condemns &ldquo;renewed attacks&rdquo; on Jordan, urges immediate halt",
+          "body": "Qatar&rsquo;s foreign ministry condemned what it called renewed military operations against Jordan as violations of the kingdom&rsquo;s sovereignty, warning that &ldquo;the continuation of these attacks represents a dangerous escalation&rdquo; to regional stability. Doha called for an immediate halt and urged all parties to &ldquo;return in earnest to the path of dialogue and negotiations,&rdquo; reaffirming solidarity with Amman, per The Peninsula Qatar (Jul 28).",
+          "url": "https://thepeninsulaqatar.com/article/28/07/2026/qatar-strongly-condemns-renewed-attacks-against-the-hashemite-kingdom-of-jordan",
+          "img": "https://thepeninsulaqatar.com/get/maximage/20241012_1728764479-106.jpg?1728764479"
+        }
+      ]
+    }
+  ],
+  "doha_events": [
+    {
+      "headline": "Doha Shopping Season Fair runs at DECC through Aug 5",
+      "body": "The Doha Shopping Season Fair is on at the Doha Exhibition and Convention Center from Jul 23 through Aug 5, 2026, with free admission daily from 10am&ndash;10pm (Fridays from 3pm). Per Qatar Living (Jul 29), the international bazaar brings vendors from more than 20 countries selling perfumes, abayas, carpets, home d&eacute;cor and food products under one roof.",
+      "url": "https://www.qatarliving.com/en/event/doha-shopping-season-fair-2026",
+      "img": "https://cdn-content.qatarliving.com/events/cover-images/1785231041724-4c4d1c43-002f-44ea-bcd6-44088b4a3b3a.jpeg"
+    },
+    {
+      "headline": "Egyptian comedians Ahmed &amp; Ahmed bring stand-up to QNCC",
+      "body": "Egyptian comedy duo Ahmed Hassan and Ahmed Magdy headline an 18+ stand-up night at QNCC&rsquo;s Conference Hall 3 on Aug 27, with doors at 8:30pm and tickets running QAR 175&ndash;420. Per Qatar Living (Jul 22), it&rsquo;s part of a busy summer for Doha&rsquo;s live comedy scene, with tickets sold via Platinumlist.",
+      "url": "https://www.qatarliving.com/en/article/doha-comedy-shows-live-entertainment-venues-july-august",
+      "img": "https://cdn.platinumlist.net/upload/event/promo/71801_upload6a5a039f24aba_1784284063-0-en1784284078.jpg"
+    },
+    {
+      "headline": "ColorVerse Experience still lighting up Katara",
+      "body": "The immersive family attraction ColorVerse Experience continues at Katara South Parking through Sep 15, open 4pm&ndash;10pm on weekdays and until 11pm on weekends. Per Qatar Living (Jul 29), visitors follow a character named HUE through interactive zones to restore colour to the fictional world of Colorama, with tickets QAR 35 Sunday&ndash;Wednesday and QAR 55 Thursday&ndash;Saturday.",
+      "url": "https://www.qatarliving.com/en/event/colorverse-experience",
+      "img": "https://cdn-content.qatarliving.com/events/cover-images/1784561430713-ad2450e7-12f0-4e4d-8cff-1913f29284e0.jpeg"
+    },
+    {
+      "headline": "Qatar Toy Festival enters its final days at DECC",
+      "body": "Billed as its largest edition yet at over 22,000 square metres, the Qatar Toy Festival wraps up its month-long run at the Doha Exhibition and Convention Centre on Jul 31, open 10am&ndash;10pm. Per Qatar Living (Jul 29), the festival features global toy brands, live shows and a Spacetoon-backed Influencers Zone, with entry from QAR 50.",
+      "url": "https://www.qatarliving.com/en/event/qatar-toy-festival-2026",
+      "img": "https://cdn-content.qatarliving.com/events/cover-images/1777816616081-69e437d3-65d4-42d3-91e0-17ae11823bff.png"
+    }
+  ]
+}
