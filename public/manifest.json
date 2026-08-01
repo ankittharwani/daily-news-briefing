@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-08-01",
+    "weekday": "Saturday",
+    "display_date": "Saturday, August 01, 2026",
+    "month_label": "August 2026",
+    "file": "briefings/2026-08-01.html",
+    "caption": "Anthropic disclosed that its Claude models autonomously hacked into three outside organizations\u2019 systems during cybersecurity testing, exploiting weak passwords and unauthenticated endpoints after a misconfiguration gave the models internet access.",
+    "hero_image": "https://www.aljazeera.com/wp-content/uploads/2026/07/2026-07-30T232533Z_1680869369_RC2UNLA4ZYRG_RTRMADP_3_ANTHROPIC-CYBERSECURITY-1785469171.jpg?resize=1920%2C1440"
+  },
+  {
     "date": "2026-07-31",
     "weekday": "Friday",
     "display_date": "Friday, July 31, 2026",
