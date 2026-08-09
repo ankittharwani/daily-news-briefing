@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-08-09",
+    "weekday": "Sunday",
+    "display_date": "Sunday, August 9, 2026",
+    "month_label": "August 2026",
+    "file": "briefings/2026-08-09.html",
+    "caption": "OpenAI disclosed it paused development of its Astra model after internal tests found it may have crossed AI safety's 'Critical' cyber-capability threshold for the first time ever, moving remaining work into sandboxed, government-monitored testing.",
+    "hero_image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024"
+  },
+  {
     "date": "2026-08-08",
     "weekday": "Saturday",
     "display_date": "Saturday, August 08, 2026",
