@@ -1,0 +1,386 @@
+{
+  "skim": [
+    "Anthropic is reportedly accelerating IPO plans toward a $2 trillion valuation that could rival SpaceX&rsquo;s record offering, as GitHub&rsquo;s CTO apologized for a second major outage in two weeks.",
+    "England completed an innings-and-103-run rout of Pakistan at Headingley in three days, while Max Verstappen races his final Dutch Grand Prix as Zandvoort exits the F1 calendar.",
+    "Trump declared &ldquo;total control&rdquo; of the Strait of Hormuz as Washington&rsquo;s Iran sanctions blitz began, even as Gaza&rsquo;s new disarmament &ldquo;working groups&rdquo; took shape under Jared Kushner.",
+    "Wall Street eked out Friday gains but booked a losing week; bitcoin notched its best week since 2023 near $80,000 and gold topped $4,600 as record U.S. debt fuelled a safe-haven rush.",
+    "DR Congo&rsquo;s Ebola outbreak topped 5,200 cases as the WHO rushed 70,000 vaccine doses, while South Korea declared disaster zones after record floods."
+  ],
+  "sections": [
+    {
+      "key": "world",
+      "title": "World",
+      "icon": "news",
+      "stories": [
+        {
+          "headline": "Ebola Deaths Top 2,400 as Congo Receives Vaccine Boost",
+          "body": "DR Congo&rsquo;s Ebola outbreak has grown to 5,208 cases and 2,476 deaths, up from 5,021 and 2,378 just two days earlier, prompting the WHO and Gavi to allocate 70,000 doses of the Ervebo vaccine &mdash; 20,000 for an ongoing late-stage trial against the Bundibugyo strain and 50,000 for frontline and health workers, backed by $13 million in Gavi funding. UN Secretary-General spokesman St&eacute;phane Dujarric said senior Ebola coordinator Julian Harneis reported the government and partners are &ldquo;scaling up the response with five operational priorities, including tripling safe care capacity, strengthening community engagement, doubling the number of safe and dignified burial teams and expanding disease surveillance,&rdquo; per Al Jazeera (Aug 20).",
+          "url": "https://www.aljazeera.com/news/2026/8/20/dr-congo-to-receive-70000-doses-of-ervebo-vaccine-as-ebola-infections-surge",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a87445e66e7-1787249758.jpg?resize=1920%2C1440",
+          "continues": true
+        },
+        {
+          "headline": "Europe&rsquo;s Deadly Heatwaves Fuel Rising Political Divide",
+          "body": "Europe&rsquo;s brutal summer heat is deepening political rifts across the continent: June&rsquo;s heatwave alone caused roughly 10,000 deaths bloc-wide, including about 395 in Austria, while far-right parties such as Austria&rsquo;s Freedom Party spread climate disinformation even as leaders like Spanish PM Pedro S&aacute;nchez link the extremes directly to global warming. &ldquo;There is a widening gap between the scale of Europe&rsquo;s heatwaves, literally hitting every EU country, and the absence of decisive European action,&rdquo; said Vula Tsetsi, co-chair of the European Green Party, per Inside Climate News (Aug 21).",
+          "url": "https://insideclimatenews.org/news/21082026/europe-heat-fuels-political-tensions/",
+          "img": "https://insideclimatenews.org/wp-content/uploads/2026/08/GettyImages-2283498026.jpg",
+          "continues": false
+        },
+        {
+          "headline": "South Korea Declares Disaster Zones After Record Floods",
+          "body": "South Korea has designated the entire city of Geoje and two Tongyeong districts as special disaster zones after record Aug 15&ndash;17 rainfall &mdash; 954.8mm in Geoje and 763mm in Tongyeong &mdash; triggered landslides, flooded homes and roads, and one death. The designation, approved by the president and announced by the Ministry of the Interior and Safety, unlocks greater national funding for local recovery after damages topped the 10.25 billion won threshold in Geoje, per The Korea Herald (Aug 22).",
+          "url": "https://www.koreaherald.com/article/10848690",
+          "img": "https://wimg.heraldcorp.com/news/cms/2026/08/22/news-p.v1.20260822.7c6b181ea11c42d3ba29d2601d64d9c6_T1.jpg",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "sports",
+      "title": "Sports",
+      "icon": "trophy",
+      "stories": [
+        {
+          "headline": "England Thrash Pakistan by an Innings Inside Three Days",
+          "body": "England bowled Pakistan out for 135 in the second innings to complete an innings-and-103-run win at Headingley, with Ollie Robinson and Josh Tongue taking five wickets apiece in the first innings and Jofra Archer adding 3/50 in the second; Harry Brook&rsquo;s 91 had earlier powered England to 409. &ldquo;Brilliant performance &mdash; there was clarity with how we approached this match,&rdquo; said Joe Root, winning his first Test as permanent captain, while Pakistan&rsquo;s Salman Ali Agha admitted, &ldquo;England have outplayed us.&rdquo; England lead the series 1-0 with the second Test at Lord&rsquo;s from Aug 27, per telecomasia.net (Aug 21).",
+          "url": "https://www.telecomasia.net/blog/england-s-pace-barrage-blows-pakistan-away-as-root-begins-captaincy-return-in-style/",
+          "img": "https://e0.365dm.com/26/08/768x432/d-a-aa_7327390.jpg?20260821160215",
+          "continues": true
+        },
+        {
+          "headline": "Gill Dominates Saransh Jain in Colombo Nets as Kuldeep Sits Out",
+          "body": "With India expected to hand uncapped off-spinner Saransh Jain his debut in Saturday&rsquo;s series-deciding 2nd Test, Shubman Gill looked in ominous touch at the Sinhalese Sports Club, taking Jain apart in the nets while Kuldeep Yadav skipped Friday&rsquo;s session entirely. Spin-bowling coach Sairaj Bahutule explained Gill&rsquo;s method: &ldquo;This is just his way of adapting and finding the best methods to play, defend, and, more importantly, adapt.&rdquo; Jain&rsquo;s net workload has only sharpened speculation he replaces Kuldeep for the Colombo decider, per Cricket Addictor (Aug 21).",
+          "url": "https://cricketaddictor.com/cricket-news/shubman-gill-sends-warning-to-sri-lanka-ahead-of-colombo-test-462825/",
+          "img": "https://static.cricketaddictor.com/images/posts/2026/FotoJet-1--175.webp?q=80",
+          "continues": true
+        },
+        {
+          "headline": "Verstappen Faces His Last-Ever Home Race as Zandvoort Exits F1",
+          "body": "Barely a day after signing his Red Bull extension through 2030, Max Verstappen is racing his final Dutch Grand Prix &mdash; Zandvoort drops off the F1 calendar after this weekend, unable to fund the expansion modern F1 demands despite selling out every edition since its 2021 return. &ldquo;Knowing it&rsquo;s the last race here, I want to keep the energy positive,&rdquo; Verstappen said, calling it &ldquo;one of the best tracks on the calendar&rdquo; while noting newer venues often &ldquo;lack a bit of personality.&rdquo; Red Bull arrive off the pace, with Verstappen only sixth in Friday&rsquo;s sprint qualifying behind pole-sitter George Russell, per Grande Pr&ecirc;mio (Aug 21).",
+          "url": "https://grandepremio.com/en/f1/max-verstappen-laments-departure-of-zandvoort-from-calendar-that-lacks-personality-in-f1/",
+          "img": "https://grandepremio.com/wp-content/uploads/2026/07/f1-2026-spa-francorchamps-treino-livre-red-bull-max-verstappen-01-1200x630.jpg",
+          "continues": true
+        },
+        {
+          "headline": "Man Utd Revive &pound;65m Chase for Brighton&rsquo;s Carlos Baleba",
+          "body": "Manchester United have tabled a &pound;60m-plus-&pound;5m package for Brighton midfielder Carlos Baleba, reopening a pursuit they walked away from last summer rather than meet Brighton&rsquo;s &pound;100m valuation. Brighton chief executive Paul Barber declined to confirm talks are advanced: &ldquo;It&rsquo;s not something that I can talk about right now &hellip; he&rsquo;s a hugely talented young midfielder &hellip; let&rsquo;s see where we go.&rdquo; A club-to-club agreement is reportedly expected soon as United look to add to midfield before the window closes, per Sports Mole (Aug 20).",
+          "url": "https://www.sportsmole.co.uk/football/man-utd/transfer-talk/news/man-utd-lets-see-where-we-go-brighton-chief-offers-fresh-baleba-transfer-update_603349.html",
+          "img": "https://www.sportsmole.co.uk/thumbor/Apyw-G6cEZf5yuTg1ge85MvkXZw=/720x410/smart/filters:format(webp)/https%3A%2F%2Fsportsmole-media-prod.s3.gra.io.cloud.ovh.net%2Fuploads%2F2026%2F08%2Fsm-azzuu-baleba-mufc-6a86eedb960bf080522229.jpg",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "title": "Business &amp; Markets",
+      "icon": "bars",
+      "stories": [
+        {
+          "headline": "Wall Street Ekes Out Friday Gains But Books a Losing Week",
+          "body": "The Dow rose 0.98% (+517.60 points to 53,276.81), the S&amp;P 500 gained 0.43% to 7,674.31, and the Nasdaq added 0.43% to 26,180.46 on Friday, though all three posted weekly losses after bond-market volatility rattled risk assets, per Yahoo Finance (Aug 21). Treasury Secretary Scott Bessent defended his surprise long-bond buyback plan, saying &ldquo;part of it is signaling here to show that we believe yields don&rsquo;t reflect the underlying fundamentals,&rdquo; with attention now turning to his Monday briefing on new Iran sanctions.",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-21-dow-sp-500-nasdaq-bitcoin-080533702.html",
+          "img": "https://s.yimg.com/lo/mysterio/api/3BB95BCA37A8DDD2EBB15EA834B00B40C6AECE00F1AAE6360D5E6CC5209ED0D0/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-08%2F1e195b03-b307-4b28-8c7f-4945fbba8300",
+          "continues": true
+        },
+        {
+          "headline": "Bitcoin Notches Best Week Since 2023, Nears $80,000",
+          "body": "Bitcoin climbed to roughly $74,800&ndash;$79,400 on Friday, up nearly 20&ndash;24% for the week &mdash; its strongest weekly run since March 2023 &mdash; per The National and CoinDesk (Aug 21). The rally was fuelled by Bessent&rsquo;s doubled Treasury bond buybacks and Trump&rsquo;s push for the Clarity Act crypto bill; VanEck&rsquo;s Matthew Sigel said the move is &ldquo;about what the US Treasury has done, which is reigniting fears of fiscal dominance,&rdquo; while Bitget&rsquo;s Ryan Lee noted &ldquo;if the Clarity Act makes progress, it could boost investor confidence and spark a broader recovery in digital assets.&rdquo;",
+          "url": "https://www.thenationalnews.com/business/markets/2026/08/21/bitcoin-crypto-rally/",
+          "img": "https://www.thenationalnews.com/resizer/v2/X3M3UDMOTRCOXHCBG77YARPZP4.jpg?smart=true&auth=53e459c233e10d522328678b7de0a7aabebc51b0843b50084c130a78d0047ff5&width=1200&height=630",
+          "continues": true
+        },
+        {
+          "headline": "Gold Tops $4,600 as Record U.S. Debt Fuels Safe-Haven Rush",
+          "body": "December gold futures opened at $4,577 and touched $4,633.90 per troy ounce by mid-morning Friday, extending its climb from Thursday&rsquo;s $4,521 level, per Yahoo Finance (Aug 21). The surge ties directly to the national debt &ldquo;hitting a record high of $40 trillion, five months after eclipsing $39 trillion,&rdquo; the report noted, as higher debt &ldquo;erodes trust in the U.S. dollar and raises borrowing costs,&rdquo; prompting investors and central banks to seek safety in gold.",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-august-21-2026-gold-remains-strong-amid-us-debt-concerns-161052751.html",
+          "img": "https://s.yimg.com/lo/mysterio/api/D4675CB1EFAA741875AED23756B40DF4932F395576F05130D9EE2268DBA4936A/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Ffriday.png",
+          "continues": true
+        },
+        {
+          "headline": "U.S. National Debt Tops $40 Trillion, Doubling in Under a Decade",
+          "body": "The U.S. national debt hit $40.05 trillion on August 18, more than double its 2017 level, with net interest costs approaching $1 trillion in 2025, per CBS News (Aug 21). Peter G. Peterson Foundation CEO Michael Peterson said &ldquo;we&rsquo;ve been running deficits for the last 26 years, and we&rsquo;ve basically ignored a lot of the structural challenges,&rdquo; warning that debt could reach $50 trillion within six years, while economist Dean Baker added simply, &ldquo;we&rsquo;re going the wrong way.&rdquo;",
+          "url": "https://www.cbsnews.com/news/national-debt-tops-40-trillion-doubles/",
+          "img": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/08/19/0cbcad9f-7149-4e0b-a288-4efa772121c2/thumbnail/1200x630/74eb373b78c48186c87f5800a75bc5f2/gettyimages-2289747313.jpg",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "AI &amp; Technology",
+      "icon": "cpu",
+      "stories": [
+        {
+          "headline": "Anthropic Eyes Record-Breaking IPO, Could Top SpaceX&rsquo;s $86.2bn Haul",
+          "body": "Anthropic is preparing a fall listing that could match or exceed SpaceX&rsquo;s record $86.2bn IPO, building on the $65bn raise it closed in May at a $965bn valuation &mdash; even after losing nearly $42bn in 2025, per Benzinga/Bloomberg (Aug 21). Polymarket bettors now put 72% odds on a $1.8 trillion first-day market cap and 83% odds the offering completes by end of October. &ldquo;I don&rsquo;t like that we have 7% in anything&hellip; it&rsquo;s a good dilemma,&rdquo; said David Ford, UConn&rsquo;s investment-committee chair, on the concentration risk hot AI IPOs are creating for university endowments.",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61365624/anthropic-ipo-spacex-university-endowments",
+          "img": null,
+          "continues": true
+        },
+        {
+          "headline": "GitHub CTO: &lsquo;We Let You Down&rsquo; After Second Outage in Two Weeks",
+          "body": "GitHub CTO Vladimir Fedorov publicly apologized for the platform&rsquo;s Aug 17 outage &mdash; 7 hours 47 minutes that knocked out Actions, pull requests, Copilot and its APIs &mdash; the second major incident in two weeks after an Aug 6 failure, per The Register (Aug 21). Fedorov said neither outage stemmed from a code change but from scaling limits exposed as monthly commits nearly doubled to 2.9bn since April, pledging &ldquo;an architecture that scales read capacity linearly with the number of readers.&rdquo; Azure infrastructure now carries roughly 58% of GitHub&rsquo;s platform load, underscoring the strain behind the outage that also disrupted Cursor&rsquo;s Origin launch.",
+          "url": "https://www.theregister.com/devops/2026/08/21/we-let-you-down-github-pledges-to-scale-up-before-developers-give-up/5291031",
+          "img": "https://image.theregister.com/1682264.jpg?imageId=1682264&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+          "continues": true
+        },
+        {
+          "headline": "Alation Still Silent on Scope of Cyberattack Hitting Half the Fortune 1000",
+          "body": "Data-catalog firm Alation, used by more than 500 global companies including roughly half the Fortune 1000, has confirmed &ldquo;unauthorized activity&rdquo; in one of its AWS-hosted systems but has not disclosed how many customers were affected or whether data was exfiltrated, per TechCrunch (Aug 20). Company spokesperson Stephen Russell said only: &ldquo;Alation recently identified an isolated incident involving unauthorized activity in one of its systems. We are conducting a thorough investigation.&rdquo; A separate availability incident degraded service for some customers on Tuesday but was resolved within an hour.",
+          "url": "https://techcrunch.com/2026/08/20/ai-data-giant-alation-confirms-cyberattack/",
+          "img": "https://techcrunch.com/wp-content/uploads/2026/08/alation.jpg?w=1186",
+          "continues": true
+        },
+        {
+          "headline": "Nvidia Strikes $7bn Poolside Deal, Valuing Coding-AI Startup at $12bn",
+          "body": "Nvidia has agreed to a $6bn non-exclusive licensing deal plus a $1bn equity stake &mdash; $7bn total &mdash; in coding-AI startup Poolside, quadrupling its valuation to $12bn from $3bn just a year ago, per CryptoBriefing (Aug 20). The deal gives Nvidia access to Poolside&rsquo;s &ldquo;Model Factory&rdquo; and its Laguna family of code-generation models, and comes with Nvidia hiring 109 Poolside staff, echoing similar reverse-acqui-hire structures the chipmaker has used with other AI labs. Poolside, founded in 2023, previously raised a $500m Series B in October 2024.",
+          "url": "https://cryptobriefing.com/nvidia-6b-poolside-ai-licensing-deal/",
+          "img": "https://static.cryptobriefing.com/wp-content/uploads/2026/08/20200252/poolside-founders-jason-warner-ceo-and-eiso-kant-cto-sitting-800x420.png",
+          "continues": false
+        },
+        {
+          "headline": "Apple Music Will Tag Tracks &lsquo;Made With AI&rsquo; Later This Year",
+          "body": "Apple Music will roll out visible &ldquo;Made With AI&rdquo; labels later in 2026 for songs where a &ldquo;material portion&rdquo; of the content was AI-generated, extending the AI Transparency Tags it introduced in March, per MacDailyNews and Billboard (Aug 20&ndash;21). The move follows pressure from the RIAA, the Grammys and SAG-AFTRA, who jointly urged streamers to improve AI-music disclosure; Apple Music executive Oliver Schusser has noted more than a third of monthly track submissions are now fully AI-generated, though listener engagement with them remains under 0.5%. Spotify is set to follow with its own &ldquo;AI Persona&rdquo; artist badges starting mid-September.",
+          "url": "https://macdailynews.com/2026/08/21/apple-music-to-introduce-made-with-ai-labels-for-ai-generated-music-later-this-year/",
+          "img": "https://macdailynews.com/wp-content/uploads/2026/08/260821_apple_music.png",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "geopolitics",
+      "title": "Geopolitics",
+      "icon": "globe",
+      "stories": [
+        {
+          "headline": "Trump Boasts &lsquo;Total Control&rsquo; of Hormuz as Iran Sanctions Blitz Begins",
+          "body": "Speaking to reporters before boarding Air Force One on Aug 21, Trump said Iran &ldquo;would love to make a deal, but they&rsquo;re not ready to make the right deal,&rdquo; claiming the US has &ldquo;total control of that entire region having to do with the Strait of Hormuz,&rdquo; per The Times of Israel (Aug 22). It follows Treasury Secretary Scott Bessent&rsquo;s Aug 20 vow of the &ldquo;toughest sanctions in history &mdash; a one-two punch&rdquo; alongside an existing blockade, warning allies &ldquo;you&rsquo;re either with us or against us,&rdquo; per Al Jazeera (Aug 20); FM Abbas Araghchi dismissed the campaign as doomed like past &ldquo;maximum pressure&rdquo; efforts, per anews.com.tr (Aug 22).",
+          "url": "https://www.timesofisrael.com/liveblog-august-22-2026/",
+          "img": "https://static-cdn.toi-media.com/www/uploads/2026/08/AP26233764558795-e1787347440255.jpg",
+          "continues": true
+        },
+        {
+          "headline": "Gaza &lsquo;Working Groups&rsquo; Take Shape as Kushner Ties Rebuilding to Disarmament",
+          "body": "Two joint committees &mdash; on disarmament/security and on humanitarian relief &mdash; were set up after talks between Jared Kushner, Netanyahu and Board of Peace officials, per Al Jazeera (Aug 18); Kushner told US media weapons collection could start &ldquo;in the next 60 to 90 days,&rdquo; with surrendered arms going to a US-led International Stabilization Force under Gen. Jasper Jeffers rather than Gaza&rsquo;s new NCAG government. Kushner declared &ldquo;we will not allow Gaza to be rebuilt until demilitarisation occurs,&rdquo; while Netanyahu confirmed Israeli strikes on Hamas will continue during the process &mdash; a sequencing analysts warn sidelines Qatar, Egypt and Turkey as mediators.",
+          "url": "https://www.aljazeera.com/amp/news/2026/8/18/what-to-know-about-gaza-working-groups-and-their-mandate",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/02/afp_69973819be3e-1771517977.jpg?resize=1920%2C1440",
+          "continues": true
+        },
+        {
+          "headline": "Sudan: 200,000 Newly Displaced in Kordofan as War Meets Floods",
+          "body": "More than 200,000 people have fled fresh fighting and flooding in Sudan&rsquo;s Kordofan region, with drone strikes hitting water and power infrastructure in El Obeid and heavy rains destroying homes in North Darfur, per Al Jazeera/UN (Aug 20). IOM Director General Amy Pope said &ldquo;the warning signs are impossible to ignore &mdash; families are fleeing violence, losing access to water, electricity and healthcare, and now facing the added burden of destructive floods,&rdquo; calling Sudan &ldquo;one of the world&rsquo;s largest displacement crises.&rdquo;",
+          "url": "https://www.aljazeera.com/news/2026/8/20/over-200000-people-newly-displaced-in-sudans-kordofan-as-fighting-rages",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-01-21T064116Z_1693370684_RC2NZIA8219R_RTRMADP_3_SUDAN-POLITICS-OBEID-ATTACKS-1785761834.jpg?resize=1920%2C1440",
+          "continues": true
+        },
+        {
+          "headline": "Wang Yi Presses Seoul on &lsquo;Strategic Autonomy&rsquo; as Lee Eyes China Summit",
+          "body": "During his Seoul visit, Chinese FM Wang Yi told South Korea&rsquo;s National Security Adviser Wi Sung-lac that Beijing hopes Seoul will &ldquo;achieve strategic autonomy, refrain from bloc confrontation or taking sides,&rdquo; and that lasting peace on the peninsula requires &ldquo;concrete actions conducive to restarting dialogue&rdquo; with North Korea, per SCMP (Aug 20). President Lee Jae Myung responded by floating deeper bilateral ties at the upcoming APEC leaders&rsquo; meeting in southern China, as Beijing works to counter US influence amid Trump&rsquo;s push to revive summitry with Kim Jong Un.",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3364699/seoul-meeting-wang-yi-south-korean-president-voices-hope-closer-china-ties",
+          "img": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/08/20/1828194e-ec2f-4faa-9255-713aa7b0a13d_bed97e39.jpg?itok=hMpW0cB8&v=1787222296",
+          "continues": true
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "sport": "Cricket",
+      "headline": "India-Sri Lanka series decider begins in Colombo",
+      "body": "India and Sri Lanka meet in a series-deciding 2nd Test at the SSC after the first Test was drawn, with India expected to give uncapped all-rounder Saransh Jain his debut in place of Kuldeep Yadav. Shubman Gill&rsquo;s men will look to seal the series after a strong warm-up in the nets.",
+      "url": "https://www.espncricinfo.com/series/india-in-sri-lanka-2026-1543999/sri-lanka-vs-india-2nd-test-1544002/live-cricket-score",
+      "when": "Aug 23-27"
+    },
+    {
+      "sport": "F1",
+      "headline": "The last-ever Dutch Grand Prix at Zandvoort",
+      "body": "Max Verstappen races his final home Grand Prix as Zandvoort hosts F1 for the last time before dropping off the calendar, with Red Bull short on pace after George Russell topped Friday&rsquo;s sprint qualifying ahead of the McLarens.",
+      "url": "https://www.formula1.com/en/racing/2026/netherlands",
+      "when": "Aug 23"
+    },
+    {
+      "sport": "Football",
+      "headline": "Champions League playoff second legs decide the group stage",
+      "body": "Celtic (3-0 up on LASK) and Bod&oslash;/Glimt (3-1 up on N.E.C.) look to close out qualification, while tighter ties &mdash; Fenerbah&ccedil;e-Lyon (1-1) and Dinamo-Viking (2-2) &mdash; remain wide open heading into the second legs that decide the last places in the Champions League league phase.",
+      "url": "https://www.uefa.com/uefachampionsleague/news/02a8-21614aa98c59-7f9d3e928182-1000--champions-league-play-off-first-legs-highlights-lyon-viking-/",
+      "when": "Aug 25-26"
+    }
+  ],
+  "portfolio": [
+    {
+      "ticker": "ORCL",
+      "headline": "Oracle Expands VA Health-Records Deal Into Multi-Billion-Dollar Contract",
+      "body": "Oracle significantly expanded its multi-year electronic health record modernization agreement with the U.S. Department of Veterans Affairs into a multi-billion-dollar contract, per TradingKey (Aug 21). The expansion adds to a cloud infrastructure backlog that Oracle says has been swelling on surging enterprise demand for AI compute capacity and database services.",
+      "url": "https://www.tradingkey.com/news/market-movers/262124715-market-movers-orcl-20260821",
+      "img": "https://resource.tradingkey.com/uploads/20260227/orcl-11daa6c0f5d941e9b79dd2ec4901445f.jpg",
+      "continues": false
+    },
+    {
+      "ticker": "TSLA",
+      "headline": "Nevada Clears Tesla for Up to 5,000 Driverless Robotaxis in Clark County",
+      "body": "Nevada&rsquo;s Transportation Authority authorized Tesla &mdash; alongside two rival autonomous-vehicle operators &mdash; to run driverless passenger service in Clark County, home to Las Vegas, per The Motley Fool (Aug 21). Tesla&rsquo;s permit covers a fleet of up to 5,000 fully autonomous vehicles in its first year, though the company is not expected to deploy anywhere near that number immediately, as it also pushes to expand its Cybercab robotaxi service with a planned Austin launch.",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/08/21/stock-market-today-aug-21-tesla-gains-on-nevada-robotaxi-permit-approval/",
+      "img": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fcdn.content.foolcdn.com%2Fimages%2F1umn9qeh%2Fproduction%2F124861b6623a636d61e4bcd840fca773d88882f5-200x200.png%3Fw%3D800%26q%3D75%26fit%3Dmax%26auto%3Dformat&w=1200&op=resize",
+      "continues": false
+    },
+    {
+      "ticker": "PLTR",
+      "headline": "Palantir Raises Full-Year Guidance as AI Platform Contract Values Surge",
+      "body": "Palantir&rsquo;s latest quarterly results beat expectations and prompted management to raise full-year guidance, citing accelerating enterprise adoption of its Artificial Intelligence Platform (AIP) and rapidly rising contract values, per TradingKey (Aug 21). Wall Street analysts have been revising earnings estimates and price targets upward in response, though some flagged the stock&rsquo;s elevated valuation multiples as a risk to watch.",
+      "url": "https://www.tradingkey.com/news/market-movers/262125008-market-movers-pltr-20260821",
+      "img": "https://resource.tradingkey.com/uploads/20260203/Palantir-cdb73b994ba34f23a81d8e0015ec6f1a.jpg",
+      "continues": false
+    },
+    {
+      "ticker": "NET",
+      "headline": "Cloudflare Raises 2026 Outlook, Launches AI-Agent Product Suite",
+      "body": "Cloudflare raised its full-year 2026 revenue guidance and unveiled a new slate of AI-agent products &mdash; including an open-source AI workspace called Cloudflare OS, an AEO visibility dashboard, and new AI governance tools &mdash; per a company update covered by Yahoo Finance (Aug 21). Executives said non-human and AI-agent traffic now accounts for more than half of all activity on Cloudflare&rsquo;s network, underscoring the demand the new products aim to capture.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/cloudflare-net-7-6-raising-032350219.html",
+      "img": "https://s.yimg.com/lo/mysterio/api/0616EEC06B9EC00AD8DF214A2A3049EC032C1504F07117695CF679C48C78EAF3/subgraphmysterio/resizefill_w1200_h434;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F587bca1ec4acb3634ab3a458c085a4fc",
+      "continues": true
+    },
+    {
+      "ticker": "FSLY",
+      "headline": "Anthropic Accelerates IPO Plans, Reviving Interest in AI-Infrastructure Peers",
+      "body": "Anthropic said it is accelerating plans for a U.S. initial public offering targeting a roughly $2 trillion valuation, with a filing possible as soon as late August and a market debut eyed for October &mdash; a deal that could rival SpaceX&rsquo;s record share offering, per Dataconomy (Aug 21). The news reignited investor interest in infrastructure and content-delivery names seen as beneficiaries of AI-model providers going public, following Fastly&rsquo;s own second-quarter report in which it raised full-year revenue guidance and filed a shelf registration to support future capital raises.",
+      "url": "https://dataconomy.com/2026/08/21/anthropic-accelerates-ipo-plans-targeting-2-trillion/",
+      "img": "https://dataconomy.com/wp-content/uploads/2026/08/anthropic-ipo-2026-important-details-revealed.jpg",
+      "continues": true
+    },
+    {
+      "ticker": "SBUX",
+      "headline": "Starbucks Completes Restructuring With 224 More Corporate Layoffs",
+      "body": "Starbucks confirmed layoffs of 224 corporate employees &mdash; 120 who declined to relocate from Seattle to the company&rsquo;s new Nashville hub and 104 from its store design and construction team &mdash; completing a global restructuring first announced in May that eliminated 252 corporate roles in total, per Yahoo Finance (Aug 21). The Nashville buildout is part of a $100 million investment tied to CEO Brian Niccol&rsquo;s plan to cut $2 billion in costs over two years, alongside closing underperforming stores and divesting its China stake.",
+      "url": "https://finance.yahoo.com/small-business/articles/starbucks-laying-off-224-workers-124415021.html",
+      "img": "https://s.yimg.com/lo/mysterio/api/22E38637064D35A7C06ED63DA13DD9AE776ACB73C60EAD9F06A712AF0BF8A87C/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fquartz_855%2Fb776aec5ca7a93bb98119c021d925c27.jpg",
+      "continues": false
+    },
+    {
+      "ticker": "ARM",
+      "headline": "Arm Caught in Semiconductor Pullback Despite Strong Data-Center Growth",
+      "body": "Arm Holdings has become one of the more visible casualties of a broader semiconductor pullback tied to rising bond yields, which tend to disproportionately hit high-multiple technology names. The company&rsquo;s own fundamentals stayed strong &mdash; June-quarter revenue grew 22% to $1.29 billion, data-center royalties more than doubled, and cumulative demand for its AGI CPU designs now exceeds $2 billion across fiscal 2027-2028 &mdash; with analysts noting Arm&rsquo;s valuation premium versus peers such as Nvidia and AMD leaves it more exposed to any growth disappointment, and no Arm-specific negative news behind the session&rsquo;s weakness.",
+      "url": "https://ts2.tech/en/arm-stocks-15-consensus-upside-shrinks-to-4-at-the-median-after-chip-rout/",
+      "img": "https://ts2.tech/wp-content/uploads/2026/08/arm-stocks-15-consensus-upside-shrinks-to-4-at-the-median-after-chip-rout.jpg",
+      "continues": false
+    }
+  ],
+  "country_groups": [
+    {
+      "label": "India",
+      "stories": [
+        {
+          "headline": "Kolkata Hotel Fire: 26 Hotels Served Notices in Fire-Safety Crackdown",
+          "body": "West Bengal&rsquo;s Fire Services Department has issued show-cause notices to 26 hotels and guesthouses around Mirza Ghalib Street since Wednesday &mdash; 17 more on Friday alone, each with a 24-hour deadline to respond &mdash; as the SIT continues probing the blaze at Hotel Shikha Inn that killed nine, including seven Bangladeshi nationals and a child. Officials said most victims died of smoke inhalation, and a special fire-safety audit of the entire hotel cluster has now been ordered, per The National Herald (Aug 21).",
+          "url": "https://www.nationalheraldindia.com/national/kolkata-fire-safety-crackdown-after-mirza-ghalib-street-blaze-26-hotels-get-notices",
+          "img": "https://cf-images.assettype.com/nationalherald%2F2026-08-21%2F487mogrx%2F20260819055f.jpg?rect=0%2C145%2C3869%2C2031&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+          "continues": true
+        },
+        {
+          "headline": "Amit Shah Presses Southern States on Cauvery, Water Disputes",
+          "body": "Home Minister Amit Shah convened the Southern Zonal Council in Mamallapuram, telling chief ministers &ldquo;the southern states are the main pillars of the country&rsquo;s progress&rdquo; and pressing for faster resolution of the Cauvery and other inter-state river-water disputes. The meeting also touched on delimitation concerns raised by southern states and discussed linking major rivers and fast-tracking POCSO case trials, per WION (Aug 21).",
+          "url": "https://www.wionews.com/india-news/amid-cauvery-row-hm-amit-shah-calls-for-early-resolution-of-water-disputes-1787282995775",
+          "img": "https://cdn1.wionews.com/prod/wion/images/2026/20260821/image-1787283065921.png?rect=(0,59,2442,1832)&imwidth=800&imheight=600&format=webp&quality=medium",
+          "continues": true
+        },
+        {
+          "headline": "22 Indian Sailors Held After Pirates Hijack Two Ships Off Yemen, Somalia",
+          "body": "Two vessels with 22 Indian nationals aboard were hijacked off Yemen and Somalia within days of each other &mdash; the tanker Seamull with 16 Indians seized in the Gulf of Aden on August 15, and the Cameroon-flagged cargo ship Lutuf with 6 Indians taken by gunmen on August 11. MEA spokesperson Randhir Jaiswal said &ldquo;one had 16 Indian nationals on board, while the other had six,&rdquo; adding all 22 are reportedly safe and New Delhi is in diplomatic contact over their welfare, per Business Recorder (Aug 21).",
+          "url": "https://www.brecorder.com/news/40435967/india-says-22-citizens-on-two-hijacked-vessels-off-yemen-somalia",
+          "img": "https://i.brecorder.com/large/2026/08/21183416e874648.webp",
+          "continues": false
+        },
+        {
+          "headline": "Modi to Space Startups: India Can Be a Magnet for Global Talent",
+          "body": "PM Modi told 20 founders of Indian space startups gathered at Seva Teerth that &ldquo;India&rsquo;s space sector can act as a magnet to attract global talent, companies and investment,&rdquo; urging them to expand into agriculture, environmental monitoring and debris removal. He said his goal is for the day &ldquo;the world thinks of space, it looks towards India,&rdquo; pointing to collaboration with Atal Tinkering Labs to build a youth talent pipeline, per pmindia.gov.in (Aug 21).",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pm-interacts-with-ceos-and-founders-of-space-startups/",
+          "img": null,
+          "continues": false
+        }
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "stories": [
+        {
+          "headline": "Harry &amp; Meghan&rsquo;s UK Return: Security a &lsquo;Private Matter,&rsquo; Says PM Burnham",
+          "body": "Prime Minister Andy Burnham declined to say how Prince Harry and Meghan&rsquo;s security will be funded once they relocate to a private home outside London later this month, calling it &ldquo;a private matter&hellip; we wish them well in the moves that they&rsquo;re making.&rdquo; King Charles was reportedly told just three days before the announcement, and a new YouGov poll finds the public split on their return &mdash; 33% opposed, 21% supportive, 45% undecided &mdash; per ITV News (Aug 20).",
+          "url": "https://www.itv.com/news/2026-08-20/harry-and-meghans-uk-security-arrangements-a-private-matter-says-burnham",
+          "img": "https://images.ctfassets.net/pjshm78m9jt4/7d63ddfrfIEzPHKjp8iDej/bd0f253dcd75436ef295d3990f78a224/01KP9XSWM13QVQXYEA994NKCXD.jpg?fm=jpg&fit=fill&w=1600&h=900&q=80",
+          "continues": true
+        },
+        {
+          "headline": "Met Office Warns of &lsquo;Unprecedented&rsquo; El Ni&ntilde;o Storms This Winter",
+          "body": "The Met Office has warned of an &ldquo;unprecedented&rdquo; El Ni&ntilde;o event set to drive storms and heavy rain across the UK this autumn and winter, with Professor Adam Scaife, its head of long-range forecasting, saying &ldquo;I have never seen an El Ni&ntilde;o signal this intense in our forecasts.&rdquo; Sea temperatures are forecast to run over 3&deg;C above average &mdash; the strongest such event since the 19th century &mdash; and the agency expects 2027 to become the warmest year on record, per ITV News (Aug 21).",
+          "url": "https://www.itv.com/news/2026-08-20/unprecedented-el-nino-event-to-bring-storms-and-rain-to-uk-says-met-office",
+          "img": "https://images.ctfassets.net/pjshm78m9jt4/2FwqpPIIsVJWr0nB6AfPww/28bef587438d0d3416f3c6fae888a11e/PA-74256701.jpg?fm=jpg&fit=fill&w=1600&h=900&q=80",
+          "continues": false
+        },
+        {
+          "headline": "Channel Crossings Down 43% as UK-France Deal &lsquo;Disrupts&rsquo; Gangs",
+          "body": "Home Secretary Shabana Mahmood said the UK-France deal &ldquo;is already having a real impact, stopping crossings before they happen and disrupting the criminal gangs behind them,&rdquo; after French police intercepted a boat launch on video showing migrants throwing stones at officers. Since the April agreement, France has stopped 185 crossing attempts and 12 &ldquo;taxi boats,&rdquo; and Channel crossings this year are down 43% to 15,897 &mdash; even as a record 230 people crammed into a single boat in August, per ITV News (Aug 20).",
+          "url": "https://www.itv.com/news/2026-08-20/migrants-throw-stones-at-french-officers-as-police-ramp-up-boat-seizures",
+          "img": "https://images.ctfassets.net/pjshm78m9jt4/1nmXT1ZlVRZ5R7MZuL3MLo/9987d0491104ee7a4fe3658e5f07f1df/01M0FSZ1N5E707TATHEY121BWR.jpg?fm=jpg&fit=fill&w=1600&h=900&q=80",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "label": "Qatar &amp; the GCC",
+      "stories": [
+        {
+          "headline": "Qatar, Egypt Sign Four Deals, Including Sheikh Tamim Hospital in Sohag",
+          "body": "Qatar and Egypt signed four agreements &mdash; including one to build the H H Sheikh Tamim bin Hamad Al-Thani Hospital in Egypt&rsquo;s Sohag governorate &mdash; at the seventh Qatar-Egypt Joint Higher Committee session in El Alamein. Prime Minister and Foreign Minister Sheikh Mohammed bin Abdulrahman Al-Thani said &ldquo;the two countries continuously strive to support and elevate them to new levels of cooperation,&rdquo; with talks also covering Gaza, the Iran-Gulf standoff and Red Sea shipping safety, per QNA (Aug 20).",
+          "url": "https://qna.org.qa/en/News-Area/News/2026-8/20/prime-minister-and-minister-of-foreign-affairs-qatar-egypt-enjoy-deep-rooted-relations",
+          "img": "https://thepeninsulaqatar.com/get/maximage/20220224_1645690453-151.jpg?1645690636",
+          "continues": true
+        },
+        {
+          "headline": "Qatar Joins 12 Nations Condemning Israeli Strikes on Syrian Airport",
+          "body": "Qatar joined eleven other Arab and Islamic nations &mdash; including Saudi Arabia, Jordan and Turkey &mdash; in a joint statement condemning Israeli air raids on Syria&rsquo;s Abu Al Duhur military airport as a violation of Syrian sovereignty. The foreign ministers called for enforcement of the 1974 Disengagement Agreement and an Israeli force withdrawal, warning the strikes threaten Syria&rsquo;s reconstruction and regional stability, per The Peninsula Qatar (Aug 21).",
+          "url": "https://thepeninsulaqatar.com/article/21/08/2026/qatar-eleven-arab-and-islamic-countries-condemn-israeli-air-raids-targeting-syrias-abu-al-duhur-military-airport",
+          "img": "https://thepeninsulaqatar.com/get/maximage/20250918_1758208412-279.jpeg?1758208412",
+          "continues": false
+        },
+        {
+          "headline": "Oman, Iran Foreign Ministers Discuss Hormuz Strait Navigation",
+          "body": "Oman&rsquo;s Foreign Minister Badr bin Hamad Al Busaidi held a call with Iran&rsquo;s Abbas Araqchi to discuss safeguarding navigation through the Strait of Hormuz, with both sides stressing practical arrangements to protect shipping traffic and regional stability. The two also explored reviving broader regional dialogue to resolve outstanding Gulf disputes through peaceful negotiation, per The Peninsula Qatar (Aug 21).",
+          "url": "https://thepeninsulaqatar.com/article/21/08/2026/oman-iran-foreign-ministers-discuss-navigation-in-strait-of-hurmuz",
+          "img": null,
+          "continues": false
+        }
+      ]
+    }
+  ],
+  "doha_events": [
+    {
+      "headline": "&ldquo;The Astrolabe: Taker of the Stars&rdquo; &mdash; MIA Library",
+      "body": "This exhibition on the medieval astronomical instrument continues at the Museum of Islamic Art&rsquo;s Library through August 31, with standard museum admission covering entry. It&rsquo;s the last week to catch it before it closes; MIA is open daily except Wednesdays, with late hours until 9pm on Thursdays, per Museum of Islamic Art (accessed Aug 22).",
+      "url": "https://mia.org.qa/en/calendar/the-astrolabe-taker-of-the-stars/",
+      "img": "https://static.qm.org.qa/media/images/2026-mia-thesis2.2e16d0ba.fill-1200x630.jpg"
+    },
+    {
+      "headline": "Colorverse Experience &mdash; Katara Cultural Village",
+      "body": "A new immersive family adventure has opened at Katara South Parking, taking visitors through seven interactive light-and-sound zones on a story-driven 35-minute journey. It runs through September 15, with tickets from QAR 35 and hours of 4&ndash;10pm on weekdays and 4&ndash;11pm on weekends, per Qatar Living (Aug 20) and Platinumlist.",
+      "url": "https://doha.platinumlist.net/event-tickets/colorverse-experience",
+      "img": "https://cdn.platinumlist.net/upload/event/colorverse_experience_in_doha_2026_jul_16_2026_sep_15_katara_cultural_village_106199-orig-en1783982116.png"
+    },
+    {
+      "headline": "Purple You! BTS Fan Fest &mdash; Abesq Doha",
+      "body": "K-pop fans can look forward to this dedicated BTS gathering at the Sandalwood Ballroom, Abesq Doha Hotel &amp; Residence on August 28, featuring VR experiences, fan lounges, merchandise zones and BTS-inspired games. Doors open at 3pm with the show starting at 4:30pm; tickets start from QAR 150, per Platinumlist (accessed Aug 22).",
+      "url": "https://doha.platinumlist.net/ar/event-tickets/107149/purple-you-bts-fan-fest-2026-in-qatar",
+      "img": "https://cdn.platinumlist.net/upload/event/purple_you_bts_fan_fest_2026_in_qatar_2026_aug_28_sandalwood_ballroom_abesq_doha_hotel_residence_107149-orig-ar1784908401.jpg"
+    },
+    {
+      "headline": "&ldquo;Uzbekistan: Heritage in Motion&rdquo; &mdash; Museum of Islamic Art",
+      "body": "A major new exhibition opens September 3 in MIA&rsquo;s Sheikh Saoud Al Thani Temporary Exhibitions Gallery, tracing Uzbekistan&rsquo;s Islamic heritage through art, architecture and traditional crafts from the 8th century to today. It runs through November 28, with entry included in standard museum admission, per Museum of Islamic Art (accessed Aug 22).",
+      "url": "https://mia.org.qa/en/calendar/uzbekistan-heritage-in-motion/",
+      "img": "https://static.qm.org.qa/media/images/mia-2026-po-289-2004-01.2e16d0ba.fill-1200x630.jpg"
+    },
+    {
+      "headline": "Ghostly Kisses Live in Doha &mdash; Doha Golf Club",
+      "body": "The Canadian dream-pop duo brings their &ldquo;MENA Tour 2026,&rdquo; supporting new album &ldquo;Across the Pond,&rdquo; to Doha Golf Club on November 27, promising intimate, cinematic songwriting live. Doors open at 8pm and tickets start from QAR 185, per Platinumlist (accessed Aug 22).",
+      "url": "https://doha.platinumlist.net/event-tickets/107654/ghostly-kisses-live-in-doha",
+      "img": "https://cdn.platinumlist.net/upload/event/ghostly_kisses_live_in_doha_2026_nov_27_doha_golf_club_107654-orig-en1786018451.png"
+    }
+  ]
+}
