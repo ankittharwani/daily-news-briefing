@@ -1,0 +1,409 @@
+{
+  "skim": [
+    "Trump declared he now considers the Strait of Hormuz “American territory,” escalating the standoff as new Iran sanctions landed and Tehran called it a bid to impose extraterritorial rule over UN members.",
+    "DR Congo&rsquo;s Ebola outbreak topped 2,500 deaths as the first Ervebo vaccine shipment landed in Kinshasa, while a Central African Republic gold-mine landslide killed up to 100 artisanal miners.",
+    "England eye a 2-0 series lead at Lord&rsquo;s after routing Pakistan at Headingley, India chase a series sweep in Colombo, and Manchester United lost to newly promoted Hull City hours before completing a &pound;65m deal for Carlos Baleba.",
+    "Wall Street closed higher Friday but still booked a losing week as bond-market jitters persisted; bitcoin neared $80,000 and oil extended a second weekly gain on the U.S.-Iran standoff.",
+    "Anthropic&rsquo;s IPO could be filed within days at a $2 trillion target valuation, GitHub detailed the strain behind its latest outage, and Google&rsquo;s open Gemma models passed 1 billion downloads."
+  ],
+  "sections": [
+    {
+      "key": "world",
+      "title": "World",
+      "icon": "news",
+      "stories": [
+        {
+          "headline": "Congo Receives First Ebola Vaccine Shipment as Death Toll Tops 2,500",
+          "body": "More than 16,250 doses of the Ervebo vaccine arrived in Kinshasa on Friday, the first installment of 70,000 pledged doses, as DR Congo&rsquo;s outbreak death toll climbed past 2,500 with nearly 5,300 confirmed cases, per Al Jazeera (Aug 22). Health Minister Samuel Roger Kamba said the vaccine &ldquo;had been used several times in the past, including on a very large scale&rdquo; during the 2018&ndash;2020 outbreak; 20,000 of the new doses will go toward a late-stage trial testing effectiveness against the Bundibugyo strain now circulating. The UN warned transmission continues spreading &ldquo;exponentially&rdquo; and could reach three times its current known rate.",
+          "url": "https://www.aljazeera.com/news/2026/8/22/more-than-16000-doses-of-ervebo-vaccine-arrive-in-ebola-hit-dr-congo",
+          "continues": true,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a896a075dfe-1787390471.jpg?resize=1920%2C1440"
+        },
+        {
+          "headline": "Europe&rsquo;s Summer Heatwaves Blamed for Over 30,000 Excess Deaths",
+          "body": "New continent-wide tallies show Europe suffered at least 30,000 excess deaths this summer, with the EuroMomo monitoring platform recording more than 32,000 excess deaths between mid-July and mid-August alone, per The Local (Aug 22). Germany logged roughly 14,000 heat-linked deaths &mdash; its worst toll since 2016 &mdash; while France recorded 7,300 and Spain nearly 4,500; the final week of June alone accounted for almost 16,000 excess deaths, with people over 75 hit hardest. Scientists tied the recurring heatwaves to global warming &ldquo;primarily caused by burning coal, oil and gas,&rdquo; warning such extremes &ldquo;will become more frequent, longer and more intense.&rdquo;",
+          "url": "https://www.thelocal.it/20260822/heatwave-hit-europe-logs-over-30000-excess-summer-deaths",
+          "continues": true,
+          "img": "https://assets.thelocal.com/cdn-cgi/rs:fit:1200/quality:75/plain/https://apiwp.thelocal.com/wp-content/uploads/2026/08/watermarks-logo-AFP__20260820__C6674CQ__v1__MidRes__FilesGermanyWeatherClimateHeatwave.jpg@webp"
+        },
+        {
+          "headline": "South Korea Names New Special Disaster Zones After Record Rainfall",
+          "body": "President Lee approved special disaster zone status for flood-hit Geoje and two Tongyeong districts, Sanyang-eup and Bongpyeong-dong, after record rainfall of 954.8mm in Geoje and 763mm in Tongyeong triggered landslides and widespread flooding between August 15&ndash;17, per The Korea Herald (Aug 22). One person died in a Geoje landslide; the designation means Seoul will cover a larger share of local recovery costs for roads, rivers and damaged infrastructure, with Navy personnel and volunteer firefighters from Daejeon assisting debris-clearing operations.",
+          "url": "https://www.koreaherald.com/article/10848690",
+          "continues": true,
+          "img": "https://wimg.heraldcorp.com/news/cms/2026/08/22/news-p.v1.20260822.8262b686cd7048a6b02ef6831630bea1_T1.jpg"
+        },
+        {
+          "headline": "Gold Mine Landslide Kills Dozens in Central African Republic, Site Shut Down",
+          "body": "Authorities shut down the Zamboye artisanal gold mine near the Cameroon border after a landslide buried miners, with an official death toll of 49 &mdash; 34 Central Africans, 13 Cameroonians and two Chadians &mdash; though local sources estimate closer to 100 dead, per Al Jazeera (Aug 19) and Africanews (Aug 21). Mines Minister Rufin Benam-Beltoungou confirmed the toll after visiting the site, with the ministry saying the disaster &ldquo;highlighted the dangers of artisanal operations, particularly at sites with poor safety conditions&rdquo;; rescue efforts were suspended as the site kept collapsing and heavy rains flooded lower sections, while seven injured survivors were hospitalized in Baboua.",
+          "url": "https://www.aljazeera.com/news/2026/8/19/dozens-killed-after-gold-mine-collapse-in-central-african-republic",
+          "continues": false,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/08/GettyImages-451638132-1787135552.jpg?resize=1920%2C1440"
+        }
+      ]
+    },
+    {
+      "key": "sports",
+      "title": "Sports",
+      "icon": "trophy",
+      "stories": [
+        {
+          "headline": "Joe Root Breaks All-Time Catch Record as England Set Sights on Lord&rsquo;s",
+          "body": "England&rsquo;s innings-and-103-run demolition of Pakistan at Headingley was capped by Joe Root moving to 219 Test catches, passing Steve Smith for the most by a non-wicketkeeper, as his second stint as captain began &ldquo;in style&rdquo; &mdash; per Khaleej Times (Aug 21). Josh Tongue (8-89) and Ollie Robinson (8-80) posted career-best match figures as Pakistan collapsed to 135 in their second innings, with Mohammad Rizwan&rsquo;s 41 the only real resistance. The three-match series resumes Thursday at Lord&rsquo;s, where Pakistan hope an injured Babar Azam recovers in time to lead them.",
+          "url": "https://www.khaleejtimes.com/sports/cricket/england-crush-pakistan-test-series-headingley-august-21-2026",
+          "continues": true,
+          "img": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-08-21/xr8it5li/cricket.jpg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=0,0,1920,1280"
+        },
+        {
+          "headline": "Gill&rsquo;s India Chase Clean Sweep and WTC Boost as Colombo Decider Begins",
+          "body": "India begin the series-deciding 2nd Test against Sri Lanka in Colombo today (Aug 23) chasing a 2-0 sweep and their first overseas series win in three years; a win would push them toward fourth in the WTC standings &mdash; per Telangana Today (Aug 22). Captain Shubman Gill, averaging over 73 as skipper versus 35 before taking the job, is working on his weakness against left-arm spin after twice falling to Prabath Jayasuriya in Galle. Kuldeep Yadav&rsquo;s place is under threat after a wicketless, expensive outing at Galle, with Saransh Jain in contention depending on pitch conditions.",
+          "url": "https://telanganatoday.com/india-vs-sri-lanka-gill-led-side-eye-clean-sweep-wtc-boost-in-second-test",
+          "continues": true,
+          "img": "https://media.telanganatoday.com/wp-content/uploads/2026/08/Indian-Test-Team-1.jpg"
+        },
+        {
+          "headline": "Manchester United Stunned by Newly Promoted Hull City in Season Opener",
+          "body": "Manchester United lost 2-0 to Hull City at the MKM Stadium as Semi Ajayi (17&rsquo;) and Nobel Mendy (38&rsquo;) scored on the day Hull marked their return to the Premier League after a decade away &mdash; per GiveMeSport (Aug 22). United dominated the ball (72% possession) and fired 21 shots to Hull&rsquo;s 8, but managed only five on target, missing key defenders Lisandro Mart&iacute;nez and Matthijs de Ligt through injury. It is a jarring result to follow a summer of heavy spending under manager Michael Carrick.",
+          "url": "https://www.givemesport.com/game/premier-league/hull-city-vs-manchester-united-20260822/",
+          "continues": false
+        },
+        {
+          "headline": "Man Utd Complete Medical for Carlos Baleba in &pound;65m Deal",
+          "body": "A day after their shock Hull City defeat, Manchester United pushed ahead on the transfer front, with Brighton midfielder Carlos Baleba undergoing his medical on Saturday as part of a deal worth an initial &pound;65m &mdash; per TheHardTackle (Aug 22). It marks a steep climbdown from Brighton&rsquo;s &pound;115m valuation of him a year ago, with United &ldquo;privately delighted with the deal after failing to land him last summer,&rdquo; per a Guardian report cited in the piece. The 22-year-old Cameroonian, capped over 100 times for Brighton since joining from Lille in 2023, is signed to fill the defensive-midfield void left by Casemiro&rsquo;s exit and Manuel Ugarte&rsquo;s struggles.",
+          "url": "https://thehardtackle.com/transfer-news/2026/08/22/carlos-baleba-poised-to-join-manchester-united-as-deal-agreed/",
+          "continues": true,
+          "img": "https://media.thehardtackle.com/uploads/2026/08/imago1071081562-scaled.jpg"
+        },
+        {
+          "headline": "Norris Snatches Pole From Russell Ahead of Verstappen&rsquo;s Last Home Race",
+          "body": "Lando Norris denied George Russell pole for Zandvoort&rsquo;s farewell Dutch Grand Prix, going quickest as conditions worsened late to lock in 1:11.163, just 0.102s clear of the Mercedes &mdash; per Formula1.com (Aug 22). Max Verstappen, racing his final home Grand Prix before the circuit exits the calendar, could only qualify seventh, and finished sixth &mdash; over 10 seconds back &mdash; as Russell won Saturday&rsquo;s sprint race lights-to-flag ahead of Charles Leclerc. The main Grand Prix goes off later Sunday in front of Zandvoort&rsquo;s orange-clad crowd.",
+          "url": "https://www.formula1.com/en/latest/article/norris-denies-russell-pole-position-in-gripping-conclusion-to-qualifying-for-dutch-grand-prix.2DoHZDC14R5tY7ygGaHCz",
+          "continues": true,
+          "img": "https://media.formula1.com/image/upload/t_16by9North/c_lfill,w_2048/q_auto/v1740000001/fom-website/2026/Netherlands/GettyImages-2291554372.webp"
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "title": "Business &amp; Markets",
+      "icon": "bars",
+      "stories": [
+        {
+          "headline": "Wall Street Rebounds Friday, Still Books a Weekly Loss",
+          "body": "Wall Street closed out a turbulent week with broad gains on Friday, as the Dow Jones Industrial Average rose 517.80 points (0.98%) to 53,277.00, the S&amp;P 500 added 33.21 points (0.43%) to 7,674.37, and the Nasdaq Composite gained 113.29 points (0.43%) to 26,180.46, per Yahoo Finance (Aug 21). Despite the rebound, all three major indexes still finished the week lower after a bond-market selloff rattled technology and AI-related shares. Treasury Secretary Scott Bessent&rsquo;s pledge of expanded bond buybacks briefly eased tensions on Thursday &mdash; he said, &ldquo;Part of it is signaling here to show that we believe yields don&rsquo;t reflect the underlying fundamentals&rdquo; &mdash; but 10-year and 30-year Treasury yields reverted higher by week&rsquo;s end.",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-21-dow-sp-500-nasdaq-bitcoin-080533702.html",
+          "continues": true,
+          "img": "https://s.yimg.com/lo/mysterio/api/3BB95BCA37A8DDD2EBB15EA834B00B40C6AECE00F1AAE6360D5E6CC5209ED0D0/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-08%2F1e195b03-b307-4b28-8c7f-4945fbba8300"
+        },
+        {
+          "headline": "Bitcoin Flirts With $80,000, Extending Best Week Since 2023",
+          "body": "Bitcoin surged to roughly $79,500 on Friday, its highest level since May and a jump of about 24% from Wednesday&rsquo;s low near $64,100, marking its best week since 2023 as it closes in on the $80,000 mark, per Forbes (Aug 21). Techdollar CEO Terence McMenamin noted that &ldquo;Bitcoin is up more than 20% this week, spot ETFs have pulled in roughly $1.6 billion, and billions of dollars of short positions have been forced out.&rdquo; Kraken global economist Thomas Perfumo added that &ldquo;over the last couple of days, we&rsquo;ve seen Bitcoin ETFs post net inflows that make the top-10 best days for net flows in 2026,&rdquo; with the rally tied to the Treasury&rsquo;s bond buyback program and newly passed crypto-market legislation.",
+          "url": "https://www.forbes.com/sites/digital-assets/2026/08/21/bitcoin-flirts-with-80000-and-reaches-highest-since-may/",
+          "continues": true,
+          "img": "https://imageio.forbes.com/specials-images/imageserve/5ff76b9b66ab78e35db03812/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds"
+        },
+        {
+          "headline": "Oil Climbs for Second Straight Week as U.S.-Iran War Squeezes Supply",
+          "body": "Crude oil notched a second consecutive weekly gain, with Brent settling near $93.82 a barrel and U.S. WTI holding around $86.78, per Univest (Aug 21). The report cites the stalemated U.S.-Iran conflict as the primary driver, noting it &ldquo;continues to disrupt oil supply from a key Middle East producing region,&rdquo; while a Gulf diplomatic deadlock has added further upward pressure. Analysts pointed to OPEC+ production discipline compounding the Middle East disruption, tightening the pool of available barrels in the global market.",
+          "url": "https://univest.in/blogs/crude-oil-price-today-august-21-2026-brent-iran",
+          "continues": false,
+          "img": "https://i0.wp.com/univest.in/blogs-2/wp-content/uploads/2026/08/crude-oil-price-today-august-21-2026-brent-iran.png"
+        },
+        {
+          "headline": "Fed Chair Warsh&rsquo;s First Jackson Hole Speech Looms Over Jittery Bond Market",
+          "body": "Federal Reserve Chair Kevin Warsh is set to deliver his first Jackson Hole keynote on Friday, August 28, with markets already pricing in a neutral tone &mdash; 69% of fund managers surveyed by Bank of America expect no hawkish surprises, per Tech Times (Aug 21). The backdrop remains tense: 30-year Treasury yields hover near 19-year highs around 5.27%, and Treasury Secretary Bessent&rsquo;s bond buyback intervention &ldquo;fizzled within 48 hours,&rdquo; according to the report. Warsh himself described his approach as &ldquo;like a blank sheet of paper,&rdquo; calling this &ldquo;a period of watchful thinking, not watchful waiting.&rdquo;",
+          "url": "https://www.techtimes.com/articles/325228/20260821/jackson-hole-2026-what-watch-when-warsh-steps-podium-friday.htm",
+          "continues": false,
+          "img": "https://d.techtimes.com/en/full/473419/jackson-hole-2026-what-watch-when-warsh-steps-podium-friday.jpg"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "AI &amp; Technology",
+      "icon": "cpu",
+      "stories": [
+        {
+          "headline": "Anthropic Could File for Record $2 Trillion IPO by End of August",
+          "body": "Anthropic&rsquo;s IPO registration could land as soon as late August, with the AI lab reportedly targeting a $2 trillion valuation ahead of a possible October market debut, per Dataconomy (Aug 21). Bloomberg reported (Aug 20) that Anthropic executives expect the offering to match or top SpaceX&rsquo;s record for the largest-ever new share sale &mdash; the very benchmark flagged in Saturday&rsquo;s briefing &mdash; with annualized revenue reportedly reaching roughly $65 billion by late July, according to Tech Startups (Aug 21).",
+          "url": "https://dataconomy.com/2026/08/21/anthropic-accelerates-ipo-plans-targeting-2-trillion/",
+          "continues": true,
+          "img": "https://dataconomy.com/wp-content/uploads/2026/08/anthropic-ipo-2026-important-details-revealed.jpg"
+        },
+        {
+          "headline": "GitHub CTO: Commit Volume Doubled Since April, Fix Includes New Read-Scaling Architecture",
+          "body": "Following up on his &lsquo;we let you down&rsquo; apology, GitHub CTO Vladimir Fedorov detailed the strain behind the August 17 outage, per The Register (Aug 21): monthly commits jumped from 1.4 billion in April to 2.9 billion now, with Azure handling roughly 58% of platform load. &ldquo;If you were trying to ship software that day, we let you down,&rdquo; Fedorov said, adding that neither August incident stemmed from a code or configuration change but from systemic limits GitHub is now addressing with tighter retry limits and an architecture meant to scale read capacity &ldquo;linearly with the number of readers.&rdquo;",
+          "url": "https://www.theregister.com/devops/2026/08/21/we-let-you-down-github-pledges-to-scale-up-before-developers-give-up/5291031",
+          "continues": true,
+          "img": "https://image.theregister.com/1682264.jpg?imageId=1682264&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683"
+        },
+        {
+          "headline": "Alation Confirms Cyberattack But Still Won&rsquo;t Disclose Scope",
+          "body": "Alation has now confirmed &ldquo;unauthorized activity in one of its systems&rdquo; after Tuesday&rsquo;s reported outage, but the data-catalog vendor &mdash; used by roughly half of Fortune 1000 companies &mdash; still won&rsquo;t say how many customers were affected or whether data was exfiltrated, per TechCrunch (Aug 20). &ldquo;We are conducting a thorough investigation of what occurred and we will provide additional information as appropriate,&rdquo; the company said, leaving the scope of the breach still unknown a day after acknowledgment.",
+          "url": "https://techcrunch.com/2026/08/20/ai-data-giant-alation-confirms-cyberattack/",
+          "continues": true,
+          "img": "https://techcrunch.com/wp-content/uploads/2026/08/alation.jpg?w=1186"
+        },
+        {
+          "headline": "Google&rsquo;s Gemma Models Cross 1 Billion Downloads",
+          "body": "Google DeepMind&rsquo;s open Gemma model family has passed 1 billion cumulative downloads since its early-2024 launch, with developers building more than 100,000 distinct variants, per Unite.ai (Aug 20) &mdash; the first time Google has put a cumulative figure on Gemma&rsquo;s adoption. Real-world deployments now span NASA/JPL running Gemma 3 4B for satellite image analysis and India&rsquo;s 100-million-download Aarogya Setu 2.0 health app, which uses Gemma 4 to standardize medical reports.",
+          "url": "https://www.unite.ai/googles-gemma-open-models-pass-1-billion-downloads-as-variants-top-100k/",
+          "continues": false,
+          "img": "https://www.unite.ai/wp-content/uploads/2026/08/googles-gemma-open-models-pass-1-billion-downloads.jpg"
+        }
+      ]
+    },
+    {
+      "key": "geopolitics",
+      "title": "Geopolitics",
+      "icon": "globe",
+      "stories": [
+        {
+          "headline": "Trump Claims &lsquo;American Territory&rsquo; Over Hormuz as Iran Sanctions Land",
+          "body": "The new US sanctions blitz on Iran has now landed, and Tehran&rsquo;s Foreign Ministry condemned it as an attempt to impose &ldquo;extraterritorial sovereignty over all independent UN member states,&rdquo; per Al Jazeera (Aug 22). President Trump escalated his rhetoric on the strait standoff, saying he regards &ldquo;the Strait of Hormuz as an American territory right now&rdquo; and that Iran is &ldquo;not ready to make the right deal in my opinion,&rdquo; even as shipping traffic through the chokepoint remains stalled and US gas prices climb.",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/8/22/iran-war-live-trump-says-tehran-not-ready-to-make-right-deal-to-end-war",
+          "continues": true,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/08/epa_6a8954262cd2-1787384870_4d6dc7-1787390966.jpg?resize=1200%2C630&quality=80"
+        },
+        {
+          "headline": "Israeli Strikes Cast Doubt on Gaza Disarmament Push Days After Kushner Visit",
+          "body": "Days after Jared Kushner met Netanyahu to push a Hamas weapons drawdown and predicted &ldquo;we could be seeing progress&hellip;in as little as 30 days,&rdquo; Israeli strikes on Nuseirat and Gaza City killed at least 17 Palestinians, per PBS NewsHour (Aug 19), bringing the ceasefire-era Israeli-strike death toll to roughly 1,273. Hamas spokesperson Hazem Qassem accused the new US-backed Board of Peace of providing &ldquo;cover for Israel to escalate its attacks&rdquo; rather than enforcing compliance, as the sides remain deadlocked over disarmament sequencing and Israel&rsquo;s withdrawal timeline.",
+          "url": "https://www.pbs.org/newshour/amp/world/israels-deadly-gaza-strikes-cast-doubt-on-ceasefire-progress-days-after-kushner-visit",
+          "continues": true,
+          "img": "https://d3i6fh83elv35t.cloudfront.net/static/2026/08/2026-08-18T165048Z_1770703936_RC2Z0NALRONW_RTRMADP_3_ISRAEL-PALESTINIANS-GAZA-1024x691.jpg"
+        },
+        {
+          "headline": "Sudan&rsquo;s Kordofan Siege Grinds On as Floods Compound the War",
+          "body": "More than 200,000 people have been newly displaced across Kordofan since late 2025, with displacement in el-Obeid&rsquo;s Sheikan district up 25% over eight months, per Al Jazeera (Aug 20&ndash;22). The besieged city&rsquo;s main power transformer has been destroyed by RSF drone strikes, crippling water pumps and hospitals for a population that has ballooned to an estimated 3.4 million, while IOM Director General Amy Pope warned &ldquo;the warning signs are impossible to ignore&rdquo; as seasonal floods pile onto the displacement crisis.",
+          "url": "https://www.aljazeera.com/news/2026/8/20/over-200000-people-newly-displaced-in-sudans-kordofan-as-fighting-rages",
+          "continues": true,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1787426866.jpg?resize=1920%2C1080&quality=80"
+        },
+        {
+          "headline": "Lee Backs Trump&rsquo;s North Korea Push as Seoul and Beijing Set Sights on APEC",
+          "body": "Meeting Chinese Foreign Minister Wang Yi in Seoul, President Lee Jae-myung publicly endorsed Trump&rsquo;s renewed North Korea outreach as part of an effort to &ldquo;formally end the Korean War,&rdquo; while the two sides agreed to build momentum toward a leaders&rsquo; meeting at November&rsquo;s APEC summit, per the Korea Herald (Aug 20). A rhetorical gap persisted on denuclearization &mdash; Seoul&rsquo;s foreign minister pressed for &ldquo;denuclearization and peace&rdquo; while Wang avoided the term, and he added that any US-North Korea summit remains &ldquo;a matter for North Korea and the US to decide,&rdquo; signaling Beijing won&rsquo;t directly broker it.",
+          "url": "https://www.koreaherald.com/article/10847279",
+          "continues": true,
+          "img": "https://wimg.heraldcorp.com/news/cms/2026/08/20/news-p.v1.20260820.02c79f07dda246528ae90b7e1800762d_T1.jpg"
+        },
+        {
+          "headline": "Israel, Turkey Trade Warnings as Syrian Airbase Strike Exposes New Fault Line",
+          "body": "Israel struck Syria&rsquo;s Abu al-Duhur airbase after intelligence indicated &ldquo;Turkey sought to place a radar and an air defense system manned by Turkish troops&rdquo; there, with the IDF targeting the runway specifically &ldquo;to prevent Turkish troops from landing,&rdquo; per the Jerusalem Post (Aug 22). Turkey dismissed the justification as &ldquo;frivolous allegations&rdquo; aimed at excusing &ldquo;unlawful airstrikes,&rdquo; while US envoy Tom Barrack called the strikes an &ldquo;unnecessary escalation&rdquo; and said Washington is now working to build a deconfliction mechanism between Israel, Turkey, and Syria to head off further clashes.",
+          "url": "https://www.jpost.com/middle-east/article-906261",
+          "continues": false,
+          "img": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/734439"
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "sport": "F1",
+      "headline": "Dutch Grand Prix &mdash; Verstappen&rsquo;s Farewell Zandvoort Race",
+      "body": "The 2026 Dutch Grand Prix is raced later Sunday (Aug 23) with Lando Norris on pole ahead of George Russell; it is Max Verstappen&rsquo;s last home race as Zandvoort exits the F1 calendar after this edition.",
+      "url": "https://www.formula1.com/en/racing/2026/netherlands",
+      "when": "Sunday, Aug 23"
+    },
+    {
+      "sport": "Cricket",
+      "headline": "India vs Sri Lanka, 2nd Test &mdash; Series Decider in Colombo",
+      "body": "India, 1-0 up after winning the 1st Test, look to complete a clean sweep and boost their WTC standing in a series that runs through the week.",
+      "url": "https://telanganatoday.com/india-vs-sri-lanka-gill-led-side-eye-clean-sweep-wtc-boost-in-second-test",
+      "when": "Aug 23-27"
+    },
+    {
+      "sport": "Cricket",
+      "headline": "England vs Pakistan, 2nd Test at Lord&rsquo;s",
+      "body": "England go for a 2-0 series lead at Lord&rsquo;s after their innings-and-103-run rout at Headingley; Pakistan need Babar Azam fit to lead their fightback.",
+      "url": "https://www.khaleejtimes.com/sports/cricket/england-crush-pakistan-test-series-headingley-august-21-2026",
+      "when": "Thu, Aug 27"
+    },
+    {
+      "sport": "Football",
+      "headline": "Champions League Playoff Round, Second Legs",
+      "body": "The final qualifying hurdle for the 36-team league phase is decided over two days, with the league phase draw following on Thursday &mdash; the last step before the 2026/27 UEFA Champions League proper kicks off.",
+      "url": "https://www.uefa.com/uefachampionsleague/",
+      "when": "Tue Aug 25 &ndash; Wed Aug 26 (draw Aug 27)"
+    }
+  ],
+  "portfolio": [
+    {
+      "ticker": "TSLA",
+      "headline": "Tesla Lands Record Einride Order for 500 Semis as Nevada Clears Driverless Robotaxis",
+      "body": "Tesla secured a commercial contract with Swedish logistics firm Einride for 500 Class 8 Tesla Semi trucks, the largest single order placed for the electric freight truck to date. The company also discontinued its solar roof tile line to redirect focus toward higher-margin utility-scale storage, and Nevada&rsquo;s Transportation Authority authorized Tesla, among three companies, to run driverless passenger vehicles in Clark County (Las Vegas), permitting up to 5,000 fully autonomous vehicles in the first year. Per The Motley Fool (Aug 21), the developments overshadowed earlier headwinds from Chinese safety recalls affecting the Model 3 and Model Y.",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/08/21/stock-market-today-aug-21-tesla-gains-on-nevada-robotaxi-permit-approval/",
+      "continues": true,
+      "img": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fcdn.content.foolcdn.com%2Fimages%2F1umn9qeh%2Fproduction%2F124861b6623a636d61e4bcd840fca773d88882f5-200x200.png%3Fw%3D800%26q%3D75%26fit%3Dmax%26auto%3Dformat&w=1200&op=resize"
+    },
+    {
+      "ticker": "ORCL",
+      "headline": "Oracle Deepens VA Electronic-Health-Record Deal as Cloud Backlog Swells",
+      "body": "The U.S. Department of Veterans Affairs significantly expanded its multi-year electronic health record modernization agreement with Oracle, adding long-term revenue visibility just as the company&rsquo;s remaining performance obligations keep expanding on surging enterprise demand for cloud computing capacity and database services. Per TradingKey (Aug 21), investors read the deal as evidence Oracle&rsquo;s heavy AI-infrastructure spending is converting into firm contract commitments, offsetting concerns after a mid-August report that a New Mexico pipeline serving its Project Jupiter data-center buildout had slipped roughly six months, and after S&amp;P Global&rsquo;s July downgrade of Oracle&rsquo;s credit rating to one notch below investment grade.",
+      "url": "https://www.tradingkey.com/news/market-movers/262124715-market-movers-orcl-20260821",
+      "continues": true,
+      "img": "https://resource.tradingkey.com/uploads/20260227/orcl-11daa6c0f5d941e9b79dd2ec4901445f.jpg"
+    },
+    {
+      "ticker": "PLTR",
+      "headline": "Palantir&rsquo;s Commercial Contract Value Hits a Record as Q2 Momentum Builds",
+      "body": "Palantir&rsquo;s second-quarter results, still fueling momentum three weeks after release, showed revenue up 93% year-over-year to roughly $1.94 billion, with U.S. commercial revenue surging 149%. Total contract value for the quarter reached $3.373 billion, including a record $2.132 billion in U.S. commercial contract value, and management raised full-year 2026 revenue guidance to $8.15&ndash;$8.16 billion. Per QuiverQuant (Aug 21), investors also pointed to continued defense-related contract wins and an early-August manufacturing partnership as supporting factors.",
+      "url": "https://www.quiverquant.com/news/Palantir+Rises+as+Strong+AI+Demand+and+Raised+Outlook+Keep+Momentum+Going",
+      "continues": true
+    },
+    {
+      "ticker": "NET",
+      "headline": "Cloudflare&rsquo;s AI-Agent Traffic Milestone Triggers Analyst Price-Target Hikes",
+      "body": "Cloudflare&rsquo;s second-quarter results showed non-human and AI-agent traffic crossing half of total network activity for the first time, alongside raised full-year revenue guidance, FedRAMP High authorization for federal security workloads, and new enterprise partnerships. Sell-side analysts responded with a round of price-target increases, including Goldman Sachs, Oppenheimer, BTIG, Morgan Stanley and Mizuho, per TradingKey (Aug 21). The company&rsquo;s new convertible debt offering was also read as a move to fund infrastructure investment without diluting equity.",
+      "url": "https://www.tradingkey.com/news/market-movers/262125010-market-movers-net-20260821",
+      "continues": true,
+      "img": "https://resource.tradingkey.com/cms_uploads/img/20230814/292a73ea96beb98e5f665e124a82e00c.jpg"
+    },
+    {
+      "ticker": "FSLY",
+      "headline": "Fastly&rsquo;s AI-Traffic Re-Rating Extends as Cloud-Edge Peers Catch a Bid",
+      "body": "Fastly&rsquo;s rally kept building on its early-August second-quarter beat: revenue of $183.3 million, up 23.3% year-over-year and well above consensus, a fifth consecutive adjusted-EPS beat, and raised full-year revenue guidance to $732&ndash;$746 million, with its security segment up 43% to $41.7 million. No fresh company-specific announcement was found for Friday&rsquo;s session; the move tracked the same AI-agent-traffic re-rating lifting fellow edge-network operator Cloudflare, per AOL (Aug 10) &mdash; a story that echoes Anthropic&rsquo;s IPO-fuelled interest in AI-infrastructure peers noted in Saturday&rsquo;s briefing.",
+      "url": "https://www.aol.com/articles/fastly-stock-rising-today-driving-191705000.html",
+      "continues": true,
+      "img": "https://hermes.media.static.aol.com/media/2026/08/10/dad8ae3d-9a25-3239-8c4c-190bd11dfdd2/1c860a87-5775-40ca-b4db-3bc7b34805ad.jpg"
+    },
+    {
+      "ticker": "FUBO",
+      "headline": "Fubo&rsquo;s HD Streaming Upgrade Lands as Cash-Flow Questions Persist",
+      "body": "Fubo shipped a video-quality upgrade verifying 1080p60 performance on its MLB.TV channels, but the release did little to quiet investor concern about cash generation after fiscal third-quarter results (period ended June 30) showed revenue of $1.482 billion and adjusted EBITDA of $19.1 million, down from $31.0 million a year earlier, even as North American subscribers grew 2% to 5.75 million. Management maintained its full-year adjusted EBITDA outlook of $90&ndash;$100 million and a 2028 target of at least $300 million, while pointing to positive free cash flow only from fiscal 2027, per ts2.tech (Aug 22).",
+      "url": "https://ts2.tech/en/fubo-stock-slips-as-hd-upgrade-fails-to-silence-cash-flow-doubts/",
+      "continues": false,
+      "img": "https://ts2.tech/wp-content/uploads/2026/08/fubo-stock-drops-after-hd-upgrade-release-does-not-ease-investors-cash-flow-worries.jpg"
+    },
+    {
+      "ticker": "EDIT",
+      "headline": "Editas Medicine Narrows Losses on Early-Stage Pipeline Progress",
+      "body": "No fresh company-specific news was found for Friday&rsquo;s session; the move continued to digest Editas Medicine&rsquo;s second-quarter report, which showed quarterly revenue climbing to $11.89 million from $3.58 million a year earlier and a narrowed net loss of $18.23 million versus $53.24 million in the same period last year. Per Simply Wall St (Aug 7), traders treated the update as encouraging but not conclusive given the clinical-stage biotech&rsquo;s continued dependence on external funding.",
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-edit/editas-medicine/news/editas-medicine-edit-stock-rallies-on-revenue-jump-but-losse",
+      "continues": false,
+      "img": "https://images.simplywall.st/asset/industry/6111000-choice2-main-header/1585186599552"
+    }
+  ],
+  "country_groups": [
+    {
+      "label": "India",
+      "stories": [
+        {
+          "headline": "Modi: World Sees India as &lsquo;Bright Spot of Growth and Hope&rsquo;",
+          "body": "Addressing the Economic Times World Leaders Forum 2026, PM Modi said &ldquo;the world views India as a bright spot of growth and hope&rdquo; even as global distrust deepens elsewhere. He credited reform-driven governance for lifting roughly 250 million people out of poverty over the past decade and pointed to India&rsquo;s political stability and a shift toward a &ldquo;permitted unless prohibited&rdquo; regulatory approach, per The News Mill (Aug 21).",
+          "url": "https://thenewsmill.com/2026/08/pm-modi-says-world-sees-india-as-bright-spot-for-growth-and-hope/",
+          "continues": false,
+          "img": "https://thenewsmill.com/tnm-og/578336.jpg"
+        },
+        {
+          "headline": "NIA Court Denies Bail to Pulwama Attack Accused Insha Jan",
+          "body": "A Jammu &amp; Kashmir NIA court rejected the bail plea of Insha Jan, held for over six years in connection with the February 2019 Pulwama attack that killed 40 CRPF personnel, per WION (Aug 22). Special Judge Prem Sagar cited the ongoing trial and risk of witness tampering, while directing jail authorities to provide medical care and file compliance reports every two weeks.",
+          "url": "https://www.wionews.com/india-news/nia-court-rejects-bail-plea-of-pulwama-terror-case-accused-insha-jan-cites-ongoing-trial-1787374257492",
+          "continues": false,
+          "img": "https://cdn1.wionews.com/prod/wion/images/2026/20260822/image-1787374478629.jpg?rect=(0,113,1775,1331)&imwidth=800&imheight=600&format=webp&quality=medium"
+        },
+        {
+          "headline": "Assam Sets Up Helplines as Shillong Violence Fallout Spreads",
+          "body": "After a Khasi Students&rsquo; Union black-flag bike rally turned violent in Shillong&rsquo;s Khanapara area on August 19, damaging Assam-registered vehicles, Assam issued helpline numbers for stranded residents, per WION (Aug 22). Assam CM Himanta Biswa Sarma raised the matter with Meghalaya CM Conrad Sangma, and three KSU leaders have been arrested over the unrest.",
+          "url": "https://www.wionews.com/india-news/assam-issues-helplines-for-people-stranded-in-meghalaya-after-shillong-violence-1787364441007",
+          "continues": false,
+          "img": "https://cdn1.wionews.com/prod/wion/images/2026/20260822/image-1787364673576.png?rect=(0,0,1200,900)&imwidth=800&imheight=600&format=webp&quality=medium"
+        },
+        {
+          "headline": "Telangana Pharma Reactor Blast Kills 2, Injures 9",
+          "body": "A reactor explosion at a pharma plant in Telangana&rsquo;s Pochampally mandal (Yadadri Bhuvanagiri) killed two workers and injured nine late Friday night, per WION (Aug 22). Two of the injured suffered burns covering more than 50% of their bodies; a local recalled, &ldquo;Last night around 10:30, we received a call from locals saying that a blast occurred in a pharma company.&rdquo; Police have opened an investigation.",
+          "url": "https://www.wionews.com/india-news/telangana-pharma-unit-blast-2-workers-killed-9-injured-in-reactor-explosion-in-yadadri-bhuvanagiri-1787367358367",
+          "continues": false,
+          "img": "https://cdn1.wionews.com/prod/wion/images/2026/20260822/image-1787388753388.png"
+        }
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "stories": [
+        {
+          "headline": "Seven Dead, Including Two Officers, in A66 Police Pursuit Crash",
+          "body": "Seven people died &mdash; including two Cleveland Police officers &mdash; after a wrong-way car collided head-on with a marked police vehicle on the A66 near Middlesbrough during a pursuit, per ITV News (Aug 22). Chief Constable Victoria Fuller said, &ldquo;No one should leave their home and not return safely, including police officers serving their communities and protecting the people of Cleveland,&rdquo; as the IOPC opened a mandatory investigation.",
+          "url": "https://www.itv.com/news/tyne-tees/2026-08-22/multiple-fatalities-after-crash-involving-police-vehicle",
+          "continues": false,
+          "img": "https://images.ctfassets.net/pjshm78m9jt4/4y69m8hdrTuQxUDzQCd2WQ/846ca48b6255e11da7b5311411a812fb/01M0MMTX9KBNH72N3FAHA57QT2.jpg?fm=jpg&fit=fill&w=1600&h=1067&q=80"
+        },
+        {
+          "headline": "Six-Year-Old Girl Dies After Shoreham Family Sea Tragedy",
+          "body": "Saja El-Khawas, 6, died in hospital after days in critical condition, becoming the fourth fatality after her British-Palestinian family got into difficulty in the water off Shoreham Fort on August 18, per Gulf News (Aug 22, citing BBC). Her father, mother and 14-year-old sister were also pulled from the sea and died; Sussex Police say CCTV and witness accounts point to a &ldquo;tragic accident.&rdquo;",
+          "url": "https://www.bbc.co.uk/news/articles/c629y0kx8gyo",
+          "continues": false,
+          "img": "https://media.assettype.com/gulfnews%2F2026-06-27%2F49ij68g9%2F202606273842021.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100"
+        },
+        {
+          "headline": "Prince Harry, Elton John Face &pound;34.5m Legal Bill After Daily Mail Case Loss",
+          "body": "Continuing yesterday&rsquo;s UK-return story, a London court ordered Prince Harry, Elton John and five other claimants to pay an initial &pound;9.54 million toward Associated Newspapers&rsquo; total &pound;34.5 million in legal costs, per ABC News (Aug 21, updated Aug 22). Justice Matthew Nicklin ruled the claimants&rsquo; privacy case was pursued unreasonably, its allegations resting on &ldquo;speculative and inferential&rdquo; grounds, while their insurance covered only &pound;16 million of the costs.",
+          "url": "https://www.abc.net.au/news/2026-08-21/prince-harry-legal-costs-daily-mail-phone-hacking-allegations/107066080",
+          "continues": true,
+          "img": "https://live-production.wcms.abc-cdn.net.au/2f7e23a13abb17c62c08f77a489ee3b4?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=5&width=862&height=485&imformat=generic"
+        }
+      ]
+    },
+    {
+      "label": "Qatar &amp; the GCC",
+      "stories": [
+        {
+          "headline": "Qatar Condemns Israeli Drone Strike on Civilian Vehicle Near Damascus",
+          "body": "Continuing yesterday&rsquo;s wave of condemnation over Israeli strikes in Syria, Qatar&rsquo;s Foreign Ministry denounced a new Israeli drone attack on a civilian vehicle in Beit Jin village, Damascus countryside, that injured civilians, per The Peninsula Qatar (Aug 22). The ministry called it &ldquo;an unacceptable assault, a violation of Syria&rsquo;s sovereignty, and a threat to its security and safety,&rdquo; urging the international community to ensure accountability.",
+          "url": "https://thepeninsulaqatar.com/article/22/08/2026/qatar-strongly-condemns-israeli-attack-on-civilian-vehicle-in-damascus-countryside",
+          "continues": true,
+          "img": "https://thepeninsulaqatar.com/get/maximage/20241012_1728764479-106.jpg?1728764479"
+        },
+        {
+          "headline": "Oman, Iran Resume Hormuz Talks as Pezeshkian Says Time to End War",
+          "body": "Building on this week&rsquo;s Oman-Iran contacts over Strait of Hormuz navigation, Omani and Iranian foreign ministers held a fresh call to discuss resuming dialogue as Washington prepares new sanctions, per Al Jazeera (Aug 22). Iranian President Masoud Pezeshkian said, &ldquo;It is better that we bring the war to an end now as we are in a position of power and dignity,&rdquo; while Iran&rsquo;s military separately warned it stands ready to retaliate.",
+          "url": "https://www.aljazeera.com/news/2026/8/22/iranian-president-says-time-to-end-war-with-us-from-position-of",
+          "continues": true,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-08-10T081340Z_106953894_RC2A6MA6WJP3_RTRMADP_3_IRAN-CRISIS-REZAEI-1787353198.jpg?resize=1920%2C1440"
+        },
+        {
+          "headline": "Maryam Al Naimi Becomes First Qatari Woman Licensed as Air Navigation Inspector",
+          "body": "Maryam Al Naimi became the first Qatari woman to earn a Certified Inspector Licence in Air Navigation Services, capping over 15 years of experience that began in air traffic control, per The Peninsula Qatar (Aug 22). She said, &ldquo;Being the first Qatari woman to obtain an Air Navigation Services Inspector licence reflects the support and confidence of the wise leadership in Qatari cadres.&rdquo;",
+          "url": "https://thepeninsulaqatar.com/article/22/08/2026/maryam-al-naimi-becomes-first-qatari-woman-licensed-as-air-navigation-services-inspector",
+          "continues": false,
+          "img": "https://thepeninsulaqatar.com/get/maximage/20260822_1787398619-884.jpg?1787398620"
+        },
+        {
+          "headline": "DRC, M23 Rebels Advance Doha-Brokered Peace Roadmap in Geneva Talks",
+          "body": "Representatives of the DRC government and the Alliance Fleuve Congo/M23 movement met with international facilitators in Switzerland to advance the Doha Framework for a Comprehensive Peace Agreement signed last November, per The Peninsula Qatar (Aug 22). Both sides &ldquo;reaffirmed their commitment to pursue negotiations towards comprehensive peace and conflict resolution,&rdquo; welcoming progress on a joint verification mechanism ahead of the first ceasefire monitoring mission set for August 24 in Minembwe.",
+          "url": "https://thepeninsulaqatar.com/article/22/08/2026/joint-statement-between-representatives-of-government-of-drc-and-representatives-of-alliance-fleuve-congomarch-23-movement-on-doha-peace-process",
+          "continues": false,
+          "img": "https://thepeninsulaqatar.com/get/maximage/20250918_1758208412-279.jpeg?1758208412"
+        }
+      ]
+    }
+  ],
+  "doha_events": [
+    {
+      "headline": "Ahmed &amp; Ahmed Stand-Up Comedy at QNCC",
+      "body": "Comedians Ahmed Hassan and Ahmed Magdy bring their stand-up show to Auditorium 3 at the Qatar National Convention Centre on Thursday, August 27, with tickets starting from QAR 175, per QIC.online.",
+      "url": "https://qic.online/en/travel/experiences/1fe8227d-be88-4dda-a7af-6e0ddf170819"
+    },
+    {
+      "headline": "Cultural Olympiad Exhibition at 3-2-1 Museum",
+      "body": "The 321 Cultural Olympiad 2026&rsquo;s winning and shortlisted artworks are on free display at the 3-2-1 Qatar Olympic and Sports Museum through August 31, spotlighting themes of innovation, diversity and cultural expression, per Marhaba Qatar.",
+      "url": "https://marhaba.qa/event/exhibition-of-cultural-olympiad-competition/"
+    },
+    {
+      "headline": "John Legend Live at QNCC",
+      "body": "EGOT winner John Legend performs an intimate evening of soulful ballads and global hits at the Qatar National Convention Centre on September 10 &mdash; tickets are on sale now, per Visit Qatar.",
+      "url": "https://visitqatar.com/intl-en/events-calendar/music-in-qatar/john-legend-concert-in-qatar",
+      "img": "https://visitqatar.com/content/dam/visitqatar/events-landing-pages/music-in-qatar/2026/events/john-legend/John-Legend-Concert-in-Doha-Qatar-2026.jpg/_jcr_content/renditions/medium-1280px.jpeg"
+    },
+    {
+      "headline": "Run the Dome at Aspire Dome",
+      "body": "Aspire Zone Foundation launches the inaugural &lsquo;Run the Dome&rsquo; on August 28-29, a 4.8km two-level community race through the world&rsquo;s largest indoor multi-purpose dome, open to runners of all ages and fitness levels.",
+      "url": "https://aspirezone.qa/en/events/run-the-dome-2026",
+      "img": "https://aspirezone.qa/WebContent/aspirezonecropped/639210181147384964.jpg"
+    },
+    {
+      "headline": "PAW Patrol: The Big Show Rescue at Mall of Qatar",
+      "body": "Nickelodeon&rsquo;s PAW Patrol stage show wraps its 10-day run at Mall of Qatar&rsquo;s Oasis Stage through August 29, with three free daily performances at 5pm, 6:30pm and 8pm, per Qatar Living.",
+      "url": "https://www.qatarliving.com/en/article/paw-patrol-the-big-show-rescue-arrives-at-mall-of-qatar-for-10-days-of-family-fun"
+    }
+  ]
+}
