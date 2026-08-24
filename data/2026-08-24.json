@@ -1,0 +1,373 @@
+{
+  "skim": [
+    "Iran&rsquo;s parliament voted to start charging foreign ships transit fees to cross the Strait of Hormuz, hours after the U.S. Treasury unveiled what it called &ldquo;the toughest sanctions in history&rdquo; against Tehran.",
+    "DR Congo&rsquo;s Ebola outbreak is now the largest ever recorded in the country, topping 4,665 cases and 2,500 deaths, with the UN&rsquo;s coordinator warning transmission is &ldquo;accelerating faster than the response can contain it.&rdquo;",
+    "Lando Norris won a chaotic Dutch Grand Prix after Max Verstappen crashed out on Lap 1 of his Zandvoort farewell; India took command of the Colombo series decider behind a Devdutt Padikkal century.",
+    "Alibaba raised a record $10.2 billion in a discounted Hong Kong share sale to fund its AI buildout, triggering a Hang Seng slide, while oil eased and bitcoin held near $80,000 ahead of the new Iran sanctions.",
+    "Nvidia is hiking AI server prices more than 15% as a DRAM shortage bites, and a London startup says its small AI agent beat Claude and GPT-5.5 at reproducing scientific research."
+  ],
+  "sections": [
+    {
+      "key": "world",
+      "title": "World",
+      "icon": "news",
+      "stories": [
+        {
+          "headline": "DR Congo Ebola Death Toll Tops 2,500 as Outbreak Spreads &lsquo;Exponentially&rsquo;",
+          "body": "The Bundibugyo-virus Ebola outbreak in the Democratic Republic of the Congo has killed more than 2,500 people and surpassed 4,665 confirmed cases, making it the largest Ebola epidemic ever recorded in the country, per Colombia One (Aug 23). UN Ebola coordinator Julien Harneis warned that &ldquo;transmission is accelerating faster than the response can contain it,&rdquo; and cautioned that response funding could run out &ldquo;within weeks unless additional money arrives&rdquo; &mdash; a particular concern since no approved vaccine yet exists for this Ebola species.",
+          "url": "https://colombiaone.com/2026/08/23/ebola-outbreak-dr-congo-spreading-exponentially-death-toll-tops-2500/",
+          "img": "https://colombiaone.com/wp-content/uploads/2026/08/Ebola-Outbreak-DR-Congo-WHO.jpg",
+          "continues": true
+        },
+        {
+          "headline": "Europe&rsquo;s Summer Heatwaves Blamed for 30,000-Plus Excess Deaths",
+          "body": "Initial tallies show Europe recorded at least 30,000 excess deaths this summer, with EuroMomo surveillance data putting the figure above 32,000 between mid-July and mid-August and a separate AFP count finding 33,000 deaths across eight countries, per The Korea Times (Aug 22). Germany was hit hardest with roughly 14,000 deaths &mdash; its worst summer toll since 2016 &mdash; followed by France (about 7,300) and Spain (nearly 4,500), with scientists pointing to man-made climate change as the driver.",
+          "url": "https://www.koreatimes.co.kr/world/20260822/heat-wave-hit-europe-logs-over-30000-excess-summer-deaths-initial-figures",
+          "img": "https://newsimg.koreatimes.co.kr/2026/08/22/0baa185f-dbfe-4a4d-a778-bfa0ccd1e6a0.jpg",
+          "continues": true
+        },
+        {
+          "headline": "South Korea Designates Flood-Ravaged Geoje and Tongyeong as Special Disaster Zones",
+          "body": "South Korea has formally designated Geoje and Tongyeong &mdash; slammed by record rainfall of 954.8mm and 763mm respectively on Aug 15-17 &mdash; as special disaster zones, unlocking greater central government funding for recovery, per The Korea Herald (Aug 22). The Ministry of the Interior and Safety said the designation &ldquo;allows the central government to cover a larger share of local recovery costs, including repairs to roads, rivers and other damaged infrastructure,&rdquo; as volunteer firefighters and Navy personnel continue debris-clearing operations across the region.",
+          "url": "https://www.koreaherald.com/article/10848690",
+          "img": "https://wimg.heraldcorp.com/news/cms/2026/08/22/news-p.v1.20260822.8262b686cd7048a6b02ef6831630bea1_T1.jpg",
+          "continues": true
+        }
+      ]
+    },
+    {
+      "key": "sports",
+      "title": "Sports",
+      "icon": "trophy",
+      "stories": [
+        {
+          "headline": "Norris Wins Chaotic Dutch GP as Verstappen Crashes Out on Lap 1",
+          "body": "Lando Norris won a dramatic Dutch Grand Prix at Zandvoort, finishing ahead of Mercedes duo Kimi Antonelli (+11.536s) and George Russell (+15.906s), while home hero Max Verstappen crashed out on Lap 1 after clipping the white line on the pit straight and slamming into the wall, triggering a red flag, per Formula1.com (Aug 23). It was Verstappen&rsquo;s farewell race at Zandvoort before the circuit exits the calendar; Norris called it &ldquo;probably one of my better wins &mdash; we had to fight for it well but the pace was strong.&rdquo; Antonelli now leads the drivers&rsquo; championship on 242 points, 59 clear of Russell and Lewis Hamilton (tied on 183), with Norris up to 159, per RacingNews365 (Aug 23).",
+          "url": "https://www.formula1.com/en/latest/article/norris-wins-dramatic-dutch-grand-prix-from-antonelli-and-russell-as-verstappen-crashes-out.Zn7iYevVGp5eHzFkTEAz7",
+          "img": "https://media.formula1.com/image/upload/t_16by9North/c_lfill,w_2048/q_auto/v1740000001/fom-website/2026/Netherlands/GettyImages-2291698916.webp",
+          "continues": true
+        },
+        {
+          "headline": "Padikkal Century Puts India in Control on Day 1 in Colombo",
+          "body": "India ended Day 1 of the series-deciding 2nd Test at Colombo&rsquo;s SSC on 300 for 5 declared, built around a century from Devdutt Padikkal &mdash; dropped early before cashing in &mdash; and a fifty from captain Shubman Gill, per CrickeTimes and Oneindia (Aug 23). Yashasvi Jaiswal (45) and Ravindra Jadeja (43) chipped in, while Rishabh Pant retired hurt after being struck on the forearm by Lahiru Kumara; Asitha Fernando was Sri Lanka&rsquo;s most successful bowler with 3 wickets. Day 2 play resumed Monday with India looking to press home the advantage before turning to bowl, per Outlook India (Aug 24).",
+          "url": "https://crickettimes.com/2026/08/devdutt-padikkals-century-puts-india-in-command-on-day-1-of-colombo-test-against-sri-lanka/",
+          "img": "https://crickettimes.com/wp-content/uploads/2026/08/Devdutt-Padikkal-sizzles-in-Indias-brilliant-performance-on-Day-1-of-Colombo-Test.webp",
+          "continues": true
+        },
+        {
+          "headline": "Szoboszlai&rsquo;s 96th-Minute Penalty Rescues Liverpool at Newcastle",
+          "body": "Liverpool salvaged a 2-2 draw at St James&rsquo; Park after Dominik Szoboszlai converted a stoppage-time penalty in the 96th minute, following Anthony Elanga&rsquo;s opener (5&rsquo;) and Joe Willock&rsquo;s response (57&rsquo;) either side of Cody Gakpo&rsquo;s equalizer (55&rsquo;), per Vavel (Aug 23). Elsewhere on Premier League Matchday 1, Enzo Maresca&rsquo;s Manchester City came from behind to beat Bournemouth 2-1 through late goals from Marc Gu&eacute;hi and Josko Gvardiol, while Brighton thrashed Aston Villa 4-0 in a chastening start for new Villa boss Unai Emery, per WithinNigeria (Aug 23).",
+          "url": "https://vavel.com/en-us/soccer/2026/08/23/1268779-newcastle-united-vs-liverpool-live-score-updates-premier-league.html",
+          "img": "https://img.vavel.com/sin-titulosee-1787449337475-yh14aj.png",
+          "continues": false
+        },
+        {
+          "headline": "Babar Azam Set to Return for Pakistan at Lord&rsquo;s",
+          "body": "Pakistan are hopeful that Babar Azam, sidelined by a finger injury for the innings-and-103-run loss at Headingley, will be fit to return for the second Test at Lord&rsquo;s, with top-order batter Azan Awais the likely man to make way if he does, per Geo News (Aug 23). Stand-in captain Salman Ali Agha admitted England &ldquo;outplayed Pakistan&rdquo; in the first Test as the tourists look to level the series from Thursday.",
+          "url": "https://www.geo.tv/latest/678831-pakistan-weigh-changes-to-playing-xi-for-second-test-at-lords-against-england",
+          "img": "https://www.geo.tv/assets/uploads/updates/2026-08-23/678831_105930_updates.jpg",
+          "continues": true
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "title": "Business &amp; Markets",
+      "icon": "bars",
+      "stories": [
+        {
+          "headline": "Oil Dips as Traders Take Profits Ahead of New U.S. Sanctions on Iran",
+          "body": "Brent crude fell 94 cents (1%) to $93.45 a barrel and WTI dropped 92 cents (1.06%) to $86.14 on Monday as investors booked profits from last week&rsquo;s Hormuz-driven rally ahead of a 2 p.m. EDT press conference at which Treasury Secretary Scott Bessent was set to unveil what he has called &ldquo;the toughest sanctions in history&rdquo; against Iran, per Reuters (Aug 24). The pullback follows oil&rsquo;s second straight weekly gain, with prices still elevated on reports that Hormuz shipping traffic remains well below normal levels amid the standoff.",
+          "url": "https://www.933thedrive.com/2026/08/23/oil-falls-1-ahead-of-us-announcement-to-impose-further-sanctions-on-iran/",
+          "img": "https://storage.googleapis.com/media.mwcradio.com/mimesis/2026-08/23/2026-08-23T231835Z_1_LYNXMPEM7M0H2_RTROPTP_3_GLOBAL-OIL.JPG",
+          "continues": true
+        },
+        {
+          "headline": "Bitcoin Stalls Just Shy of $80,000 as Weekend Liquidity Thins Out",
+          "body": "Bitcoin touched an intraday high near $79,500 on Friday before slipping back to around $77,000, and was little changed over the weekend at $77,116 as of Sunday 10:06pm EDT (+0.08% on the day), per CoinDesk (Aug 21, Aug 23). The token is still up more than $15,000 for the week after a wave of short liquidations, though Standard Chartered&rsquo;s Geoff Kendrick cautioned that &ldquo;markets are reminding investors that volatility has two sides in digital assets&rdquo; as ETF inflows &mdash; which hit $606 million on Aug 20 &mdash; typically pause over weekends.",
+          "url": "https://www.coindesk.com/tech/2026/08/21/live-updates-bitcoin-ether-etfs-pull-in-usd800-million-as-inflows-surge-for-a-second-day",
+          "img": "https://cdn.sanity.io/images/s3y3vcno/production/31d4114deef7ee490572ead6b9d4a4f2fe38ae1e-2280x1284.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+          "continues": true
+        },
+        {
+          "headline": "Fed Chair Warsh&rsquo;s First Jackson Hole Speech Looms as Bond Yields Sit at Two-Decade Highs",
+          "body": "Kevin Warsh will deliver his first keynote as Federal Reserve Chair at the Kansas City Fed&rsquo;s Jackson Hole symposium this Friday, a speech markets are watching closely after he offered little forward guidance following July&rsquo;s policy meeting, a reticence that helped push long-term Treasury yields to two-decade highs, per Bloomberg via Yahoo Finance (Aug 22). Analysts including Bloomberg Economics expect Warsh to focus on &ldquo;describing the intellectual framework for his Fed reforms&rdquo; rather than give concrete rate signals, even as the Fed&rsquo;s preferred PCE inflation gauge is projected to show a 3.6% annual rise for July &mdash; still above target but the smallest gain in four months.",
+          "url": "https://finance.yahoo.com/economy/policy/articles/warsh-first-jackson-hole-speech-200000444.html",
+          "img": "https://s.yimg.com/lo/mysterio/api/95F82BB093EA247831200B1048C108C2E082F2AF0C663A9B6504A51F0E318592/subgraphmysterio/resizefill_w1200_h758;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbloomberg_holding_pen_162%2Fa3cfb295c67e9942c5cde1aa932a5d8c.jpg",
+          "continues": true
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "AI &amp; Technology",
+      "icon": "cpu",
+      "stories": [
+        {
+          "headline": "Alibaba Raises $10.2 Billion in Record Hong Kong Sale to Fund AI Buildout",
+          "body": "Alibaba raised HK$80 billion ($10.2 billion) in a Hong Kong share placement, the largest primary follow-on offering ever by a Hong Kong-listed company, per Investing.com (Aug 23). The company sold 710 million shares earmarked for &ldquo;full stack&rdquo; AI capabilities spanning chips, computing infrastructure and model development; CEO Eddie Wu said Alibaba &ldquo;needed to build sufficient computing capacity before it could capture future growth.&rdquo; Demand from sovereign wealth funds oversubscribed the offering, prompting Alibaba to increase its size, and the sale dragged Hong Kong&rsquo;s Hang Seng Index down more than 2% on Monday as investors weighed the dilution, per The Standard (Aug 24).",
+          "url": "https://www.investing.com/news/company-news/alibaba-plans-record-102-billion-hong-kong-share-sale-to-fund-ai-4872426",
+          "img": "https://businessupturn.com/uploads/media/1787477236181-91f3iv-untitled-design---2026-08-23t145603-940.webp",
+          "continues": false
+        },
+        {
+          "headline": "Nvidia to Hike AI Server Prices Over 15% as Memory Costs Soar",
+          "body": "Nvidia is raising prices on AI server systems built around its flagship Vera Rubin and Grace Blackwell chips by more than 15% for systems shipping in early 2027, per Fortune (Aug 22). The hikes, relayed to major cloud providers including Microsoft, Google and Oracle through contract manufacturers, stem from soaring DRAM costs &mdash; Samsung, SK Hynix and Micron control most global memory-chip production and &ldquo;still haven&rsquo;t caught up with surging demand&rdquo; despite ramping output; Nvidia did not respond to requests for comment.",
+          "url": "https://fortune.com/2026/08/22/nvidia-customers-ai-related-price-hikes-15-percent-vera-rubin-grace-blackwell-chips/",
+          "img": "https://fortune.com/img-assets/wp-content/uploads/2026/08/GettyImages-2285783561-e1787430174196.jpg?resize=1200,600",
+          "continues": false
+        },
+        {
+          "headline": "Ex-DeepMind Startup&rsquo;s Small AI Agent Beats Claude and GPT at Redoing Science",
+          "body": "London lab Inherent said its new agent Faraday outperformed Anthropic&rsquo;s Claude Opus 4.8 and OpenAI&rsquo;s GPT-5.5 at independently reproducing published scientific paper findings &mdash; while running on a far smaller 27-billion-parameter Qwen 3.6 model, per TechCrunch (Aug 22). The DeepMind-alumni-founded startup, which emerged from stealth with a $50 million seed round, said the result was less about beating frontier labs than the training method; chief scientist Edward Hughes said, &ldquo;What was most interesting to us about this was not so much the result of beating those frontier agents&hellip;but was actually the way we went about building this.&rdquo;",
+          "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+          "img": "https://techcrunch.com/wp-content/uploads/2026/08/inherent-labs-cofounders-credit-Anna-Gordon.jpeg?resize=1200,800",
+          "continues": false
+        },
+        {
+          "headline": "Starcloud Raises $250M, With Nvidia Backing, for Orbital AI Data Centers",
+          "body": "Redmond-based Starcloud raised a $250 million Series A extension at a $2.3 billion post-money valuation to build a constellation of orbital AI data centers, per GeekWire (Aug 21). Nvidia joined the round as a new investor alongside Cisco Investments, and the startup plans to deploy satellites carrying Nvidia&rsquo;s next-generation Vera Rubin chips under an FCC filing to operate up to 88,000 orbital data-center satellites; CEO Philip Johnston said the funding &ldquo;empowers us to build the infrastructure to launch many more of Nvidia&rsquo;s most advanced GPUs into space.&rdquo;",
+          "url": "https://www.geekwire.com/2026/starcloud-250m-data-center-satellite-network-nvidia/",
+          "img": "https://cdn.geekwire.com/wp-content/uploads/2026/08/space-computing.jpg",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "geopolitics",
+      "title": "Geopolitics",
+      "icon": "globe",
+      "stories": [
+        {
+          "headline": "Iran Slaps Transit Fees on Hormuz Shipping as Bessent Launches &lsquo;Economic D-Day&rsquo;",
+          "body": "Iran&rsquo;s parliamentary National Security Commission approved Article 3 of its &ldquo;Strategic Action to Ensure the Security and Progress of the Strait of Hormuz&rdquo; plan, requiring ships from &ldquo;authorised&rdquo; nations to pay transit fees; commission spokesperson Ebrahim Rezaei said &ldquo;fees will be charged for services including navigation, environmental, fueling under certain conditions, insurance, safety and other services we provide,&rdquo; per Al Jazeera (Aug 24). Supreme National Security Council Secretary Mohsen Rezaei added, &ldquo;The Strait of Hormuz is closed, despite American claims, and will not open until America corrects its behaviour.&rdquo; The move came as U.S. Treasury Secretary Scott Bessent wrote in the Financial Times that Washington was launching &ldquo;an economic D-Day, the single greatest financial offensive ever marshalled&rdquo; against Iran, vowing to &ldquo;sever every economic lifeline that sustains the tyrannical regime until Tehran stands alone,&rdquo; per the Jerusalem Post (Aug 24).",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/8/24/iran-war-live-iranian-assembly-advances-plans-for-hormuz-service-fees",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/08/GettyImages-2289908029-1787521444.jpg?resize=1920%2C1440",
+          "continues": true
+        },
+        {
+          "headline": "Tehran&rsquo;s Leaders Mock US Sanctions Push as &lsquo;Admission of Defeat&rsquo;",
+          "body": "Islamic Revolutionary Guard Corps spokesperson Brigadier General Hossein Mohebbi dismissed Washington&rsquo;s new sanctions blitz as &ldquo;an implicit admission of the enemy&rsquo;s humiliating defeat in the military arena,&rdquo; arguing &ldquo;the US would have no need to resort to economic warfare if it had achieved victory on the military front,&rdquo; per Press TV (Aug 23). Parliament Speaker Mohammad Bagher Ghalibaf mocked the sanctions push online, writing &ldquo;A frozen foreign policy delivers a frozen economy. The only thing still moving? The Iran boomerang,&rdquo; per Tribune India (Aug 23).",
+          "url": "https://www.presstv.co.uk/Detail/2026/08/23/774932/Iran-US-IRGC-Mohebbi",
+          "img": "https://cdn.presstv.co.uk/Photo/2026/8/23/7eef1e4a-2683-4728-950e-7faf5a82e2b7.JPG",
+          "continues": true
+        },
+        {
+          "headline": "Putin Threatens &lsquo;Pandora&rsquo;s Box&rsquo; Retaliation Over Ukrainian Strikes",
+          "body": "Russian President Vladimir Putin warned of a crushing retaliation over Ukraine&rsquo;s escalating drone strikes on Russian oil refineries and warehouses, saying, &ldquo;The Kyiv regime set out to damage our economy. What did it do? It opened this Pandora&rsquo;s box itself. Well then, expect a response targeting your most sensitive economic sectors,&rdquo; per the Moscow Times (Aug 23). Russia has already hit Ukrainian Black Sea grain-export infrastructure in response, though Putin insisted &ldquo;we will resolve these issues&rdquo; without causing global food shortages.",
+          "url": "https://www.themoscowtimes.com/2026/08/23/putin-says-ukraine-opened-pandoras-box-with-strikes-on-economic-targets-a93560",
+          "img": "https://static.themoscowtimes.com/image/og/5f/93560__5f0a908e9880fd0ca0eba330b610f2ba.jpg",
+          "continues": false
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "sport": "Cricket",
+      "headline": "England v Pakistan, 2nd Test",
+      "body": "England, 1-0 up after Headingley, host Pakistan at Lord&rsquo;s with Babar Azam expected to return to the tourists&rsquo; line-up.",
+      "url": "https://www.geo.tv/latest/678831-pakistan-weigh-changes-to-playing-xi-for-second-test-at-lords-against-england",
+      "when": "Thu, Aug 27"
+    },
+    {
+      "sport": "Cricket",
+      "headline": "Women&rsquo;s Asia Cup 2026 Begins in Dubai",
+      "body": "The T20 tournament runs Aug 28-Sep 13 at Dubai International Cricket Stadium; India open against Thailand on Aug 30 before the marquee India-Pakistan clash on Sep 5.",
+      "url": "https://www.wionews.com/sports/women-s-asia-cup-2026-schedule-announced-india-vs-pakistan-on-sep-5-1786030626541",
+      "when": "Aug 28 (India vs Pakistan Sep 5)"
+    },
+    {
+      "sport": "Football",
+      "headline": "Premier League Matchweek 2",
+      "body": "Manchester United, still smarting from their opening-day loss to Hull City, travel to face Ipswich Town as the top flight&rsquo;s second round of fixtures gets underway.",
+      "url": "https://www.teamtalk.com/manchester-united/fixtures",
+      "when": "Sat, Aug 30"
+    },
+    {
+      "sport": "F1",
+      "headline": "Italian Grand Prix at Monza",
+      "body": "The paddock heads to Monza next, with Kimi Antonelli holding a 59-point championship lead over George Russell and Lewis Hamilton after his Zandvoort podium.",
+      "url": "https://www.monzanet.it/en/calendario-2026-formula-1-a-monza-dal-4-al-6-settembre/",
+      "when": "Sep 4-6"
+    }
+  ],
+  "portfolio": [
+    {
+      "ticker": "TSLA",
+      "headline": "Nevada Clears Tesla for Up to 5,000 Robotaxis in Las Vegas",
+      "body": "The Nevada Transportation Authority approved Tesla to operate a fleet of up to 5,000 fully autonomous vehicles for paid passenger service in Clark County, home to Las Vegas, one of three companies granted driverless-ride authority in the region. The approval, announced Aug 21, lands as Tesla prepares to launch its Cybercab in Austin later this month, starting with employee rides. Per The Motley Fool (Aug 21).",
+      "img": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fcdn.content.foolcdn.com%2Fimages%2F1umn9qeh%2Fproduction%2F124861b6623a636d61e4bcd840fca773d88882f5-200x200.png%3Fw%3D800%26q%3D75%26fit%3Dmax%26auto%3Dformat&w=1200&op=resize",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/08/21/stock-market-today-aug-21-tesla-gains-on-nevada-robotaxi-permit-approval/",
+      "continues": true
+    },
+    {
+      "ticker": "NET",
+      "headline": "Cloudflare Beats on Q2 and Raises Full-Year Guidance",
+      "body": "Cloudflare&rsquo;s Q2 2026 results topped estimates across the board: revenue of $696.1 million, up 35.9% year-over-year, with adjusted EPS of $0.29 versus a $0.27 estimate. Management raised full-year 2026 guidance to $2.87 billion in revenue and $1.26 in adjusted EPS at the midpoints, and guided Q3 revenue to $736.5 million. Per Yahoo Finance/StockStory (Aug 6).",
+      "img": "https://s.yimg.com/lo/mysterio/api/1F198E65A4D693049EB0A62B5E398FA37D82A604C02AE4F1C9F498FFFEC4585A/subgraphmysterio/resizefill_w1200_h600;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2F2cf42b33206efa0659932c6c55323339",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-nyse-net-reports-bullish-202810450.html",
+      "continues": true
+    },
+    {
+      "ticker": "INTC",
+      "headline": "Intel Posts a Seventh Straight Beat, Raises Capex, Faces New Qualcomm Challenge",
+      "body": "Intel&rsquo;s Q2 2026 revenue came in at $16.13 billion against a $14.33 billion forecast, with adjusted EPS of $0.42 versus a $0.21 estimate &mdash; a seventh consecutive beat &mdash; as AI-related revenue grew 70% year-over-year. The company raised 2026 capital spending above $20 billion and completed a $20 billion equity raise this month to fund expanded manufacturing capacity, even as Qualcomm&rsquo;s new Snapdragon X2 Elite Extreme benchmarks raised questions about Intel&rsquo;s client-computing lead. Per CNBC (Aug 10).",
+      "img": null,
+      "url": "https://www.cnbc.com/2026/08/10/intel-intc-stock-offering-ai.html",
+      "continues": true
+    },
+    {
+      "ticker": "PLTR",
+      "headline": "Palantir Lifts 2026 Guidance, Deepens Defense Ties via Mercury Systems",
+      "body": "Palantir raised its full-year 2026 revenue guidance to a range of $8.15-8.16 billion after posting Q2 revenue of $1.94 billion and net income of $1.06 billion. The same day, defense contractor Mercury Systems announced a new partnership to use Palantir&rsquo;s software and enterprise ontology to automate material planning and build a digital twin of factory operations for U.S. military production programs. Per Simply Wall St News.",
+      "img": "https://images.simplywall.st/asset/industry/8041000-choice1-main-header/1585186668959",
+      "url": "https://simplywall.st/stocks/us/software/nasdaq-pltr/palantir-technologies/news/palantir-technologies-pltr-is-up-398-after-raising-2026-guid",
+      "continues": true
+    },
+    {
+      "ticker": "FSLY",
+      "headline": "Fastly&rsquo;s Fifth Straight Beat Comes With a Raised Outlook",
+      "body": "Fastly&rsquo;s Q2 2026 report showed revenue of $183.3 million, up 23.3% year-over-year, plus adjusted EPS of $0.15 against a $0.0663 estimate &mdash; its fifth consecutive beat. Security revenue grew 43% to $41.7 million, and the company raised full-year guidance to $732-746 million in revenue and $0.50-0.54 in adjusted EPS; CEO Kip Compton said &ldquo;our platform strategy is driving business momentum, giving us the confidence to raise our full-year outlook.&rdquo; Per 24/7 Wall St (Aug 10).",
+      "img": "https://247wallst.com/wp-content/uploads/2012/11/cloud-computing.jpg",
+      "url": "https://247wallst.com/investing/2026/08/10/fastly-stock-is-rising-today-whats-driving-it-and-are-ai-cloud-peers-moving-too/",
+      "continues": true
+    },
+    {
+      "ticker": "SBUX",
+      "headline": "Starbucks&rsquo; Turnaround Shows Up in Comps as Restructuring Wraps",
+      "body": "Starbucks&rsquo; fiscal Q3 2026 results showed global comparable sales up 7.9% &mdash; a 4.2% rise in transactions plus a 3.5% rise in average ticket &mdash; with non-GAAP EPS of $0.85 on revenue of $9.3 billion. The company raised full-year guidance to non-GAAP EPS of $2.55-2.65 and operating margin above 11%, and this week wrapped up its restructuring with a further 224 layoffs as its &ldquo;third place&rdquo; revival strategy takes hold. Per Bloomberg/Yahoo Finance (Aug 20).",
+      "img": "https://s.yimg.com/lo/mysterio/api/56A7BD562B7A3E7A5CC18A975120B9C0CEDCE01858AC84E7BDC1EADCFCDC1F3C/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-07%2Fd08fdb54-a241-4c47-8e37-4bf3e4e90ebc",
+      "url": "https://finance.yahoo.com/markets/stocks/article/starbucks-stock-pops-as-efforts-to-revive-third-place-pay-off-2026-outlook-improves-154557895.html",
+      "continues": true
+    },
+    {
+      "ticker": "ARM",
+      "headline": "Arm Caught in a Bond-Yield-Driven Chip Selloff, Analysts Split on Targets",
+      "body": "Arm Holdings remains in the shadow of an Aug 19 semiconductor selloff triggered by rising bond yields; NFJ Investment Group&rsquo;s Burns McKinney noted &ldquo;every time bond yields rise, that tends to disproportionately hit the technology names.&rdquo; Analyst price targets on Arm now range widely &mdash; Goldman Sachs at $125 and Morgan Stanley at $212 (both Hold) versus Rosenblatt at $250, New Street Research at $260, and Evercore ISI at $326 (all Buy) &mdash; reflecting debate over Arm&rsquo;s rich valuation relative to peers like AMD and Nvidia. Per ts2.tech (Aug 19).",
+      "img": "https://ts2.tech/wp-content/uploads/2026/08/arm-stocks-15-consensus-upside-shrinks-to-4-at-the-median-after-chip-rout.jpg",
+      "url": "https://ts2.tech/en/arm-stocks-15-consensus-upside-shrinks-to-4-at-the-median-after-chip-rout/",
+      "continues": true
+    },
+    {
+      "ticker": "ORCL",
+      "headline": "No Fresh Catalyst for Oracle as AI-Growth and Debt Debate Continues",
+      "body": "Oracle had no new company-specific news Monday; Benzinga&rsquo;s market recap attributed investor attention to an ongoing debate between Oracle&rsquo;s AI-driven growth opportunity and its debt-funded data-center build-out, a debate sharpened after S&amp;P Global Ratings downgraded Oracle&rsquo;s credit rating in July. No new contract, earnings, or guidance update was found to explain the session. Per Benzinga (Aug 24).",
+      "img": null,
+      "url": "https://www.benzinga.com/markets/tech/26/08/61084268/oracle-stock-is-gaining-monday-whats-going-on",
+      "continues": true
+    }
+  ],
+  "country_groups": [
+    {
+      "label": "India",
+      "stories": [
+        {
+          "headline": "Modi Urges Space Startups to Make India a Global Talent Hub",
+          "body": "Addressing CEOs and founders from 20 space startups on National Space Day, PM Narendra Modi said &ldquo;we need to create an aura where people worldwide feel that if they want to make a career, they should go to India,&rdquo; adding &ldquo;we are very competitive on cost; there is no question at all about talent.&rdquo; He cited Skyroot Aerospace &mdash; India&rsquo;s first space-tech unicorn, which launched the country&rsquo;s first private rocket &mdash; as the sector targets one launch a month by mid-2027, per Business Standard (Aug 23).",
+          "url": "https://www.business-standard.com/india-news/pm-urges-space-startups-to-make-india-global-hub-for-talent-innovation-126082300303_1.html",
+          "img": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-07/12/thumb/fitandfill/1200X628/1783823290-95.jpg",
+          "continues": false
+        },
+        {
+          "headline": "India Unveils Rs62,500-Crore Scheme to Boost Local Smartphone Brands",
+          "body": "India rolled out a Rs62,500-crore Mobile Phone Manufacturing Scheme running through FY2030-31, targeting nearly Rs39 lakh crore in production and 60,000 direct jobs, with India already supplying 99.2% of the phones it uses domestically, per WION (Aug 23). Union IT Minister Ashwini Vaishnaw said it &ldquo;will provide a significant impetus to the development of Indian-owned mobile brands, intellectual property and design,&rdquo; with incentives up to 5% for Indian brands plus a 3% bonus for domestic design and R&amp;D.",
+          "url": "https://www.wionews.com/india-news/explained-how-will-india-s-new-rs-62-500-crore-smartphone-manufacturing-scheme-will-boost-local-brands-1787482953768",
+          "img": "https://cdn1.wionews.com/prod/wion/images/2026/20260823/image-1787483209027.jpg?rect=(0,464,7328,5495)&imwidth=800&imheight=600&format=webp&quality=medium",
+          "continues": false
+        },
+        {
+          "headline": "Delhi Police Deny Clearance for Anti-UGC Reservation Protest",
+          "body": "Delhi Police refused permission for a demonstration against UGC equity/reservation regulations at Jantar Mantar, keeping Section 163 BNSS prohibitory orders in force across the North District banning gatherings of five or more people, per WION (Aug 23). A Delhi DCP statement said &ldquo;no permission has been granted to any individual or organisation for holding any such protest/gathering at Jantar Mantar on 23 August 2026,&rdquo; after the Supreme Court had already put the UGC regulatory framework in abeyance over vague provisions.",
+          "url": "https://www.wionews.com/india-news/section-163-imposed-delhi-police-deny-clearance-for-anti-ugc-reservation-demonstration-1787482218423",
+          "img": "https://cdn1.wionews.com/prod/wion/images/2026/20260823/image-1787482264696.jpg?imwidth=1200&imheight=900",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "stories": [
+        {
+          "headline": "Burnham Grants Mayors New Power to Override Councils on Major Developments",
+          "body": "UK Prime Minister Andy Burnham unveiled plans letting mayors overrule local councils on major planning projects &mdash; developments of 150-plus homes, over 15,000 sq m of commercial space, or buildings 30 metres and taller &mdash; with ten of England&rsquo;s 14 devolved mayors backing the move, per ITV News (Aug 23). &ldquo;Sometimes challenge does need to be made to local decision-making&hellip;it&rsquo;s a two-way street,&rdquo; Burnham said, as the government sits roughly a quarter of the way to its 1.5-million-homes target; Lib Dem housing spokesperson Gideon Amos called it &ldquo;a direct attack on communities.&rdquo;",
+          "url": "https://www.itv.com/news/2026-08-23/mayors-to-get-new-powers-to-overrule-local-councils-on-major-planning-projects",
+          "img": "https://images.ctfassets.net/pjshm78m9jt4/2dmlfs7ikMTiEEgsbV7Hpf/43aa21e218c61673b3b7ec7b5f8fa860/PA-85601784.jpg?fm=jpg&fit=fill&w=1600&h=900&q=80",
+          "continues": false
+        },
+        {
+          "headline": "UK to Confine Released Violent Offenders to GPS-Monitored Zones",
+          "body": "The UK government announced that released violent and sexual offenders will be GPS-monitored and confined to exclusion zones just a few miles wide, with victims given input into setting the boundaries, per ITV News (Aug 22). Justice Secretary Alex Norris said &ldquo;offenders should carry the consequences of their crimes, not their victims,&rdquo; with the move coming ahead of PM Burnham&rsquo;s review of Labour&rsquo;s early-release scheme when Parliament returns September 1.",
+          "url": "https://www.itv.com/news/2026-08-22/released-violent-offenders-to-be-confined-to-zones-of-a-few-miles",
+          "img": "https://images.ctfassets.net/pjshm78m9jt4/7prDAsCRc9HLlkvmZ9sowR/631ee6698fb24170a259e34e14597d16/PA-3305190.jpg?fm=jpg&fit=fill&w=1600&h=900&q=80",
+          "continues": false
+        },
+        {
+          "headline": "Fifty MPs Demand Funeral Sector Regulation After Hull Scandal",
+          "body": "Fifty cross-party MPs wrote to Health Secretary Yvette Cooper demanding urgent statutory regulation of the funeral sector after Robert Bush, who ran a Hull funeral home, was jailed for 20 years in July for leaving 35 decomposing bodies and half a tonne of ashes at his premises, per ITV News (Aug 21). Cooper said &ldquo;every person in every situation deserves dignity in death,&rdquo; while the MPs, organised by Dame Caroline Dinenage and Mark Sewards, warned &ldquo;without urgent government intervention, further cases of severe negligence and abuse are inevitable.&rdquo;",
+          "url": "https://www.itv.com/news/2026-08-21/fifty-mps-call-for-urgent-regulation-to-funeral-sector-after-robert-bush-case",
+          "img": "https://images.ctfassets.net/pjshm78m9jt4/7nQrj3js2KB54HZXDoC4xR/086f33763567738d433be862e0dd3f9e/2028__28_.jpg?fm=jpg&fit=fill&w=1600&h=900&q=80",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "label": "Qatar & the GCC",
+      "stories": [
+        {
+          "headline": "Qatar Stock Exchange Adopts Randomized Auction Timing",
+          "body": "The Qatar Stock Exchange announced it will randomize the uncrossing mechanism for its opening and closing auction sessions, with price determination now occurring at a randomly selected moment within the final minute of each session, per The Peninsula Qatar (Aug 24). The QSE said the move reflects its commitment to &ldquo;maintaining fair, orderly, and efficient markets, consistent with international best practices and IOSCO principles relating to market integrity and transparent price formation.&rdquo;",
+          "url": "https://thepeninsulaqatar.com/article/24/08/2026/qse-announces-randomization-of-opening-and-closing-times",
+          "img": "https://thepeninsulaqatar.com/get/maximage/20260814_1786689512-106.jpg?1786689512",
+          "continues": false
+        },
+        {
+          "headline": "Qatar&rsquo;s Construction Sector Set for 6.7% Growth Surge in 2027",
+          "body": "Qatar&rsquo;s construction sector is forecast to post 6.7% real GVA growth in 2027, though Fitch Solutions projects the long-term 2026-2035 average will run at just 1% annually, &ldquo;materially below pre-conflict levels&rdquo; of 1.4%, per The Peninsula Qatar (Aug 23). Analysts pointed to continued government capex including the Ashgal road programme and Qatar National Vision 2030 projects, while the power and renewables sector is projected to grow at a 12.6% compound annual rate through 2035.",
+          "url": "https://thepeninsulaqatar.com/article/23/08/2026/construction-poised-for-67-surge-as-strategic-investments-drive-long-term-recovery",
+          "img": "https://thepeninsulaqatar.com/get/maximage/20240613_1718272566-933.jpeg?1718272566",
+          "continues": false
+        },
+        {
+          "headline": "Qatar&rsquo;s &lsquo;Suhail&rsquo; Season Begins, Signaling Gradual Cooldown",
+          "body": "Qatar&rsquo;s 53-day &lsquo;Suhail&rsquo; season begins August 24, marking the traditional rising of the Suhail (Canopus) star and the start of a gradual overnight cooldown after peak summer heat, per The Peninsula Qatar (Aug 23). The season unfolds in four phases &mdash; Tarfah, Jabha, Zubrah and Sarfah &mdash; with the Qatar Calendar House marking it as coinciding with &ldquo;the rising of the Suhail star in the Arabian Peninsula.&rdquo;",
+          "url": "https://thepeninsulaqatar.com/article/23/08/2026/suhail-season-begins-tomorrow-heralding-gradual-drop-in-heat",
+          "img": "https://thepeninsulaqatar.com/get/maximage/20260709_1783602324-72162.jpeg?1783602324",
+          "continues": false
+        }
+      ]
+    }
+  ],
+  "doha_events": [
+    {
+      "headline": "Colorverse Experience Continues at Katara",
+      "body": "The Colorverse Experience runs through September 15, 2026 at Katara South Parking, Katara Cultural Village, an immersive show blending color, light, sound and interactive challenges. It&rsquo;s open weekdays 4:00&mdash;10:00 PM and weekends 4:00&mdash;11:00 PM, with tickets from QAR 35, per Qatar Living (Aug 16).",
+      "url": "https://www.qatarliving.com/en/article/events-to-check-out-this-week-august-16-23-2026",
+      "img": null
+    },
+    {
+      "headline": "Doha Trade Fair Opens at DECC",
+      "body": "The Doha Trade Fair runs August 24 through September 4, 2026 at the Doha Exhibition &amp; Convention Center, open daily 10:00 AM&mdash;10:00 PM with free entry. The shopping exhibition brings together a wide range of retail exhibitors and products, per Qatar Living (Aug 23).",
+      "url": "https://www.qatarliving.com/en/article/events-to-check-out-this-week-august-23-30-2026",
+      "img": null
+    },
+    {
+      "headline": "Rouda Al Malki Fashion Exhibition at QNCC",
+      "body": "Designer Rouda Al Malki showcases a curated collection of women&rsquo;s fashion, lifestyle products and essentials at Qatar National Convention Center from August 28 to September 2, 2026, daily 10:00 AM&mdash;7:00 PM. Entry is free, per Qatar Living (Aug 23).",
+      "url": "https://www.qatarliving.com/en/article/events-to-check-out-this-week-august-23-30-2026",
+      "img": null
+    },
+    {
+      "headline": "Tasweer&rsquo;s Frame and Focus Opens at Al Hosh Gallery",
+      "body": "Tasweer&rsquo;s second edition of &ldquo;Frame and Focus&rdquo; opens September 5 and runs through October 5, 2026 at Al Hosh Gallery in Doha, featuring documentary photography, portraiture and conceptual work from more than 12 photographers from Qatar and the region. The show explores themes of identity, memory, heritage, migration and belonging, per The Peninsula Qatar (Aug 22).",
+      "url": "https://thepeninsulaqatar.com/article/22/08/2026/tasweer-to-present-second-edition-of-frame-and-focus-exhibition",
+      "img": null
+    },
+    {
+      "headline": "ORBIT Arabian Night Brings Ra&iuml; Music to Lusail",
+      "body": "ORBIT Arabian Night brings a live performance of North African Ra&iuml; music to Cielo Hotel in Lusail on August 28, 2026, starting at 7:00 PM. Tickets start at QAR 100 and the event is restricted to guests 21 and older, per Qatar Living (Aug 23).",
+      "url": "https://www.qatarliving.com/en/article/events-to-check-out-this-week-august-23-30-2026",
+      "img": null
+    }
+  ]
+}
