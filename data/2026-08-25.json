@@ -1,0 +1,435 @@
+{
+  "skim": [
+    "An unidentified projectile struck an oil tanker near Oman as Iran threatened to fine and detain 45 ships for allegedly violating new Strait of Hormuz transit rules, escalating tensions as Washington&rsquo;s sanctions campaign against Tehran entered its &ldquo;economic D-Day&rdquo; phase.",
+    "DR Congo&rsquo;s Ebola outbreak posted its deadliest week yet &mdash; 317 deaths &mdash; pushing the total to 5,514 cases and 2,642 deaths, with experts warning the true toll may be roughly three times the reported figures.",
+    "Nvidia is paying $6 billion to license AI startup Poolside&rsquo;s model software and separately discussing backing Perplexity at a $30 billion-plus valuation, while OpenAI pursues a $1 trillion IPO and Sam Altman admits his AI-disruption timeline was wrong.",
+    "India declared at 503/9 in Colombo behind a Dhruv Jurel century to seize command of the series decider, while Max Verstappen explained his Zandvoort Lap 1 crash: &ldquo;the car snapped and I couldn&rsquo;t catch it.&rdquo;",
+    "Tesla is recalling nearly 3 million vehicles in China over door handles as part of a record 4 million-EV recall wave, while Intel upsized its share offering to $20 billion and Oracle had its credit rating cut by S&amp;P over AI-driven debt."
+  ],
+  "sections": [
+    {
+      "key": "world",
+      "title": "World",
+      "icon": "news",
+      "stories": [
+        {
+          "headline": "Congo&rsquo;s Ebola Outbreak Posts Its Deadliest Week Yet",
+          "body": "DR Congo recorded 317 Ebola deaths in the past week, one of the highest weekly tolls of the epidemic, pushing the total to 5,514 cases and 2,642 deaths with a 47.9% fatality rate (68.6% in hard-hit North Kivu), per ABC News (Aug 24). Congolese experts believe the true toll may be roughly three times the reported figures; the country received over 16,000 doses of the Ervebo vaccine on Friday, though its effectiveness against this Bundibugyo strain is unproven, and one resident said, “We are fed up with recording new cases of Ebola every day.”",
+          "url": "https://abcnews.com/International/wireStory/congos-ebola-outbreak-records-highest-weekly-death-tolls-135901778",
+          "img": "https://i.abcnewsfe.com/a/2ca2bf02-004d-4e98-9935-b60fb47bb3c1/wirestory_06f39ce4dc7dfd2dbcaf509b6e6ecbe5_16x9.jpg?w=1600",
+          "continues": true
+        },
+        {
+          "headline": "Philippine Floods Displace Over a Million, Damage 1,600 Schools",
+          "body": "Torrential monsoon rains and three tropical cyclones (Luis, Maymay, Neneng) have affected 1.01 million people in Pampanga province alone, damaging 1,616 schools and 9,597 classrooms nationwide and displacing 9,068 families into shelters, per Philstar (Aug 25). President Marcos pushed back on blaming flood-control failures alone, saying “we need to understand that this is not solely due to issues with the flood control project, but also the torrential rain,” as repair costs are estimated at P2.6 billion.",
+          "url": "https://www.philstar.com/headlines/2026/08/25/2551638/marcos-blames-heavy-rain-massive-flooding",
+          "img": "https://media.philstar.com/photos/2026/08/24/1_2026-08-24_23-49-40.jpg",
+          "continues": false
+        },
+        {
+          "headline": "Tokayev-Aligned Party Sweeps Kazakhstan&rsquo;s Revamped Parliament",
+          "body": "Kazakhstan&rsquo;s newly formed Adilet party, led by President Tokayev&rsquo;s top aides, won over 71% of the vote on 74% turnout in elections for a new 145-seat single-chamber parliament, per Al Jazeera (Aug 24). The vote followed a 2026 constitutional overhaul consolidating the legislature from two chambers into one; Tokayev, 73, said it was “too early to say” whether he&rsquo;d seek another term, and announced he will name a newly created vice-president post within 7-10 days.",
+          "url": "https://www.aljazeera.com/news/2026/8/24/kazakhstans-newly-formed-pro-government-party-wins-parliamentary-election",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-08-23T155038Z_222034821_RC2F4NAASKX7_RTRMADP_3_KAZAKHSTAN-ELECTION-1787556796.jpg?resize=1920%2C1440",
+          "continues": false
+        },
+        {
+          "headline": "Twin Earthquakes Rattle Tokyo and Hokkaido, Injuring Dozens",
+          "body": "A magnitude-5.9 quake struck southern Ibaraki near Tokyo at 2am local time on Aug 23, injuring at least 37 people across five prefectures, followed the same night by a magnitude-6.0 quake off Hokkaido&rsquo;s Urakawa coast with no reported injuries, per Tech Times (Aug 24). Japan&rsquo;s Meteorological Agency confirmed no tsunami risk from either event; the first quake ruptured a water main and knocked out power to about 460 Tokyo homes, since restored.",
+          "url": "https://www.techtimes.com/articles/325327/20260824/two-japan-earthquakes-one-day-night-quake-near-tokyo-injures-37-hokkaido-struck.htm",
+          "img": null,
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "sports",
+      "title": "Sports",
+      "icon": "trophy",
+      "stories": [
+        {
+          "headline": "Jurel&rsquo;s Century Powers India to Command in Colombo",
+          "body": "India declared their first innings at 503/9 after Dhruv Jurel struck a maiden Test century from No.7 (100 off 171 balls), following Rishabh Pant&rsquo;s 63, before Prasidh Krishna and Manav Suthar struck twice inside Sri Lanka&rsquo;s reply to leave the hosts 8/2 at stumps, per Outlook India (Aug 24). The declaration extends India&rsquo;s grip on the series-deciding second Test at Colombo&rsquo;s SSC ground, a day after Padikkal&rsquo;s century set the platform.",
+          "url": "https://www.outlookindia.com/sports/cricket/ind-vs-sl-live-score-2nd-test-day-2-india-tour-of-sri-lanka-2026-updates-highlights-colombo",
+          "img": "https://cf-images.assettype.com/outlookindia/2026-08-24/dzd8y872/Dhruv-Jurel.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+          "continues": true
+        },
+        {
+          "headline": "Babar Azam Set to Return for Pakistan at Lord&rsquo;s",
+          "body": "Pakistan captain Babar Azam is set to return from a finger injury for the second Test against England at Lord&rsquo;s, with opener Azan Awais &mdash; who managed a duck and 9 in the first Test &mdash; expected to make way, per Business Recorder (Aug 23). Stand-in skipper Salman Ali Agha said he would be “happy to hand over the captaincy” to Babar, as Pakistan also considers two frontline spinners and young quick Ubaid Shah after a heavy innings-and-120-run defeat at Headingley.",
+          "url": "https://www.brecorder.com/news/40436178/babar-azam-likely-to-return-as-pakistan-consider-changes-for-lords-test",
+          "img": "https://i.brecorder.com/large/2026/08/23115113e684ac1.webp",
+          "continues": true
+        },
+        {
+          "headline": "Verstappen Explains What Caused His Zandvoort Crash",
+          "body": "Max Verstappen said the car “snapped and I couldn&rsquo;t catch it” as he explained the Lap 1 crash that ended his home race, adding he retreated to Red Bull&rsquo;s motorhome afterward just to “watch the race for a bit,” per Yahoo Sports (Aug 24). The Dutchman conceded the error was ultimately his own, capping a “disappointing” farewell weekend at Zandvoort that Lando Norris turned into a victory.",
+          "url": "https://sports.yahoo.com/articles/verstappen-reveals-did-immediately-major-103000794.html",
+          "img": null,
+          "continues": true
+        },
+        {
+          "headline": "Celtic Chase Champions League Progress in Linz",
+          "body": "Celtic carry a commanding 3-0 aggregate lead into today&rsquo;s Champions League play-off second leg away to LASK in Linz, needing only to avoid a heavy defeat to reach the league phase for a second straight season, per Celtic News Now (Aug 24). Wednesday brings a tighter contest as Fenerbahce, featuring Romelu Lukaku, host Lyon after a 1-1 first-leg draw &mdash; the last of this week&rsquo;s seven play-off ties before Thursday&rsquo;s league-phase draw in Monaco.",
+          "url": "https://www.celticnewsnow.com/news/lask-vs-celtic-champions-league-preview-predictions-team-news-and-tv-info/727250/",
+          "img": "https://www.celticnewsnow.com/assets/images/photos/20260824-472-lask-vs-celtic-champions-league-preview-predictions-team-new-l.jpg",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "title": "Business & Markets",
+      "icon": "bars",
+      "stories": [
+        {
+          "headline": "Oil Stabilizes After Iran Sanctions Rollout, Tanker Incident Near Oman",
+          "body": "Brent crude held near $92.16 a barrel and WTI at $85.02 on Tuesday, steadying after both benchmarks slid more than 2% Monday as the US, led by Treasury Secretary Scott Bessent, rolled out expanded sanctions targeting Iran&rsquo;s economy, per Business Standard (Aug 25). The US Strategic Petroleum Reserve has fallen to 289.7 million barrels, its lowest since November 1982, adding to supply concerns as the Hormuz standoff continues (see Geopolitics).",
+          "url": "https://www.business-standard.com/markets/commodities/oil-steady-as-investors-weigh-impact-of-expanded-us-sanctions-against-iran-126082500075_1.html",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/08/AFP__20260824__C6D24VG__v2__HighRes__TopshotIranUsIsraelWarEconomy-1787611015.jpg?resize=1920%2C1440",
+          "continues": true
+        },
+        {
+          "headline": "Bitcoin Stalls Near $80,000 as Traders Cash In Record Profits",
+          "body": "Bitcoin is consolidating after last week&rsquo;s 23% surge &mdash; its strongest weekly rally since March 2023 &mdash; as holders realized $1.72 billion in profits on Friday alone, the highest level since November 2024, per FXStreet (Aug 24). Spot bitcoin ETFs still pulled in $1.92 billion of inflows for the week, the best of 2026, but an overbought RSI near 79 points to a possible pullback before another run at the $80,000 mark.",
+          "url": "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-price-forecast-btc-stalls-as-profit-taking-starts-202608240832",
+          "img": "https://editorial.fxsstatic.com/images/i/Discover-f-41_Medium.jpg",
+          "continues": true
+        },
+        {
+          "headline": "Gold Hits 15-Week High as Dollar Weakens, Yields Stabilize",
+          "body": "Gold futures touched $4,738.50 and spot gold hit $4,679 on Monday, both 15-week highs, extending a rally that has added roughly 5% over three straight weekly gains, per Forbes (Aug 24). The move follows a Treasury Department plan to boost buybacks of long-dated government debt plus a weaker dollar and steadying yields; ActivTrades&rsquo; Ricardo Evangelista said further gains “depend to a large extent on the U.S. dollar remaining under pressure and Treasury yields stabilizing,” while silver held near two-month highs around $69.",
+          "url": "https://www.forbes.com/sites/conormurray/2026/08/24/gold-price-hits-15-week-high-as-late-summer-rally-extends/",
+          "img": "https://imageio.forbes.com/specials-images/imageserve/6a8c5cf548c96d3373bbadec/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+          "continues": false
+        },
+        {
+          "headline": "Chip Stocks Drag Wall Street Lower Ahead of Nvidia Earnings",
+          "body": "The Nasdaq fell as much as 0.38% and the S&amp;P 500 dipped 0.18% Monday as semiconductor stocks slid &mdash; the Philadelphia SE Semiconductor index dropped 2.64% to a three-week low &mdash; even as the Dow edged up 0.28% to 53,423.60, per the Associated Press via the Spokesman-Review (Aug 24). Markets are bracing for Nvidia&rsquo;s Wednesday earnings as a bellwether for the AI trade, Wednesday&rsquo;s PCE inflation report, and this week&rsquo;s Jackson Hole symposium (Aug 27-29), where Fed Chair Kevin Warsh delivers his first keynote with 30-year Treasury yields still above 5%.",
+          "url": "https://www.spokesman.com/stories/2026/aug/24/tech-drags-sp-500-nasdaq-lower-as-iran-tensions-nv/",
+          "img": "https://thumb.spokesman.com/oCDFUwMZsm--13gPl-GGtmpCNz4=/2400x1260/smart/media.spokesman.com/photos/2026/08/24/6a8c8b4193739.image.jpg",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "AI & Technology",
+      "icon": "cpu",
+      "stories": [
+        {
+          "headline": "Nvidia Pays $6 Billion to License Poolside&rsquo;s AI Model Software",
+          "body": "Nvidia is spending $6 billion to license Poolside&rsquo;s “Model Factory” software plus another $1 billion for equity, valuing the startup at $12 billion, per Forbes (Aug 24). Poolside had failed to close a $2 billion funding round four months earlier and lost access to a 40,000 GB300-chip cluster as a result; Nvidia is folding the tech into its Nemotron open-weight family as a US rival to DeepSeek, Kimi K3 and Qwen, extending its CUDA-style playbook of giving away models to drive hardware demand.",
+          "url": "https://www.forbes.com/sites/jonmarkman/2026/08/24/nvidia-pays-poolside-6b-to-license-its-model-factory-and-109-workers/",
+          "img": "https://imageio.forbes.com/specials-images/imageserve/6a8c6b36352b91edc49dc11d/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+          "continues": false
+        },
+        {
+          "headline": "OpenAI Eyes $1 Trillion IPO as Altman Admits Timeline Was Wrong",
+          "body": "OpenAI is pursuing a public listing valued at up to $1 trillion after filing a confidential S-1 in May, with $40 billion in annualized revenue as of Aug 14 but a projected $14 billion loss for 2026 and breakeven not expected until 2030, per Tech Times (Aug 24). Sam Altman admitted his post-GPT-4 disruption timeline was flawed, saying the gap between what AI can do and what businesses actually deploy “may represent a permanent feature” of the technology rather than a temporary lag; prediction markets give the IPO only a 19% chance of closing before year-end.",
+          "url": "https://www.techtimes.com/articles/325323/20260824/openai-ipo-wants-1-trillion-its-ceo-just-admitted-his-disruption-timeline-was-wrong.htm",
+          "img": "https://d.techtimes.com/en/full/473482/openai-ceo-sam-altman-speaks-alongside-bayo.jpg",
+          "continues": false
+        },
+        {
+          "headline": "Hugging Face Explores Sale at $13 Billion-Plus Valuation",
+          "body": "AI model-hosting hub Hugging Face is reportedly in talks to be acquired for roughly $13 billion or more and has enlisted bankers to field bids, per TechCrunch (Aug 24), though no buyer has been identified and no deal is final. The company last raised at a $4.5 billion valuation in 2023 and had previously turned down a $500 million Nvidia investment that would have valued it at $7 billion; CEO Clem Delangue said the platform carries a “long-term responsibility” to the community whose models and data it hosts.",
+          "url": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
+          "img": "https://techcrunch.com/wp-content/uploads/2026/07/hugging-face-logo-smartphone.jpg?resize=1200,800",
+          "continues": false
+        },
+        {
+          "headline": "Nvidia in Talks to Back Perplexity at $30 Billion-Plus Valuation",
+          "body": "Nvidia is discussing an investment in Perplexity at a valuation exceeding $30 billion, up from $20 billion last September, per Benzinga (Aug 24, citing The Information). Perplexity&rsquo;s annualized revenue has jumped to over $750 million from under $250 million at the start of 2026, and it separately signed a $750 million Azure deal with Microsoft; CEO Aravind Srinivas said the company still plans an IPO in 2028 regardless of how OpenAI&rsquo;s and Anthropic&rsquo;s listings go.",
+          "url": "https://www.benzinga.com/markets/tech/26/08/61374579/nvidia-perplexity-30-billion-valuation-750-million-revenue-bezos",
+          "img": null,
+          "continues": false
+        },
+        {
+          "headline": "Alibaba Launches Wan3.0 Video Model After $10B Funding Push",
+          "body": "Days after its record $10.2 billion Hong Kong share sale for AI buildout, Alibaba Cloud officially launched Wan3.0, a video-generation model producing clips up to 30 seconds and accepting DOC, XLS, PPT, PDF and Markdown files as inputs, per TechNode (Aug 24). The model brings improved instruction-following, shot consistency and audio quality, and Alibaba is offering a 30% API pricing discount on select platforms through September 23 as it positions Wan3.0 against Google&rsquo;s Veo.",
+          "url": "https://technode.com/2026/08/24/alibaba-launches-wan3-0-video-model-with-30-second-generation-and-document-input/",
+          "img": "https://technode.com/wp-content/uploads/2026/08/wan3.0.png",
+          "continues": true
+        }
+      ]
+    },
+    {
+      "key": "geopolitics",
+      "title": "Geopolitics",
+      "icon": "globe",
+      "stories": [
+        {
+          "headline": "Iran Sanctions Bite as Oil Tanker Struck Near Oman",
+          "body": "The US Treasury&rsquo;s “economic D-Day” campaign against Iran gained fresh urgency as an unidentified projectile struck a tanker near Oman on Tuesday, per Business Standard/Reuters (Aug 25). Iran has threatened fines and detention for 45 tankers it says are violating new Hormuz transit rules; Treasury Secretary Scott Bessent vowed to “sever every economic lifeline that sustains this tyrannical regime until Tehran stands alone,” targeting digital assets, technology, gold, aviation and shipping and roughly 60 entities and vessels, per Al Jazeera (Aug 24).",
+          "url": "https://www.business-standard.com/markets/commodities/oil-steady-as-investors-weigh-impact-of-expanded-us-sanctions-against-iran-126082500075_1.html",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/08/AFP__20260824__C6D24VG__v2__HighRes__TopshotIranUsIsraelWarEconomy-1787611015.jpg?resize=1920%2C1440",
+          "continues": true
+        },
+        {
+          "headline": "Putin Moves to Seize Russian Infrastructure Hit by Ukraine Drones",
+          "body": "Vladimir Putin signed a decree letting Moscow temporarily seize energy, nuclear, industrial, and transport facilities deemed too slow to repair after Ukraine&rsquo;s intensifying drone campaign, per Al Jazeera (Aug 24). Retail giants Wildberries and Ozon have together lost dozens of warehouses to strikes, the Perm oil refinery has halted operations, and fuel shortages have spread across several Russian regions &mdash; following Putin&rsquo;s warning that Kyiv had opened a “Pandora&rsquo;s box” by striking Russian economic targets.",
+          "url": "https://www.aljazeera.com/news/2026/8/24/russia-to-seize-poorly-protected-infrastructure-as-ukraine-barrage-persists",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/07/AA-20260729-42090373-42090372-UKRAINE_DRONE_ATTACK_PROMPTS_EVACUATION_OF_WILDBERRIES_LOGISTICS_HUB_IN_CENTRAL_RUSSIA-1-1785326903.jpg",
+          "continues": true
+        },
+        {
+          "headline": "US Brokers Syria-Israel Talks in Jordan to Defuse Border Tensions",
+          "body": "Syria&rsquo;s Foreign Minister Asaad al-Shaibani met Mossad chief Roman Gofman in US-mediated talks in Jordan aimed at halting Israeli strikes and reviving a security agreement, per Al Jazeera (Aug 24). The talks followed an Israeli strike on a Syrian airbase near the Turkish border; Israel is pushing to keep Turkish forces out of Syria and the Golan demilitarized, while Damascus is seeking an Israeli withdrawal to pre-December 2024 positions and restoration of the 1974 disengagement pact.",
+          "url": "https://www.aljazeera.com/news/2026/8/24/syria-israel-hold-us-mediated-talks-in-jordan-to-de-escalate-tensions",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-08-23T065653Z_2085425540_RC2O3NAC60NW_RTRMADP_3_SYRIA-ISRAEL-SHAIBANI-1787532081.jpg",
+          "continues": false
+        },
+        {
+          "headline": "US Eyes 7.5% China Tariff Ahead of September Xi-Trump Summit",
+          "body": "The US is preparing a 7.5% tariff on Chinese goods over industrial “overcapacity,” which would push total US duties on China to roughly 20% &mdash; the level Beijing accepted under the current truce &mdash; ahead of a Trump-Xi summit set for September 24 in Washington, per Bloomberg via WION (Aug 25). The move stems from a Section 301 investigation into trading partners&rsquo; excess capacity launched in March, with both sides also racing to extend their trade truce before it expires November 10.",
+          "url": "https://www.wionews.com/world/us-plans-to-impose-7-5-overcapacity-tariff-on-china-ahead-of-xi-trump-summit-in-sept-1787596040031",
+          "img": "https://cdn1.wionews.com/prod/wion/images/2026/20260825/image-1787596247203.jpg",
+          "continues": false
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "sport": "Cricket",
+      "headline": "Second Test, Lord&rsquo;s: Pakistan Look to Level Series",
+      "body": "Pakistan face England in the second Test at Lord&rsquo;s from Aug 27, needing a response after an innings-and-120-run thrashing at Headingley, with Babar Azam expected back in the XI.",
+      "url": "https://www.brecorder.com/news/40436178/babar-azam-likely-to-return-as-pakistan-consider-changes-for-lords-test",
+      "when": "Aug 27-31"
+    },
+    {
+      "sport": "Football",
+      "headline": "Champions League League-Phase Draw in Monaco",
+      "body": "UEFA draws the 36-team Champions League league phase in Monaco, fixing each club&rsquo;s eight opponents ahead of Matchday 1, which runs Sept 8-10, per beIN Sports (Aug 20).",
+      "url": "https://www.beinsports.com/en-us/soccer/uefa-champions-league/articles/when-is-the-2026-27-uefa-champions-league-draw-2026-08-20",
+      "when": "Thu, Aug 27 (draw)"
+    },
+    {
+      "sport": "F1",
+      "headline": "Italian Grand Prix at Monza",
+      "body": "F1 heads to Monza for the Italian Grand Prix, the sport&rsquo;s fastest circuit, where Isack Hadjar hopes to return from a wrist injury and the midfield fight behind championship leader Kimi Antonelli continues.",
+      "url": "https://www.monzanet.it/en/calendario-2026-formula-1-a-monza-dal-4-al-6-settembre/",
+      "when": "Sep 4-6"
+    },
+    {
+      "sport": "Cricket",
+      "headline": "Women&rsquo;s Asia Cup Begins in Dubai",
+      "body": "The Women&rsquo;s T20 Asia Cup runs at Dubai International Stadium, with the marquee India-Pakistan group game set for Sept 5, per Outlook India (Aug 6).",
+      "url": "https://www.outlookindia.com/amp/story/sports/cricket/womens-asia-cup-2026-schedule-fixture-india-vs-pakistan",
+      "when": "Aug 28-Sep 13"
+    }
+  ],
+  "portfolio": [
+    {
+      "ticker": "TSLA",
+      "company": "Tesla, Inc.",
+      "headline": "Tesla Recalls Nearly 3 Million Vehicles in China Over Door Handles",
+      "body": "Chinese regulators required Tesla to recall nearly 3 million Model 3, Y, S, and X vehicles &mdash; part of a record wave topping 4 million EVs that also swept in Xiaomi, Leapmotor, Xpeng, and Geely &mdash; to fix electronic door handles Tesla said could be difficult to operate after a severe collision knocks out the low-voltage system, alongside an over-the-air driver-monitoring update. China is banning concealed door handles on new EVs from 2027, with existing approved models given until 2029 to comply. Tesla is separately guiding 2026 capital expenditure above $25 billion for AI and autonomy projects including the Cybercab robotaxi, per The Motley Fool and TradingKey (Aug 24).",
+      "url": "https://www.fool.com/investing/2026/08/24/tesla-and-other-electric-vehicle-companies-begin-massive-china-recall/",
+      "img": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fcdn.content.foolcdn.com%2Fimages%2F1umn9qeh%2Fproduction%2F7e019852d1625d2a9c47c928dca506f1e2e49685-2000x1200.png%3Fw%3D2000%26h%3D1200%26q%3D75%26auto%3Dformat&w=3840&op=resize",
+      "continues": false
+    },
+    {
+      "ticker": "INTC",
+      "company": "Intel Corporation",
+      "headline": "Intel Upsizes Secondary Offering to $20 Billion, BofA Cuts Price Target",
+      "body": "Intel priced an upsized secondary offering of 210.5 million shares, raising $20 billion for capital expenditure and working capital &mdash; roughly a third larger than the original $15 billion plan. Bank of America analyst Vivek Arya cut his price target to $145 from $160, citing 4-5% EPS dilution from the offering, even as CEO Lip-Bu Tan and a family member purchased $12 million of shares on the open market, per Benzinga and StocksToTrade (Aug 24).",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61391801/why-is-intel-stock-falling-on-monday",
+      "img": "https://content.stockstotrade.com/wp-content/uploads/2026/08/watermarked_INTC_2026-08-24T09-18-scaled.png",
+      "continues": true
+    },
+    {
+      "ticker": "ORCL",
+      "company": "Oracle Corporation",
+      "headline": "S&amp;P Cuts Oracle&rsquo;s Credit Rating as AI Data-Center Capex Strains Cash Flow",
+      "body": "S&amp;P Global downgraded Oracle&rsquo;s credit rating to BBB-, citing long-term debt exceeding $122 billion and leverage approaching 5x EBITDA. The company&rsquo;s AI data-center buildout has pushed capital expenditure above $55 billion and free cash flow to negative $23.7 billion, raising questions about converting its $638 billion order backlog into revenue amid reported delays in utility infrastructure for major data-center projects. Analysts have largely kept Buy ratings, with an average price target of $252.87, per TradingKey (Aug 24).",
+      "url": "https://www.tradingkey.com/news/market-movers/262127967-market-movers-orcl-20260824",
+      "img": "https://resource.tradingkey.com/uploads/20260227/orcl-11daa6c0f5d941e9b79dd2ec4901445f.jpg",
+      "continues": true
+    },
+    {
+      "ticker": "NVDA",
+      "company": "NVIDIA Corporation",
+      "headline": "Nvidia Slides Into Wednesday&rsquo;s Earnings Amid Sector-Wide Chip Caution",
+      "body": "No fresh company-specific announcement was found for Nvidia; the move tracked broader semiconductor-sector caution as investors trimmed risk ahead of its earnings report due Wednesday, August 26. The sector was further pressured after a Chinese memory-chip maker filed for an IPO, weighing on peers, and after reports that some Nvidia customers could face price increases of up to 15% amid a DRAM shortage. A broader rotation toward defensive names was reinforced by geopolitical headlines including the new Iran sanctions and stalled Canada-US tariff talks, per The Motley Fool (Aug 24).",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/08/24/stock-market-today-aug-24-nvidia-extends-losses-as-tech-stocks-retreat/",
+      "img": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fcdn.content.foolcdn.com%2Fimages%2F1umn9qeh%2Fproduction%2F8df196edf8e8c0401e1e66caa1b50f898f1c2d48-1400x1251.png%3Fw%3D800%26q%3D75%26fit%3Dmax%26auto%3Dformat&w=1200&op=resize",
+      "continues": true
+    },
+    {
+      "ticker": "NET",
+      "company": "Cloudflare, Inc.",
+      "headline": "Cloudflare Prices $2.5 Billion Convertible Notes as Insiders Sell",
+      "body": "Cloudflare completed a $2.5 billion offering of 0% convertible senior notes due 2031, raising dilution concerns among investors. The move coincided with open-market share sales by the company&rsquo;s CFO and Chief Legal Officer, and Zacks Research downgraded the stock to Hold, citing a forward EV-to-sales multiple above 40x. Second-quarter GAAP operating losses widened to $205.7 million as the company ramped capital spending on edge AI infrastructure, per TradingKey (Aug 24).",
+      "url": "https://www.tradingkey.com/news/market-movers/262128393-market-movers-net-20260824",
+      "img": "https://resource.tradingkey.com/cms_uploads/img/20230814/292a73ea96beb98e5f665e124a82e00c.jpg",
+      "continues": false
+    },
+    {
+      "ticker": "FSLY",
+      "company": "Fastly, Inc.",
+      "headline": "Fastly Pressured as Frontier AI Labs&rsquo; IPO Plans Threaten to Draw Investor Capital",
+      "body": "Fastly came under pressure after Bloomberg reported Anthropic is preparing to file for an IPO as soon as the end of August, at a valuation that could match or exceed SpaceX&rsquo;s roughly $75 billion offering; Anthropic had already raised $65 billion in May at a $965 billion valuation and reported more than $11.5 billion in preliminary second-quarter revenue. OpenAI&rsquo;s CFO also signaled a possible IPO by 2027, and the prospect of frontier AI labs going public has traders discussing rotating out of enterprise software names like Fastly and into the labs directly, per Yahoo Finance/StockStory (Aug 20).",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-fastly-fsly-shares-falling-222715884.html",
+      "img": "https://s.yimg.com/lo/mysterio/api/1783556AFC4AA8B4E65A87D656609AFEE32785D6DFCEBED307A2D558A8093086/subgraphmysterio/resizefill_w1200_h600;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2F2877fce943881a954e884365e8a2ccc1.jpg",
+      "continues": true
+    },
+    {
+      "ticker": "RXT",
+      "company": "Rackspace Technology, Inc.",
+      "headline": "Rackspace Posts Wider Q2 Loss as Public Cloud Revenue Keeps Shrinking",
+      "body": "Rackspace Technology reported Q2 2026 revenue of $670 million, up 0.6% year-over-year, as 5.5% growth in Private Cloud only partly offset a 2.3% decline in Public Cloud; the net loss widened to $67.5 million ($0.27 per diluted share) from $54.5 million a year earlier. For full-year 2026 the company guides to $2.45-$2.55 billion in revenue and $285-$295 million in adjusted EBITDA. Like fellow edge/cloud-infrastructure name Fastly, the stock has been caught up in investor rotation toward directly-listed AI labs and away from traditional enterprise software vendors, per Rackspace investor relations (Aug 10).",
+      "url": "https://ir.rackspace.com/news-releases/news-release-details/rackspace-technology-reports-second-quarter-2026-results",
+      "img": "https://ir.rackspace.com/sites/g/files/knoqqb110336/themes/site/nir_pid3731/dist/images/banner/TSK-14352_Banner_2000x400-v1.jpg",
+      "continues": true
+    },
+    {
+      "ticker": "BYND",
+      "company": "Beyond Meat, Inc.",
+      "headline": "Beyond Meat Completes 1-for-30 Reverse Split After Q2 Miss and Weak Q3 Outlook",
+      "body": "Beyond Meat&rsquo;s 1-for-30 reverse stock split, intended to regain compliance with Nasdaq&rsquo;s minimum bid price rule, took effect following Q2 2026 results that showed an adjusted loss of $0.09 per share, an adjusted EBITDA loss of $27.7 million, revenue down 8.2% year-over-year, and sales volumes down 9.5%. Management guided to an 11% revenue decline for the third quarter, and the company separately amended its 2030 convertible notes to remove restrictions on share repurchases and exchanges, per Investing.com (Aug 11).",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-beyond-meat-stock-plunging-17-today-93CH-4851703",
+      "img": "https://content-media.investing.com/news/SP500StandardandPoors500Index_800x533_L_1657544297.jpg",
+      "continues": false
+    }
+  ],
+  "country_groups": [
+    {
+      "label": "India",
+      "stories": [
+        {
+          "headline": "Karnataka Suspends Amazon, Instamart, BigBasket Over Poisonous Datura Sale",
+          "body": "Karnataka&rsquo;s Food Safety Department suspended food licences for Amazon, Instamart, and BigBasket after finding poisonous datura fruits and seeds listed for sale under valid FSSAI licence numbers, per WION (Aug 25). Amazon did not respond to inquiries, Instamart sought more time, and BigBasket said it had already halted sales &mdash; regulators deemed all three responses unsatisfactory and suspended the licences pending hearings.",
+          "url": "https://www.wionews.com/india-news/karnataka-suspends-amazon-instamart-bigbasket-food-licences-over-poisonous-datura-sale-1787624566860",
+          "img": "https://cdn1.wionews.com/prod/wion/images/2026/20260825/image-1787624772754.jpg?rect=(0,292,4600,3451)&imwidth=800&imheight=600&format=webp&quality=medium",
+          "continues": false
+        },
+        {
+          "headline": "27 Children Fall Ill After Mid-Day Meal in Rajasthan, Days After Bihar Scare",
+          "body": "At least 27 children at a government school in Kota, Rajasthan fell ill on August 24 after eating their mid-day meal, suffering vomiting, dizziness and headaches, per WION (Aug 25). District Education Officer Roop Singh Meena said “four children had already been admitted, and a medical team was sent to attend to the others,” days after a similar Bihar incident sickened 34-40 students.",
+          "url": "https://www.wionews.com/india-news/rajasthan-mid-day-meal-scare-27-school-children-fall-ill-in-kota-days-after-bihar-surf-in-food-incident-1787622814591",
+          "img": "https://cdn1.wionews.com/prod/wion/images/2026/20260825/image-1787624401323.png?rect=(0,0,1200,900)&imwidth=800&imheight=600&format=webp&quality=medium",
+          "continues": false
+        },
+        {
+          "headline": "India&rsquo;s Sugar Stocks Hit 52-Week Highs as Government Denies Ethanol Link",
+          "body": "Sugar-linked stocks surged to 52-week highs on rising prices tied to lower domestic output and festive demand, with New Delhi insisting the shortage stems from disease and weather hitting sugarcane yields, not diversion to E20 ethanol blending, per WION (Aug 24). About 32% of ethanol still comes from sugarcane feedstock versus 68% from grains, and the government is allowing duty-free imports of 1 million tonnes of raw sugar through October 31.",
+          "url": "https://www.wionews.com/india-news/india-s-sugar-linked-stocks-soar-to-52-week-highs-even-as-govt-inisists-rising-prices-shortage-not-linked-to-ethanol-blending-for-e20-petrol-1787590202288",
+          "img": "https://cdn1.wionews.com/prod/wion/images/2026/20260824/image-1787590222029.png?imwidth=1200&imheight=900",
+          "continues": false
+        },
+        {
+          "headline": "Gurmeet Ram Rahim Walks Out of Jail Again on 21-Day Furlough",
+          "body": "Dera Sacha Sauda chief Gurmeet Ram Rahim, convicted of rape and murder, was released from Haryana&rsquo;s Sunaria jail on a 21-day furlough &mdash; his 17th temporary release since 2020, per WION (Aug 25). Past releases have ranged from 12 hours to 50 days under Haryana&rsquo;s Good Conduct Prisoners Act, which allows up to 70 days of parole and 21 days of furlough annually.",
+          "url": "https://www.wionews.com/india-news/rape-and-murder-convict-gurmeet-ram-rahim-walks-out-of-jail-again-a-look-at-his-17-temporary-releases-since-2020-1787628923236",
+          "img": "https://cdn1.wionews.com/prod/wion/images/2026/20260825/image-1787629042465.jpg",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "stories": [
+        {
+          "headline": "No 10 Urges Social Media Firms to Pull &lsquo;Reprehensible&rsquo; Dangerous Driving Videos",
+          "body": "Downing Street pressed TikTok and other platforms to remove videos glorifying dangerous driving after a wrong-way crash on the A66 near Middlesbrough killed Pc Tom Clough, Pc Matthew Blades and five others, per ITV News (Aug 24). PM Andy Burnham said those promoting such content are “doing something that&rsquo;s truly reprehensible,” with officials warning platforms must comply with Online Safety Act requirements.",
+          "url": "https://www.itv.com/news/2026-08-24/no-10-urges-social-media-firms-to-remove-videos-glorifying-dangerous-driving",
+          "img": "https://images.ctfassets.net/pjshm78m9jt4/nr4wDXnPD1xK511hnIvTi/05a52b11359a9372ea7d9e0781749863/ITVX_BULLETIN_THUMBNAIL.00_00_00_00.Still011.jpg?fm=jpg&fit=fill&w=1600&h=900&q=80",
+          "continues": false
+        },
+        {
+          "headline": "Treasury Launches Review of Business Rates for Pubs and Hotels",
+          "body": "The Treasury opened an independent review into how business rates are valued for pubs and hotels, led by rates expert Jerry Schurder, after steep increases at the 2026 revaluation, per GOV.UK (Aug 24). It will report by March 2027 ahead of the 2029 revaluation, building on a 20% rates cut for pubs and live music venues due from April 2027; Financial Secretary James Murray said “pubs and hotels are vital for communities and bringing growth to every postcode.”",
+          "url": "https://www.gov.uk/government/news/treasury-to-call-time-on-uncertainty-for-pubs-and-hotels",
+          "img": "https://assets.publishing.service.gov.uk/media/5a37db09e5274a7908e352b4/s960_HMT_buiding_plaque.jpg",
+          "continues": false
+        },
+        {
+          "headline": "Woman Admits Breaching Anonymity Order in Jeffrey Donaldson Abuse Case",
+          "body": "Donna Toman, 55, of Ballynahinch pleaded guilty to breaching a lifetime anonymity order protecting a victim of former DUP leader Jeffrey Donaldson, who was convicted of 18 historical sexual offences, per ITV News (Aug 24). The breach stemmed from a social media post made on June 26, 2026; a district judge warned the offence carries up to six months in prison, with sentencing set for October 12.",
+          "url": "https://www.itv.com/news/utv/2026-08-24/jail-warning-for-woman-who-breached-donaldson-abuse-victim-anonymity-order",
+          "img": "https://images.ctfassets.net/pjshm78m9jt4/4oI0rz92BWVcubjr16seXZ/b0f9c69223667f1de49610b6ca51bd2a/Donna_Toman_at_Downpatrick_Court_0077.jpg?fm=jpg&fit=fill&w=1600&h=900&q=80",
+          "continues": false
+        },
+        {
+          "headline": "Reform UK Pledges to Prioritise British-Born Workers for Social Housing",
+          "body": "Reform UK unveiled plans to prioritise British-born workers under 35, veterans, and married couples with children for social housing, alongside a pledge to build 50,000 affordable homes a year, per LocalGov (Aug 24). Deputy leader Richard Tice cited 1.3 million people on waiting lists, but Shelter&rsquo;s Sarah Elliott called the plan “a blatant distraction from the real cause of the housing emergency.”",
+          "url": "https://www.localgov.co.uk/Reform-pledges-to-prioritise-British-workers-for-social-housing/64846",
+          "img": "https://www.localgov.co.uk/images/teaser/tice.jpg",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "label": "Qatar & the GCC",
+      "stories": [
+        {
+          "headline": "Qatar-Brokered Roadmap Advances DR Congo Peace Framework",
+          "body": "Qatar-mediated talks in Switzerland (Aug 17-21) between the DR Congo and the AFC/M23 rebel group produced a practical roadmap to implement the November 2025 Doha Peace Framework, including activating the Expanded Joint Verification Mechanism Plus and the DRC&rsquo;s release of 15 detainees, per The Peninsula Qatar (Aug 24). A Qatar University expert noted “the real test of any mediation is not the signing of the agreement, but the ability to turn it into implementable steps.”",
+          "url": "https://thepeninsulaqatar.com/article/24/08/2026/qatari-international-mediation-yields-roadmap-to-implement-doha-peace-framework-in-dr-congo",
+          "img": "https://thepeninsulaqatar.com/get/maximage/20250918_1758208412-279.jpeg?1758208412",
+          "continues": false
+        },
+        {
+          "headline": "Qatar&rsquo;s Foreign Investment Stock Rises to $47.3bn in Q1 2026",
+          "body": "Qatar&rsquo;s inward FDI stock climbed 3.3% to QR172.2bn ($47.3bn) in the first quarter of 2026, while outbound investment rose 3.5% to QR221.7bn ($60.9bn), per The Peninsula Qatar (Aug 24). Mining and quarrying drew 45.3% of foreign investment and financial services 31.9%, with analyst Mohammed Sohail saying Qatar is “transforming from a regional consumer of tech solutions into an active incubator for fintech, data centers, and advanced logistics.”",
+          "url": "https://thepeninsulaqatar.com/article/24/08/2026/foreign-investment-expansion-signals-heightened-confidence-for-global-capital",
+          "img": "https://thepeninsulaqatar.com/get/maximage/20241108_1731050899-778.jpg?1731050899",
+          "continues": false
+        },
+        {
+          "headline": "Qatar&rsquo;s First Real Cool-Down Expected From September 20 as Suhail Season Continues",
+          "body": "Qatar Calendar House&rsquo;s Dr Faisal Al Ansari said temperatures will noticeably decline starting September 20, roughly 26 days into the 53-day, four-phase Suhail season that began this week, per The Peninsula Qatar (Aug 24). The transition also brings equal day/night length, improved planting conditions, and shifting fish behaviour as the region heads toward autumn.",
+          "url": "https://thepeninsulaqatar.com/article/24/08/2026/qatar-to-expect-first-noticeable-drop-in-temperatures-from-september-20-expert",
+          "img": "https://thepeninsulaqatar.com/get/maximage/20260824_1787595532-222.jpg?1787595532",
+          "continues": true
+        },
+        {
+          "headline": "Tanker Set Ablaze Off Saudi Arabia After Strike by &lsquo;Unknown Projectile&rsquo;",
+          "body": "A tanker caught fire after being struck by an unknown projectile roughly 63 nautical miles west of Yanbu on Saudi Arabia&rsquo;s Red Sea coast, the UK Maritime Trade Operations agency said, per The Peninsula Qatar (Aug 24). All crew members were reported safe with no environmental damage noted, and the fire was confined to the vessel&rsquo;s main deck.",
+          "url": "https://thepeninsulaqatar.com/article/24/08/2026/tanker-on-fire-off-saudi-arabia-after-strike-by-unknown-projectile-maritime-agency",
+          "img": "https://thepeninsulaqatar.com/get/maximage/20260824_1787559940-696.JPG?1787559940",
+          "continues": false
+        }
+      ]
+    }
+  ],
+  "doha_events": [
+    {
+      "headline": "Kalila wa Dimna Exhibition Opens at MIA Library",
+      "body": "A new library display exploring the literature, art, architecture and nature behind the classic tale opens at the Museum of Islamic Art Library, featuring manuscript replicas and scale models inspired by Mughal design; runs through December 30.",
+      "url": "https://mia.org.qa/en/calendar/discover-the-world-behind-kalila-wa-dimna/",
+      "img": "https://static.qm.org.qa/media/images/IMG_6126.7f68f0c9.fill-1200x630.png",
+      "continues": false
+    },
+    {
+      "headline": "Run the Dome 2026 at Aspire Dome",
+      "body": "Qatar&rsquo;s first indoor running event inside the Aspire Dome, featuring a 4.8km two-level course with women&rsquo;s and open races over August 28-29; free entry, open to all ages and fitness levels.",
+      "url": "https://aspirezone.qa/en/events/run-the-dome-2026",
+      "img": "https://aspirezone.qa/WebContent/aspirezonecropped/639210181147384964.jpg",
+      "continues": false
+    },
+    {
+      "headline": "Dhe Maveli Dohayil: Onam Celebration in Doha",
+      "body": "A mega Onam celebration bringing together more than 20 artists for live music, DJs, folk performances and traditional Kerala percussion at Infinity Night Club, Premium Strato Hotel, on August 28.",
+      "url": "https://qatarday.com/Dhe%20Maveli%20Dohayil%3A%20A%20Mega%20Onam%20Celebration%20Set%20to%20Light%20Up%20Doha/106973/0",
+      "img": null,
+      "continues": false
+    },
+    {
+      "headline": "Travancore Fest: Mentalist Anandhu Live in Doha",
+      "body": "“The Secret Letter” brings mentalist Anandhu&rsquo;s interactive show combining mentalism, storytelling and audience participation to Regency Hall on August 28.",
+      "url": "https://www.qatarliving.com/en/article/events-to-check-out-this-week-august-23-30-2026",
+      "img": null,
+      "continues": false
+    },
+    {
+      "headline": "Back to School Festival at West Walk",
+      "body": "“With Knowledge and Work, We Build the Nation” is a four-day community celebration with educational, cultural, sporting and recreational activities, running August 26-29 at West Walk, free entry.",
+      "url": "https://www.qatarliving.com/en/article/events-to-check-out-this-week-august-23-30-2026",
+      "img": null,
+      "continues": false
+    }
+  ]
+}
