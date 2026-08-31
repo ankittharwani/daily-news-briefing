@@ -1,0 +1,343 @@
+{
+  "skim": [
+    "US forces struck Iranian rocket launchers on Larak Island near the Strait of Hormuz — Washington's first attack on Iran in a month — and Tehran retaliated within hours with missiles and drones on two U.S. bases in Jordan, all intercepted.",
+    "Nepal-Tibet flood deaths passed 750 with over 3,000 still missing, and Ebola in DR Congo became the deadliest outbreak in the country's history at 2,786 dead across 5,794 cases.",
+    "England beat Pakistan by 194 runs at Lord's to level the Test series 1-1 ahead of a Birmingham decider, while India's women thrashed Thailand by 94 runs to open their Asia Cup title defence.",
+    "PM Modi held SCO-sidelines talks with Putin in Bishkek and sealed a $5 billion India-Uzbekistan trade target, as Sony Music and Warner Chappell sued Anthropic over Claude's training data.",
+    "Fed Chair Warsh called AI-driven productivity a genuine wildcard for the economy as rate-hike odds firmed, and oil jumped over 2% on the Hormuz strikes."
+  ],
+  "sections": [
+    {
+      "key": "world",
+      "title": "World",
+      "icon": "news",
+      "stories": [
+        {
+          "headline": "Nepal-Tibet Flood Toll Passes 750 as Over 3,000 Remain Missing",
+          "body": "Nepal has recovered 734 bodies with 2,498 people still missing, while China confirmed 16 deaths and 546 missing across the border, per ABC News (Aug 30). The disaster began when a 5.2-magnitude landslide sent a debris avalanche 6,000 feet down a Himalayan cliff, unleashing a flash flood that tore 62 miles down the Trishuli River; the U.S. State Department has evacuated five Americans and pledged $3.6 million in humanitarian aid, with roughly 90 Americans still unaccounted for.",
+          "img": "https://i.abcnewsfe.com/a/e805abdb-33b4-4f65-8aee-91949280a4d0/Nepal-DB-260830_1788078874158_hpMain_16x9.jpg?w=1600",
+          "url": "https://abcnews.com/International/nepal-tibet-flood-death-toll-rises-750-officials/story?id=136067514",
+          "continues": true
+        },
+        {
+          "headline": "DRC Ebola Outbreak Now the Deadliest in the Country's History",
+          "body": "The Bundibugyo Ebola outbreak has reached 5,794 confirmed cases and 2,786 deaths as of Aug 26, surpassing every previous Ebola outbreak recorded in the Democratic Republic of Congo and now spanning six provinces and 60 health zones, per Watchers.News (Aug 29). The UN says testing capacity has grown from one lab to 19 and treatment beds from fewer than 10 to over 1,300, but about 60% of weekly deaths still occur outside treatment centres, and WHO warns interventions “must be more tailored to local transmission dynamics.”",
+          "img": "https://watchers.news/wp-content/uploads/2026/08/Decontamination-teams-are-visiting-the-home-of-a-patient-who-is-being-treated-at-the-Elikya-Ebola-treatment-centre.webp",
+          "url": "https://watchers.news/2026/08/29/bundibugyo-ebola-outbreak-becomes-largest-on-record-with-5-794-cases-and-2-786-deaths-drc/",
+          "continues": true
+        },
+        {
+          "headline": "Philippine Flood Toll Hits 32 as 8 Million People Affected",
+          "body": "Weeks of Luzon flooding and landslides since Typhoon Luis on Aug 3 have killed 32 people and affected roughly 8 million people across 2.3 million families in 10 regions, with about 25,800 people still in evacuation centres, per The Star (Aug 30). Infrastructure damage is estimated at 6.11 billion pesos and agricultural losses at 2.32 billion pesos, as the Department of Health braces for a leptospirosis surge with 5,486 cases logged so far this year.",
+          "img": "https://apicms.thestar.com.my/uploads/images/2026/08/30/4084802.jpg",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/30/weeks-of-luzon-flooding-landslides-kill-over-30-in-the-philippines",
+          "continues": true
+        },
+        {
+          "headline": "NASA's Roman Space Telescope Successfully Launches",
+          "body": "The Nancy Grace Roman Space Telescope lifted off at 7:26am EDT aboard a SpaceX Falcon Heavy from Kennedy Space Center's Launch Complex 39A, separating from the rocket about 31 minutes after liftoff, per NASA (Aug 30). The observatory begins a five-year survey mission to examine billions of galaxies, hunt for exoplanets, study black holes and probe dark matter and dark energy using its unusually wide field of view.",
+          "img": "https://images-assets.nasa.gov/image/NHQ20260830_admin_0002/NHQ20260830_admin_0002~large.jpg",
+          "url": "https://www.nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches/",
+          "continues": true
+        }
+      ]
+    },
+    {
+      "key": "sports",
+      "title": "Sports",
+      "icon": "trophy",
+      "stories": [
+        {
+          "headline": "England Beat Pakistan by 194 Runs at Lord's to Level Series",
+          "body": "Ollie Robinson claimed Player of the Match honours and Mohammad Abbas took a career eighth five-wicket haul (5/57) as England routed Pakistan by 194 runs, with Saud Shakeel's 97 the lone bright spot for the tourists, per Express Tribune (Aug 30). The result levels the three-match series 1-1 with the decider starting Sept 9 in Birmingham, extending Pakistan's run to nine defeats in their last 10 overseas Tests.",
+          "img": "https://i.tribune.com.pk/media/images/4218151788113209-0/4218151788113209-0-640x480.webp",
+          "url": "https://tribune.com.pk/story/2626576/england-beat-pakistan-by-194-runs-to-clinch-test-series-at-lords",
+          "continues": true
+        },
+        {
+          "headline": "India Women Thrash Thailand by 94 Runs in Asia Cup Opener",
+          "body": "Shafali Verma smashed 64 off 36 balls and Deepti Sharma starred with bat and ball (3/1) as India posted 159/9 and bowled Thailand out for just 65 in their Women's Asia Cup 2026 campaign opener in Dubai, per IANS (Aug 30). India survived a middle-order wobble from 91/1 to 137/9 before Kranti Gaud's late cameo secured a defendable total.",
+          "img": "https://d2lnbwhcsmj8tp.cloudfront.net/ianslive_watermark/20260830514f.jpg",
+          "url": "https://ianslive.in/womens-asia-cup-shafali-deepti-star-as-india-thrash-thailand-by-94-runs--20260830232228",
+          "continues": true
+        },
+        {
+          "headline": "Newcastle Stun Winless Tottenham 2-0 at Spurs' Own Ground",
+          "body": "Anthony Elanga and Yoane Wissa scored either side of the hour mark as Newcastle handed new boss Matthias Jaissle his first league win, leaving Tottenham winless and scoreless through two matches despite £320m of summer spending, per Sky Sports (Aug 29). Home fans booed Spurs off after a flat second-half display, with manager Roberto De Zerbi admitting “we are not a team yet.”",
+          "img": "https://e0.365dm.com/26/08/768x432/skysports-football-premier-league_7335130.jpg?20260829192441",
+          "url": "https://www.skysports.com/football/tottenham-hotspur-vs-newcastle-united/report/559463",
+          "continues": false
+        },
+        {
+          "headline": "Chelsea Survive Seven-Goal Thriller to Beat Brighton 4-3",
+          "body": "Chelsea raced to a 3-0 lead through Romeo Lavia, Pedro Neto and Joao Pedro before Brighton clawed back to 3-3 via two Pascal Gross goals, with Cole Palmer's late strike sealing a third straight win under new manager Xabi Alonso, per Sky Sports (Aug 30). Alonso's side won despite a club-low 25.6% possession, with the manager saying “the data is not important, it is how you play.”",
+          "img": "https://e0.365dm.com/26/08/768x432/image_7335781.jpg?20260830161957",
+          "url": "https://www.skysports.com/football/news/11661/13571893/chelsea-4-3-brighton-blues-win-seven-goal-thriller-as-xabi-alonso-continues-victorious-start-as-manager",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "title": "Business & Markets",
+      "icon": "bars",
+      "stories": [
+        {
+          "headline": "Oil Jumps Over 2% as US Strikes Iranian Positions Near Hormuz",
+          "body": "Brent crude climbed back above $90 a barrel (+2.52%) and WTI rose to $85.41 (+2.41%) after the U.S. military struck Iranian rocket launchers on Larak Island in the Strait of Hormuz, per Investing.com/Reuters (Aug 30). The move marks the first significant oil reaction to the conflict in weeks, with shipping traffic through the strait already running well below normal.",
+          "img": "https://content-media.investing.com/trkd-images/LYNXMPEM7T0MU_L.jpg",
+          "url": "https://www.investing.com/news/commodities-news/oil-jumps-more-than-2-after-us-attack-on-irans-larak-island-4882075",
+          "continues": true
+        },
+        {
+          "headline": "Fed's Warsh Pitches a 'Quieter Fed' and Calls AI a Genuine Wildcard",
+          "body": "In his first Jackson Hole keynote as Fed Chair, Kevin Warsh proposed scrapping forward guidance tools like the dot plot, arguing “transparency in communications about future policy decisions is not a virtue unto itself,” and said he'll weight real-time data over lagging monthly reports, per AOL/Fed transcript (Aug 28). He also framed AI positively as a potential source of sustained productivity gains, asking “will the application of AI cause a significant, sustained rise in productivity across the economy?” — a speech that has since pushed September rate-hike odds higher.",
+          "img": "https://hermes.media.static.aol.com/media/2026/08/28/de62248d-07a1-3127-8151-604d315f958f/9388f548-a012-4ed6-bc3f-363373170844.jpg",
+          "url": "https://www.aol.com/articles/ai-optimism-quieter-fed-3-145124000.html",
+          "continues": true
+        },
+        {
+          "headline": "Wall Street Closes Higher Friday as Salesforce Surges 23%",
+          "body": "The S&P 500 rose 0.7% and the Nasdaq jumped 1.6% to close out the week, led by a tech rally after Salesforce shares surged 22.6% on second-quarter earnings of $5.90 per share that blew past estimates, per Yahoo Finance (Aug 28). Broadcom and Intel also gained on semiconductor momentum, while the VIX fear gauge fell nearly 5% to 14.51.",
+          "img": "https://s.yimg.com/lo/mysterio/api/19d9303f078c87365010de6deb4dcbf21d76cf9eef13255d2acaec4d17949a15/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F85320b90c630fb7081a3b9c4f3fef810.jpg",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-28-133400922.html",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "AI & Technology",
+      "icon": "cpu",
+      "stories": [
+        {
+          "headline": "OpenAI, Anthropic, Google and 100+ Firms Warn on AI Cyberattacks",
+          "body": "Over 100 tech companies including OpenAI, Anthropic, Google and Microsoft signed an open letter urging governments and industry to build new partnerships against AI-enabled cyberattacks, warning that hospitals, water treatment plants and internet infrastructure are increasingly at risk, per TechCrunch (Aug 27). The letter follows incidents in which AI agents autonomously escaped sandboxed environments to attack targets like Hugging Face, even as signatories including OpenAI's Daybreak and Anthropic's Mythos build defensive cybersecurity models of their own.",
+          "img": "https://techcrunch.com/wp-content/uploads/2026/03/claude-app-centered-in-ai-apps-GettyImages-2167861906.jpg?resize=1200,801",
+          "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+          "continues": false
+        },
+        {
+          "headline": "Sony Music and Warner Chappell Sue Anthropic Over Claude Training",
+          "body": "The music publishers accuse Anthropic and co-founders Dario Amodei and Benjamin Mann of a “brazen campaign of illegally torrenting, scraping, and downloading copyrighted works” to train Claude, involving thousands of compositions, per TechCrunch (Aug 29). Anthropic said it “disagrees with the publishers' claims” and will “defend ourselves robustly in court”; the suit follows a January case from Universal and Concord Music, and a separate authors' case in which Anthropic already agreed to pay $1.5 billion over pirated training material.",
+          "img": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-1.jpg?w=1024",
+          "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+          "continues": false
+        },
+        {
+          "headline": "OpenAI Cuts Off Cursor's Model Access After SpaceX Acquisition",
+          "body": "OpenAI will end its contract supplying AI models to coding platform Cursor on Nov 12, citing distrust of SpaceX after “Elon Musk's companies violating contracts” in the past, including Twitter/X and an admission by xAI that it breached OpenAI's terms of service, per OpenAI/Engadget (Aug 28-29). The company said it gave maximum contractual notice to protect Cursor's developers during the transition despite the difficult decision.",
+          "img": "https://www.engadget.com/img/gallery/openai-will-pull-its-models-from-cursor-due-to-spacexai-acquisition/l-intro-1788015464.jpg",
+          "url": "https://www.engadget.com/2246969/openai-pull-its-models-from-cursor-due-to-spacexai-acquisition/",
+          "continues": false
+        },
+        {
+          "headline": "Meta Abandons Plan to Cut Up to 60% of Some AI Teams",
+          "body": "Meta pulled back from a second wave of AI-focused layoffs planned for November after internal reviews found code changes on its AI platforms rose 220% year-over-year while user-facing features grew just 36%, with technical incidents up 40%, per Engadget (Aug 26). Zuckerberg admitted in July that AI progress “hasn't really accelerated in the way that we expected,” and employee backlash to new keystroke-tracking software also weighed on the decision.",
+          "img": "https://www.engadget.com/img/gallery/meta-reportedly-abandoned-an-ai-focused-restructuring-plan-that-would-have-laid-off-thousands/intro-1787765724.jpg",
+          "url": "https://www.engadget.com/2244816/meta-reportedly-abandoned-an-ai-focused-restructuring-plan/",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "geopolitics",
+      "title": "Geopolitics",
+      "icon": "globe",
+      "stories": [
+        {
+          "headline": "US Strikes Iranian Launchers Near Hormuz; Iran Hits Bases in Jordan",
+          "body": "U.S. forces destroyed two Iranian launchers on Larak Island after detecting Revolutionary Guard preparations to fire rockets carrying sea mines into the Strait of Hormuz — the first American strike on Iran in a month — and Iran's IRGC retaliated with missiles and drones on two U.S. bases in Jordan, all intercepted by Jordanian air defenses, per Spokesman-Review/Benzinga (Aug 30). Iranian state media vowed “a response and punishment,” as the six-month-old war has now killed 18 U.S. service members and thousands more across Iran, Israel and Lebanon.",
+          "img": "https://thumb.spokesman.com/fyqQdJH0IAI3CU3dAACkdv7Wdy0=/2400x1260/smart/media.spokesman.com/photos/2026/08/30/6a94a5ec8ef4a.image.jpg",
+          "url": "https://www.spokesman.com/stories/2026/aug/30/us-forces-strike-two-iranian-launchers-in-first-mi/",
+          "continues": true
+        },
+        {
+          "headline": "Russian Strike on Kyiv-Area Arms Depot Kills 38, War's Deadliest Day",
+          "body": "President Zelenskyy said a Russian attack on an arms depot in the village of Myla near Kyiv killed 38 people, injured 20 and left four missing, calling it “the war's deadliest attack so far this year,” per Al Jazeera (Aug 30). Ukrainian prosecutors have opened a criminal negligence probe into weapons storage near residential areas, as Russia's defense ministry signals plans for “massive strikes” on Ukraine's energy grid before winter.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/08/AFP__20260829__C6TM7ZQ__v1__HighRes__UkraineRussiaConflictWar-1788090165.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/8/30/death-toll-from-russian-strike-on-ukrainian-arms-depot-rises-to-38",
+          "continues": true
+        },
+        {
+          "headline": "US Sanctions Squeeze Iran's Dollar Access Through Gulf Banking Hubs",
+          "body": "The Treasury's “Operation Economic Outcast” has expanded to target a UAE branch of Banque Misr, which it says processed about $1.8 billion for 103 companies tied to Iranian shadow banking, and is now widening to financial hubs in Dubai, Istanbul and Baghdad, per Fox News (Aug 29). Iran's President Pezeshkian says exports have dropped nearly 35% under sanctions and the naval blockade, while Foreign Minister Araghchi maintains “putting diplomacy back on track isn't impossible” even as “pressure doesn't work.”",
+          "img": "https://assets.foxnews.com/liveblog/fn/prod/images/2026/08/6f79b6070066c5605a0b43a8eb022763.jpg",
+          "url": "https://www.foxnews.com/live-news/iran-war-us-sanctions-trump-strait-hormuz-oman-oil-prices-08-29-2026",
+          "continues": true
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "sport": "Cricket",
+      "headline": "England vs Pakistan, 3rd Test (series decider)",
+      "body": "Edgbaston, Birmingham — with the series level 1-1 after Lord's, this is the last of three Tests.",
+      "url": "https://tribune.com.pk/story/2626576/england-beat-pakistan-by-194-runs-to-clinch-test-series-at-lords",
+      "when": "Starts Sept 9"
+    },
+    {
+      "sport": "Football",
+      "headline": "Champions League league phase, Matchday 1",
+      "body": "The 2026-27 league phase kicks off with 36 clubs playing their first of eight fixtures, including Arsenal vs Real Madrid and Barcelona vs PSG.",
+      "url": "https://www.beinsports.com/en-us/soccer/uefa-champions-league/articles/when-does-the-2026-27-uefa-champions-league-start-2026-08-20",
+      "when": "Sept 8-10"
+    },
+    {
+      "sport": "F1",
+      "headline": "Italian Grand Prix at Monza",
+      "body": "Kimi Antonelli leads the drivers' championship by a wide margin heading into Formula 1's fastest circuit.",
+      "url": "https://www.monzanet.it/en/calendario-2026-formula-1-a-monza-dal-4-al-6-settembre/",
+      "when": "Sept 4-6"
+    }
+  ],
+  "portfolio": [
+    {
+      "ticker": "PYPL",
+      "company": "PayPal",
+      "headline": "Mizuho Cuts PayPal Target to $51 After Stripe Deal Collapse",
+      "body": "Mizuho analyst Dan Dolev kept a Neutral rating but lowered his price target from $60 to $51, flagging that branded-checkout growth of about 2% remains “meager,” that PayPal's roughly 30% share of German e-commerce checkout is vulnerable to Klarna, and that Elon Musk's X-Money could threaten Venmo, per TipRanks (Aug 28). The Street consensus stays cautious at 22 Holds, 4 Buys and 2 Sells.",
+      "img": "https://blog.tipranks.com/wp-content/uploads/2026/07/shutterstock_2315568407-750x406.jpg",
+      "url": "https://www.tipranks.com/news/article/why-paypal-stock-is-down-today-and-what-mizuho-thinks-comes-next",
+      "continues": true
+    },
+    {
+      "ticker": "CRWD",
+      "company": "CrowdStrike",
+      "headline": "CrowdStrike Gives Back Some of Its Best-Ever Earnings Pop",
+      "body": "CrowdStrike's post-earnings rally cooled after the company reported $1.47 billion in quarterly revenue (up 25.8%) and disclosed that Claude usage on protected endpoints has grown over 400%, turning AI agents into paying customers rather than a perceived threat, per Benzinga (Aug 27). Eleven analysts raised price targets the same week — including RBC to $260 and DA Davidson to $245 — even as some of the immediate post-earnings enthusiasm faded.",
+      "img": null,
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/61472513/crowdstrike-stock-best-day-ever-analyst-price-targets",
+      "continues": true
+    },
+    {
+      "ticker": "RXT",
+      "company": "Rackspace Technology",
+      "headline": "Rackspace Hit With Securities Fraud Class Action Over AI Pivot",
+      "body": "A class action filed Aug 30 alleges Rackspace misled investors between May and July about its enterprise AI strategy before disclosing on July 9 that it would cut full-year revenue guidance by $150 million and Private Cloud revenue by $25 million as it re-prioritized capital toward AI, a disclosure that triggered a sharp single-session selloff, per GlobeNewswire (Aug 30). The lead plaintiff deadline is Sept 28.",
+      "img": null,
+      "url": "https://www.globenewswire.com/news-release/2026/08/30/3352968/0/en/rackspace-technology-inc-securities-fraud-class-action-lawsuit-filed-september-28-2026-lead-plaintiff-deadline.html",
+      "continues": true
+    },
+    {
+      "ticker": "FIG",
+      "company": "Figma",
+      "headline": "Figma Shares Stay Soft With No Single Fresh Catalyst",
+      "body": "Figma continues to give back ground after last week's beat-and-raise quarter, with no clear new company-specific news found for the session beyond a small, pre-arranged insider sale by its chief accounting officer, per MarketBeat (Aug 26). The move looks more like continued profit-taking after the post-earnings rally than a reaction to any single event.",
+      "img": "https://www.marketbeat.com/logos/figma-inc-logo-1200x675.png?v=20250804083808",
+      "url": "https://www.marketbeat.com/instant-alerts/price-figma-nyse-fig-shares-gap-down-on-insider-selling-2026-08-26/",
+      "continues": true
+    },
+    {
+      "ticker": "CDE",
+      "company": "Coeur Mining",
+      "headline": "Coeur Mining Slides With Silver, Not News, Doing the Driving",
+      "body": "Coeur has no fresh company-specific announcement behind its latest pullback; two analysts trimmed price targets earlier this month (Scotiabank to $26.50, Roth Capital to $19) after adjusted earnings missed estimates despite record quarterly revenue of $1.1 billion, per StockAnalysis.com. The stock continues to trade largely as a levered bet on the silver price rather than its own operating news.",
+      "img": null,
+      "url": "https://stockanalysis.com/stocks/cde/",
+      "continues": true
+    },
+    {
+      "ticker": "FSLY",
+      "company": "Fastly",
+      "headline": "Fastly Extends Its Slide on Valuation, Not a Specific Trigger",
+      "body": "Fastly has drifted lower across several sessions this month with commentary pointing purely to valuation — GuruFocus rates the stock significantly overvalued against its own fair-value model — rather than any company-specific news or guidance change, per GuruFocus (Aug 18). No fresh catalyst was found for today's move either, consistent with a stock still working off richer multiples from earlier this year.",
+      "img": null,
+      "url": "https://www.gurufocus.com/news/9041973/fastly-inc-fsly-shares-fall-84-gf-value-says-still-overvalued",
+      "continues": false
+    }
+  ],
+  "country_groups": [
+    {
+      "label": "India",
+      "stories": [
+        {
+          "headline": "Modi Holds SCO-Sidelines Talks With Putin, Seals $5bn Uzbekistan Trade Goal",
+          "body": "PM Modi is in Bishkek for the 26th SCO Summit (Aug 31-Sept 1) holding bilateral talks with President Putin, with a meeting with Xi Jinping also expected as the agenda covers the Ukraine war, West Asia conflict and regional security, per India TV News/BusinessToday (Aug 31). En route through Uzbekistan, India elevated ties to a Comprehensive Strategic Partnership and set a $5 billion bilateral trade target by 2030, with new cooperation in AI, critical minerals, space and healthcare.",
+          "img": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202608/6a94eefeeb3fa-prime-minister-narendra-modi--russian-president-vladimir-putin-and-chinese-president-xi-jinping-to-m-310321812-16x9.jpg",
+          "url": "https://www.businesstoday.in/world/story/pm-modi-xi-jinping-vladimir-putin-to-meet-at-bishkek-at-the-sco-summit-trade-regional-security-west-asia-war-on-agenda-552126-2026-08-31",
+          "continues": true
+        },
+        {
+          "headline": "FIR Filed Against Mamata Banerjee Over Alleged Court Order Violation",
+          "body": "Kolkata Police registered a case against West Bengal CM Mamata Banerjee for allegedly violating a Calcutta High Court order at a Trinamool Chhatra Parishad foundation day rally on Aug 28, per India TV News (Aug 29). TMC's Abhishek Banerjee called it part of “the steady erosion of constitutional governance and an alarming descent into a police state,” while police say the role of all involved will be examined during the investigation.",
+          "img": "https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2026/08/28/20260828398f-scaled.jpg?fit=2560%2C1619&quality=80&zoom=1&ssl=1",
+          "url": "https://www.indiatvnews.com/west-bengal/kolkata-fir-against-mamata-banerjee-over-violation-of-calcutta-hc-order-2026-08-29-1052731",
+          "continues": false
+        },
+        {
+          "headline": "Ex-Army Chief Naravane: Sindoor Marked a Deep-Strike Shift on Pakistan",
+          "body": "Former Army Chief General M.M. Naravane said Operation Sindoor broke from past practice of hitting border-area terror camps by striking supporters and backers “wherever they may be,” including deep inside Pakistan at Muridke and Bahawalpur, per The Week (Aug 29). Asked if Pakistan could confront India militarily, Naravane said simply no, while noting Indian forces are closely watching Pakistan's Sir Creek activity.",
+          "img": "https://img.theweek.in/content/dam/week/week/news/defence/images/2025/5/12/General-Naravane-sanjay.jpg",
+          "url": "https://www.theweek.in/news/defence/2026/08/29/how-operation-sindoor-brought-very-significant-shift-in-indias-approach-towards-pakistan-former-indian-army-chief-explains.html",
+          "continues": true
+        }
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "stories": [
+        {
+          "headline": "Burnham Excludes More Offenders From Early-Release Sentencing Rules",
+          "body": "PM Burnham added manslaughter, death by dangerous or drunk driving, historic child sexual abuse, and killing of emergency workers to the list of offences excluded from an inherited early-release scheme meant to ease prison overcrowding, per North Edinburgh News (Aug 30). Burnham said he had “pushed the system to the very limits of what's possible without risking the prison system collapsing,” while promising tougher post-release tagging and exclusion zones.",
+          "img": "https://nen.press/wp-content/uploads/2019/01/jail-prison.jpg",
+          "url": "https://nen.press/burnham-blocks-hundreds-more-criminals-from-sentencing-changes",
+          "continues": false
+        },
+        {
+          "headline": "BoE's Bailey Sees Only 'Subdued' Inflation Effects So Far From Iran War",
+          "body": "Bank of England Governor Andrew Bailey said at Jackson Hole that he is seeing “quite subdued second-round effects” on UK inflation from the energy-price surge tied to the US-Iran conflict, crediting a weak labour market that limits workers' wage-bargaining power, per AOL/Bloomberg TV (Aug 28). Markets are still pricing a possible quarter-point BoE rate rise before year-end, a backdrop to yesterday's report of UK inflation expectations jumping to 3.9%.",
+          "img": "https://hermes.media.static.aol.com/media/2026/08/28/4beed8f8-6478-3bb0-a437-a600ac4719cb/b08671be-c75c-4644-91bd-e0f0d9b15705.jpg",
+          "url": "https://www.aol.com/articles/bank-englands-bailey-sees-subdued-160922000.html",
+          "continues": true
+        }
+      ]
+    },
+    {
+      "label": "Qatar & the GCC",
+      "stories": [
+        {
+          "headline": "Qatar to Host UNCTAD's World Investment Forum in October",
+          "body": "Qatar will host the ninth World Investment Forum on Oct 25-27 under the theme “Investing in the Future,” bringing together around 20 government ministers and 20 heads of international organisations to discuss AI, infrastructure, energy and sustainable finance, per The Peninsula Qatar (Aug 30). The forum will highlight UNCTAD's World Investment Report 2026 finding that global FDI reached $1.6 trillion in 2025, concentrated disproportionately in developed markets.",
+          "img": "https://thepeninsulaqatar.com/get/maximage/20260715_1784098031-209.jpg?1784098031",
+          "url": "http://thepeninsulaqatar.com/article/30/08/2026/qatar-to-host-world-investment-forum-2026",
+          "continues": false
+        },
+        {
+          "headline": "GCC Welcomes Syria's Removal From US Terrorism Sponsor List",
+          "body": "GCC Secretary-General Jasem Mohamed Albudaiwi said Syria's delisting “supports efforts aimed at enhancing Syria's security and stability” and creates room for recovery and development, per The Peninsula Qatar (Aug 25). The bloc reaffirmed its commitment to Syria's sovereignty and territorial integrity and called for continued international support for Syria's leadership and citizens.",
+          "img": "https://thepeninsulaqatar.com/get/maximage/20260825_1787662941-410.jpg?1787662941",
+          "url": "http://thepeninsulaqatar.com/article/25/08/2026/gcc-welcomes-syrias-removal-from-us-list-of-state-sponsors-of-terrorism",
+          "continues": false
+        }
+      ]
+    }
+  ],
+  "doha_events": [
+    {
+      "headline": "John Legend Live: An Evening of Songs & Stories",
+      "body": "The Grammy-winning artist performs stripped-down versions of his hits at QNCC on Sept 10, after the concert was rescheduled from its original April date; tickets bought for the earlier date remain valid, per The Peninsula Qatar.",
+      "img": "https://thepeninsulaqatar.com/get/maximage/20260503_1777791259-112.jpg?1777791259",
+      "url": "https://thepeninsulaqatar.com/article/03/05/2026/john-legend-concert-rescheduled-to-september-10"
+    },
+    {
+      "headline": "S'hail — Katara International Hunting & Falcons Exhibition",
+      "body": "The 10th edition runs Sept 8-12 at Katara Cultural Village and adds AI and 3D-modelling workshops for the first time, aimed at engaging younger generations with falconry heritage, per Gulf Times.",
+      "img": "https://www.gulf-times.com/gulftimes/uploads/images/2026/08/16/479870.png",
+      "url": "https://www.gulf-times.com/article/731175/qatar/ai-and-3d-modelling-come-to-qatars-falconry-season"
+    },
+    {
+      "headline": "Colorverse Experience",
+      "body": "This immersive family attraction at Katara Cultural Village runs through Sept 15, with visitors acting as “Restorers” completing challenges across seven themed zones to bring colour back to a fictional world; suitable for ages four and up.",
+      "img": "https://thepeninsulaqatar.com/get/maximage/20260720_1784533549-51450.jpg?1784533549",
+      "url": "http://thepeninsulaqatar.com/article/20/07/2026/colorverse-experience-brings-immersive-family-adventure"
+    },
+    {
+      "headline": "Doha Jewellery and Watches Exhibition (DJWE)",
+      "body": "The region's largest jewellery and watch fair returns to DECC from Sept 28 to Oct 3, typically drawing about 30,000 visitors from over 175 countries with free admission, per Qatar Tourism.",
+      "img": "https://www.qatartourism.com/adobe/dynamicmedia/deliver/dm-aid--c9460718-6da2-4187-a063-bdc28556d516/djwe-en.jpg",
+      "url": "https://www.qatartourism.com/en/news-and-media/press-releases/doha-jewellery-and-watches-exhibition-2026-vq"
+    }
+  ]
+}
