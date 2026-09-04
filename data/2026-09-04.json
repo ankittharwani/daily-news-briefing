@@ -1,0 +1,415 @@
+{
+  "skim": [
+    "Tesla launched its Cybercab robotaxi service in Austin &mdash; no steering wheel, no pedals &mdash; marking the company&rsquo;s entry into commercial autonomous ride-hailing.",
+    "The US-Iran war escalated further: VP Vance says Iran&rsquo;s grip on the Strait of Hormuz is &ldquo;effectively gone&rdquo; and rules out talks until ship attacks stop, while Iran&rsquo;s Red Crescent seeks an ICC probe into a deadly wedding strike.",
+    "Brent crude topped $97 and gold rebounded 3% to $4,544/oz as traders whipsawed between Fed Governor Waller&rsquo;s dovish CPI-linked hint and today&rsquo;s make-or-break August jobs report.",
+    "DRC&rsquo;s Ebola outbreak has killed nearly 3,000 as Nepal&rsquo;s flood toll passes 1,100 and Cyprus&rsquo;s ferry death toll climbs to 10 with 18 still missing.",
+    "India&rsquo;s GDP-revision row intensified as Congress cited a &#8377;43 lakh crore base-year change, while F1 heads to Monza with points leader Kimi Antonelli starting from the back after a grid penalty."
+  ],
+  "sections": [
+    {
+      "key": "world",
+      "title": "World",
+      "icon": "news",
+      "stories": [
+        {
+          "headline": "DRC Ebola deaths near 3,000 as UN warns virus is outrunning response",
+          "body": "Confirmed Ebola deaths in the Democratic Republic of Congo have passed 2,950 out of over 6,100 cases, with more than 5,000 concentrated in Ituri province, per UN News (Sep 1). UN relief chief Tom Fletcher said &ldquo;the response is growing and has been scaled up, but the virus is moving faster,&rdquo; warning of a $1.1 billion funding shortfall even after he released $57 million in emergency funds.",
+          "url": "https://news.un.org/en/story/2026/09/1168246",
+          "continues": true,
+          "img": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/26-08-2026-UNOCHA-DR-Congo-ebola-02.jpg/image770x420cropped.jpg"
+        },
+        {
+          "headline": "Nepal-Tibet flood toll passes 1,100 as PM shifts focus to rebuilding",
+          "body": "Nepal&rsquo;s confirmed death toll from the Bhotekoshi River flood disaster has risen to 1,114, with nearly 3,916 still missing and over 21,000 security personnel deployed in the search, per ABC News (Sep 2). PM Balendra Shah said the country is &ldquo;moving forward from search, rescue and relief distribution to rehabilitation,&rdquo; as 48 suspension bridges were damaged and China separately reported 16 dead and 546 missing on its side of the border.",
+          "url": "https://abcnews.com/International/nepal-tibet-flood-death-toll-tops-1100-tens/story?id=136136947",
+          "continues": true,
+          "img": "https://i.abcnewsfe.com/a/e27afa30-a90a-401b-873e-4c3ad5680616/nepal-main_1788342914571_hpMain_16x9.jpg?w=1600"
+        },
+        {
+          "headline": "Cyprus ferry death toll rises to 10 as 18 remain missing",
+          "body": "Five days after the FiloJet catamaran capsized off Kyrenia with 267 people aboard, Turkey&rsquo;s Vice President Cevdet Yilmaz confirmed &ldquo;the body of one more person has been recovered&hellip; the number of those who have died has risen to 10,&rdquo; per APA (Sep 3). Eighteen people remain missing as divers and a submersible continue searching wreckage in waters over 500 metres deep; 239 people were rescued alive.",
+          "url": "https://en.apa.az/europe/cyprus-ferry-toll-rises-to-at-least-10-with-18-still-missing-522800",
+          "continues": true,
+          "img": "https://www.local10.com/resizer/v2/JNLJIDOTF5ADVRMX72CKF2IPIE.jpg?auth=d112ba872ba8ddacd50d5914b53534966da13425be4ba4f14fbc4e5349a721a4&width=700"
+        },
+        {
+          "headline": "Philippines monsoon death toll hits 39 as Pilandok exits",
+          "body": "The Philippines&rsquo; weather-related death toll since Aug 1 has reached 39 after five more fatalities on Sep 2, with Benguet province hardest-hit at 15 deaths, per Philstar (Sep 3). Officials attributed the losses to &ldquo;the combined effects of typhoons Luis, Maymay and Neneng and the southwest monsoon,&rdquo; even as Tropical Storm Pilandok, packing 65kph winds, moved to exit the Philippine area of responsibility.",
+          "url": "https://www.philstar.com/headlines/2026/09/03/2553685/pilandok-exits-today",
+          "continues": true,
+          "img": "https://media.philstar.com/photos/2026/09/02/pl_2026-09-02_22-38-02.jpg"
+        }
+      ]
+    },
+    {
+      "key": "sports",
+      "title": "Sports",
+      "icon": "trophy",
+      "stories": [
+        {
+          "headline": "Tilak Varma&rsquo;s South Zone into Duleep Trophy final",
+          "body": "South Zone beat North Zone by seven wickets in Bengaluru on Sep 2, with captain Tilak Varma&rsquo;s unbeaten half-century alongside Smaran Ravichandran sealing an 80-run stand after MD Nidheesh&rsquo;s five-wicket haul had restricted North Zone. Per The Tribune (Sep 2), South Zone now face Vaibhav Sooryavanshi&rsquo;s East Zone in the five-day final at Chennai&rsquo;s MA Chidambaram Stadium starting Sep 6.",
+          "url": "https://www.tribuneindia.com/news/bengaluru/duleep-trophy-2026-tilak-varmas-south-zone-beat-north-zone-by-7-wickets-sets-final-against-east-zon",
+          "continues": true,
+          "img": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYTk4ZDZmMWEwLWE2YjktMTFmMS1iNmVmLTk1MTQwZTcyYzNlZi5qcGc="
+        },
+        {
+          "headline": "Antonelli takes grid penalty at Monza, blowing open F1 title race",
+          "body": "Championship leader Kimi Antonelli will start Sunday&rsquo;s Italian GP from the back after Mercedes chose Monza &mdash; a track that rewards overtaking &mdash; to serve his grid penalty for exceeding his power-unit allocation. Per Sky Sports (Sep 3), title rivals George Russell and Lewis Hamilton and Lando Norris are poised to gain, with the report calling it a &ldquo;crucial&rdquo; weekend for Russell as Mercedes weighs its long-term priorities.",
+          "url": "https://www.skysports.com/f1/news/12040/13580177/italian-gp-will-lewis-hamilton-george-russell-or-lando-norris-seize-title-race-opening-due-to-kimi-antonelli-grid-penalties",
+          "continues": false,
+          "img": "https://e0.365dm.com/26/09/768x432/skysports-d-a_7337427.jpg?20260901122542"
+        },
+        {
+          "headline": "Hadjar ruled out of Monza, Lawson deputizes again at Red Bull",
+          "body": "Isack Hadjar will miss the Italian GP after the wrist injury he suffered in summer training failed to heal, with Red Bull confirming Wednesday that Liam Lawson will again partner Max Verstappen at Monza. Per Sky Sports (Sep 3), Lawson qualified just 0.1 seconds off Verstappen and finished seventh at the last outing in the Netherlands, and Red Bull said it &ldquo;wishes him a speedy recovery&rdquo; and hopes Hadjar is back for Madrid next weekend.",
+          "url": "https://www.skysports.com/f1/news/12433/13580313/isack-hadjar-to-miss-italian-grand-prix-with-wrist-injury-as-liam-lawson-gets-another-red-bull-opportunity-at-monza",
+          "continues": true
+        },
+        {
+          "headline": "Liverpool land £30m deadline-day goalkeeper from Genk",
+          "body": "Liverpool confirmed a deal worth up to £30m for 18-year-old Belgian goalkeeper Lucca Brughmans from KRC Genk, signing him to a six-year contract before he stays on loan at Genk for this season. Per Anfield Index (Sep 1), the 6ft 7in stopper &mdash; who has started all four of Genk&rsquo;s league games this season &mdash; will officially join Liverpool for the 2027-28 campaign, with the full fee dependent on performance clauses.",
+          "url": "https://anfieldindex.com/99215/liverpool-confirm-30m-deadline-day-signing.html",
+          "continues": false,
+          "img": "https://anfieldindex.com/wp-content/uploads/2026/09/imago1082083890-scaled.jpg"
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "title": "Business & Markets",
+      "icon": "bars",
+      "stories": [
+        {
+          "headline": "Brent Crude Tops $97 as Iran Fires Missiles at Kuwait",
+          "body": "Brent futures broke above $97/barrel Thursday before settling near $96.20, up more than 7% on the week, after Kuwait's armed forces said they faced &ldquo;ongoing Iranian aggression&rdquo; and intercepted incoming missiles and drones, per CNBC (Sep 3). Energy Secretary Chris Wright said 17 million barrels transited the Strait of Hormuz on Monday &mdash; a wartime record under US military escort, versus roughly 20 million pre-war &mdash; while President Trump said of the conflict, &ldquo;I don&rsquo;t think it will be very much longer&hellip;I don&rsquo;t know how much more they can take.&rdquo;",
+          "url": "https://www.cnbc.com/2026/09/03/oil-price-today-iran-war-strait-hormuz.html",
+          "continues": true,
+          "img": "https://cdn.cnbc.africa/wp-content/uploads/2026/07/108326764-1782392209077-gettyimages-2282654424-06212026qabooswaters-11_prs49dod-1.jpg"
+        },
+        {
+          "headline": "Fed's Waller Muddies September Hike Outlook, Ties It to CPI",
+          "body": "Fed Governor Christopher Waller said Wednesday the August CPI report due Sep 11 will decide his vote, telling reporters he would back holding rates but &ldquo;if inflation comes in hot, I would consider a rate hike,&rdquo; since borrowing costs are only &ldquo;slightly restricting&rdquo; demand, per AP (Sep 3). His comments knocked CME FedWatch odds of a September hike down sharply from two days earlier, reversing some of the hawkish momentum from Chair Kevin Warsh's Jackson Hole remarks, and sent stocks up and the 10-year yield lower.",
+          "url": "https://www.local10.com/business/2026/09/03/feds-waller-says-central-banks-next-rate-move-depends-on-upcoming-inflation-report/",
+          "continues": true,
+          "img": "https://www.local10.com/resizer/v2/RAOX2XIUB465EVA3C3MFGGZW6Q.jpg?auth=f69c45f066c8a820fc506323c99c3e762aa5554b652869575e7439d025f5b5f8&width=700"
+        },
+        {
+          "headline": "August Jobs Report Due Today, Fed Decision Riding on It",
+          "body": "The Bureau of Labor Statistics releases the August employment report later Friday, with economists forecasting a rebound to roughly +53,000 nonfarm payrolls (from July's decline) and unemployment holding at 4.1%, per CNBC (Sep 3). The print lands 12 days before the Fed's Sep 16 decision, and after Wednesday's weak ADP reading (38,000 private jobs added), analysts say a miss would likely push September rate-hike odds down further while a strong beat could revive them.",
+          "url": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html",
+          "continues": true
+        },
+        {
+          "headline": "Gold Rebounds 3% to $4,544 as Rate-Hike Bets Cool",
+          "body": "Gold jumped roughly 3% to $4,544.80/oz on Thursday, reversing its retreat from record highs, as Waller's dovish-leaning remarks, a softer dollar, and easing oil prices combined to cut rate-hike odds, per Yahoo Finance (Sep 3). One analyst noted, &ldquo;If the jobs report misses expectations, and September rate hike bets decline, that could see gold move higher&rdquo; ahead of Friday's payrolls data.",
+          "url": "https://ca.finance.yahoo.com/news/gold-rebounds-september-interest-rate-155921340.html",
+          "continues": true,
+          "img": "https://s.yimg.com/lo/mysterio/api/f5dcec33cc3eeda7cd584c3db38ad16d86ac6e7bc473eeb38311b71ea2a0cb4a/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fforbes_staff_375%2F0ffc0e987cf59d9b4a719a6d8d6c2a8c.jpg"
+        },
+        {
+          "headline": "Broadcom Stock Slips Despite AI Chip Sales Tripling",
+          "body": "Broadcom's Q3 FY2026 AI semiconductor revenue hit $16.7 billion, up 221% year-over-year, driving total revenue to $29.6 billion (+86%) and adjusted EPS of $3.32, both beating Wall Street estimates, per The Motley Fool (Sep 2). Shares still slipped after Q4 revenue guidance of $34.8 billion came in just shy of the Street's $35.03 billion target, despite AI revenue guidance rising to $21.7 billion (+236% YoY).",
+          "url": "https://www.fool.com/investing/2026/09/02/broadcom-earnings-ai-chip-sales-tripled-here-s-the-usd34-8-billion-number-investors-need-to-watch/",
+          "continues": true,
+          "img": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fcdn.content.foolcdn.com%2Fimages%2F1umn9qeh%2Fproduction%2Fcf1508b8bebae3e2cb84e3db6f440d03fd7812fb-1200x800.png%3Fw%3D800%26q%3D75%26fit%3Dmax%26auto%3Dformat&w=1200&op=resize"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "AI & Technology",
+      "icon": "cpu",
+      "stories": [
+        {
+          "headline": "DOJ Files Brief Backing OpenAI's Fair-Use Defense vs NYT",
+          "body": "The Justice Department filed a formal statement of interest supporting OpenAI in its copyright fight with The New York Times, arguing that training large language models is &ldquo;extraordinarily transformative&rdquo; fair use because models &ldquo;develop general reasoning and language abilities&rdquo; rather than copying text, per gHacks (Sep 3). The filing states &ldquo;the United States has a strong interest in this court rejecting any argument that training LLMs on copyrighted texts violates copyright law&rdquo;; the White House, OpenAI and the Times did not respond to requests for comment.",
+          "url": "https://www.ghacks.net/2026/09/03/trump-administration-backs-open-ai-in-new-york-times-copyright-case-calling-ai-training-fair-use/",
+          "continues": true,
+          "img": "https://www.ghacks.net/wp-content/uploads/2026/09/gHacks-articles-2026-09-03T094023.551.png"
+        },
+        {
+          "headline": "Google, Anthropic, OpenAI Detail Cyber-Focused Models",
+          "body": "Google launched Gemini 3.8 Flash Cyber through its Fairwind Program, giving vetted security defenders early access for critical-infrastructure protection with improved autonomous vulnerability discovery. Anthropic introduced Claude Fable 5.1 and Claude Mythos 5.1 alongside new Enterprise Frontier Safeguards, while OpenAI said its Astra model now meets the &ldquo;Critical&rdquo; cybersecurity capability threshold under its Preparedness Framework &mdash; all three framed as balancing offensive vulnerability-hunting power against misuse risk, per a roundup dated Sep 3.",
+          "url": "https://www.hendryadrian.com/google-anthropic-and-openai-unveil-cyber-ai-models-safeguards-and-access-programs/",
+          "continues": true,
+          "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu5sAuC-e7tUigtaAj0gicqzy_kWZTZRujpV3IxqGW1wr_VCuXbKXG7M-nNIac5QO2GY_KtEQ8HfnUENc6JZpS8haeGQIvOH4EddDvrQTJwXY2kkZcz41JbeT1_YhVuyrArJV4sUB3hrT9dFIazMbT-_8hLxg0jrQzHLPLv_h3bNb98puP5yVwgA1zoIsQ/s1600/aiai.jpg"
+        },
+        {
+          "headline": "ChatGPT Health Adds Read-Only Access to Epic Patient Records",
+          "body": "OpenAI's ChatGPT Health can now pull data directly from Epic's EHR system, which covers more than 325 million patients, letting clinicians import appointment notes, lab results, medications and specialist documentation for AI-assisted summaries and visit prep, per TechCrunch (Sep 1). Access is read-only &mdash; the AI cannot write back into patient charts &mdash; and some health systems are embedding ChatGPT directly into EHR workflows for pre-visit review and clinical-timeline building.",
+          "url": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
+          "continues": true,
+          "img": "https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-2195918462.jpg?w=1024"
+        },
+        {
+          "headline": "Meta Preps &lsquo;Hatch&rsquo; AI Agent Platform, Premium Tier",
+          "body": "Meta is targeting early September for the launch of Hatch, an internal project to deploy autonomous agents that can navigate sites like DoorDash, Etsy, Reddit, Yelp and Microsoft Outlook on a user's behalf, per The Information (Aug 25-Sep 2). The rollout follows Meta's $18 billion teen-safety settlement clearing legal runway for new consumer AI products, and precedes an October target for Meta's next flagship model, &ldquo;Watermelon,&rdquo; which the company claims internally reaches GPT-5.5-level benchmarks on roughly 10x the compute of its predecessor.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/meta-hatch-agent-platform-watermelon-113350203.html",
+          "continues": true
+        },
+        {
+          "headline": "Google, Meta, MediaTek Line Up Behind Intel's EMIB-T Packaging",
+          "body": "Google has reportedly selected Intel's EMIB-T advanced packaging for a future TPU generation, while MediaTek and Meta are evaluating it as a way to diversify away from TSMC's capacity-constrained CoWoS process, per SammyFans (Sep 1). Intel expects its advanced-packaging business &ldquo;to ramp significantly from the second half of 2027 and become a more substantial contributor afterward,&rdquo; positioning it as a credible alternative supplier for AI chipmakers squeezed by TSMC's packaging bottleneck.",
+          "url": "https://www.sammyfans.com/2026/09/01/intel-attracts-mediatek-broadcom-and-meta-for-ai-chip-packaging-amid-tsmc-shortage/",
+          "continues": true,
+          "img": "https://www.sammyfans.com/wp-content/uploads/2026/08/Intel-logo-image.jpg"
+        }
+      ]
+    },
+    {
+      "key": "geopolitics",
+      "title": "Geopolitics",
+      "icon": "globe",
+      "stories": [
+        {
+          "headline": "Vance rules out Iran talks, says Tehran&rsquo;s grip on Hormuz &ldquo;effectively gone&rdquo;",
+          "body": "US Vice President JD Vance said Iran&rsquo;s &ldquo;ability&hellip; to effectively control this water route has become effectively gone,&rdquo; and ruled out negotiations unless &ldquo;the attacks against commercial ships in the Strait of Hormuz cease,&rdquo; per Al Jazeera (Sep 4). Some 87 vessels have now been diverted from the strait amid the renewed fighting, as Vance separately said Hormuz oil flow was &ldquo;almost&rdquo; back to pre-war levels.",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/4/iran-war-live-us-rules-out-iran-talks-until-ship-attacks-stop",
+          "continues": true,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/14241822-1788475186.jpg?resize=1920%2C1440"
+        },
+        {
+          "headline": "Iran vows &ldquo;asymmetrical&rdquo; retaliation as ICC probe sought into wedding strike",
+          "body": "Iran&rsquo;s First Vice President Mohammad Reza Aref vowed Tehran&rsquo;s response to US attacks would be &ldquo;asymmetrical&rdquo; and &ldquo;multi-layered,&rdquo; per Daily Business News (Sep 3), as the death toll from the latest US strikes on Iran stood at 18. Iran&rsquo;s Red Crescent formally asked the ICC to investigate the Kuhestak wedding strike that killed at least 4 and wounded 67, while UN envoy Gholamhossein Darzi called it &ldquo;a grave violation of&hellip; international humanitarian law&rdquo; amounting to &ldquo;a war crime.&rdquo;",
+          "url": "https://www.aljazeera.com/amp/news/2026/9/3/iran-red-crescent-urges-icc-probe-into-deadly-us-strike-on-wedding-party",
+          "continues": true,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-02T184430Z_116037912_RC23BNASDV7N_RTRMADP_3_IRAN-CRISIS-USA-STRIKES-SIRIK-1788419182.jpg?resize=1920%2C1440"
+        },
+        {
+          "headline": "Kremlin floats Putin-Xi-Trump trilateral at upcoming APEC summit",
+          "body": "Kremlin aide Yuri Ushakov said from the SCO summit in Bishkek that a three-way meeting between Vladimir Putin, Xi Jinping and Donald Trump was discussed for the next APEC forum, telling reporters &ldquo;this issue was discussed, yes&rdquo; and that &ldquo;the three of them will be able to have a meeting&rdquo; if plans align, per Cyprus Mail (Sep 1). The White House has not yet responded to requests for comment on the proposal.",
+          "url": "https://cyprus-mail.com/2026/09/01/kremlin-says-putin-xi-and-trump-may-hold-a-trilateral-meeting",
+          "continues": true
+        },
+        {
+          "headline": "Zelensky says US envoys Witkoff, Kushner to visit Kyiv &ldquo;in coming days&rdquo;",
+          "body": "President Zelensky said Trump envoys Steve Witkoff and Jared Kushner are expected to make their first visit to Kyiv &ldquo;in the coming days,&rdquo; after multiple prior trips to Moscow, per Kyiv Independent (Sep 3). &ldquo;It is important that the United States remains active,&rdquo; Zelensky said, as a US peace plan remains stalled after the Kremlin rejected revisions, even as Russia hit Kyiv for an eighth consecutive day, striking a Coca-Cola plant and injuring 13.",
+          "url": "https://kyivindependent.com/ukraine-expects-witkoff-kushner-to-visit-kyiv-in-coming-days-zelensky-says/",
+          "continues": false,
+          "img": "https://assets.kyivindependent.com/content/images/2026/07/GettyImages-2254288874_20260729-103424.jpg"
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "sport": "Cricket",
+      "headline": "Women&rsquo;s Asia Cup: India vs Pakistan",
+      "body": "India face Pakistan in a blockbuster Women&rsquo;s Asia Cup T20 group-stage clash in Dubai.",
+      "url": "https://www.outlookindia.com/sports/cricket/womens-asia-cup-2026-schedule-fixture-india-vs-pakistan",
+      "when": "Sep 5"
+    },
+    {
+      "sport": "Cricket",
+      "headline": "Duleep Trophy final: South Zone vs East Zone",
+      "body": "Tilak Varma&rsquo;s South Zone meet Vaibhav Sooryavanshi&rsquo;s East Zone in a five-day final at Chennai&rsquo;s MA Chidambaram Stadium.",
+      "url": "https://www.tribuneindia.com/news/bengaluru/duleep-trophy-2026-tilak-varmas-south-zone-beat-north-zone-by-7-wickets-sets-final-against-east-zon",
+      "when": "Sep 6-10"
+    },
+    {
+      "sport": "Football",
+      "headline": "Champions League matchday 1: Real Madrid vs Inter",
+      "body": "Xabi Alonso&rsquo;s Real Madrid open their new league-phase campaign at home to Inter Milan.",
+      "url": "https://www.uefa.com/uefachampionsleague/match/2049553--real-madrid-vs-inter/",
+      "when": "Sep 8-10"
+    },
+    {
+      "sport": "F1",
+      "headline": "Italian GP qualifying and race at Monza",
+      "body": "Kimi Antonelli starts from the back after his grid penalty as Verstappen, Russell, Hamilton and Norris chase points at the &ldquo;Temple of Speed.&rdquo;",
+      "url": "https://www.skysports.com/f1/news/12433/13577758/italian-gp-2026-dates-schedule-weather-uk-start-time-and-how-to-watch-or-stream-f1-race-at-monza-live-on-sky-sports",
+      "when": "Sep 5-6"
+    }
+  ],
+  "portfolio": [
+    {
+      "ticker": "PLTR",
+      "headline": "Palantir wins Army TITAN production contract, adds ex-AIG chief Zaffino",
+      "body": "The Army Contracting Command awarded Palantir USG a prime agreement covering eight Tactical Intelligence Targeting Access Node (TITAN) ground-station systems &mdash; four Advanced and four Basic variants &mdash; moving the program from prototype into operational fielding, per a report citing the award (Sep 3). Separately, former AIG chief executive Peter Zaffino is joining Palantir as global head of financial services effective January 15, 2027, to expand the company&rsquo;s push into commercial financial institutions.",
+      "url": "https://www.aol.com/articles/palantir-erased-wednesdays-losses-catalyst-194637000.html",
+      "continues": false,
+      "img": "https://hermes.media.static.aol.com/media/2026/09/03/010859e2-5c9d-3f37-8763-4d1d6bf23bf2/55f19a26-8bdc-4883-86d3-69ea36bc1a4b.jpg"
+    },
+    {
+      "ticker": "TSLA",
+      "headline": "Tesla launches Cybercab robotaxi service in Austin",
+      "body": "Tesla held its Cybercab launch event in Austin on September 3, confirming the two-seat, steering-wheel-and-pedal-free vehicle has entered production and that rides are now available in limited areas of Austin following employee test rides that began in July at Gigafactory Texas, per a report (Sep 4). The vehicle features a passenger touchscreen, roughly 20.2 cubic feet of trunk storage and USB-C charging, though Tesla has not confirmed retail pricing or a nationwide rollout timeline.",
+      "url": "https://sundayguardianlive.com/world/tesla-event-today-cybercab-officially-launched-in-austin-check-key-highlights-features-price-design-availability-safety-specifications-robotaxi-rollout-everything-you-need-to-know-276581/",
+      "continues": false,
+      "img": "https://sundayguardianlive.com/wp-content/uploads/2026/09/aa4e5891-5824-454a-877d-b522dcfbd36d.png"
+    },
+    {
+      "ticker": "CRWD",
+      "headline": "CrowdStrike pulls forward $10B and $20B ARR targets at Fal.Con investor day",
+      "body": "At its September 2 investor briefing, CrowdStrike said Q2 net new ARR hit $333 million, up 51% year-over-year and an all-time record, with ending ARR at $5.8 billion and Falcon Flex bookings value near $2.3 billion, up 101% year-over-year. The company pulled forward its long-term targets to $10 billion ARR by fiscal 2030 and $20 billion by fiscal 2035, and pointed to a $565 billion total addressable market by 2034, including $215 billion in AI security alone, alongside new SafeMind AI models it says cut cost-per-task by up to 99% versus frontier models.",
+      "url": "https://www.investing.com/news/transcripts/crowdstrike-at-falcon-investor-briefing-ai-push-lifts-growth-outlook-93CH-4886858",
+      "continues": false,
+      "img": "https://content-media.investing.com/news/LYNXNPEC0K08U_L.jpg"
+    },
+    {
+      "ticker": "PYPL",
+      "headline": "PayPal's ~$53 billion Stripe-Advent buyout talks collapse",
+      "body": "Stripe and private-equity firm Advent walked away on August 27 from a proposed acquisition of PayPal that had been structured to value the company at more than $53 billion, per a report (Sep 1). The two sides could not agree on terms following PayPal's July 29 second-quarter results, which beat both earnings and revenue estimates, and PayPal ultimately pushed for a higher price than the bidders were willing to pay.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-paypal-takeover-fell-apart-170328853.html",
+      "continues": false,
+      "img": "https://s.yimg.com/lo/mysterio/api/587f9ed324329be298e629c56049eebbf4a24baad0d0aabd7912ee153044d7c6/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Faxios_527%2Fbbbbb4f26487b5761b93a9796dbc1cf9.jpg"
+    },
+    {
+      "ticker": "ORCL",
+      "headline": "Oracle rallies with rate-sensitive names after Fed's Waller eases rate-hike odds",
+      "body": "Fed Governor Christopher Waller said on September 3 he would &ldquo;support holding the policy rate at its current level&rdquo; if inflation continues cooling, comments that cut traders&rsquo; odds of a September rate increase, per a report on the market reaction. Oracle, which sold $43 billion in bonds last year and plans a further $20 billion in debt plus a $20 billion equity raise this year to fund AI data-center buildout, is described as especially rate-sensitive given free cash flow that has turned deeply negative from that spending; no Oracle-specific announcement accompanied the move.",
+      "url": "https://www.fool.com/investing/2026/09/03/why-is-oracle-stock-up-today/",
+      "continues": true,
+      "img": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F886258%2Foracle_logo_on_building_orcl.jpg&w=1200&op=resize"
+    },
+    {
+      "ticker": "NET",
+      "headline": "Cloudflare adds Cursor coding-agent support to its Sandboxes platform",
+      "body": "Cloudflare announced support for running Cursor Cloud Agents on its Cloudflare Sandboxes platform, letting Cursor manage the agent loop while terminal, filesystem and browser actions execute inside isolated, customer-controlled Cloudflare environments, per a report (Sep 3). The announcement followed Cloudflare's Q2 results showing revenue of $696.1 million, up 36% year-over-year, and recent analyst moves including Scotiabank's upgrade to Sector Outperform and Citi raising its price target to $400.",
+      "url": "https://ca.investing.com/news/stock-market-news/why-is-cloudflare-stock-climbing-today-93CH-4827973",
+      "continues": false,
+      "img": "https://content-media.investing.com/news/SP500StandardandPoors500Index_800x533_L_1657544297.jpg"
+    },
+    {
+      "ticker": "AI",
+      "headline": "C3.ai bookings jump 73% quarter-over-quarter even as revenue keeps sliding",
+      "body": "C3.ai reported fiscal first-quarter 2027 revenue of $52.4 million, down from $70.3 million a year earlier, with a GAAP net loss of $92.8 million and a non-GAAP net loss of $30.7 million, per its September 2 earnings release. Bookings rose 73% quarter-over-quarter and free cash flow was positive $2.1 million with $651.1 million in cash on hand; the company guided second-quarter revenue to $51.0-$55.0 million and full-year fiscal 2027 revenue to $210.0-$240.0 million.",
+      "url": "https://www.stocktitan.net/news/AI/c3-ai-announces-fiscal-first-quarter-2027-4w5q4rlyjyxv.html",
+      "continues": false,
+      "img": "https://www.stocktitan.net/news_covers/C3_AI_Announces_Fiscal_First_Quarter_2027_Results_1500347.webp"
+    },
+    {
+      "ticker": "ARM",
+      "headline": "Arm's data-center push gains steam on IBM tie-up and $2B AGI CPU backlog",
+      "body": "Arm has been building momentum from a late-August expansion of its IBM partnership to embed Arm architecture into IBM Z and LinuxONE mainframes via what the companies call the first jointly developed dual-architecture processor, built on a 2nm process with 11 high-performance cores and AI fraud-detection accelerators, per a report (Aug 27). The same report noted Arm's AGI CPU, co-developed with Meta on TSMC's 3nm N3P process with up to 136 Neoverse V3 cores, has drawn more than $2 billion in advance orders &mdash; the company's first self-designed data-center processor after 35 years as a pure licensing business; no newer company-specific announcement was found for today's session.",
+      "url": "https://finance.biggo.com/news/15d294a8-d09f-47de-acc5-f1614db7b578",
+      "continues": false,
+      "img": "https://img.biggo.com/xI0r44FUkTbuRlgnDrtZNHcdAUTbr5oGUiIXs0A7tcg/fit/1200/0/sm/0/aHR0cHM6Ly9pbWcuYmdvLm9uZS9uZXdzLWltYWdlL2FpX2dlbmVyYXRlZC8yMDI2LTA4LzE1ZDI5NGE4LWQwOWYtNDdkZS1hY2M1LWYxNjE0ZGI3YjU3OF8xNzg3ODY0MzM2X2RlZmF1bHQuanBn.jpg"
+    }
+  ],
+  "country_groups": [
+    {
+      "label": "India",
+      "stories": [
+        {
+          "headline": "Congress presses fresh attack over &#8377;43 lakh crore GDP revision",
+          "body": "Congress general secretary Jairam Ramesh escalated the GDP growth row, arguing that &ldquo;lowering the base year figure against which current growth is compared can inflate the growth rate, even if there is no real increase in economic activity,&rdquo; per The News Mill (Sep 4). Citing ex-finance secretary Subhash Chandra Garg, Ramesh said nominal growth would have been roughly 2.6% &mdash; not the reported 10.3% &mdash; without a downward base-year revision covering FY23-FY26.",
+          "url": "https://thenewsmill.com/2026/09/congress-questions-indias-7-8-gdp-growth-highlights-%E2%82%B943-lakh-crore-revision-concerns/",
+          "continues": true,
+          "img": "https://thenewsmill.com/tnm-og/585220.jpg"
+        },
+        {
+          "headline": "Piyush Goyal hits back at Garg and Rajan over 7.8% growth figure",
+          "body": "Commerce Minister Piyush Goyal dismissed the government's critics, saying &ldquo;they don&rsquo;t even know how to compare apples with apples&rdquo; and that &ldquo;record growth of 7.8% is something that no other country has been able to replicate,&rdquo; per The News Mill (Sep 3). He singled out Subhash Chandra Garg and former RBI governor Raghuram Rajan, saying both &ldquo;could not complete their terms in government, and for the right reasons.&rdquo;",
+          "url": "https://thenewsmill.com/2026/09/piyush-goyal-criticises-subhash-chandra-garg-and-raghuram-rajan-over-gdp-data-analysis/",
+          "continues": true,
+          "img": "https://thenewsmill.com/tnm-og/584656.jpg"
+        },
+        {
+          "headline": "Pakistan denies demolition of Narowal temple, blames rain damage",
+          "body": "Amid India's continuing protest over the destroyed century-old Hindu temple, Punjab's Minorities Affairs Minister Sardar Ramesh Singh Arora called demolition claims &ldquo;baseless,&rdquo; saying &ldquo;a portion of a temple sign had collapsed due to torrential rainfall,&rdquo; per WION (Sep 2). Minority rights activists countered that they found hammer marks on bricks and that the temple's dome and valuables had been removed and sold, with WION noting only 37 of Pakistan's 1,817 Hindu temples and Sikh gurdwaras remain operational.",
+          "url": "https://www.wionews.com/india-news/alarming-apathy-india-demands-probe-restoration-of-century-old-hindu-temple-destroyed-in-pakistan-1788370087472",
+          "continues": true,
+          "img": "https://cdn1.wionews.com/prod/wion/images/2026/20260902/image-1788371414194.jpg"
+        },
+        {
+          "headline": "Modi touts 7.8% growth as &lsquo;confidence for the world&rsquo; in Belgium talks",
+          "body": "Hosting Belgian PM Bart De Wever in New Delhi, Modi said &ldquo;India's economic growth is becoming a source of confidence and new opportunities for the world,&rdquo; pointing to the 7.8% quarterly print even as it draws domestic fire, per The Northlines (Sep 3). He added that &ldquo;a clean energy future and reliable supply chain are our shared priorities,&rdquo; as the two sides agreed to double bilateral trade within five years.",
+          "url": "https://thenorthlines.com/indias-growth-creating-confidence-opportunities-for-world-pm-modi/",
+          "continues": true,
+          "img": "https://thenorthlines.com/wp-content/uploads/2026/08/Modi.png"
+        }
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "stories": [
+        {
+          "headline": "Holborn and St Pancras by-election looms after Starmer's exit",
+          "body": "Starmer's resignation from Parliament has triggered a by-election in his Holborn and St Pancras seat, though LBC (Sep 2) reports &ldquo;there is not yet a date or a list of candidates&rdquo; and the Greens are considered likely to target the constituency. Starmer had called it &ldquo;the best constituency in the country&rdquo; to represent as he steps back from domestic politics entirely.",
+          "url": "https://www.lbc.co.uk/article/byelection-date-starmer-holborn-stpancras-5HjdgpB_2/",
+          "continues": true
+        },
+        {
+          "headline": "Burnham dodges tax questions in marathon first PMQs",
+          "body": "Facing Kemi Badenoch across the despatch box for the first time, Burnham refused to rule out Budget tax rises, saying &ldquo;I&rsquo;m not going to do what any prime minister has done and write the Budget here,&rdquo; per the New Statesman (Sep 2). He insisted &ldquo;this will be a Government grounded in fiscal responsibility&rdquo; and pointed to Britain's &ldquo;fastest G7 growth,&rdquo; in a session the magazine described as &ldquo;an easy ride&rdquo; in which Badenoch pressed him on what he had actually cut from government.",
+          "url": "https://www.newstatesman.com/politics/uk-politics/2026/09/at-his-first-pmqs-burnham-gets-an-easy-ride",
+          "continues": true,
+          "img": "https://dl6pgk4f88hky.cloudfront.net/2026/09/02/gettyimages-2291721104-800x418.jpg?1788468753"
+        },
+        {
+          "headline": "Bank and BP profits fuel windfall-tax speculation as recess ends",
+          "body": "With Parliament back in session, pressure is building on Burnham to tax bank and energy profits rather than break Labour's 2024 pledge against raising income tax, VAT or national insurance, per The National (Sep 2). The UK's four largest banks posted £29.2 billion in pre-tax profits in H1 2026 &mdash; up 21% year-on-year &mdash; while BP's Q2 profit more than doubled to £4.27 billion, even as the government must release thousands of prisoners in October to ease overcrowding.",
+          "url": "https://www.thenationalnews.com/opinion/comment/2026/09/02/uk-britain-andy-burnham-tax-spending-finances-economy/",
+          "continues": true,
+          "img": "https://www.thenationalnews.com/resizer/v2/NFPMQAYYWSFGALVOWGD27O4CWI.jpg?smart=true&auth=2c153f3c4a5985a1f05ac725d8984fe4aaec2c84ab575c875d6fe1ea0f1e9217&width=1200&height=630"
+        }
+      ]
+    },
+    {
+      "label": "Qatar & the GCC",
+      "stories": [
+        {
+          "headline": "Qatar condemns renewed Iranian attacks on Kuwait",
+          "body": "Qatar's Foreign Ministry &ldquo;strongly condemns the renewed attacks by the Islamic Republic of Iran against the State of Kuwait, considering them a flagrant violation of its sovereignty and territorial integrity,&rdquo; per The Peninsula Qatar (Sep 3). Doha warned the strikes represent &ldquo;a dangerous escalation that would complicate efforts to contain tensions and undermine political and diplomatic efforts aimed at achieving security and stability in the region.&rdquo;",
+          "url": "https://thepeninsulaqatar.com/article/03/09/2026/qatar-strongly-condemns-renewed-iranian-attacks-against-kuwait",
+          "continues": true,
+          "img": "https://thepeninsulaqatar.com/get/maximage/20240720_1721475555-285.jpg?1721475555"
+        },
+        {
+          "headline": "Kuwait's air defences intercept Iranian missiles and drones",
+          "body": "Kuwait's military said its air-defence systems intercepted hostile Iranian missile and drone attacks in the early hours of Thursday, with the General Staff clarifying &ldquo;any explosions heard were the result of air defence systems intercepting the hostile attacks,&rdquo; per The Peninsula Qatar (Sep 3). Residents were urged to &ldquo;adhere to the safety and security instructions issued by the relevant authorities&rdquo; as the strikes came just after Saudi Arabia's own tanker in the Strait of Hormuz was hit.",
+          "url": "https://thepeninsulaqatar.com/article/03/09/2026/kuwaiti-army-intercepts-missile-attacks-and-hostile-drones",
+          "continues": true,
+          "img": "https://thepeninsulaqatar.com/get/maximage/20260316_1773678125-554.jpeg?1773678125"
+        },
+        {
+          "headline": "Qatar rejects use of Hormuz as &lsquo;negotiating tool&rsquo; after tanker attack",
+          "body": "Following Iran's strike on the Saudi-flagged Sidr tanker that killed two Filipino crew members, Qatar's foreign ministry called the incident &ldquo;a flagrant violation of the rules of international law and freedom of maritime navigation&rdquo; and rejected using the strait as a bargaining chip, per Al Jazeera (Sep 2). Saudi Arabia's foreign ministry separately &ldquo;stressed the necessity of halting escalations, and respecting international maritime safety and the security of global energy supplies.&rdquo;",
+          "url": "https://www.aljazeera.com/news/2026/9/2/saudi-arabia-condemns-deadly-iranian-attack-on-tanker-in-strait-of-hormuz",
+          "continues": true,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a955a7e-1788172926.jpg?resize=1920%2C1440"
+        }
+      ]
+    }
+  ],
+  "doha_events": [
+    {
+      "headline": "Doha Trade Fair enters final days at DECC",
+      "body": "The shopping showcase of fashion, perfumes, accessories and homeware from local and international vendors runs through September 5 at the Doha Exhibition and Convention Center, open 10am-10pm daily (3pm-10pm on Friday), per The Peninsula Qatar (Sep 2).",
+      "url": "https://thepeninsulaqatar.com/article/02/09/2026/things-to-do-this-weekend-in-qatar-september-3-5-2026",
+      "continues": true,
+      "img": "https://thepeninsulaqatar.com/get/maximage/20260902_1788341148-594.jpg?1788341148"
+    },
+    {
+      "headline": "Qatar Philharmonic opens season with Dvo&#345;&aacute;k's &lsquo;New World&rsquo;",
+      "body": "Conductor Elias Grandy leads the Qatar Philharmonic Orchestra on September 6 at QNCC's Auditorium 3, with pianist Joseph Moog performing Brahms' Piano Concerto No. 2 before the orchestra closes with Dvo&#345;&aacute;k's Symphony No. 9 &ldquo;From the New World.&rdquo; Doors open 7:15pm, with tickets starting from QAR 200.",
+      "url": "https://doha.platinumlist.net/event-tickets/107778/qpo-presents-dvoraks-from-the-new-world",
+      "continues": true,
+      "img": "https://cdn.platinumlist.net/upload/event/qpo_presents_dvoraks_from_the_new_world_2026_sep_06_qncc_conference_hall_3_107778-orig-en1786521350.jpg"
+    },
+    {
+      "headline": "&lsquo;Uzbekistan: Heritage in Motion&rsquo; opens at the Museum of Islamic Art",
+      "body": "Qatar Museums' new exhibition, running through November 28, features 146 objects drawn from MIA, other Qatari collections and 13 Uzbek institutions spanning over 1,000 years of Central Asian artistic tradition, per The Peninsula Qatar (Sep 3). MIA director Shaika Al-Nassr said &ldquo;we don&rsquo;t just display history, we get to share the heartbeat of a civilization with the world,&rdquo; while Uzbek foundation chair Gayane Umerova called the collaboration &ldquo;craft, heritage, restoration, cultural exchange.&rdquo;",
+      "url": "https://thepeninsulaqatar.com/article/03/09/2026/uzbekistan-heritage-in-motion-exhibition-opens-at-mia",
+      "continues": false,
+      "img": "https://thepeninsulaqatar.com/get/maximage/20260903_1788413828-158.jpg?1788413829"
+    },
+    {
+      "headline": "John Legend brings &lsquo;Songs and Stories&rsquo; to QNCC",
+      "body": "The 13-time Grammy winner performs stripped-down arrangements of his best-known songs on September 10 at QNCC's Conference Hall 3 &amp; 4, doors at 7pm and show starting 9pm, presented by Visit Qatar with tickets from QAR 195.",
+      "url": "https://doha.platinumlist.net/event-tickets/104791/john-legend-live-in-qatar",
+      "continues": false,
+      "img": "https://cdn.platinumlist.net/upload/event/john_legend_live_in_qatar_2026_sep_10_qncc_conference_hall_3_4_104791-orig-en1777533926.jpg"
+    },
+    {
+      "headline": "Saleh El Nawawy's &lsquo;Ghaibooba&rsquo; stand-up returns to Souq Waqif",
+      "body": "The comedian's two-night stand-up special runs September 10-11 at the Abdulaziz Nasser Theater, with early and late shows offering &ldquo;fresh stories, sharp observations and nonstop laughs&rdquo; for ages 16+, tickets from QAR 195.",
+      "url": "https://doha.platinumlist.net/event-tickets/107695/saleh-el-nawawy-stand-up-comedy-show-in-doha",
+      "continues": true,
+      "img": "https://cdn.platinumlist.net/upload/event/saleh_el_nawawy_stand_up_comedy_show_in_2026_sep_10_abdul_aziz_nasser_theatre_107695-orig-en1787225766.jpg"
+    }
+  ]
+}
