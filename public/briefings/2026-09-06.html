@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ankit's Morning Briefing — Sunday, September 06, 2026</title>
+<style>
+  :root {
+    --ink: #2E2C27; --secondary: #6B6A63; --hairline: #E4E3DC;
+    --wash: #F9F9F7; --white: #FCFCFB;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--white); color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased; }
+  .band-top { background: var(--wash); border-bottom: 1px solid var(--hairline); }
+  .band-bottom { background: var(--white); }
+  .masthead { padding: 56px 32px 28px; text-align: center; }
+  .masthead .eyebrow { font-size: 12.5px; letter-spacing: 0.16em; text-transform: uppercase;
+    color: var(--secondary); margin: 0 0 14px; font-weight: 600; }
+  .masthead h1 { font-family: Georgia, "Times New Roman", Times, serif; font-weight: 400;
+    font-size: 46px; line-height: 1.15; margin: 0 0 12px; color: var(--ink); letter-spacing: -0.01em; }
+  .masthead .date-line { font-family: Georgia, "Times New Roman", Times, serif; font-style: italic;
+    font-size: 18px; color: var(--secondary); margin: 0; }
+  .archive-nav { background: var(--ink); color: #fff; }
+  .archive-nav .archive-nav-inner { max-width: 1180px; margin: 0 auto; padding: 10px 32px;
+    display: flex; align-items: center; justify-content: space-between; font-size: 12.5px; }
+  .archive-nav a { color: #fff; text-decoration: none; opacity: 0.85; font-weight: 600; letter-spacing: 0.02em; }
+  .archive-nav a:hover { opacity: 1; text-decoration: underline; }
+  .filter-bar { position: sticky; top: 0; z-index: 50; background: var(--wash);
+    border-bottom: 1px solid var(--hairline); }
+  .filter-inner { max-width: 1180px; margin: 0 auto; padding: 14px 32px; display: flex;
+    flex-wrap: wrap; gap: 10px; justify-content: center; }
+  .pill { display: inline-flex; align-items: center; gap: 7px; padding: 8px 16px; border-radius: 999px;
+    border: 1px solid var(--hairline); background: var(--white); color: var(--secondary);
+    font-size: 13.5px; font-weight: 600; cursor: pointer; transition: all 0.15s ease; white-space: nowrap; }
+  .pill:hover { border-color: var(--pill-accent, var(--ink)); color: var(--ink); }
+  .pill.active { background: var(--pill-accent, var(--ink)); border-color: var(--pill-accent, var(--ink)); color: #fff; }
+  .pill-icon { width: 15px; height: 15px; flex: none; }
+  .content-band { padding: 40px 0 80px; }
+
+  .skim { max-width: 1180px; margin: 0 auto 12px; padding: 26px 32px 28px; }
+  .skim-title { font-family: Georgia, serif; font-weight: 400; font-size: 22px; margin: 0 0 18px;
+    color: var(--ink); }
+  .skim-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 11px; }
+  .skim-list li { display: flex; gap: 13px; align-items: baseline; font-size: 15.5px;
+    line-height: 1.55; color: #4A4943; }
+  .skim-num { font-family: Georgia, serif; font-weight: 700; font-size: 13px; color: var(--secondary);
+    flex: none; width: 16px; }
+
+  .news-section { max-width: 1180px; margin: 0 auto; padding: 44px 32px 8px; scroll-margin-top: 80px; }
+  .section-head { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; }
+  .section-icon { width: 26px; height: 26px; flex: none; }
+  .section-head h2 { font-family: Georgia, "Times New Roman", Times, serif; font-weight: 400;
+    font-size: 27px; margin: 0; padding-bottom: 12px; border-bottom: 2px solid var(--ink); flex: 1; }
+  .section-note { font-size: 13.5px; color: var(--secondary); margin: 14px 0 0; font-style: italic; }
+  .country-group { margin-top: 26px; }
+  .country-label { font-family: Georgia, "Times New Roman", Times, serif; font-style: italic;
+    font-weight: 400; font-size: 19px; color: #8C3A3A; margin: 0 0 16px; }
+
+  .card-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 22px; }
+  .card { display: flex; flex-direction: column; border: 1px solid var(--hairline);
+    border-left: 3px solid var(--ink); border-radius: 10px; overflow: hidden; background: var(--white); }
+  .thumb { position: relative; width: 100%; aspect-ratio: 16 / 9; background: #F1F0EA; overflow: hidden; }
+  .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .thumb-fallback { display: none; position: absolute; inset: 0; align-items: center; justify-content: center;
+    color: var(--secondary); background: #F1F0EA; }
+  .thumb-fallback svg { width: 34px; height: 34px; }
+  .card-body { padding: 16px 20px 20px; display: flex; flex-direction: column; gap: 8px; }
+  .card-meta { display: flex; align-items: center; gap: 9px; }
+  .num { font-family: Georgia, "Times New Roman", Times, serif; font-size: 15px; font-weight: 700; }
+  .ticker-chip, .continuing { font-size: 10.5px; font-weight: 700; letter-spacing: 0.06em;
+    text-transform: uppercase; padding: 3px 8px; border-radius: 4px; border: 1px solid; }
+  .headline { font-size: 17px; line-height: 1.35; margin: 0; font-weight: 700; color: var(--ink); }
+  .story-text { font-size: 14.5px; line-height: 1.6; color: #4A4943; margin: 0; }
+  .read-more { margin-top: 4px; font-size: 13.5px; font-weight: 700; text-decoration: none; }
+  .read-more:hover { text-decoration: underline; }
+
+  .fixtures-block { margin-top: 30px; }
+  .subblock-label { font-family: Georgia, serif; font-style: italic; font-weight: 400;
+    font-size: 18px; color: #B5563C; margin: 0 0 14px; }
+  .fixture-list { display: grid; gap: 1px; background: var(--hairline);
+    border: 1px solid var(--hairline); border-radius: 10px; overflow: hidden; }
+  .fixture { display: grid; grid-template-columns: 92px 1fr auto; gap: 16px; align-items: baseline;
+    padding: 14px 18px; background: var(--white); text-decoration: none; color: inherit; }
+  .fixture:hover { background: var(--wash); }
+  .fixture-sport { font-size: 10.5px; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase;
+    color: #B5563C; }
+  .fixture-headline { display: block; font-size: 15px; font-weight: 700; margin-bottom: 3px; }
+  .fixture-body { display: block; font-size: 13.5px; line-height: 1.55; color: #4A4943; }
+  .fixture-when { font-family: Georgia, serif; font-size: 13px; font-weight: 700; color: var(--secondary);
+    white-space: nowrap; }
+
+  footer.masthead-footer { max-width: 1180px; margin: 24px auto 0; padding: 20px 32px 60px;
+    color: var(--secondary); font-size: 12.5px; text-align: center; border-top: 1px solid var(--hairline); }
+  @media (max-width: 760px) {
+    .archive-nav .archive-nav-inner { padding: 9px 18px; font-size: 11.5px; }
+    .masthead { padding: 40px 20px 22px; } .masthead h1 { font-size: 32px; } .masthead .date-line { font-size: 15px; }
+    .news-section, .filter-inner, .skim, footer.masthead-footer { padding-left: 18px; padding-right: 18px; }
+    .card-grid { grid-template-columns: 1fr; } .pill { padding: 7px 12px; font-size: 12.5px; }
+    .section-head h2 { font-size: 23px; }
+    .fixture { grid-template-columns: 1fr; gap: 5px; }
+    .fixture-when { font-size: 12.5px; }
+  }
+  .hidden-by-filter { display: none !important; }
+
+  [data-section="world"] .section-icon, [data-section="world"] .num,
+  [data-section="world"] .read-more { color: #2B4257; }
+  [data-section="world"] .card { border-left-color: #2B4257; }
+  [data-section="world"] .section-head h2 { border-bottom-color: #2B4257; }
+  [data-section="world"] .ticker-chip, [data-section="world"] .continuing {
+    color: #2B4257; border-color: #2B425733; background: #2B42570F; }
+  [data-section="sports"] .section-icon, [data-section="sports"] .num,
+  [data-section="sports"] .read-more { color: #B5563C; }
+  [data-section="sports"] .card { border-left-color: #B5563C; }
+  [data-section="sports"] .section-head h2 { border-bottom-color: #B5563C; }
+  [data-section="sports"] .ticker-chip, [data-section="sports"] .continuing {
+    color: #B5563C; border-color: #B5563C33; background: #B5563C0F; }
+  [data-section="business"] .section-icon, [data-section="business"] .num,
+  [data-section="business"] .read-more { color: #A9822E; }
+  [data-section="business"] .card { border-left-color: #A9822E; }
+  [data-section="business"] .section-head h2 { border-bottom-color: #A9822E; }
+  [data-section="business"] .ticker-chip, [data-section="business"] .continuing {
+    color: #A9822E; border-color: #A9822E33; background: #A9822E0F; }
+  [data-section="ai"] .section-icon, [data-section="ai"] .num,
+  [data-section="ai"] .read-more { color: #2C7A73; }
+  [data-section="ai"] .card { border-left-color: #2C7A73; }
+  [data-section="ai"] .section-head h2 { border-bottom-color: #2C7A73; }
+  [data-section="ai"] .ticker-chip, [data-section="ai"] .continuing {
+    color: #2C7A73; border-color: #2C7A7333; background: #2C7A730F; }
+  [data-section="geopolitics"] .section-icon, [data-section="geopolitics"] .num,
+  [data-section="geopolitics"] .read-more { color: #3E5C8A; }
+  [data-section="geopolitics"] .card { border-left-color: #3E5C8A; }
+  [data-section="geopolitics"] .section-head h2 { border-bottom-color: #3E5C8A; }
+  [data-section="geopolitics"] .ticker-chip, [data-section="geopolitics"] .continuing {
+    color: #3E5C8A; border-color: #3E5C8A33; background: #3E5C8A0F; }
+  [data-section="portfolio"] .section-icon, [data-section="portfolio"] .num,
+  [data-section="portfolio"] .read-more { color: #4F6B4A; }
+  [data-section="portfolio"] .card { border-left-color: #4F6B4A; }
+  [data-section="portfolio"] .section-head h2 { border-bottom-color: #4F6B4A; }
+  [data-section="portfolio"] .ticker-chip, [data-section="portfolio"] .continuing {
+    color: #4F6B4A; border-color: #4F6B4A33; background: #4F6B4A0F; }
+  [data-section="country"] .section-icon, [data-section="country"] .num,
+  [data-section="country"] .read-more { color: #8C3A3A; }
+  [data-section="country"] .card { border-left-color: #8C3A3A; }
+  [data-section="country"] .section-head h2 { border-bottom-color: #8C3A3A; }
+  [data-section="country"] .ticker-chip, [data-section="country"] .continuing {
+    color: #8C3A3A; border-color: #8C3A3A33; background: #8C3A3A0F; }
+  [data-section="doha"] .section-icon, [data-section="doha"] .num,
+  [data-section="doha"] .read-more { color: #6B4C7A; }
+  [data-section="doha"] .card { border-left-color: #6B4C7A; }
+  [data-section="doha"] .section-head h2 { border-bottom-color: #6B4C7A; }
+  [data-section="doha"] .ticker-chip, [data-section="doha"] .continuing {
+    color: #6B4C7A; border-color: #6B4C7A33; background: #6B4C7A0F; }
+</style>
+</head>
+<body>
+
+<div class="archive-nav">
+  <div class="archive-nav-inner">
+    <a href="../index.html">&larr; All Briefings</a>
+    <div class="nav-links"><span style="opacity:.7;">Sunday, September 06, 2026</span></div>
+  </div>
+</div>
+
+<div class="band-top">
+  <div class="masthead">
+    <p class="eyebrow">Doha, Qatar</p>
+    <h1>Ankit's Morning Briefing</h1>
+    <p class="date-line">Sunday, September 06, 2026</p>
+  </div>
+  <div class="filter-bar">
+    <div class="filter-inner">
+<button class="pill active" data-filter="all" style="--pill-accent:#2E2C27"><svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h7v7H4z"/><path d="M13 4h7v7h-7z"/><path d="M4 13h7v7H4z"/><path d="M13 13h7v7h-7z"/></svg><span>All</span></button>
+<button class="pill" data-filter="world" style="--pill-accent:#2B4257"><svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h12v14H4z"/><path d="M16 10h4v8a2 2 0 0 1-2 2H4"/><path d="M7 9.5h6M7 12.5h6M7 15.5h4"/></svg><span>World</span></button>
+<button class="pill" data-filter="sports" style="--pill-accent:#B5563C"><svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0V4Z"/><path d="M7 5H4a3 3 0 0 0 3 3M17 5h3a3 3 0 0 1-3 3"/></svg><span>Sports</span></button>
+<button class="pill" data-filter="business" style="--pill-accent:#A9822E"><svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V11M10 20V4M16 20v-6M22 20H2"/></svg><span>Business & Markets</span></button>
+<button class="pill" data-filter="ai" style="--pill-accent:#2C7A73"><svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" rx="1"/><path d="M9 1v4M15 1v4M9 19v4M15 19v4M1 9h4M1 15h4M19 9h4M19 15h4"/></svg><span>AI & Technology</span></button>
+<button class="pill" data-filter="geopolitics" style="--pill-accent:#3E5C8A"><svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a13.5 13.5 0 0 1 0 18"/><path d="M12 3a13.5 13.5 0 0 0 0 18"/></svg><span>Geopolitics</span></button>
+<button class="pill" data-filter="portfolio" style="--pill-accent:#4F6B4A"><svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-7"/></svg><span>Market Watch</span></button>
+<button class="pill" data-filter="country" style="--pill-accent:#8C3A3A"><svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4"/><path d="M5 4h13l-3 4 3 4H5"/></svg><span>Country Updates</span></button>
+<button class="pill" data-filter="doha" style="--pill-accent:#6B4C7A"><svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span>Doha Events</span></button>
+    </div>
+  </div>
+</div>
+
+<div class="band-bottom">
+  <div class="content-band">
+
+    <div class="skim">
+      <h2 class="skim-title">The 30-Second Skim</h2>
+      <ol class="skim-list"><li><span class="skim-num">1</span><span>The US-Iran war escalated sharply as CENTCOM struck three IRGC oil tankers after Iran fired missiles at two US warships in the Gulf, while Trump envoys Witkoff and Kushner head to Kyiv Sunday with a peace proposal after meeting Putin in Moscow.</span></li>
+<li><span class="skim-num">2</span><span>Nepal&rsquo;s flood death toll passed 1,300 with roughly 5,500 still missing ten days after a glacial lake outburst, even as rescuers pulled two survivors out alive, including a man trapped 225 meters inside a flooded tunnel for over a week.</span></li>
+<li><span class="skim-num">3</span><span>John Ternus officially became Apple&rsquo;s CEO on September 1, ending Tim Cook&rsquo;s 15-year run as Cook moves to executive chairman, ahead of a September 9 event expected to unveil the iPhone 18 Pro and possibly Apple&rsquo;s first foldable phone.</span></li>
+<li><span class="skim-num">4</span><span>US employers added 162,000 jobs in August &mdash; nearly triple forecasts &mdash; reviving bets on a September 16 Fed rate hike and knocking gold back down to $4,420 an ounce after its earlier rebound.</span></li>
+<li><span class="skim-num">5</span><span>India Women bowled Pakistan out for a record-low 55 in the Women&rsquo;s Asia Cup as Harmanpreet Kaur became the first captain in men&rsquo;s or women&rsquo;s cricket to lead a side in 150 T20Is, while Pierre Gasly grabbed a shock maiden F1 pole at Monza.</span></li></ol>
+    </div>
+
+    <section class="news-section" id="sec-world" data-section="world" data-cat="world">
+      <div class="section-head">
+        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h12v14H4z"/><path d="M16 10h4v8a2 2 0 0 1-2 2H4"/><path d="M7 9.5h6M7 12.5h6M7 15.5h4"/></svg>
+        <h2>World</h2>
+      </div>
+      <div class="card-grid">
+        
+        <article class="card" data-cat="world">
+          <div class="thumb"><img src="https://www.aljazeera.com/wp-content/uploads/2026/09/AP26248319556650-1788623299.jpg?resize=1920%2C1440" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">01</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">Nepal-Tibet flood death toll climbs past 1,300 as ~5,500 remain missing</h3>
+            <p class="story-text">Ten days after a glacial lake outburst triggered catastrophic flooding, Nepal&rsquo;s death toll has risen to at least 1,331 with roughly 5,000 people &mdash; including 589 foreign nationals &mdash; still missing, while Tibet has recorded 31 deaths and 531 missing, per Al Jazeera (Sep 5). Rescuers pulled two survivors alive from wreckage after 10 days trapped: Chinese hydropower worker Lu Haitao, freed from 225 meters inside a flooded tunnel, said &ldquo;I couldn&rsquo;t believe it&rdquo; when spotted, while 64-year-old Chandika Kumari Shrestha was dug from her collapsed home. Nepal&rsquo;s information minister Bikram Timilsina said &ldquo;we are waiting for the rescue of more and more people,&rdquo; with an estimated 900 workers still unaccounted for at hydropower sites.</p>
+            <a class="read-more" href="https://www.aljazeera.com/news/2026/9/5/rescuers-pull-chinese-worker-nepali-woman-from-flood-wreckage-alive" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="world">
+          <div class="thumb"><img src="https://images.euronews.com/articles/stories/09/90/15/84/1200x675_cmsv2_03508de9-7cd0-56e4-85be-a7835e5707be-9901584.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">02</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">Cyprus ferry death toll rises to 12 as 16 remain missing</h3>
+            <p class="story-text">The confirmed death toll from the FiloJet ferry capsizing off Kyrenia has risen to 12 after two more bodies were recovered by Turkish naval vessels in deep-water searches, with 16 people still missing, per Euronews (Sep 4). The ferry, carrying 267 people from Kyrenia to Ta&#351;ucu when it capsized on August 30, saw 239 rescued; Northern Cyprus&rsquo;s prime minister said search operations continue &ldquo;24 hours a day, 7 days a week, with the strong support of the Republic of Turkey.&rdquo;</p>
+            <a class="read-more" href="https://www.euronews.com/my-europe/2026/09/04/death-toll-from-cyprus-ferry-sinking-rises-to-12-as-searches-continue" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="world">
+          <div class="thumb"><img src="https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/26-08-2026-UNOCHA-DR-Congo-ebola-02.jpg/image770x420cropped.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">03</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">UN warns Ebola response must outpace &ldquo;fastest-spreading&rdquo; outbreak on record</h3>
+            <p class="story-text">With DRC&rsquo;s Ebola epidemic now at roughly 6,100 confirmed cases and near 2,950-3,000 deaths, UN Emergency Relief Coordinator Tom Fletcher warned &ldquo;the response is growing and has been scaled up, but the virus is moving faster,&rdquo; per UN News (Sep 1). Fletcher said a $1.1 billion funding gap threatens the response, cautioning that &ldquo;unless we scale up urgently, more lives will be lost and the threat will grow,&rdquo; as UN Secretary-General Ant&oacute;nio Guterres called it &ldquo;the fastest-spreading Ebola epidemic ever recorded.&rdquo;</p>
+            <a class="read-more" href="https://news.un.org/en/story/2026/09/1168246" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="world">
+          <div class="thumb"><img src="https://watchers.news/wp-content/uploads/2026/09/Lava-effusions-from-Krakatau-volcano-on-September-4-2026.webp" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">04</div></div>
+            <h3 class="headline">Anak Krakatau erupts, hurling ash 15km into the sky</h3>
+            <p class="story-text">Indonesia&rsquo;s Anak Krakatau volcano produced a high-level eruption early Sep 5 (00:50 local time), ejecting volcanic ash roughly 15km (50,000 feet) above sea level, per Watchers.news (Sep 4). The Geological Agency, which has held the volcano at Level III (Siaga) alert since Sep 3, described shallow magma dynamics as &ldquo;very high&rdquo; after recording 174 eruption earthquakes and daily SO&#8322; emissions up to 2,922 tonnes in August; no casualties were reported, though a 3km exclusion zone remains in force and aviation warnings were issued for Jakarta and Melbourne flight paths.</p>
+            <a class="read-more" href="https://watchers.news/2026/09/04/high-level-eruption-at-anak-krakatau-ejects-ash-over-15-km-50-000-feet-a-s-l-indonesia/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+      </div>
+      
+    </section>
+
+    <section class="news-section" id="sec-sports" data-section="sports" data-cat="sports">
+      <div class="section-head">
+        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0V4Z"/><path d="M7 5H4a3 3 0 0 0 3 3M17 5h3a3 3 0 0 1-3 3"/></svg>
+        <h2>Sports</h2>
+      </div>
+      <div class="card-grid">
+        
+        <article class="card" data-cat="sports">
+          <div class="thumb"><img src="https://img.onmanorama.com/content/dam/mm/en/archive/sports/cricket/images/2026/9/5/india-pakistan%20(1).jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">01</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">India's spinners bowl Pakistan out for 55 in Women's Asia Cup rout</h3>
+            <p class="story-text">India Women thrashed Pakistan Women by 7 wickets in Dubai, skittling their rivals for just 55 &mdash; Pakistan&rsquo;s lowest-ever T20I total &mdash; with Shree Charani (3/7) and Prema Rawat (3/9) sharing six wickets between them, per ESPNcricinfo (Sep 5). Harmanpreet Kaur (18 not out) finished the chase in 8.4 overs with a six, becoming the first captain in men&rsquo;s or women&rsquo;s cricket to lead a side in 150 T20Is.</p>
+            <a class="read-more" href="https://www.onmanorama.com/sports/cricket/2026/09/05/india-vs-pakistan-womens-asia-cup-t20.html" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="sports">
+          <div class="thumb"><img src="https://media.formula1.com/image/upload/t_16by9Centre/c_lfill,w_2048/q_auto/v1740000001/trackside-images/2026/F1_Grand_Prix_of_Italy___Qualifying/2293628577.webp" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">02</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">Gasly grabs maiden pole at Monza as Antonelli's penalty bites again</h3>
+            <p class="story-text">Pierre Gasly stunned the Italian Grand Prix grid with his first-ever F1 pole, timing 1:21.786 at Monza to beat George Russell by just 0.060s and Oscar Piastri by 0.180s, per Formula1.com (Sep 5). Kimi Antonelli qualified 7th but will start from the back after his flagged engine-related grid penalty, while Liam Lawson &mdash; deputising at Red Bull after Hadjar&rsquo;s Monza absence &mdash; starts 14th also carrying a power-unit penalty.</p>
+            <a class="read-more" href="https://www.formula1.com/en/latest/article/gasly-charges-to-sensational-maiden-f1-pole-at-monza-over-russell-and-piastri.4CKkkbvgmqL04ijMNBfuXF" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="sports">
+          <div class="thumb"><img src="https://nbcsports.brightspotcdn.com/dims4/default/b34ed5e/2147483647/strip/true/crop/3853x2167+0+252/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F0a%2Ffb%2F9844b36a421a86a1bc5a904cf7c5%2F2291738530.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">03</div></div>
+            <h3 class="headline">Haaland header sends Man City past Coventry as Premier League Saturday delivers</h3>
+            <p class="story-text">Erling Haaland's 26th-minute header, set up by an Antoine Semenyo cross, was enough for Manchester City to beat promoted Coventry City 1-0, per NBC Sports (Sep 5). Elsewhere on a busy matchday, Newcastle came from behind to draw 2-2 with Bournemouth and Tyrick Mitchell's strike earned Crystal Palace a 1-1 draw at Fulham with England boss Thomas Tuchel watching on.</p>
+            <a class="read-more" href="https://www.nbcsports.com/soccer/live/newcastle-vs-bournemouth-premier-league-week-3-live-updates-man-city-forest-spurs-score-goals-highlights-stats-2026-september-5" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="sports">
+          <div class="thumb"><img src="https://static.cricketaddictor.com/images/posts/2026/FotoJet-2--169.webp?q=80" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">04</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">South Zone to be without KL Rahul for Duleep Trophy final</h3>
+            <p class="story-text">South Zone captain Tilak Varma confirmed KL Rahul will sit out the Duleep Trophy final against East Zone in Chennai (Sep 6-10), saying simply &ldquo;KL bhai isn&rsquo;t there,&rdquo; per Cricket Addictor (Sep 5). South Zone instead bring in in-form opener Devdutt Padikkal, fresh off 328 runs at an average of 109.33 in Sri Lanka, to bat at No. 3, alongside pace spearhead Mohammed Siraj.</p>
+            <a class="read-more" href="https://cricketaddictor.com/cricket-news/tilak-varma-reveals-kl-rahuls-duleep-trophy-final-status-463514/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+      </div>
+      
+      <div class="fixtures-block">
+        <h3 class="subblock-label">Fixtures Ahead</h3>
+        <div class="fixture-list">
+          <a class="fixture" href="https://www.goal.com/en/news/arsenal-chelsea-premier-league-preview/bltf175cccc670a3c06" target="_blank" rel="noopener noreferrer">
+            <span class="fixture-sport">Football</span>
+            <span class="fixture-main">
+              <span class="fixture-headline">Arsenal host Chelsea in London derby showdown</span>
+              <span class="fixture-body">Arsenal welcome Chelsea to the Emirates on Sunday in one of the Premier League&rsquo;s standout early-season fixtures, with both sides looking to build momentum after their opening weeks, per Goal.com preview coverage.</span>
+            </span>
+            <span class="fixture-when">Sep 6</span>
+          </a>
+          <a class="fixture" href="https://www.wisden.com/cricket-news/womens-asia-cup-2026-full-squads-captains-schedule" target="_blank" rel="noopener noreferrer">
+            <span class="fixture-sport">Cricket</span>
+            <span class="fixture-main">
+              <span class="fixture-headline">Women's Asia Cup heads into knockouts</span>
+              <span class="fixture-body">After India's group-stage demolition of Pakistan, the Women's Asia Cup moves toward its business end in Dubai, with semi-finals set for September 10 and 11 and the final on September 13, all at the Dubai International Cricket Stadium.</span>
+            </span>
+            <span class="fixture-when">Sep 10-13</span>
+          </a>
+          <a class="fixture" href="https://www.motorsport.com/f1/news/2026-azerbaijan-grand-prix-date-changed-to-avoid-clash-with-day-of-national-mourning/10737989/" target="_blank" rel="noopener noreferrer">
+            <span class="fixture-sport">F1</span>
+            <span class="fixture-main">
+              <span class="fixture-headline">F1 heads to Baku for the Azerbaijan Grand Prix</span>
+              <span class="fixture-body">The championship battle between Piastri, Norris and Verstappen resumes at the Baku City Circuit, with the Azerbaijan Grand Prix shifted to Saturday, September 26 to avoid clashing with the country's national day of mourning, per Motorsport.com.</span>
+            </span>
+            <span class="fixture-when">Sep 26</span>
+          </a></div>
+      </div>
+    </section>
+
+    <section class="news-section" id="sec-business" data-section="business" data-cat="business">
+      <div class="section-head">
+        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V11M10 20V4M16 20v-6M22 20H2"/></svg>
+        <h2>Business & Markets</h2>
+      </div>
+      <div class="card-grid">
+        
+        <article class="card" data-cat="business">
+          <div class="thumb"><img src="https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2026/04/0/0/jobs-fair-2.jpg?ve=1&tl=1" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">01</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">August Payrolls Blow Past Estimates, Reviving Fed Rate-Hike Bets</h3>
+            <p class="story-text">U.S. employers added 162,000 jobs in August &mdash; nearly triple the 53,000&ndash;56,000 economists expected &mdash; while unemployment held at 4.1% and wages rose 3.1% year-over-year, per Fox Business and CNBC (Sep 4). The CME FedWatch-implied odds of a September 16 rate hike jumped to roughly 60% from under 50% a day earlier, and the Dow fell 0.51% while 2-year and 5-year Treasury yields hit fresh 52-week highs as traders repriced the Fed&rsquo;s path.</p>
+            <a class="read-more" href="https://www.foxbusiness.com/economy/us-jobs-report-august-2026" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="business">
+          <div class="thumb"><img src="https://www.usagold.com/wp-content/uploads/2026/08/usagold-og-image.png" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">02</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">Gold Skids to $4,420 as Rate-Hike Odds Snap Back</h3>
+            <p class="story-text">Gold reversed its rebound, sliding 1.28% to $4,420 an ounce and silver dropping to $66.30 after the blowout jobs report pushed Treasury yields and the dollar higher, per USAGOLD (Sep 4). The metal remains up more than 27% year-over-year, but the move erases much of Thursday&rsquo;s cooling-rate-bet bounce as markets brace for the August CPI print due September 11, five days before the Fed&rsquo;s decision.</p>
+            <a class="read-more" href="https://www.usagold.com/daily-precious-metals-market-report-september-4-2026/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="business">
+          <div class="thumb"><div class="thumb-fallback" style="display:flex;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">03</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">Oil Retreats From Iran-Kuwait Spike, Brent Back Near $95</h3>
+            <p class="story-text">Brent crude has pulled back to roughly $94.97 and WTI to about $91.22 as of September 5, easing off the six-week highs above $97 hit after Iran&rsquo;s missile strikes on Kuwaiti bases earlier in the week, per PriceOfOil.com data. The pullback suggests traders see the Gulf escalation as contained for now, though prices remain elevated versus pre-strike levels.</p>
+            <a class="read-more" href="https://priceofoil.com/oil-prices-today" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="business">
+          <div class="thumb"><div class="thumb-fallback" style="display:flex;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">04</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">CPI Print, September 16 FOMC Now the Fed&rsquo;s Deciding Moment</h3>
+            <p class="story-text">With the jobs data pointing hot, attention shifts to the August CPI report on September 11 &mdash; the last major inflation read before the Fed&rsquo;s September 16 rate decision, per FinanceCalendar. Economists including Morgan Stanley&rsquo;s Ellen Zentner say the payrolls beat alone won&rsquo;t decide the outcome, warning &ldquo;that outcome is in the hands of next week&rsquo;s inflation numbers.&rdquo;</p>
+            <a class="read-more" href="https://www.financecalendar.com/event/us-cpi-report-september-2026/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+      </div>
+      
+    </section>
+
+    <section class="news-section" id="sec-ai" data-section="ai" data-cat="ai">
+      <div class="section-head">
+        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" rx="1"/><path d="M9 1v4M15 1v4M9 19v4M15 19v4M1 9h4M1 15h4M19 9h4M19 15h4"/></svg>
+        <h2>AI & Technology</h2>
+      </div>
+      <div class="card-grid">
+        
+        <article class="card" data-cat="ai">
+          <div class="thumb"><img src="https://www.pymnts.com/wp-content/uploads/2024/03/Anthropic-investors.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">01</div></div>
+            <h3 class="headline">Anthropic Lines Up $15B Credit Facility Ahead of Record IPO Bid</h3>
+            <p class="story-text">Anthropic is finalizing a $15 billion revolving credit facility &mdash; up sharply from the $2.5 billion line it secured in 2025 &mdash; led by Morgan Stanley with Goldman Sachs, JPMorgan and Citigroup in prominent roles, per PYMNTS (Sep 4). The company, which confidentially filed for an IPO in June and was valued at $965 billion after a $65 billion Series H in May, is reportedly aiming to raise as much as or more than SpaceX&rsquo;s record $86.2 billion listing.</p>
+            <a class="read-more" href="https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-expands-credit-facility-to-15-billion-ahead-of-mega-ipo" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="ai">
+          <div class="thumb"><img src="https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2182154299.jpg?w=1024" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">02</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">OpenAI&rsquo;s New Astra Model Rolls Out Wide Amid &lsquo;Opaque Reasoning&rsquo; Concerns</h3>
+            <p class="story-text">OpenAI&rsquo;s Astra model, unveiled Sep 3 as its most capable system yet for coding, cybersecurity and browser automation, is now available across paid tiers and the API at $10 per million input tokens and $50 per million output, extending Wednesday&rsquo;s cyber-model push from OpenAI, Google and Anthropic, per TechCrunch (Sep 3) and follow-on reporting. President Greg Brockman called it a &ldquo;new frontier on computer and browser use,&rdquo; but chief scientist Jakub Pachocki acknowledged that Astra&rsquo;s &ldquo;opaque recurrence&rdquo; reasoning method makes chain-of-thought monitoring &ldquo;more challenging&rdquo; even as capabilities rise.</p>
+            <a class="read-more" href="https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="ai">
+          <div class="thumb"><img src="https://tb-static.uber.com/prod/udam-assets/903d6f18-003f-4d96-bf92-091c81c27a54.jpeg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">03</div></div>
+            <h3 class="headline">Uber and Wayve Launch UK&rsquo;s First Public Self-Driving Rides in London</h3>
+            <p class="story-text">Uber and British startup Wayve began supervised autonomous rides across London on Sep 2, using electric Ford Mustang Mach-Es fitted with Wayve&rsquo;s map-free &ldquo;AV2.0&rdquo; AI Driver, with a TfL-licensed safety driver still onboard, per Uber&rsquo;s newsroom. Riders requesting UberX, Uber Electric or Comfort anywhere in the city except airports may be matched with a Wayve vehicle at no extra cost, and Uber says more than 140,000 Londoners had already opted in ahead of launch.</p>
+            <a class="read-more" href="https://www.uber.com/us/en/newsroom/wayve-on-uber/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="ai">
+          <div class="thumb"><img src="https://image.theregister.com/5294336.jpg?imageId=5294336&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">04</div></div>
+            <h3 class="headline">ChatGPT, Claude and Grok Go Down Together in Rare Triple Outage</h3>
+            <p class="story-text">OpenAI, Anthropic and xAI&rsquo;s Grok all suffered outages within hours of each other on Sep 3, per The Register (Sep 3): ChatGPT and Codex were down roughly 34 minutes from a routing error, Claude.ai, Claude Code and the Claude API were out for over three hours from an infrastructure issue resolved at 16:16 UTC, and Grok cited a failure at what it described as its Memphis compute center. The coincidence briefly fueled speculation about a shared cloud provider outage, though investigators traced the disruptions to separate root causes at each company.</p>
+            <a class="read-more" href="https://www.theregister.com/ai-and-ml/2026/09/03/chatgpt-claude-and-grok-all-had-outages-at-the-same-time/5294322" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="ai">
+          <div class="thumb"><div class="thumb-fallback" style="display:flex;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">05</div></div>
+            <h3 class="headline">&lsquo;GitSpawn&rsquo; Flaw Lets Malicious Repos Hijack Claude Code, Codex, Cursor and Grok</h3>
+            <p class="story-text">Security firm Manifold disclosed eight flaws across seven AI coding agents on Sep 2, per The Hacker News, showing that a booby-trapped Git repo&rsquo;s &ldquo;core.fsmonitor&rdquo; config can execute attacker code the moment an agent runs routine background status checks &mdash; before any trust prompt appears. Manifold said &ldquo;the vulnerability is not in the model&hellip; it is in the ordinary plumbing underneath&rdquo;; Cursor, OpenAI Codex and Goose have patched, while Grok Build, Hermes Agent, Qwen Code and a second Claude Code path remained unpatched at disclosure.</p>
+            <a class="read-more" href="https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+      </div>
+      
+    </section>
+
+    <section class="news-section" id="sec-geopolitics" data-section="geopolitics" data-cat="geopolitics">
+      <div class="section-head">
+        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a13.5 13.5 0 0 1 0 18"/><path d="M12 3a13.5 13.5 0 0 0 0 18"/></svg>
+        <h2>Geopolitics</h2>
+      </div>
+      <div class="card-grid">
+        
+        <article class="card" data-cat="geopolitics">
+          <div class="thumb"><img src="https://www.aljazeera.com/wp-content/uploads/2026/03/ap_69a60d75f307c-1772490102.jpg?resize=1920%2C1440" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">01</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">US and Iran trade fire in Hormuz as Trump eyes new strikes</h3>
+            <p class="story-text">The US-Iran war escalated Sept 5 as CENTCOM struck three IRGC oil tankers after Iran fired ballistic missiles at two US warships, per Al Jazeera (Sep 5); Iranian media said a tanker was hit off Kharg Island. CENTCOM commander Admiral Brad Cooper warned, &ldquo;If you shoot at two of our ships, we will impose an even higher economic cost&rdquo; by destroying Iranian vessels, while Defense Secretary Pete Hegseth vowed the US &ldquo;will destroy Iran&rsquo;s oil tankers if they shoot at US Navy&rdquo; forces. Trump dismissed the fighting as &ldquo;small potatoes&rdquo; for US capabilities, per Khaleej Times (Sep 5), even as VP Vance&rsquo;s claim of a lost Iranian grip on Hormuz collides with continued attacks and oil prices closed the week higher on escalation fears.</p>
+            <a class="read-more" href="https://www.aljazeera.com/news/liveblog/2026/9/5/iran-war-live-trump-says-us-may-target-irans-pickaxe-mountain-very-soon" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="geopolitics">
+          <div class="thumb"><img src="https://assets.kyivindependent.com/content/images/2026/07/GettyImages-2254288874_20260729-103424.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">02</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">Witkoff and Kushner take Ukraine peace push from Moscow to Kyiv</h3>
+            <p class="story-text">Trump envoys Steve Witkoff and Jared Kushner met Putin in Moscow on Saturday and are set to arrive in Kyiv on Sunday, September 6 &mdash; their first visit to Ukraine &mdash; to present a peace proposal to Zelensky, per CNN (Sep 5) and confirmed by Zelensky himself. Zelensky said, &ldquo;Our goal is to have a visit and negotiations with the American side that are as constructive and substantive as possible,&rdquo; adding, &ldquo;We must seek realistic options for bringing this war to an end,&rdquo; per ua.news (Sep 4). The visit comes as Russia has sharply intensified drone and missile barrages on Ukrainian cities, with Kyiv still awaiting word on what, if anything, Putin agreed to in Moscow.</p>
+            <a class="read-more" href="https://kyivindependent.com/ukraine-expects-witkoff-kushner-to-visit-kyiv-in-coming-days-zelensky-says/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="geopolitics">
+          <div class="thumb"><img src="https://cyprus-mail.com/wp-content/uploads/2026/09/2026-09-01T053500Z_495934919_RC25ANAUK6VL_RTRMADP_3_SCO-SUMMIT-KYRGYZSTAN.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">03</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">Kremlin still eyeing Putin-Xi-Trump trilateral at APEC</h3>
+            <p class="story-text">Kremlin aide Yuri Ushakov confirmed Putin and Xi discussed a possible three-way meeting with Trump at the upcoming APEC summit, telling reporters in Bishkek, &ldquo;This issue was discussed, yes,&rdquo; and that &ldquo;if it turns out as has been said, then the three of them will be able to have a meeting,&rdquo; per Cyprus Mail (Sep 1). The idea emerged from Putin-Xi talks on the sidelines of the Shanghai Cooperation Organisation summit; the White House has not confirmed the plan, and no APEC trilateral date has been fixed yet.</p>
+            <a class="read-more" href="https://cyprus-mail.com/2026/09/01/kremlin-says-putin-xi-and-trump-may-hold-a-trilateral-meeting" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="geopolitics">
+          <div class="thumb"><img src="https://www.aei.org/wp-content/uploads/2023/05/China-Taiwan-Weekly-Update.png" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">04</div></div>
+            <h3 class="headline">Beijing widens wartime powers as Taiwan Strait tensions simmer</h3>
+            <p class="story-text">China&rsquo;s National People&rsquo;s Congress passed a revised National Defense Mobilization Law, effective October 1, that lets the state &ldquo;expropriate&rdquo; (not just requisition) civilian assets &mdash; including China&rsquo;s drone industry, which makes roughly 70% of world output &mdash; and can be invoked below the threshold of war, per AEI&rsquo;s China & Taiwan Update (Sep 4). Separately, Reuters reported unnamed US officials alleging China uses its 464-vessel COSCO shipping fleet for signals intelligence collection worldwide, a claim both COSCO and the Chinese embassy denied this week, while Taiwanese prosecutors indicted a health-ministry researcher for allegedly spying for Beijing.</p>
+            <a class="read-more" href="https://www.aei.org/commentary/china-taiwan-update-september-4-2026/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+      </div>
+      
+    </section>
+
+    <section class="news-section" id="sec-portfolio" data-section="portfolio" data-cat="portfolio">
+      <div class="section-head">
+        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-7"/></svg>
+        <h2>Market Watch</h2>
+      </div>
+      <p class="section-note">Companies on Ankit's watchlist where something actually happened today.</p>
+      <div class="card-grid">
+        
+        <article class="card" data-cat="portfolio">
+          <div class="thumb"><img src="https://www.apple.com/newsroom/images/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/tile/Apple-John-Ternus-Tim-Cook_lp.jpg.og.jpg?202608191801" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">01</div><span class="ticker-chip">AAPL</span></div>
+            <h3 class="headline">John Ternus Officially Becomes Apple&rsquo;s CEO</h3>
+            <p class="story-text">John Ternus took over as Apple&rsquo;s chief executive on September 1, ending Tim Cook&rsquo;s 15-year tenure as Cook moves into the newly created role of executive chairman, per Al Jazeera (Sep 1) and Apple&rsquo;s own newsroom announcement. Ternus, a 25-year Apple veteran who most recently ran hardware engineering, inherits a packed agenda: a September 9 event expected to debut new iPhone 18 Pro models and possibly Apple&rsquo;s first foldable iPhone, plus an overhauled AI-powered Siri and ongoing supply-chain pressure from trade tensions.</p>
+            <a class="read-more" href="https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="portfolio">
+          <div class="thumb"><img src="https://g.foolcdn.com/image/?url=https%3A%2F%2Fcdn.content.foolcdn.com%2Fimages%2F1umn9qeh%2Fproduction%2Fe7dd8b70435a213a06dcc8bea55f01f7acf42b48-1401x1251.png%3Fw%3D800%26q%3D75%26fit%3Dmax%26auto%3Dformat&w=1200&op=resize" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">02</div><span class="ticker-chip">TSLA</span><span class="continuing">Continuing</span></div>
+            <h3 class="headline">Cybercab Reveal Underwhelms; NHTSA Opens Audit</h3>
+            <p class="story-text">Tesla&rsquo;s invitation-only Cybercab robotaxi event in Austin drew criticism after Elon Musk skipped the appearance and the company gave no specifics on deployment scale or timeline, leaving the highly anticipated update feeling thin on substance, per The Motley Fool (Sep 4). Compounding the disappointment, the NHTSA opened an audit query into whether Tesla properly self-certified the Cybercab as compliant with federal safety standards before putting it on public roads, reversing the goodwill built around this week&rsquo;s Austin launch buildup.</p>
+            <a class="read-more" href="https://www.fool.com/coverage/stock-market-today/2026/09/04/stock-market-today-sept-4-tesla-falls-after-cybercab-launch-disappoints-investors/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="portfolio">
+          <div class="thumb"><img src="https://mdb.ad-hoc-news.de/bild/bild-2707134_1920_1080.webp" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">03</div><span class="ticker-chip">ORCL</span><span class="continuing">Continuing</span></div>
+            <h3 class="headline">Oracle Deepens AI Data Center Buildout Ahead of Earnings</h3>
+            <p class="story-text">Oracle is expanding its AI infrastructure footprint, deploying Hewlett Packard Enterprise networking gear across its global data centers as demand for cloud capacity keeps climbing, per ad-hoc-news.de (Sep 4). The company heads into its September 10 fiscal Q1 2027 earnings carrying a reported $638 billion contract backlog and sharply growing Oracle Cloud Infrastructure revenue, keeping investor focus on backlog conversion and capital spending discipline as the quarter approaches.</p>
+            <a class="read-more" href="https://www.ad-hoc-news.de/boerse/news/corporate-news/oracle-corp-stock-gains-ahead-of-ai-driven-q1-earnings/70056566" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="portfolio">
+          <div class="thumb"><img src="https://247wallst.com/wp-content/uploads/2024/04/shutterstock_2421712269-scaled.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">04</div><span class="ticker-chip">PLTR</span><span class="continuing">Continuing</span></div>
+            <h3 class="headline">Palantir&rsquo;s PwC Alliance Countered Burry Bear Case</h3>
+            <p class="story-text">Palantir&rsquo;s recent strength was driven by an expanded strategic alliance with PwC to build an AI-native deals platform on Palantir Foundry and AIP, aimed at speeding up M&amp;A execution and cutting one-time transaction costs by as much as 45%, per 24/7 Wall St. (Sep 3). That news had been countering short-seller Michael Burry&rsquo;s renewed bear case, which centers on Palantir&rsquo;s ballooning accounts receivable &mdash; up to $1.49 billion from $1.04 billion a year earlier, with a single customer holding 27% of that balance.</p>
+            <a class="read-more" href="https://247wallst.com/investing/2026/09/03/palantir-rallies-7-as-pwc-alliance-counters-michael-burry-bear-case-servicenow-climbs-5-salesforce-gains-3/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="portfolio">
+          <div class="thumb"><img src="https://247wallst.com/wp-content/uploads/2022/10/imageForEntry32-Kg1.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">05</div><span class="ticker-chip">INTC</span></div>
+            <h3 class="headline">Chipmakers Move Together on No Fresh Intel News</h3>
+            <p class="story-text">Intel moved alongside AMD and Nvidia even though, per 24/7 Wall St. (Sep 4), &ldquo;Intel announced no company-specific news&rdquo; that morning &mdash; the move reflected sector-wide rotation into semiconductors rather than any single catalyst, and we&rsquo;re flagging that explicitly. The backdrop is a strong recent earnings run across the group: Nvidia posted revenue of $96.22 billion (up 105.8% year over year), AMD reported Q2 revenue of $11.54 billion (up 50.1%, with data-center sales more than doubling), and Intel itself posted revenue of $16.13 billion (up 25.4% year over year).</p>
+            <a class="read-more" href="https://247wallst.com/investing/2026/09/04/intel-climbs-4-as-chip-stocks-shrug-off-rising-rate-hike-odds-nvidia-and-amd-move-higher/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="portfolio">
+          <div class="thumb"><div class="thumb-fallback" style="display:flex;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">06</div><span class="ticker-chip">RXT</span></div>
+            <h3 class="headline">Rackspace Faces Securities Suit Over AI Pivot Fallout</h3>
+            <p class="story-text">A securities fraud class action against Rackspace Technology is heading toward a September 28 deadline, with law firm BFA Law alleging the company misled investors about the resource demands of its AI strategy, per a GlobeNewswire release (Sep 4). The suit contends Rackspace touted an AMD partnership as supporting its &ldquo;full year Private Cloud growth profile&rdquo; while concealing that the AI buildout would force it to pull capacity away from revenue-generating segments &mdash; a shift the company disclosed on July 9 alongside a $150 million cut to full-year revenue guidance.</p>
+            <a class="read-more" href="https://www.globenewswire.com/news-release/2026/09/04/3356464/0/en/rxt-stock-drop-rackspace-technology-faces-securities-fraud-class-action-over-ai-effort-issues-bfa-law-reminds-investors-of-september-28-deadline.html" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="portfolio">
+          <div class="thumb"><img src="https://g.foolcdn.com/image/?url=https%3A%2F%2Fcdn.content.foolcdn.com%2Fimages%2F1umn9qeh%2Fproduction%2Fe7dd8b70435a213a06dcc8bea55f01f7acf42b48-1401x1251.png%3Fw%3D800%26q%3D75%26fit%3Dmax%26auto%3Dformat&w=1200&op=resize" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">07</div><span class="ticker-chip">MSFT</span></div>
+            <h3 class="headline">Megacaps Drift on Blowout Jobs Report, Not Company News</h3>
+            <p class="story-text">Microsoft and much of megacap tech drifted lower Friday alongside the broader market after the Labor Department reported the U.S. added 162,000 jobs in August, far above the roughly 55,000 expected, while unemployment held at 4.1%, per The Motley Fool and TheStreet (Sep 4). The stronger-than-expected data pushed Treasury yields higher and lifted the odds of a near-term Fed rate move, pressuring rate-sensitive growth and tech names broadly; there was no Microsoft-specific news behind the move, so this is best read as a macro, sector-wide effect rather than a company story.</p>
+            <a class="read-more" href="https://www.fool.com/coverage/stock-market-today/2026/09/04/stock-market-midday-sept-4-stocks-edge-lower-on-strong-jobs-report-as-lululemon-plummets/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="portfolio">
+          <div class="thumb"><img src="https://s.yimg.com/lo/mysterio/api/364ff6381e719f60f92bb9f7a5fd544e49c8c0c4b62045e90382a1a0cd1a052e/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Face7df31c7fcb10255abe7c990ea373a.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">08</div><span class="ticker-chip">PYPL</span></div>
+            <h3 class="headline">PayPal Drifts Lower With No Clear Catalyst Found</h3>
+            <p class="story-text">PayPal underperformed the broader market Friday, but per Yahoo Finance/Zacks coverage (Sep 4), no specific earnings miss, guidance cut, or analyst downgrade was cited as the cause &mdash; coverage pointed only to routine forward-estimate revisions, with consensus quarterly EPS estimates and a forward valuation still well below the payments industry average. We could not identify a PayPal-specific driver beyond the broader risk-off tone tied to Friday&rsquo;s jobs report, and are flagging that explicitly rather than guessing at a cause.</p>
+            <a class="read-more" href="https://finance.yahoo.com/markets/stocks/articles/paypal-pypl-registers-bigger-fall-214503594.html" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="news-section" id="sec-country" data-section="country" data-cat="country">
+      <div class="section-head">
+        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4"/><path d="M5 4h13l-3 4 3 4H5"/></svg>
+        <h2>Country Updates</h2>
+      </div>
+      
+      <div class="country-group">
+        <h3 class="country-label">India</h3>
+        <div class="card-grid">
+          
+        <article class="card" data-cat="country">
+          <div class="thumb"><img src="https://cdn1.wionews.com/prod/wion/images/2026/20260904/image-1788531742521.jpg?imwidth=1200&imheight=900" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">01</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">Pakistan blames rains, not vandalism, for Narowal temple's destruction</h3>
+            <p class="story-text">Pakistan&rsquo;s Foreign Ministry pushed back on India&rsquo;s condemnation of the demolition of a century-old Hindu temple in Narowal, with spokesperson Sajjad Haider Khan saying &ldquo;the temple&rsquo;s structure was damaged on 21 July 2026 due to torrential rains&rdquo; and dismissing India&rsquo;s concerns as &ldquo;politically motivated.&rdquo; India&rsquo;s external affairs ministry spokesperson Randhir Jaiswal had called the demolition a &ldquo;reprehensible act of vandalism,&rdquo; citing &ldquo;apparent apathy of authorities&rdquo; in protecting minority sites, per WION (Sep 4).</p>
+            <a class="read-more" href="https://www.wionews.com/india-news/pakistan-blames-torrential-rains-for-destruction-of-century-old-hindu-temple-calls-india-s-concerns-politically-motivated-1788531687159" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="country">
+          <div class="thumb"><img src="https://bsmedia.business-standard.com/_media/bs/img/article/2026-09/05/thumb/fitandfill/1200X628/1788621873-1564.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">02</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">Modi hits back at GDP critics: &lsquo;the glass will always be half empty&rsquo;</h3>
+            <p class="story-text">Escalating the row over India&rsquo;s revised 7.8% growth figure, PM Modi accused critics of distorting his remarks, saying &ldquo;there is a gang that will take what I am saying, break it into small pieces and put it in my account,&rdquo; and that &ldquo;for them, the glass will always be half empty,&rdquo; per Business Standard (Sep 5). The comments followed Commerce Minister Piyush Goyal&rsquo;s attacks on economist Raghuram Rajan and former finance secretary Subhash Chandra Garg over their doubts about the GDP base-year revision.</p>
+            <a class="read-more" href="https://www.business-standard.com/india-news/pm-modi-attacks-critics-of-gdp-data-says-glass-will-always-be-half-empty-126090500942_1.html" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="country">
+          <div class="thumb"><img src="https://cdn1.wionews.com/prod/wion/images/2026/20260906/image-1788661256870.jpg?rect=(0,110,3301,2475)&imwidth=800&imheight=600&format=webp&quality=medium" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">03</div></div>
+            <h3 class="headline">Pakistan may repeat &lsquo;miscalculation&rsquo; out of overconfidence, warns ex-CDS Chauhan</h3>
+            <p class="story-text">Delivering the 22nd Bharat Ratna G.B. Pant Memorial Lecture in New Delhi, former Chief of Defence Staff General Anil Chauhan warned that Pakistan&rsquo;s new defence deals with Saudi Arabia and T&uuml;rkiye could breed overconfidence, saying &ldquo;Pakistan will remain&hellip;a major security concern and a threat for times to come,&rdquo; per WION (Sep 6). He also flagged China&rsquo;s unresolved border dispute and warned of &ldquo;cognitive colonialism&rdquo; aimed at reshaping how societies see themselves.</p>
+            <a class="read-more" href="https://www.wionews.com/india-news/pakistan-may-make-another-miscalculation-due-to-overconfidence-ex-cds-anil-chauhan-on-saudi-turkiye-deal-1788659774789" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+        </div>
+      </div>
+      <div class="country-group">
+        <h3 class="country-label">United Kingdom</h3>
+        <div class="card-grid">
+          
+        <article class="card" data-cat="country">
+          <div class="thumb"><img src="https://www.aljazeera.com/wp-content/uploads/2026/09/GettyImages-2288334037-1788429037.jpg?resize=1920%2C1440" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">01</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">Green leader Zack Polanski enters race for Starmer&rsquo;s old seat</h3>
+            <p class="story-text">Green Party leader Zack Polanski confirmed he will contest the Holborn and St Pancras by-election triggered by Keir Starmer&rsquo;s resignation as MP, declaring &ldquo;Labour stands up for corporations and big money. I&rsquo;ll stand up for people and our communities,&rdquo; per Al Jazeera (Sep 3). Analysts expect a two-horse race with Labour given the seat&rsquo;s heavily 18-34 electorate, a demographic where Polanski&rsquo;s support has grown three points in six months.</p>
+            <a class="read-more" href="https://www.aljazeera.com/news/2026/9/3/green-party-leader-zack-polanski-to-stand-in-by-election-for-starmers-seat" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="country">
+          <div class="thumb"><img src="https://www.cityam.com/wp-content/uploads/2024/07/Mark-Kleinman-3-1-1-2.webp" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">02</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">Chancellor Healey faces mounting pressure for a bank windfall tax</h3>
+            <p class="story-text">With bumper half-year profits at major UK lenders and BP posting its strongest quarterly profits in four years, Chancellor John Healey is under growing pressure to impose a windfall levy on banks ahead of his October 28 Budget, per City A.M. (Sep 3). UK Finance chief David Postings warned &ldquo;banking reaches every part of the economy and every region of the country,&rdquo; while the TUC is pushing to raise the banking surcharge from 3% to 8%.</p>
+            <a class="read-more" href="https://www.cityam.com/mark-kleinman-healey-unlikely-to-resist-clamour-for-bank-windfall-tax/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="country">
+          <div class="thumb"><div class="thumb-fallback" style="display:flex;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">03</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">Burnham refuses to rule out tax rises in first PMQs clash</h3>
+            <p class="story-text">At his debut Prime Minister&rsquo;s Questions, Andy Burnham dodged questions on tax rises, telling MPs &ldquo;I&rsquo;m not going to do what any prime minister has done and write the Budget here,&rdquo; while insisting &ldquo;this will be a Government grounded in fiscal responsibility,&rdquo; per LBC (Sep 1). He blamed soaring borrowing costs on global market turbulence and the previous Conservative government&rsquo;s record, pointing to Britain&rsquo;s fastest G7 growth in the first half of 2026.</p>
+            <a class="read-more" href="https://www.lbc.co.uk/article/andy-burnham-budget-tax-rises-debt-5HjdgrR_2/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+        </div>
+      </div>
+      <div class="country-group">
+        <h3 class="country-label">Qatar & the GCC</h3>
+        <div class="card-grid">
+          
+        <article class="card" data-cat="country">
+          <div class="thumb"><div class="thumb-fallback" style="display:flex;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">01</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">Qatar: Gulf states must not become &lsquo;an extension of somebody else&rsquo;s battlefield&rsquo;</h3>
+            <p class="story-text">In an editorial reaffirming solidarity with Kuwait after renewed Iranian missile and drone attacks, The Peninsula Qatar wrote that &ldquo;the territory of states that are not parties to a conflict cannot be treated as an extension of somebody else&rsquo;s battlefield,&rdquo; per The Peninsula Qatar (Sep 4). Doha urged both Iran and the US to halt escalation and return to serious negotiations for regional stability.</p>
+            <a class="read-more" href="https://thepeninsulaqatar.com/editorial/04/09/2026/full-solidarity-with-kuwait" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="country">
+          <div class="thumb"><img src="https://thepeninsulaqatar.com/get/maximage/20260904_1788525078-893.jpg?1788525078" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">02</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">Arab League condemns Iran&rsquo;s &lsquo;continued targeting&rsquo; of Kuwait</h3>
+            <p class="story-text">The League of Arab States issued a formal statement affirming &ldquo;full solidarity with the State of Kuwait&rdquo; after Iran&rsquo;s September 3 missile and drone attack, warning that &ldquo;the gravity of the continued targeting of Arab states&rsquo; territories&hellip;undermines efforts to contain the escalation,&rdquo; per The Peninsula Qatar (Sep 4). It demanded an immediate halt to attacks and rejected &ldquo;the transfer of conflicts and military confrontations to Arab states.&rdquo;</p>
+            <a class="read-more" href="https://thepeninsulaqatar.com/article/04/09/2026/arab-league-condemns-iranian-attacks-against-kuwait" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="country">
+          <div class="thumb"><div class="thumb-fallback" style="display:flex;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">03</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">Hormuz shipping still crippled as Qatar rebuts Iran&rsquo;s civilian-targeting denials</h3>
+            <p class="story-text">Nearly six months into the war, Strait of Hormuz transits remain a fraction of pre-war levels &mdash; just 102 in the week to August 30 versus 130-plus daily before &mdash; with war-risk insurance premiums &ldquo;between 40 and 60 times pre-crisis levels,&rdquo; per a regional tracker updated Sep 5. Qatar&rsquo;s foreign ministry pushed back on Iranian claims of hitting only US facilities, citing strikes on civilian areas that injured 16 people, while Doha, Oman and Pakistan continue quiet mediation.</p>
+            <a class="read-more" href="https://www.globalsecurity.org/military/ops/iran-war-oprep.htm" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="news-section" id="sec-doha" data-section="doha" data-cat="doha">
+      <div class="section-head">
+        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+        <h2>Doha Events</h2>
+      </div>
+      <div class="card-grid">
+        
+        <article class="card" data-cat="doha">
+          <div class="thumb"><img src="https://cdn.platinumlist.net/upload/event/qpo_presents_dvoraks_from_the_new_world_2026_sep_06_qncc_conference_hall_3_107778-orig-en1786521350.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">01</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">Qatar Philharmonic Orchestra performs Dvo&#345;&aacute;k&rsquo;s &ldquo;New World&rdquo; Symphony</h3>
+            <p class="story-text">QPO opens its season tonight, September 6, at QNCC&rsquo;s Auditorium 3 in Ar-Rayyan, with conductor Elias Grandy and pianist Joseph Moog performing Brahms&rsquo; Piano Concerto No. 2 alongside Dvo&#345;&aacute;k&rsquo;s Symphony No. 9 &ldquo;From the New World.&rdquo; Doors open at 7:15pm with tickets from QAR 200, per a Platinumlist listing. This continues the season-opener flagged in yesterday&rsquo;s edition, now confirmed for today.</p>
+            <a class="read-more" href="https://doha.platinumlist.net/event-tickets/107778/qpo-presents-dvoraks-from-the-new-world" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="doha">
+          <div class="thumb"><img src="https://thepeninsulaqatar.com/get/maximage/20260903_1788413828-158.jpg?1788413829" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">02</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">&ldquo;Uzbekistan: Heritage in Motion&rdquo; continues at the Museum of Islamic Art</h3>
+            <p class="story-text">The exhibition, which opened September 3 and runs through November 28, showcases 146 objects spanning over 1,000 years of Uzbekistan&rsquo;s artistic and craft traditions, including a monumental seventh-century wall painting from Afrasiab, drawn from MIA&rsquo;s collection and 13 Uzbek museums, per The Peninsula (Sep 3). It remains on view this week at MIA, Doha.</p>
+            <a class="read-more" href="https://thepeninsulaqatar.com/article/03/09/2026/uzbekistan-heritage-in-motion-exhibition-opens-at-mia" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="doha">
+          <div class="thumb"><img src="https://images.sk-static.com/images/media/profile_images/artists/421338/medium_avatar" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">03</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">John Legend&rsquo;s &ldquo;Songs and Stories&rdquo; set for QNCC on September 10</h3>
+            <p class="story-text">John Legend&rsquo;s Doha concert is confirmed for Thursday, September 10, at the Qatar National Convention Centre, with tickets on sale now per Songkick and Bandsintown listings. The show carries over from yesterday&rsquo;s briefing, with the date now locked in for later this week.</p>
+            <a class="read-more" href="https://www.songkick.com/concerts/43168012-john-legend-at-qatar-national-convention-centre" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="doha">
+          <div class="thumb"><img src="https://cdn.platinumlist.net/upload/event/saleh_el_nawawy_stand_up_comedy_show_in_2026_sep_10_abdul_aziz_nasser_theatre_107695-orig-en1787225766.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">04</div><span class="continuing">Continuing</span></div>
+            <h3 class="headline">Saleh El Nawawy brings &ldquo;Ghaibooba&rdquo; stand-up to Abdul Aziz Nasser Theatre</h3>
+            <p class="story-text">The comedy special runs two nights, September 10&ndash;11, with early and late shows at the Abdul Aziz Nasser Theatre in Doha, tickets from QAR 249 (16+), per a Platinumlist listing. This follows on from yesterday&rsquo;s mention of the show, now with confirmed venue and dates for this week.</p>
+            <a class="read-more" href="https://doha.platinumlist.net/event-tickets/107695/saleh-el-nawawy-stand-up-comedy-show-in-doha" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="doha">
+          <div class="thumb"><img src="https://www.gulf-times.com/gulftimes/uploads/images/2026/08/18/480877.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><div class="num">05</div></div>
+            <h3 class="headline">Katara Art Center opens new season with two exhibitions</h3>
+            <p class="story-text">Katara&rsquo;s Cultural Village headquarters launches &ldquo;Fractures of the Future,&rdquo; a group show by four Qatari artists, alongside Hessa Al Kuwari&rsquo;s solo exhibition &ldquo;The Lounge: What Can a Room Remember,&rdquo; running September 2 through October 7, per Gulf Times. The pairing explores visions of the future and reflections on everyday domestic life through painting, photography and installation.</p>
+            <a class="read-more" href="https://www.gulf-times.com/article/731338/qatar/katara-art-launches-new-season-with-two-art-exhibitions-in-september/amp" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </div>
+  <footer class="masthead-footer">
+    Compiled from public reporting for Ankit &middot; Doha, Qatar &middot; Sunday, September 06, 2026
+  </footer>
+</div>
+
+<script>
+(function () {
+  var pills = document.querySelectorAll('.pill');
+  var sections = document.querySelectorAll('.news-section');
+  pills.forEach(function (pill) {
+    pill.addEventListener('click', function () {
+      pills.forEach(function (p) { p.classList.remove('active'); });
+      pill.classList.add('active');
+      var filter = pill.getAttribute('data-filter');
+      sections.forEach(function (sec) {
+        if (filter === 'all' || sec.getAttribute('data-section') === filter) {
+          sec.classList.remove('hidden-by-filter');
+        } else {
+          sec.classList.add('hidden-by-filter');
+        }
+      });
+    });
+  });
+})();
+</script>
+</body>
+</html>
