@@ -1,0 +1,362 @@
+{
+  "skim": [
+    "US-Iran tanker war escalates: US forces destroyed five IRGC-linked oil tankers, Iran fired missiles at US targets in Jordan (all intercepted), and Tehran claims it captured a US unmanned submarine in the Strait.",
+    "Houthis launched their heaviest attack in years on Saudi Aramco facilities and airbases, wounding at least 73 as oil climbs toward $100 a barrel.",
+    "Nepal&rsquo;s flood death toll climbed to 1,355 with nearly 5,000 still unaccounted for; Cyprus&rsquo;s ferry disaster toll rose to 14 dead, 14 missing.",
+    "Witkoff and Kushner reported &ldquo;substantive progress&rdquo; after shuttling between Moscow and Kyiv on a Ukraine peace push, with further trilateral talks now being scheduled.",
+    "Anthropic pushed its blockbuster IPO to mid-October and locked in a $15 billion credit line, while European rival Mistral raised &euro;3 billion at a &euro;21 billion valuation."
+  ],
+  "sections": [
+    {
+      "key": "world",
+      "title": "World",
+      "icon": "news",
+      "stories": [
+        {
+          "headline": "Nepal-Tibet flood toll climbs to 1,355 as nearly 5,000 remain unaccounted for",
+          "body": "The confirmed death toll from the catastrophic Bhotekoshi River floods and landslides rose to 1,355 in Nepal, with 4,996 people still unaccounted for, per the Kathmandu Post (Sep 7), a slight narrowing of the missing count from over 5,500 reported days earlier as searches continue. Nepal&rsquo;s National Disaster Risk Reduction and Management Authority said roughly 900 workers remain missing at hydropower projects, with about 500 believed trapped in tunnels, while Prime Minister Balendra Shah said the country is &ldquo;moving forward from search, rescue and relief distribution to rehabilitation,&rdquo; per ABC News.",
+          "url": "https://kathmandupost.com/national/2026/09/07/nepal-flood-death-toll-rises-to-1-355-nearly-5-000-unaccounted-for",
+          "continues": true,
+          "img": "https://assets-cdn.kathmandupost.com/uploads/source/news/2026/third-party/thumb-1788772968.jpg"
+        },
+        {
+          "headline": "Cyprus ferry death toll rises to 14 as another body pulled from wreck",
+          "body": "The death toll from the Aug 30 sinking of the FiloJet catamaran off Kyrenia rose to 14, with 14 people still missing, after another body was recovered from the wreck, per TASS (Sep 7); of the 267 aboard, 239 were rescued. Turkish Cypriot Prime Minister &Uuml;nal &Uuml;stel said search teams are working &ldquo;around the clock,&rdquo; while investigators told a court the disaster &ldquo;could have been prevented if the captain had reduced speed and carefully returned to port&rdquo; after water began flooding in, per Turkish Minute.",
+          "url": "https://tass.com/emergencies/2183417",
+          "continues": true
+        },
+        {
+          "headline": "Congo Ebola deaths pass 3,000 as CDC warns of &ldquo;uncontrolled expansion&rdquo;",
+          "body": "The Ebola outbreak in the Democratic Republic of Congo has killed more than 3,007 people out of 6,186 confirmed cases, per ABC News (Sep 2), with the U.S. CDC warning containment efforts &ldquo;remained below established response targets&rdquo; amid &ldquo;uncontrolled expansion of the outbreak.&rdquo; The WHO said the epidemic is on pace to exceed the 11,000 deaths of the 2014-2016 West Africa outbreak, while Africa CDC estimated true case numbers could be &ldquo;three times larger&rdquo; than recorded due to weak surveillance.",
+          "url": "https://abcnews.com/Health/wireStory/congos-ebola-outbreak-shows-signs-slowing-deaths-top-136137479",
+          "continues": true,
+          "img": "https://i.abcnewsfe.com/a/edf3593f-235b-4b0a-ac73-14c75b0cdf24/wirestory_79042056c1bd20cb1233a013fedf30d3_16x9.jpg?w=1600"
+        },
+        {
+          "headline": "Anak Krakatau keeps erupting, over 2,300 flights canceled across Indonesia",
+          "body": "Indonesia&rsquo;s Anak Krakatau volcano remained active after a 25-hour continuous eruption, with moderate, intermittent blasts and dark ash emissions continuing into a new eruption Tuesday evening, per Euronews (Sep 7) and Databoks (Sep 8). Roughly 2,300 flights and travel for 268,539 passengers were disrupted as eight airports &mdash; including Jakarta&rsquo;s Soekarno-Hatta and Halim Perdanakusuma &mdash; shut down, and Geology Agency head Lana Saria warned &ldquo;the probability of additional eruptions in the coming days remains high,&rdquo; citing risks of &ldquo;volcanic bombs, heavy ashfall and possible lava flows.&rdquo;",
+          "url": "https://www.euronews.com/2026/09/07/volcano-in-indonesia-erupts-canceling-hundreds-of-flights-and-stranding-thousands",
+          "continues": true,
+          "img": "https://images.euronews.com/articles/stories/09/90/34/45/1200x675_cmsv2_bc3db9d6-dd8b-5f24-814d-74ff97b99a8c-9903445.jpg"
+        },
+        {
+          "headline": "Germany&rsquo;s far-right AfD scores historic win in Saxony-Anhalt state vote",
+          "body": "The far-right Alternative for Germany (AfD) won 43.8% of the vote in the Saxony-Anhalt state election, its strongest result in any German state since the Nazi era, though it fell short of a governing majority, per Al Jazeera (Sep 6); the CDU trailed at 17.2%. AfD lead candidate Ulrich Siegmund declared &ldquo;we have made history in this state,&rdquo; and national co-leader Tino Chrupalla said the result showed &ldquo;the &lsquo;firewall&rsquo; has been definitively rejected by the voters,&rdquo; while a Thuringia state official warned Moscow views the AfD as &ldquo;the most important instrument for destabilising Germany.&rdquo;",
+          "url": "https://www.aljazeera.com/news/2026/9/6/far-right-afd-wins-vote-in-germanys-saxony-anhalt-state-exit-polls",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/AFP__20260906__C7GU69V__v1__HighRes__GermanyPoliticsVoteStateSaxonyAnhalt-1788762509.jpg?resize=1920%2C1440"
+        }
+      ]
+    },
+    {
+      "key": "sports",
+      "title": "Sports",
+      "icon": "trophy",
+      "stories": [
+        {
+          "headline": "Kishan&rsquo;s Sehwag-esque 270 puts East Zone in command of Duleep final",
+          "body": "Ishan Kishan smashed 270 off 261 balls &mdash; the second-highest score in Duleep Trophy history &mdash; as East Zone piled up 708 against a South Zone side still missing the injured KL Rahul in the final at Chennai&rsquo;s Chidambaram Stadium, per Telangana Today/Yahoo Sports (Sep 7). Batting like &lsquo;Virender Sehwag,&rsquo; Kishan reached his first century in 122 balls before exploding to 50 more off just 31 once past 200, hitting 22 fours and 7 sixes in a 230-run stand with Kushagra before falling to Tripurana Vijay.",
+          "url": "https://telanganatoday.com/duleep-trophy-final-kishans-270-takes-east-zone-to-708-against-south-zone",
+          "continues": true,
+          "img": "https://media.telanganatoday.com/wp-content/uploads/2026/09/Ishan-Kishan-2.jpg"
+        },
+        {
+          "headline": "Haaland brace and Mbappe strike open Champions League for City, Real Madrid",
+          "body": "Erling Haaland scored twice as Manchester City beat Porto 2-0 at the Est&aacute;dio do Drag&atilde;o on Champions League matchday one, extending his scoring run to nine of his last ten European appearances, per Eastern Herald (Sep 8). Kylian Mbapp&eacute; and Federico Valverde struck as Real Madrid edged Inter Milan 2-1, while Aston Villa came from behind to beat Club Brugge 3-2, with Nicolas Jackson netting his first-ever Champions League goal.",
+          "url": "https://easternherald.com/2026/09/08/champions-league-matchday-1-mbappe-real-madrid-haaland-city-villa/",
+          "continues": true,
+          "img": "https://easternherald.com/wp-content/uploads/2026/09/champions-league-matchday-1-man-city-porto-haaland.jpg"
+        },
+        {
+          "headline": "Antonelli storms from 19th to stun Monza as Gasly&rsquo;s pole yields only 7th",
+          "body": "Kimi Antonelli produced the second-lowest grid-to-win drive in Formula 1 history, recovering from 19th on the grid to beat George Russell by 3.857 seconds for a maiden Italian Grand Prix win, per Sky Sports (Sep 7). A Charles Leclerc crash brought out a red flag that reshuffled tyre strategies, letting Antonelli pass Russell at the Ascari chicane with three laps left, while pole-sitter Pierre Gasly slipped to 7th and Max Verstappen took third; Antonelli said, &lsquo;Unbelievable! I am so happy and I could have never imagined to be here today.&rsquo;",
+          "url": "https://www.skysports.com/f1/news/12433/13582217/italian-gp-kimi-antonelli-sensationally-wins-thrilling-monza-race-from-george-russell-and-max-verstappen",
+          "continues": true,
+          "img": "https://e0.365dm.com/26/09/768x432/skysports-kimi-antonelli-f1_7343278.jpg?20260906160411"
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "title": "Business & Markets",
+      "icon": "bars",
+      "stories": [
+        {
+          "headline": "Brent Nears $100 as Middle East Tensions Escalate Further",
+          "body": "Brent crude climbed to $99.85 a barrel and briefly touched $98 after Iran&rsquo;s Houthi allies struck multiple Saudi energy facilities, extending the spike that had already pushed Brent near $95 earlier in the week, per CNBC and Fortune/Yahoo Finance (Sep 8). Iran also warned it would &ldquo;take action against any threat, even before it is carried out&rdquo; over its ballistic-missile program, keeping traders on edge about a wider Strait of Hormuz disruption.",
+          "url": "https://finance.yahoo.com/energy/articles/current-price-oil-september-8-130000481.html",
+          "continues": true,
+          "img": "https://s.yimg.com/lo/mysterio/api/5eb7aa4e750b618d7dfac9dc79210a1a6570bcc6a67d3ecd79566a34aeb10d5e/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ffortune_175%2F5009695ac5c728876f69ae1f48abdeee.jpg"
+        },
+        {
+          "headline": "Gold Slips to $4,443 as Rally Pauses Ahead of Fed Meeting",
+          "body": "Gold eased 0.6% to $4,443.90 an ounce on Tuesday, giving back some ground even after last week&rsquo;s skid, as fresh Middle East escalation drove oil &ldquo;back near $100 a barrel&rdquo; and lifted energy costs &ldquo;one week before the Fed is scheduled to meet,&rdquo; per Yahoo Finance (Sep 8). The metal remains caught between safe-haven demand from the Iran-linked oil shock and growing bets that the Fed will hike rather than cut on Sep 16.",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-tuesday-september-8-2026-gold-moves-lower-following-fresh-escalations-with-iran-111035525.html",
+          "continues": true,
+          "img": "https://s.yimg.com/lo/mysterio/api/d8535668fc821c8cbb0f94bbee34423f4e7910216511576dd61ad9681ca2a54f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Ftuesday.png"
+        },
+        {
+          "headline": "Wall Street Slides as Oil Surge and Tariff Spat Rattle Investors",
+          "body": "The S&amp;P 500 fell 0.36% to 7,690.84, the Dow dropped 505 points (-0.95%) to 52,908.91, and the Nasdaq lost 0.36% on Tuesday as the oil spike compounded fresh Canadian retaliatory tariffs on U.S. goods after trade talks collapsed, per Yahoo Finance (Sep 8). Strategist Kyle Rodda said &ldquo;geopolitical tensions in the Middle East and uncertainty over U.S. interest rates continue to cast a shadow over the markets.&rdquo;",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-8-133744027.html",
+          "img": "https://s.yimg.com/lo/mysterio/api/bc614e9e169924d8588fd739255fb66848236c5f4fcb9e8de5473ce21b3ff900/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthestreet_881%2Ff7e7053600d02df98f44a09fdeec07fa.jpg"
+        },
+        {
+          "headline": "Fed Rate-Hike Bets Firm Up Ahead of Sep 16 Decision",
+          "body": "Prediction markets now put the odds of a quarter-point Fed hike on Sep 16 at roughly 59%, versus 42% for a hold and just 1% for a cut, a sharp swing from earlier cut expectations, per Kalshi-tracked data reported by Yahoo Finance. The shift reflects lingering doubts about the Fed&rsquo;s inflation resolve after July&rsquo;s contested 9-3 hold vote, now compounded by oil&rsquo;s climb back toward $100 a barrel, making next week&rsquo;s meeting the clearest test yet of the Fed&rsquo;s direction.",
+          "url": "https://finance.yahoo.com/economy/policy/articles/fed-rate-cut-odds-slashed-162150703.html",
+          "continues": true,
+          "img": "https://s.yimg.com/lo/mysterio/api/1bb7d9087cd78389f76de6133d44e2abfe340ab17491174d8b25d29a499ffa5d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2Ff0a29db41afeef76f88480b9ef4269a4.jpg"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "AI & Technology",
+      "icon": "cpu",
+      "stories": [
+        {
+          "headline": "OpenAI Chief Scientist Warns No Lab Has &lsquo;Solved Alignment&rsquo;",
+          "body": "Days after GPT-6 Astra&rsquo;s Sep 3 launch, OpenAI Chief Scientist Jakub Pachocki warned publicly that &ldquo;no lab has solved alignment and monitoring to a sufficient degree to continue responsibly scaling at maximum speed for much longer,&rdquo; per tech-insider.org (Sep 7). He said he &ldquo;expect[s] and hope[s] for voluntary slowdowns to become commonplace&rdquo; and flagged that Astra is the first OpenAI model to reach a &ldquo;Critical&rdquo; cybersecurity risk classification, capable of breaking into and escaping computer systems.",
+          "url": "https://tech-insider.org/openai-scientist-warns-ai-risk-astra-launch-2026/",
+          "continues": true,
+          "img": "https://tech-insider.org/wp-content/uploads/2026/09/openai-scientist-warns-ai-risk-astra-launch-2026-1.webp"
+        },
+        {
+          "headline": "Mistral Raises &euro;3B at &euro;21B Valuation in Samsung-Led Round",
+          "body": "France&rsquo;s Mistral AI raised &euro;3 billion (about $3.5 billion) in a Series D round led by Samsung Electronics, pushing its valuation past &euro;21 billion in what qz.com (Sep 8) called the largest equity round ever completed by a European tech company. New backers BlackRock, Advent and Luxembourg&rsquo;s government joined returning investors ASML, Nvidia and Salesforce as Mistral positions itself as Europe&rsquo;s answer to U.S. AI giants, with annual recurring revenue reportedly topping $1 billion.",
+          "url": "https://qz.com/mistral-ai-samsung-series-d-funding-valuation-090826",
+          "img": "https://assets.qz.com/media/GettyImages-2264771189-1920x1280.jpg"
+        },
+        {
+          "headline": "Anthropic Delays IPO to Mid-October, Locks In $15B Credit Line",
+          "body": "Anthropic pushed its blockbuster IPO launch to mid-October and finalized a $15 billion revolving credit facility &mdash; six times its prior $2.5 billion line &mdash; led by Morgan Stanley with Goldman Sachs, JPMorgan and Citigroup, per CNBC/Reuters and pymnts.com (Sep 4-5). The offering aims to raise at least $75 billion, rivaling SpaceX&rsquo;s record August listing, after Anthropic hit a $965 billion valuation in its May Series H round; the company says the plan &ldquo;will depend on market conditions and other factors.&rdquo;",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-expands-credit-facility-to-15-billion-ahead-of-mega-ipo",
+          "continues": true,
+          "img": "https://www.pymnts.com/wp-content/uploads/2024/03/Anthropic-investors.jpg"
+        },
+        {
+          "headline": "GitSpawn Coding-Agent Flaw: Patches Land, Three Tools Still Exposed",
+          "body": "A week after the GitSpawn flaw was disclosed &mdash; letting malicious Git repo configs exploit the core.fsmonitor setting to run arbitrary code before sandboxes activate &mdash; Goose, OpenAI Codex CLI and Cursor have shipped fixes, while Hermes Agent, Qwen Code and Grok Build remain unpatched, per Manifold Security research summarized by vibe-eval.com (Sep 3). Claude Code received only a partial patch, with one execution path still vulnerable in the latest build.",
+          "url": "https://www.manifold.security/blog/ai-coding-agents-git-hijack",
+          "continues": true,
+          "img": "https://vibe-eval.com/og/blog/security-harness-for-ai-agents-sep-2026.jpg"
+        },
+        {
+          "headline": "Google Calls EU-Mandated Search Overhaul Its Biggest Quality Drop Ever",
+          "body": "Google stripped rich search features &mdash; instant pricing, availability and direct booking for flights and hotels &mdash; from European results to comply with the Digital Markets Act, after regulators hit it with &euro;890 million in fines, per hothardware.com (Sep 8). Results now favor comparison sites like Expedia and Booking.com; Google SVP Nick Fox said the change will &ldquo;degrade the user experience for Europeans&mdash;boosting online intermediaries at the expense of local businesses,&rdquo; building on the roughly 30% drop in direct-booking traffic already seen from earlier DMA changes.",
+          "url": "https://hothardware.com/news/google-degrades-european-search-results-avoid-massive-eu-fines",
+          "img": "https://images.hothardware.com/contentimages/newsitem/71568/content/16x9_2133x1200_highres-google-search-laptop.jpg"
+        }
+      ]
+    },
+    {
+      "key": "geopolitics",
+      "title": "Geopolitics",
+      "icon": "globe",
+      "stories": [
+        {
+          "headline": "US-Iran Tanker War Escalates as Oil Nears $100",
+          "body": "CENTCOM says U.S. forces destroyed five IRGC-linked oil tankers &mdash; four in the Gulf of Oman and one near Kharg Island &mdash; while Iran fired ballistic missiles at U.S. targets in Jordan, all 18 intercepted, per CBS News (Sep 8). Iran also claims to have captured a U.S. unmanned submarine in the Strait, Hormuz shipping traffic has fallen to its lowest since May, and Brent crude is trading near $97 a barrel; Iranian parliament speaker Mohammad Bagher Ghalibaf warned any further aggression &ldquo;will receive a faster, more intense and more painful response.&rdquo;",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-oil-gas-price-strikes/",
+          "continues": true,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6a9d2225ab96-1788682789.jpg?resize=1920%2C1440"
+        },
+        {
+          "headline": "Houthis Hit Saudi Oil Sites in Heaviest Attack in Years",
+          "body": "Yemen&rsquo;s Houthis launched drones and ballistic missiles at Aramco facilities and airbases across Abha, Khamis Mushait, Jazan and Najran on Sep 8, wounding at least 73 people and igniting fires at multiple oil installations, per Al Jazeera (Sep 8). Saudi military spokesman Maj-Gen Turki al-Malki vowed a &ldquo;firm response&rdquo; as fighting in Yemen has now killed or wounded 728 people since Aug 23, with roughly 21,000 displaced from Taiz, following the collapse of the four-year truce.",
+          "url": "https://www.aljazeera.com/news/2026/9/8/saudi-houthi-fighting-in-yemen-escalates-what-happened-and-whats-next",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/AFP__20260908__C7M72CV__v2__HighRes__TopshotYemenSaudiHouthiConflict-1788857659.jpg?resize=1920%2C1440"
+        },
+        {
+          "headline": "Witkoff and Kushner Report Progress After Moscow-Kyiv Shuttle",
+          "body": "After Steve Witkoff and Jared Kushner met Putin in Moscow and then Zelensky in Kyiv &mdash; joined by UK, German and French officials &mdash; over the weekend, both sides reported &ldquo;substantive progress&rdquo; and are scheduling further trilateral talks, per Townhall (Sep 8). Zelensky said &ldquo;Ukraine&rsquo;s proposals are constructive, and they always will be,&rdquo; while Kremlin envoy Kirill Dmitriev said Putin and Trump &ldquo;positively assessed&rdquo; the visit; Trump said he would meet Putin only when &ldquo;we&rsquo;re ready to do a peace deal.&rdquo;",
+          "url": "https://townhall.com/news/cameron-arcand/2026/09/08/heres-how-the-witkoff-kushner-meetings-with-russia-and-ukraine-went-n2682634",
+          "continues": true,
+          "img": "https://media.townhall.com/cdn/hodl/2025/227/e121cdb9-18e7-4845-9c51-8529eaf7f41c-1200x630.jpg"
+        },
+        {
+          "headline": "UK Bans Settlement Goods, Triggering US Backlash",
+          "body": "Britain announced a trade ban on goods from Israeli settlements in the West Bank, with Pensions Minister Pat McFadden saying the UK does &ldquo;not want to see the possibility of a two-state solution&hellip;being erased,&rdquo; per the Times of Israel (Sep 8). U.S. Congressman Randy Fine threatened countermeasures against British firms complying with the ban, calling it a &ldquo;vanity project&rdquo; that could cost billions in trade, deepening a transatlantic rift over Gaza policy.",
+          "url": "https://www.timesofisrael.com/liveblog-september-8-2026/",
+          "img": "https://static-cdn.toi-media.com/www/uploads/2026/09/F260805CG139.jpg"
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "sport": "Cricket",
+      "headline": "Women&rsquo;s Asia Cup knockouts: India face Bangladesh, final looms",
+      "body": "Fresh off bowling out Pakistan for 55, India Women take on Bangladesh in the semi-final at Dubai International Stadium on Sep 10, with Sri Lanka facing Pakistan in the second semi-final on Sep 11; the final is scheduled for Sep 13, per Yahoo Sports (Sep 8).",
+      "url": "https://sports.yahoo.com/articles/womens-asia-cup-2026-semi-182809987.html",
+      "when": "Sep 10-13"
+    },
+    {
+      "sport": "F1",
+      "headline": "Spanish Grand Prix next up after Antonelli&rsquo;s Monza shock",
+      "body": "Formula 1 heads straight to the Spanish Grand Prix the weekend after Monza&rsquo;s dramatic finish, with Antonelli, Russell and Verstappen carrying momentum from their photo-finish battle into the next round.",
+      "url": "https://www.formula1.com/en/racing/2026",
+      "when": "Sep 11-13"
+    },
+    {
+      "sport": "Football",
+      "headline": "Manchester derby: United host City at Old Trafford",
+      "body": "Manchester United welcome Manchester City to Old Trafford on Sunday, September 13 at 4:30pm for matchday four of the Premier League season, per Sky Sports (confirmed fixture schedule).",
+      "url": "https://www.skysports.com/football/news/12040/13561249/premier-league-2026-27-fixtures-live-on-sky-sports-arsenal-vs-chelsea-and-man-utd-vs-man-city-live-on-sky-in-september",
+      "when": "Sep 13"
+    }
+  ],
+  "portfolio": [
+    {
+      "ticker": "INTC",
+      "headline": "Intel to Raise PC Chip Prices as U.S. Stake Gain Tops $36 Billion",
+      "body": "Intel is planning to raise personal computer processor prices by roughly 10% starting in early October, according to a supply-chain report cited by Yahoo Finance (Sep 8), a move investors read as CEO Lip-Bu Tan prioritizing margins over volume as the company cuts low-margin product lines. Separately, the U.S. government&rsquo;s 9.9% equity stake in Intel &mdash; acquired for $8.9 billion in August 2025 &mdash; is now valued at an estimated $45.5 billion, an unrealized gain of about $36.6 billion. Northland Securities also upgraded Intel to Outperform the same day, citing turnaround progress and processor shortages.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-jumps-9-chip-163052538.html",
+      "img": "https://s.yimg.com/lo/mysterio/api/ef4e9ffb846b4ac8d334dc7341c01dea6c4c1d79f1a577cf82b9e9b8b339935d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbeincrypto_us_662%2F35988ae8cbc31e6f09b1aa3265662fd1.jpg"
+    },
+    {
+      "ticker": "TSLA",
+      "headline": "Tesla Debuts Steering-Wheel-Free Cybercab as Slovenia Approves Full Self-Driving",
+      "body": "Slovenia&rsquo;s traffic safety authority granted Tesla&rsquo;s Full Self-Driving system a temporary type approval on Sep 8, making it the sixth European market to clear the technology, though a driver must still remain attentive. The news landed alongside Tesla&rsquo;s Austin unveiling of the Cybercab, a two-seat autonomous vehicle built without a steering wheel or pedals; the company said its unsupervised robotaxi fleet has logged more than 380,000 miles across six cities with zero notable incidents, per 24/7 Wall St (Sep 8). Tesla also reported Q2 2026 revenue of $28.24 billion, up 25.5% year-over-year, with 1.48 million active FSD subscriptions globally.",
+      "url": "https://247wallst.com/investing/2026/09/08/uber-falls-4-on-tesla-cybercab-threat-as-slovenia-clears-full-self-driving-tsla-stock-rises-4/",
+      "img": "https://www.investors.com/wp-content/uploads/2024/10/Stock-uberdriveby-01-adobe.jpg"
+    },
+    {
+      "ticker": "UBER",
+      "headline": "Uber Commits $10 Billion to Autonomous Vehicles After Tesla&rsquo;s Cybercab Reveal",
+      "body": "With Tesla&rsquo;s Cybercab debut and Slovenia&rsquo;s Full Self-Driving approval raising questions about a manufacturer running its own robotaxi network, Uber said on Sep 8 it is committing $10 billion over multiple years to autonomous-vehicle partnerships, per 24/7 Wall St. The company noted AV trips currently make up less than 0.5% of its roughly 300 million weekly rides, underscoring how early the shift remains even as rivals accelerate their own robotaxi rollouts.",
+      "url": "https://247wallst.com/investing/2026/09/08/uber-falls-4-on-tesla-cybercab-threat-as-slovenia-clears-full-self-driving-tsla-stock-rises-4/",
+      "continues": true,
+      "img": "https://www.investors.com/wp-content/uploads/2024/10/Stock-uberdriveby-01-adobe.jpg"
+    },
+    {
+      "ticker": "PYPL",
+      "headline": "PayPal Posts 4.75% Revenue Growth as Stripe-Advent Buyout Talks Collapse",
+      "body": "A consortium led by Advent International and Stripe walked away in late August from takeover talks that would have valued PayPal at roughly $53 billion in equity value, according to ad-hoc-news (Sep 1). Despite the collapsed deal, PayPal reported Q2 2026 revenue of $8.7 billion, up 4.75% year-over-year, beat earnings expectations, and raised its full-year 2026 EPS guidance while emphasizing cost discipline and margin improvement.",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/paypal-stock-falls-after-advent-stripe-buyout-collapses-and-q2-2026-growth/70038413",
+      "img": "https://mdb.ad-hoc-news.de/bild/bild-2671229_1920_1080.webp"
+    },
+    {
+      "ticker": "ZM",
+      "headline": "Zoom Beats Q2 Estimates but Trims Q3 Profit Outlook",
+      "body": "Zoom Communications reported Q2 earnings of $1.55 per share on revenue of $1.28 billion, both ahead of analyst estimates, but guided Q3 earnings to $1.46&ndash;$1.48 per share versus a $1.50 consensus and revenue to $1.275&ndash;$1.28 billion, per TIKR (Aug 26). The softer forward guidance overshadowed the beat, with investors weighing whether growth in customer-facing AI tools can offset a maturing core meetings business.",
+      "url": "https://www.tikr.com/blog/zoom-communications-zm-stock-drops-lowered-q3-profit-outlook"
+    },
+    {
+      "ticker": "SONO",
+      "headline": "Sonos Launches $699 Beam Ultra Soundbar and $449 Ace Ultra Headphones",
+      "body": "Sonos began taking pre-orders on Sep 1 for its Beam Ultra soundbar ($699), which packs nine drivers for 7.1.2 Dolby Atmos sound and AI-based speech enhancement, and its Ace Ultra over-ear headphones ($449), built on a new Headphone Engine 2 platform with adaptive noise cancellation and up to 35 hours of battery life, per the company&rsquo;s newsroom (Sep 1). Both products run on the newly introduced Sonos 27 operating system and go on general sale September 29.",
+      "url": "https://newsroom.sonos.com/269788-sonos-welcomes-beam-ultra-and-sonos-ace-ultra-to-its-system/",
+      "img": "https://d21buns5ku92am.cloudfront.net/70256/images/698044-Beam%20Ultra%2012-02a4d4-large-1788192394.JPG"
+    },
+    {
+      "ticker": "CDE",
+      "headline": "Silver Eases to $65.88 an Ounce, Weighing on Miners Like Coeur",
+      "body": "Silver eased to $65.88 per troy ounce on Sep 8, per FXStreet, as dollar strength and shifting interest-rate expectations weighed on the metal. No Coeur Mining-specific announcement accompanied the move; the pullback reflects the broader precious-metals complex rather than any company development at the silver and gold producer.",
+      "url": "https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202609080930",
+      "img": "https://editorial.fxsstatic.com/images/i/Silver5_Medium.png"
+    },
+    {
+      "ticker": "ARM",
+      "headline": "Arm Holdings Rides Broad Chip-Sector Rally With No Company-Specific News",
+      "body": "Arm Holdings moved with a broader semiconductor sector advance on Sep 8, per Benzinga, with no fresh company-specific catalyst identified for the session. The chip designer remains below its 50- and 100-day moving averages after Morgan Stanley cut it to Equal-Weight with a $212 price target in late July and Rosenblatt trimmed its forecast to $250, even as the Street&rsquo;s average target of $319 keeps a consensus Buy rating intact.",
+      "url": "https://www.benzinga.com/markets/tech/26/09/61658604/whats-going-on-with-arm-holdings-stock-tuesday-3"
+    },
+    {
+      "ticker": "EDIT",
+      "headline": "Editas Medicine Names Dan Ory Chief Medical Officer as EDIT-401 Nears Trials",
+      "body": "Editas Medicine appointed Dr. Dan Ory &mdash; previously chief medical officer at Arbor Biotechnologies and Casma Therapeutics &mdash; as its new Chief Medical Officer effective immediately, the company said on Sep 8. CEO Gilmore O&rsquo;Neill said lead candidate EDIT-401, aimed at treating hyperlipidemia, is nearing clinical development, with a trial notification submission targeted and data expected in Q1 2027.",
+      "url": "https://www.globenewswire.com/news-release/2026/09/08/3357467/0/en/editas-medicine-appoints-dan-ory-m-d-as-chief-medical-officer.html"
+    }
+  ],
+  "country_groups": [
+    {
+      "label": "India",
+      "stories": [
+        {
+          "headline": "Modi: India&rsquo;s 7.8% Growth Gives World &lsquo;Fresh Hope&rsquo;",
+          "body": "Inaugurating the Global Fintech Fest 2026 in Mumbai, PM Modi declared &ldquo;when India grows by 7.8%, the world sees a fresh hope,&rdquo; touting Q1 GDP data and a Japanese rating agency&rsquo;s sovereign upgrade to &lsquo;A&rsquo; &mdash; India&rsquo;s first in three decades &mdash; per Business Today (Sep 8). He added &ldquo;India&rsquo;s reform express will go ahead even faster,&rdquo; extending the economic-confidence pitch he used days earlier to rebut critics of the GDP numbers.",
+          "url": "https://www.businesstoday.in/latest/economy/story/when-india-grows-7-8-world-sees-fresh-hope-pm-modis-big-message-amid-global-uncertainty-554101-2026-09-08",
+          "continues": true,
+          "img": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202609/6aa0405a9ac35-prime-minister-narendra-modi-at-global-fintech-fest-2026-080522873-16x9.png"
+        },
+        {
+          "headline": "Delhi Hostel Collapse Toll Rises to 7, Owner Arrested",
+          "body": "The five-storey &ldquo;Hostel Daze&rdquo; PG collapsed in Delhi&rsquo;s Satya Niketan on Sept 6, trapping dozens of students; the death toll climbed to seven with 12 rescued, per Republic World (Sep 7). Owner Hariram was arrested in Bhiwadi, Rajasthan after a multi-state manhunt, and Delhi CM Rekha Gupta vowed &ldquo;we won&rsquo;t spare the guilty&rdquo; while ordering city-wide structural audits of PG hostels and nursing homes.",
+          "url": "https://www.republicworld.com/india/satya-niketan-building-collapse-death-toll-rises-to-6-search-and-rescue-operations-intensify-2026-09-07-136445",
+          "img": "https://img.republicworld.com/all_images/2026/09/satya-niketan-building-collapse-death-toll-rises-to-6-11-rescued-search-and-rescue-operations-intensify-1788747632854-1280x720.webp"
+        }
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "stories": [
+        {
+          "headline": "Healey Weighs Wealth Tax as Budget Options Narrow",
+          "body": "With PM Burnham having ruled out raising income tax, VAT, corporation tax or National Insurance, Chancellor Healey is weighing a capital gains tax hike (potentially raising &pound;11bn) or a 2% wealth levy on assets over &pound;10 million (up to &pound;24bn), per Reuters via Internazionale (Sep 7). On the wealth tax, Burnham said &ldquo;I wanted to take my time before making a decision but would not rule this out,&rdquo; as the bank windfall-tax pressure from earlier in the week broadens into a wider October Budget squeeze.",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/07/explainer-options-for-uk-finance-minister-healey-to-tax-wealth-in-october-s-budget",
+          "continues": true,
+          "img": "https://media.internazionale.it/images/2026/09/07/357943-hd.jpeg"
+        },
+        {
+          "headline": "Rival Emerges to Challenge Polanski for Starmer&rsquo;s Old Seat",
+          "body": "Camden councillor Hamza Chowdhury entered the Green Party selection contest for Holborn and St Pancras hours before nominations closed, arguing a &ldquo;Global Majority candidate is best placed...to properly represent the extraordinary diversity&rdquo; of the seat, per New Statesman (Sep 7). Six of Camden&rsquo;s 11 Green councillors backed Chowdhury, though insiders still expect leader Zack Polanski to win the September 11 selection for the by-election to replace former PM Keir Starmer.",
+          "url": "https://www.newstatesman.com/politics/2026/09/zack-polanski-faces-a-fight-in-holborn-and-st-pancras",
+          "continues": true,
+          "img": "https://dl6pgk4f88hky.cloudfront.net/2026/09/07/3epr0rm-800x418.jpg?1788927131"
+        }
+      ]
+    },
+    {
+      "label": "Qatar & the GCC",
+      "stories": [
+        {
+          "headline": "Qatar: Unconditional Reopening of Hormuz a &lsquo;Top Priority&rsquo;",
+          "body": "Qatari foreign ministry spokesperson Ibrahim Al Hashmi said reopening the Strait of Hormuz &ldquo;unconditionally...is a top priority&rdquo; for Qatar and the region, calling for political will from Iran and the US to end their six-month war, per Al Jazeera (Sep 8). The statement came as Qatar&rsquo;s prime minister wrapped a two-day Beijing visit focused on regional security and de-escalation options.",
+          "url": "https://www.aljazeera.com/news/2026/9/8/qatar-says-reopening-strait-of-hormuz-unconditionally-is-a-priority",
+          "continues": true,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-05T075328Z_698144029_RC2SCNAEWPZK_RTRMADP_3_IRAN-CRISIS-HORMUZ-1788820733.jpg?resize=1920%2C1440"
+        },
+        {
+          "headline": "Qatar Warns Against &lsquo;Normalizing&rsquo; Region&rsquo;s New Reality",
+          "body": "At the Hili Forum 2026 in Abu Dhabi, Qatar&rsquo;s Foreign Ministry spokesperson Dr Majed Al Ansari warned that &ldquo;the primary threat lies in normalizing what has transpired in the region...and treating it as a new reality to be taken for granted,&rdquo; per The Peninsula Qatar (Sep 7). He added that Gulf security is &ldquo;a shared responsibility&rdquo; and that dialogue &ldquo;doesn&rsquo;t mean aligning with any party, but...a tool to prevent escalation,&rdquo; extending Doha&rsquo;s earlier warning that the Gulf must not become &ldquo;an extension of somebody else&rsquo;s battlefield.&rdquo;",
+          "url": "http://thepeninsulaqatar.com/article/07/09/2026/foreign-ministry-official-spokesperson-engages-in-plenary-panel-on-gulf-regional-security-at-hili-forum-2026",
+          "continues": true,
+          "img": "https://thepeninsulaqatar.com/get/maximage/20260907_1788789389-562.jpg?1788789389"
+        },
+        {
+          "headline": "Qatar and China Enter &lsquo;Golden Decade&rsquo; of Ties",
+          "body": "Qatar&rsquo;s prime minister completed a two-day Beijing visit with officials describing bilateral relations as entering a &ldquo;golden decade,&rdquo; as China named Qatar an &ldquo;important strategic partner&rdquo; in the Gulf, per Al Jazeera (Sep 8). QatarEnergy signed 27-year LNG supply deals with China&rsquo;s CNPC and Sinopec, adding to the 19.4 million tonnes Qatar already ships annually to China within $23.8 billion in two-way trade last year.",
+          "url": "https://www.aljazeera.com/features/2026/9/8/china-and-qatar-are-strengthening-bilateral-ties-what-that-really-means",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6a9fe2127493-1788862994.jpg?resize=1920%2C1440"
+        }
+      ]
+    }
+  ],
+  "doha_events": [
+    {
+      "headline": "John Legend Live in Qatar &mdash; One Night Only at QNCC",
+      "body": "The 13-time Grammy winner brings his &ldquo;Songs and Stories&rdquo; set to the Qatar National Convention Centre on September 10, with stripped-back renditions of his biggest hits alongside fan favourites. Tickets are available via Platinumlist; the show runs 9pm&ndash;11:50pm at QNCC&rsquo;s Exhibition Hall 3-4.",
+      "url": "https://www.qncc.qa/event-details/john-legend-live-in-qatar",
+      "img": "https://static.wixstatic.com/media/1790be_6d642e755ed1439bafa1b0cd9ef19241~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90/1790be_6d642e755ed1439bafa1b0cd9ef19241~mv2.jpg"
+    },
+    {
+      "headline": "&lsquo;Uzbekistan: Heritage in Motion&rsquo; Opens at the Museum of Islamic Art",
+      "body": "A new exhibition at MIA brings together 146 objects spanning over 1,000 years of Central Asian artistic tradition, drawn from MIA&rsquo;s own collection and 13 museums across Uzbekistan. Highlights include a seventh-century wall painting from Afrasiab&rsquo;s Ambassadors&rsquo; Hall, shown in Qatar for the first time; the show opened September 3 and runs through November 28, per The Peninsula Qatar (Sep 3).",
+      "url": "http://thepeninsulaqatar.com/article/03/09/2026/uzbekistan-heritage-in-motion-exhibition-opens-at-mia",
+      "img": "https://thepeninsulaqatar.com/get/maximage/20260903_1788413828-158.jpg?1788413829"
+    },
+    {
+      "headline": "Katara Art Center Opens Its New Season with Two Exhibitions",
+      "body": "Katara Art Center kicked off its new season on September 2 with &ldquo;Fractures of the Future,&rdquo; a group show by Samah Azzam, Ahmed Al Jufairi, Moza Al Kuwari and Fatima Mohammed exploring climate crisis and speculative futures, alongside Hessa Al Kuwari&rsquo;s solo exhibition &ldquo;The Lounge: What Can a Room Remember,&rdquo; examining domestic life through painting and installation. Both run through October 7, per Gulf Times (Aug 18).",
+      "url": "https://www.gulf-times.com/article/731338/qatar/katara-art-launches-new-season-with-two-art-exhibitions-in-september/amp",
+      "img": "https://www.gulf-times.com/gulftimes/uploads/images/2026/08/18/480877.jpg"
+    },
+    {
+      "headline": "S&rsquo;hail 2026 Falconry Exhibition Marks Its 10th Edition at Katara",
+      "body": "The Katara International Hunting &amp; Falcons Exhibition (S&rsquo;hail) is running through September 12 at the Cultural Village, celebrating its tenth anniversary with 155 exhibitors from 14 Arab and foreign nations. The event features falcon auctions, best-burqa and falcon-poetry competitions, live artisan demonstrations and a children&rsquo;s falconry course, per Qatar Tribune (Sep 8).",
+      "url": "https://www.qatar-tribune.com/article/252792/latest-news/shail-2026-kicks-off-with-a-decade-of-heritage-passion-and-global-falconry",
+      "img": "https://www.qatar-tribune.com/watanqatartribune/uploads/images/2026/09/09/387234.jpg"
+    }
+  ]
+}
