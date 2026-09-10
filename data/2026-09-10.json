@@ -1,0 +1,295 @@
+{
+  "skim": [
+    "OpenAI says an internal model solved the decades-old Navier-Stokes Millennium Prize Problem in 88 hours, but a rival mathematician accuses it of pressuring an Anthropic researcher off a competing paper.",
+    "Apple&rsquo;s first product event under new CEO John Ternus unveiled the $1,999 foldable iPhone Duo, its most radical redesign in nearly 20 years.",
+    "The US destroyed five more Iranian tankers and Iran fired missiles at a US base in Jordan as Brent crude topped $100 a barrel for the first time since July.",
+    "Israel said it will close its British consulate in Jerusalem within 30 days after the UK banned trade with Israeli settlements.",
+    "A cargo jet overran the runway at Miami International Airport, killing five people in ground vehicles; NTSB investigators are probing why the airport lacks runway-arresting technology."
+  ],
+  "sections": [
+    {
+      "key": "world",
+      "title": "World",
+      "icon": "news",
+      "stories": [
+        {
+          "headline": "Amazon Cargo Jet Overruns Miami Runway, Killing Five in Ground Vehicles",
+          "body": "A Boeing 767 operated by 21 Air, flying under contract for Amazon Air, overran the runway on landing at Miami International Airport on Sep 6 and struck a cleaning company van and an SUV, killing five people in the vehicles and injuring five others, per NPR (Sep 6). NTSB Chair Jennifer Homendy described the crash scene as &ldquo;utter devastation,&rdquo; and investigators have recovered both the flight data and cockpit voice recorders while examining mechanical failure, weather and crew performance; the airport lacks an Engineered Material Arresting System, a runway-overrun safety technology that is not federally mandated where runway safety areas are deemed adequate.",
+          "url": "https://www.npr.org/2026/09/06/nx-s1-5959749/amazon-cargo-plane-crashes-at-miami-airport",
+          "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x3375+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1a%2Fdc%2F7b6795e6445196ecc9bd7f1e4606%2Fgettyimages-2294039151.jpg"
+        },
+        {
+          "headline": "Jakarta Airport Reopens as Anak Krakatau Ash Clears, Ending Days of Chaos",
+          "body": "Five Indonesian airports, including Jakarta&rsquo;s Soekarno-Hatta, reopened Sep 8 after authorities cleared volcanic ash following Anak Krakatau&rsquo;s eruptions, which disrupted more than 2,900 flights and over 340,000 travelers, per Al Jazeera (Sep 8). Transport Minister Dudy Purwagandhi asked for &ldquo;a little patience&hellip;as we carry out inspections to ensure aircraft are fit to fly,&rdquo; while Geology Agency head Lana Saria said &ldquo;the impact is not as big as previous eruptions, but we&rsquo;ll continue to monitor&rdquo; the volcano, which remains on Level III alert.",
+          "url": "https://www.aljazeera.com/news/2026/9/8/indonesia-airports-reopen-after-volcanic-ash-disrupts-thousands-of-flights",
+          "continues": true,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-08T033737Z_1883190086_RC2RENACOZE7_RTRMADP_3_INDONESIA-VOLCANO-1788848483.jpg"
+        },
+        {
+          "headline": "As Nepal Names Its Dead, China&rsquo;s Silence Over Tibet Flood Toll Draws Scrutiny",
+          "body": "With Nepal&rsquo;s flood death toll at 1,355 and nearly 5,000 still unaccounted for, NPR (Sep 7) contrasts Kathmandu&rsquo;s open reporting with Beijing&rsquo;s handling of the same Aug 26 disaster on the Tibet side, where China took five days to disclose that 261 foreigners from 23 countries were missing and has restricted journalist access. China Media Project&rsquo;s David Bandurski said state broadcasters &ldquo;have total information dominance&rdquo; and are expected to &ldquo;guide public opinion,&rdquo; while the International Campaign for Tibet&rsquo;s Ryan Fioresi warned restricted access means the real casualty count &ldquo;could be much higher&rdquo; than reported.",
+          "url": "https://www.npr.org/2026/09/07/nx-s1-5960357/nepal-floods-questions-over-chinas-reporting",
+          "continues": true,
+          "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x4860+0+450/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc0%2F09%2Fb519cc4e469a8598b2fae0e94047%2Fap26248488634550.jpg"
+        }
+      ]
+    },
+    {
+      "key": "sports",
+      "title": "Sports",
+      "icon": "trophy",
+      "stories": [
+        {
+          "headline": "Ferran Torres Scores Hat-Trick on Full PSG Debut in 6-1 Rout of Slovan Bratislava",
+          "body": "Ferran Torres struck three times &mdash; in the 31st, 47th and 57th minutes &mdash; as a heavily rotated Paris Saint-Germain thrashed Slovan Bratislava 6-1 in their Champions League opener, with Ousmane Dembele also scoring twice, per Get French Football News (Sep 9). Manager Luis Enrique rested Marquinhos, Joao Neves, Kvaratskhelia and Desire Doue for the reigning champions&rsquo; league-phase opener, while Suleiman Camara scored Slovan&rsquo;s consolation goal past Matvey Safonov.",
+          "url": "https://frenchfootballweekly.com/2026/09/09/ldc-psg-massacres-slovan-bratislava-with-a-hat-trick-from-ferran-torres/",
+          "img": "https://frenchfootballweekly.com/wp-content/uploads/2026/09/LdC-PSG-massacres-Slovan-Bratislava-with-a-hat-trick-from-Ferran.jpg"
+        },
+        {
+          "headline": "Raphinha Nets Early Brace as Barcelona Thrash Feyenoord 5-1",
+          "body": "Raphinha scored inside three minutes and again before the hour mark as Barcelona routed Feyenoord 5-1 in their Champions League opener, with Karim Adeyemi, Lamine Yamal &mdash; his first goal for the club, from a direct free-kick &mdash; and Gabriel Jesus also finding the net, per Vanguard (Sep 9). &ldquo;Playing in front of our fans we always have to show perfect football, or nearly perfect, and with the fans&rsquo; support it&rsquo;s easier,&rdquo; Raphinha said, cautioning that &ldquo;in a season this long, there are many ups and downs.&rdquo;",
+          "url": "https://www.vanguardngr.com/2026/09/raphinha-bags-brace-as-barcelona-demolish-feyenoord-5-1/",
+          "img": "https://cdn.vanguardngr.com/wp-content/uploads/2026/09/AFP__20260909__C7U44BQ__v1__MidRes__FblEurC1BarcelonaFeyenoord.jpg"
+        },
+        {
+          "headline": "Odegaard&rsquo;s Wonder Strike Gives Arsenal Win Despite Wasteful Napoli Display",
+          "body": "Martin Odegaard curled a stunning effort into the far corner in the 75th minute to hand Arsenal a 1-0 win at Napoli despite the Gunners racking up an expected-goals tally of roughly 4.0 and controlling 76% of possession, per Arseblog (Sep 9). Bukayo Saka skied an open goal and Piero Hincapie blazed over from close range before Odegaard&rsquo;s breakthrough, capping a four-change lineup shuffle from manager Mikel Arteta that also introduced new signing Viktor Gyokeres.",
+          "url": "https://arseblog.news/2026/09/report-napoli-0-1-arsenal-inc-goal/",
+          "img": "https://arseblog.news/wp-content/uploads/2026/09/Arseblog-News-1400x800-77.webp"
+        },
+        {
+          "headline": "East Zone Stretch 372-Run Lead Over South Zone in Duleep Trophy Final",
+          "body": "A day after Ishan Kishan&rsquo;s 270, East Zone bowled out South Zone for 336 &mdash; Tilak Varma falling one short of a century &mdash; to take a 372-run first-innings lead in the Duleep Trophy final at Chennai, then chose to bat again rather than enforce the follow-on, per Outlook India (Sep 9). Mohammed Siraj and Mukesh Kumar struck early in East Zone&rsquo;s second innings, removing Abhimanyu Easwaran and Vaibhav Sooryavanshi cheaply as the hosts push for an outright win on the final day.",
+          "url": "https://www.outlookindia.com/sports/cricket/duleep-trophy-2026-final-ez-vs-sz-day-4-live-cricket-updates-east-zone-vs-south-zone-today-9-september-latest-scorecard-highlights",
+          "continues": true,
+          "img": "https://cf-images.assettype.com/outlookindia/2026-09-09/t90kdskt/East-Zone.png?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100"
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "title": "Business & Markets",
+      "icon": "bars",
+      "stories": [
+        {
+          "headline": "Brent Crude Tops $100 a Barrel for First Time Since July",
+          "body": "Brent crude climbed to $102.05 a barrel, up 2.2% on the day and more than 52% higher than a year ago, as the US-Iran tanker war escalated further, per Fortune (Sep 9). Goldman Sachs warned oil &ldquo;could reach $120 per barrel if the conflict intensifies and shipping disruptions continue,&rdquo; with energy and utility the only S&amp;P 500 sectors posting gains on the day.",
+          "url": "https://fortune.com/article/price-of-oil-09-09-2026/",
+          "continues": true,
+          "img": "https://fortune.com/img-assets/wp-content/uploads/2026/09/Price-of-Oil-Sep-9.jpg?resize=1200,600"
+        },
+        {
+          "headline": "Wall Street Slides as Oil Rally and Rate Jitters Weigh, Meta Bucks the Trend",
+          "body": "The S&amp;P 500 fell 0.48% to 7,636.59 and the Dow dropped 0.73% to 52,399.06 by midday, with the 10-year Treasury yield rising to 4.84%, as rising oil prices pressured industrial stocks ahead of next week&rsquo;s Fed decision, per The Motley Fool/Yahoo Finance (Sep 9). Meta Platforms bucked the selloff, jumping more than 6% on its new Muse AI agent, while Apple slipped as investors watched new CEO John Ternus&rsquo;s first product event.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-midday-sept-9-165800985.html",
+          "continues": true,
+          "img": "https://s.yimg.com/lo/mysterio/api/4fd679f26b094418d8177fb1630f6cd2dc3fe081b6d2e4db16ed6c2fdfe7eb9c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2F5589a785fe2c636a0f46a19208368fc1.png"
+        },
+        {
+          "headline": "Casey&rsquo;s General Stores Tumbles Despite Beating Earnings Estimates",
+          "body": "Casey&rsquo;s General Stores fell nearly 10% in after-hours trading even after posting Q1 revenue of $5.68 billion and EPS of $7.37, both ahead of estimates, as investors focused on inside same-store sales growth slowing to 3.2% from 4.3% a year earlier and fuel gallons sold dipping 0.3%, per Benzinga (Sep 8). CEO Darren Rebelez said &ldquo;guests are responding well to our compelling value proposition on our high-quality prepared food, especially in whole pies,&rdquo; even as the company guided FY2027 same-store sales growth to a more modest 2-5%.",
+          "url": "https://www.benzinga.com/markets/earnings/26/09/61674668/caseys-general-stores-stock-tumbles-after-q1-earnings",
+          "img": null
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "AI & Technology",
+      "icon": "cpu",
+      "stories": [
+        {
+          "headline": "OpenAI Says Its AI Solved a 90-Year-Old Math Problem &mdash; Then a Credit Dispute Erupted",
+          "body": "OpenAI said an internal model &mdash; more capable than GPT-6 Astra and running roughly 10,000 concurrent agents over 88 hours &mdash; produced a proof for the Navier-Stokes Millennium Prize Problem, showing three-dimensional fluid flow can develop a singularity in finite time, a question unsolved for nearly a century, per OpenAI and Axios (Sep 8). The announcement was overshadowed by allegations from NYU mathematician Tristan Buckmaster that OpenAI researcher Sebastien Bubeck pressured his collaborator, Anthropic&rsquo;s Levent Alpoge, off a competing paper on a related problem, allegedly asking &ldquo;why would you ruin your career?&rdquo; when threatened with going public; OpenAI denied accessing the pair&rsquo;s private data but acknowledged it &ldquo;cannot rule out&rdquo; indirect influence, while CEO Sam Altman said &ldquo;we were curious if ours could do it too.&rdquo;",
+          "url": "https://openai.com/index/navier-stokes-solution/",
+          "img": "https://images.ctfassets.net/kftzwdyauwt9/7hiHADoMhgN0iDcje9Xdei/2dae059c10a0dfa3e2814ebb522e9df2/navier-stokes-og.png?w=1600&h=900&fit=fill"
+        },
+        {
+          "headline": "Apple&rsquo;s New CEO Unveils $1,999 Foldable iPhone Duo in First Event",
+          "body": "John Ternus, who succeeded Tim Cook as Apple CEO on Sep 3, closed his first product event by echoing Steve Jobs&rsquo;s catchphrase &mdash; &ldquo;there is one more thing&rdquo; &mdash; to unveil the iPhone Duo, a book-style foldable with a 5.4-inch outer screen and 7.6-inch inner display starting at $1,999, alongside the iPhone 18 Pro&rsquo;s first 2nm chip, per NPR and MacRumors (Sep 9). Ternus called it &ldquo;the largest display ever on an iPhone while still fitting easily in your pocket,&rdquo; with the Duo launching Oct 23 as Apple also raised prices on older iPhone models and discontinued the 17 Pro line.",
+          "url": "https://www.npr.org/2026/09/09/nx-s1-5961487/apple-duo-foldable-iphone-john-ternus",
+          "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3840x2160+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F17%2Fa4%2Ffddd962d4559b57d1729baa76b4d%2Fapple-iphone-duo-display-sizes-260909.jpg"
+        },
+        {
+          "headline": "Meta Launches Muse, a Personal AI Agent Facing an Uphill Trust Battle",
+          "body": "Meta debuted Muse, a personal AI agent that can book travel, pay bills and fill out forms through a dedicated, ad-isolated &ldquo;Secure VM,&rdquo; with free, $20 and $100 monthly tiers, per TechCrunch (Sep 8). The launch lands atop a well-documented trust deficit &mdash; including a 2019 FTC fine of $5 billion and this year&rsquo;s $18 billion multistate settlement over harms to minors &mdash; and TechCrunch noted Meta&rsquo;s privacy claims about Muse &ldquo;will require deeper investigation by security experts&rdquo; before they can be taken at face value.",
+          "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+          "img": "https://techcrunch.com/wp-content/uploads/2026/09/Muse-Neswsroom-Banner.jpg"
+        }
+      ]
+    },
+    {
+      "key": "geopolitics",
+      "title": "Geopolitics",
+      "icon": "globe",
+      "stories": [
+        {
+          "headline": "US Destroys Five More Iranian Tankers, Iran Strikes US Base in Jordan",
+          "body": "US forces disabled five Iranian tankers &mdash; the Kaviz, Charminar, Horizon 1, Riesco and Derya &mdash; after accusing Iran&rsquo;s IRGC of twice firing on a US warship, and Iran retaliated by launching 20 missiles at the Al-Azraq base in Jordan, 18 of which were intercepted, per Al Jazeera (Sep 9). Secretary of State Marco Rubio warned &ldquo;for every time they do that&hellip;they&rsquo;re going to lose tankers,&rdquo; while Iran&rsquo;s foreign ministry called the tanker strikes a &ldquo;war crime;&rdquo; President Trump separately predicted the war &ldquo;will end immediately after the election.&rdquo;",
+          "url": "https://www.aljazeera.com/news/2026/9/9/us-destroys-five-iranian-tankers-iran-retaliates-with-attacks-on-jordan-base",
+          "continues": true,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-08T230056Z_1478579696_RC2AFNAQJA7C_RTRMADP_3_IRAN-CRISIS-USA-NAVY-CARRIERS-1788908805.jpg"
+        },
+        {
+          "headline": "Israel to Shut British Consulate After UK Bans Settlement Trade",
+          "body": "Israel said it will close its consulate in East Jerusalem within 30 days and expelled UK officials from a Gaza ceasefire monitoring center after Britain banned trade in goods from Israeli settlements, per Fortune (Sep 9). UK Prime Minister Andy Burnham said &ldquo;we will always stand with the underdog,&rdquo; and Foreign Secretary Ed Miliband accused settlers of &ldquo;ethnic cleansing,&rdquo; while Israeli Foreign Minister Gideon Saar called the ban &ldquo;despicable&rdquo; and accused barred UK lawmakers of &ldquo;antisemitic and anti-Israel activity.&rdquo;",
+          "url": "https://fortune.com/2026/09/09/uk-defends-israeli-settler-terrorist-ban/",
+          "continues": true,
+          "img": "https://fortune.com/img-assets/wp-content/uploads/2026/09/AP26251314635924-1-e1788976212825.jpg"
+        },
+        {
+          "headline": "Zelensky: &lsquo;We Expect the War Will Continue&rsquo; After Witkoff-Kushner Visit",
+          "body": "Despite &ldquo;substantive&rdquo; talks during Steve Witkoff and Jared Kushner&rsquo;s first Kyiv visit &mdash; which followed meetings with Putin in Moscow &mdash; President Zelensky said &ldquo;if the war continues, and we expect the war will continue, we are counting heavily on the winter aid package.&rdquo; Kushner said the sides &ldquo;hope to resume trilateral negotiations,&rdquo; per Kyiv Independent (Sep 6), but talks remain deadlocked over territorial demands and NATO membership even as both camps described the visit as a positive reset after a long hiatus.",
+          "url": "https://kyivindependent.com/us-envoys-witkoff-kushner-arrive-in-ukraine/",
+          "continues": true,
+          "img": "https://assets.kyivindependent.com/content/images/2026/09/IMG_1841_20260906-144829.jpg"
+        },
+        {
+          "headline": "Kim Jong Un Commissions Nuclear-Capable Destroyer Ahead of US-Japan-South Korea Drills",
+          "body": "North Korean leader Kim Jong Un attended the commissioning of the destroyer Kang Kon at Wonsan Port on Sep 6, a day before a joint US-South Korea-Japan naval exercise, declaring &ldquo;the time has come for us to exercise our sovereignty at sea and under water,&rdquo; per Al Jazeera (Sep 7). Analysts say the Kang Kon, sister ship to the Choe Hyon launched in June, can carry nuclear-capable missiles; Kim said another naval advancement would be unveiled within eight months.",
+          "url": "https://www.aljazeera.com/news/2026/9/7/north-korea-deploys-warship-capable-of-annihilating-retaliatory-strikes",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-06T220958Z_1520531840_RC2XDNABDUIX_RTRMADP_3_NORTHKOREA-WARSHIP-1788736478.jpg"
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "sport": "F1",
+      "headline": "Spanish Grand Prix Debuts New Madring Circuit",
+      "body": "Formula 1 heads to Madrid&rsquo;s new Madring street circuit for the Spanish Grand Prix&rsquo;s first running at the venue, with Antonelli, Russell and Verstappen carrying momentum from their photo-finish battle at Monza into the race weekend.",
+      "url": "https://www.formula1.com/en/racing/2026/spain",
+      "when": "Sep 11-13"
+    },
+    {
+      "sport": "Cricket",
+      "headline": "Women&rsquo;s Asia Cup Final Looms After Knockout Action",
+      "body": "The winners of this week&rsquo;s Women&rsquo;s Asia Cup semi-finals &mdash; India vs Bangladesh and Sri Lanka vs Pakistan &mdash; advance to the final in Dubai, capping a tournament in which India bowled out Pakistan for just 55 in the group stage.",
+      "url": "https://sports.yahoo.com/articles/womens-asia-cup-2026-semi-182809987.html",
+      "when": "Sep 13"
+    },
+    {
+      "sport": "Football",
+      "headline": "Manchester Derby: United Host City at Old Trafford",
+      "body": "Manchester United welcome Manchester City to Old Trafford for matchday four of the Premier League season, with both sides also juggling Champions League commitments this week.",
+      "url": "https://www.skysports.com/football/news/12040/13561249/premier-league-2026-27-fixtures-live-on-sky-sports-arsenal-vs-chelsea-and-man-utd-vs-man-city-live-on-sky-in-september",
+      "when": "Sep 13"
+    }
+  ],
+  "portfolio": [
+    {
+      "ticker": "NET",
+      "headline": "Cloudflare Surges 9% on OpenAI-Powered Security Partnership",
+      "body": "Cloudflare jumped 9% to $308.52 after unveiling a vulnerability-discovery and patching service built on OpenAI&rsquo;s Daybreak cyber models, part of its Managed Defense product, per Yahoo Finance/24/7 Wall St (Sep 9). CEO Matthew Prince said &ldquo;the number one thing that&rsquo;s causing our phone to ring from big companies is them saying&hellip;we need to do AI, but we need to do it more securely,&rdquo; while rival Zscaler rose a more modest 3% on the same theme.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-surges-9-openai-security-152801146.html",
+      "img": "https://s.yimg.com/lo/mysterio/api/66f83c3eecd03419a083b3ee8d381688f6494b24170d339cbe2fd3d5aa6fdfe3/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fdcef7b27886e8a7d5d7e9111aa48beb7.jpg"
+    },
+    {
+      "ticker": "META",
+      "headline": "Meta Jumps 6% as Wall Street Bets on Muse, Alphabet Slips on Competitive Threat",
+      "body": "Meta rose 6% to $649.20 following Tuesday evening&rsquo;s launch of its Muse personal AI agent, while Alphabet fell 2% as investors read the launch as new competitive pressure on Google&rsquo;s Gemini assistant business, per 24/7 Wall St (Sep 9). The move came even as Meta&rsquo;s free cash flow collapsed to $784 million in the second quarter from $8.55 billion a year earlier amid ballooning AI capital spending, with full-year capex guidance now $130-$145 billion.",
+      "url": "https://247wallst.com/investing/2026/09/09/meta-rises-6-as-muse-ai-agent-arrives-with-paid-subscription-tiers-alphabet-falls-2/",
+      "img": "https://247wallst.com/wp-content/uploads/2022/01/imageForEntry9-MhS.jpg"
+    },
+    {
+      "ticker": "FSLY",
+      "headline": "Fastly Jumps 7% With No Identifiable News Catalyst",
+      "body": "Fastly climbed 7% to $22.98, extending a 123% year-to-date gain, even though &ldquo;Fastly hasn&rsquo;t issued a press release, filed a fresh 8-K, or announced a customer, contract, or partnership tied to today&rsquo;s session,&rdquo; per 24/7 Wall St (Sep 9), which called the move unexplained momentum buying as the broader cloud sector declined. The rally builds on a strong Aug 5 earnings report that showed security revenue up 43% and net retention at a three-year high of 117%.",
+      "url": "https://247wallst.com/investing/2026/09/09/fastly-jumps-7-is-this-an-oversold-bounce-or-the-start-of-a-run/",
+      "img": "https://247wallst.com/wp-content/uploads/2018/03/balticservers_data_center-e1520874449488.jpg"
+    },
+    {
+      "ticker": "EDIT",
+      "headline": "Editas Grants New CMO Stock Options as Shares Extend Recent Slide",
+      "body": "Editas Medicine&rsquo;s board approved a 950,000-share inducement stock option grant, exercisable at $3.03, for newly hired Chief Medical Officer Dan Ory as part of his recruitment package, per GlobeNewswire (Sep 9). The grant follows this week&rsquo;s announcement of Ory&rsquo;s hiring; no company-specific news explains the stock&rsquo;s sharper intraday decline, which tracks broader weakness across small-cap gene-editing names this week.",
+      "url": "https://www.globenewswire.com/news-release/2026/09/09/3358729/0/en/editas-medicine-reports-inducement-grants-to-new-chief-medical-officer.html",
+      "continues": true,
+      "img": null
+    },
+    {
+      "ticker": "FUBO",
+      "headline": "Fubo Falls 4.6% as Investors Weigh Life Under Disney Control",
+      "body": "Fubo shares fell 4.6% to $10.71 on roughly flat revenue of $1.482 billion and adjusted EBITDA down to $19.1 million from $31.0 million a year earlier, even as subscribers grew 2% to 5.75 million, per ts2.tech (Sep 10). The stock&rsquo;s post-Disney-merger structure now gives the public just 30% economic interest in the combined Fubo-Hulu+Live TV platform, with Disney holding 70% economic and voting control through Class B shares.",
+      "url": "https://ts2.tech/en/fubo-stock-falls-4-6-what-investors-actually-own-after-the-disney-deal/",
+      "img": "https://ts2.tech/wp-content/uploads/2026/09/fubo-featured.jpg"
+    }
+  ],
+  "country_groups": [
+    {
+      "label": "India",
+      "stories": [
+        {
+          "headline": "Putin Heads to India for Modi Talks and BRICS Summit",
+          "body": "Russian President Vladimir Putin will hold bilateral talks with PM Modi in New Delhi on Sep 11 before the 18th BRICS Summit opens at Bharat Mandapam on Sep 12-13, his second India visit in under a year, per India TV News and The Tribune (Sep 8-10). Kremlin spokesman Dmitry Peskov said the two leaders &ldquo;are in very close personal contact and are pragmatic,&rdquo; and Modi told Putin at last month&rsquo;s SCO summit that &ldquo;every day spent in war sets humanity back, whereas every step towards peace fills humanity with new hope.&rdquo;",
+          "url": "https://www.tribuneindia.com/news/bharat-mandapam-summit/brics-summit-2026-stage-set-at-bharat-mandapam-as-pm-modi-hosts-expanded-global-powerhouse",
+          "img": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYTEwZDE1ZGMwLWFjYzQtMTFmMS05YjIwLTgzZThkYzhhYjE2YS5qcGc="
+        },
+        {
+          "headline": "Ganga Floods Malda as 200,000 Face Displacement in West Bengal",
+          "body": "The Ganga River rose to 25.52 metres in Malda&rsquo;s Manikchak, exceeding the extreme danger mark of 25.30 metres, after an embankment breach at Kesarpur flooded more than 25 villages and left roughly 7,550 families across 38 villages affected, per Millennium Post (Sep 7). West Bengal minister Biraj Biswas said &ldquo;the government is sincerely standing with the people of Bhutni,&rdquo; as authorities deployed 12 boats and opened seven relief camps for the roughly 370 families evacuated so far.",
+          "url": "https://www.millenniumpost.in/bengal/in-malda-ganga-river-swells-beyond-extreme-danger-mark-675039",
+          "img": "https://www.millenniumpost.in/h-upload/2026/09/06/1055213-screenshot20260906161621whatsapp-1.jpg"
+        }
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "stories": [
+        {
+          "headline": "Healey Won&rsquo;t Rule Out Tax Rises as October Budget Nears",
+          "body": "Chancellor John Healey repeatedly declined to confirm whether his Oct 28 Budget will include tax rises, telling reporters &ldquo;if I respond to speculation now, that will only fuel more speculation,&rdquo; in a Coventry speech unveiling a &pound;150 million British Business Bank fund for firms in northern England, per HNGN (Sep 7). The London Chamber of Commerce warned members &ldquo;cannot absorb any further costs,&rdquo; as the government weighs how to fund a &pound;5 billion defence increase and social care costs without breaching manifesto pledges on VAT, income tax and National Insurance.",
+          "url": "https://www.hngn.com/articles/273115/20260907/uk-chancellor-healey-wont-rule-out-tax-rises-burnham-budget-nears.htm",
+          "continues": true,
+          "img": "https://d.hngn.com/en/full/305816/healey-delivers-economic-speech-coventry-manufacturing-centre.jpg"
+        },
+        {
+          "headline": "Labour Picks Camden Council Leader for Starmer&rsquo;s Old Seat",
+          "body": "Labour selected Sagal Abdi-Wali, leader of Camden Council, as its candidate for the Oct 8 Holborn and St Pancras by-election to replace former PM Keir Starmer, per LabourList (Sep 9). Abdi-Wali, who came to the UK as a refugee, said &ldquo;this place welcomed my family as refugees and gave us hope when we needed it most,&rdquo; and will face a challenge from Green Party leader Zack Polanski, who is contesting a local selection vote of his own against Camden councillor Hamza Chowdhury.",
+          "url": "https://labourlist.org/2026/09/sagal-abdi-wali-labour-candidate-in-the-holborn-and-st-pancras-by-election/",
+          "continues": true,
+          "img": "https://labourlist.org/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-09-at-20.51.41-e1788983631928-800x450.jpeg"
+        }
+      ]
+    },
+    {
+      "label": "Qatar & the GCC",
+      "stories": [
+        {
+          "headline": "Qatar Rejects Normalizing &lsquo;Neither War Nor Peace&rsquo; in the Region",
+          "body": "Qatar&rsquo;s Foreign Ministry said the country opposes any normalization of a prolonged state of &ldquo;neither war nor peace,&rdquo; with spokesperson Ibrahim Al Hashmi stressing that &ldquo;the State of Qatar is working with its regional and international partners to resume diplomacy and dialogue,&rdquo; per The Peninsula Qatar (Sep 9). Al Hashmi again called the Strait of Hormuz&rsquo;s unconditional reopening a top priority and said Qatar has submitted evidence to the UN that Iranian strikes hit its own civilian and economic facilities, contrary to Tehran&rsquo;s claims of targeting only military sites.",
+          "url": "http://thepeninsulaqatar.com/article/09/09/2026/qatar-rejects-prolonged-regional-uncertainty",
+          "continues": true,
+          "img": "https://thepeninsulaqatar.com/get/maximage/20260908_1788877953-83870.jpg?1788877953"
+        },
+        {
+          "headline": "Qatar Classic Squash Returns With World No. 1s in Both Draws",
+          "body": "The Qterminals Qatar Classic returns to the Khalifa International Tennis and Squash Complex Sep 12-18, headlined by world No. 1 Mostafa Asal chasing a first title after two runner-up finishes and defending champion Paul Coll, alongside home favourites Abdulla Al Tamimi and Salem Al-Malki, per The Peninsula Qatar (Sep 8). In the women&rsquo;s draw, two-time champion Hania El Hammamy headlines against reigning world champion Amina Orfi and a returning Nouran Gohar, while Al Tamimi said the event marks &ldquo;the beginning of my preparation for the Asian Games.&rdquo;",
+          "url": "http://thepeninsulaqatar.com/article/08/09/2026/qatar-classic-set-for-star-studded-return",
+          "img": "https://thepeninsulaqatar.com/get/maximage/20260908_1788847358-644.jpg?1788847359"
+        }
+      ]
+    }
+  ],
+  "doha_events": [
+    {
+      "headline": "Qatar Philharmonic Opens Season With Tchaikovsky&rsquo;s First Piano Concerto",
+      "body": "The Qatar Philharmonic Orchestra performs Tchaikovsky&rsquo;s Piano Concerto No. 1 at the Qatar National Convention Centre on Sep 14, part of the venue&rsquo;s packed September classical and comedy calendar, per The Peninsula Qatar&rsquo;s September events roundup.",
+      "url": "http://thepeninsulaqatar.com/article/01/09/2026/qatar-calendar-unveils-september-line-up-of-events"
+    },
+    {
+      "headline": "Pink Floyd Legacy Live Brings Classic Rock Tribute to QNCC",
+      "body": "A Pink Floyd tribute production, Pink Floyd Legacy Live, plays the Qatar National Convention Centre on Sep 25 as part of the venue&rsquo;s autumn concert lineup, per The Peninsula Qatar&rsquo;s September events roundup.",
+      "url": "http://thepeninsulaqatar.com/article/01/09/2026/qatar-calendar-unveils-september-line-up-of-events"
+    },
+    {
+      "headline": "Saleh El Nawawy Brings &lsquo;Ghaibooba&rsquo; Stand-Up Special to Souq Waqif",
+      "body": "Comedian Saleh El Nawawy performs his stand-up special &ldquo;Ghaibooba&rdquo; at the Abdulaziz Nasser Theater in Souq Waqif on Sep 10, one of several comedy and live performance dates at the venue this month, per The Peninsula Qatar&rsquo;s September events roundup.",
+      "url": "http://thepeninsulaqatar.com/article/01/09/2026/qatar-calendar-unveils-september-line-up-of-events"
+    },
+    {
+      "headline": "Seashore Phoenix Games Bring Multi-Sport Fitness Championship to Aspire",
+      "body": "The Seashore Phoenix Games 2026 run Sep 10-14 at the Aspire Ladies Sports Hall, a fitness championship open to male and female athletes as part of Qatar&rsquo;s September sports calendar, per The Peninsula Qatar&rsquo;s September events roundup.",
+      "url": "http://thepeninsulaqatar.com/article/01/09/2026/qatar-calendar-unveils-september-line-up-of-events"
+    }
+  ]
+}
