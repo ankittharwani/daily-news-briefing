@@ -37,7 +37,8 @@ SECTION_RE = re.compile(
 )
 CARD_RE = re.compile(
     r'<h3 class="headline">(.*?)</h3>\s*'
-    r'<p class="story-text">(.*?)</p>\s*'
+    r'<p class="story-text">(.*?)</p>'
+    r'.*?'  # tolerates the card-actions wrapper (share button etc.) around read-more
     r'<a class="read-more" href="([^"]*)"',
     re.S,
 )

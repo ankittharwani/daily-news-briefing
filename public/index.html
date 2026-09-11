@@ -4,6 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ankit's Morning Briefing</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="favicon-16.png" sizes="16x16" type="image/png">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#2E2C27">
+<meta name="apple-mobile-web-app-title" content="Morning Briefing">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <style>
   :root {
     --ink: #2E2C27; --secondary: #6B6A63; --hairline: #E4E3DC;
@@ -99,6 +109,20 @@
 
   .empty { text-align: center; color: var(--secondary); font-size: 14px; padding: 44px 20px;
     border: 1px dashed var(--hairline); border-radius: 12px; }
+
+  .pager { display: flex; align-items: center; justify-content: center; gap: 6px;
+    flex-wrap: wrap; margin: 30px 0 6px; }
+  .pager-btn, .pager-num { font-family: inherit; font-size: 13.5px; font-weight: 600;
+    color: var(--ink); background: var(--white); border: 1px solid var(--hairline);
+    border-radius: 8px; padding: 8px 14px; cursor: pointer; transition: all .15s ease; }
+  .pager-num { padding: 8px 12px; min-width: 38px; }
+  .pager-btn:hover, .pager-num:hover { border-color: var(--ink); }
+  .pager-num.active { background: var(--ink); border-color: var(--ink); color: #fff; cursor: default; }
+  .pager-btn:disabled { opacity: 0.4; cursor: default; }
+  .pager-btn:disabled:hover, .pager-num.active:hover { border-color: var(--hairline); }
+  .pager-num.active:hover { border-color: var(--ink); }
+  .pager-ellipsis { padding: 8px 4px; color: var(--secondary); font-size: 13.5px; }
+
   footer { max-width: 1180px; margin: 26px auto 0; padding: 22px 32px 60px; color: var(--secondary);
     font-size: 12.5px; text-align: center; border-top: 1px solid var(--hairline); }
 
@@ -118,6 +142,8 @@
     .hero.no-img .hero-text { padding: 26px 22px 26px; }
     .hero h2 { font-size: 22px; }
     .stats { gap: 22px; }
+    .pager-btn, .pager-num { padding: 7px 10px; font-size: 12.5px; }
+    .pager-num { min-width: 32px; }
   }
 </style>
 </head>
@@ -163,7 +189,8 @@
   var COLORS = {world:'#2B4257', sports:'#B5563C', business:'#A9822E', ai:'#2C7A73', geopolitics:'#3E5C8A',
     portfolio:'#4F6B4A', country:'#8C3A3A', doha:'#6B4C7A', skim:'#6B6A63'};
 
-  var editions = [], index = [], activeTopic = null;
+  var EDITIONS_PER_PAGE = 12, RESULTS_PER_PAGE = 16;
+  var editions = [], index = [], activeTopic = null, page = 1;
   var view = document.getElementById('view');
   var qEl = document.getElementById('q');
 
@@ -195,10 +222,61 @@
         var k = el.getAttribute('data-topic');
         activeTopic = (activeTopic === k) ? null : k;
         qEl.value = '';
+        page = 1;
         renderTopics(); route();
       });
     });
   }
+
+  // Windowed page numbers: 1 … 4 5 [6] 7 8 … 40 — never a wall of buttons
+  // when a results list runs to dozens of pages.
+  function pageTokens(total, current) {
+    var delta = 2, range = [], withDots = [], last;
+    for (var i = 1; i <= total; i++) {
+      if (i === 1 || i === total || (i >= current - delta && i <= current + delta)) range.push(i);
+    }
+    range.forEach(function (i) {
+      if (last != null) {
+        if (i - last === 2) withDots.push(last + 1);
+        else if (i - last > 2) withDots.push('…');
+      }
+      withDots.push(i);
+      last = i;
+    });
+    return withDots;
+  }
+
+  function renderPager(total) {
+    if (total <= 1) return '';
+    var tokens = pageTokens(total, page);
+    var html = '<nav class="pager" aria-label="Pagination">';
+    html += '<button class="pager-btn" data-page="' + (page - 1) + '"' + (page <= 1 ? ' disabled' : '') + '>&larr; Prev</button>';
+    tokens.forEach(function (t) {
+      if (t === '…') { html += '<span class="pager-ellipsis">&hellip;</span>'; return; }
+      html += '<button class="pager-num' + (t === page ? ' active' : '') + '" data-page="' + t + '">' + t + '</button>';
+    });
+    html += '<button class="pager-btn" data-page="' + (page + 1) + '"' + (page >= total ? ' disabled' : '') + '>Next &rarr;</button>';
+    html += '</nav>';
+    return html;
+  }
+
+  function paginate(list, perPage) {
+    var total = Math.max(1, Math.ceil(list.length / perPage));
+    if (page > total) page = total;
+    if (page < 1) page = 1;
+    var start = (page - 1) * perPage;
+    return { items: list.slice(start, start + perPage), total: total };
+  }
+
+  view.addEventListener('click', function (e) {
+    var btn = e.target.closest('.pager-btn, .pager-num');
+    if (!btn || btn.disabled) return;
+    var p = parseInt(btn.getAttribute('data-page'), 10);
+    if (!p || p === page) return;
+    page = p;
+    route();
+    view.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
 
   function editionCard(ed, wide) {
     var img = ed.hero_image
@@ -226,9 +304,10 @@
       '<span class="hero-cta">Read this edition &rarr;</span></div></a>';
 
     if (rest.length) {
+      var paged = paginate(rest, EDITIONS_PER_PAGE);
       html += '<h3 class="section-label">Previous editions</h3><div class="mosaic">' +
-        rest.map(function (ed, i) { return editionCard(ed, i === 0 && rest.length % 3 === 0); }).join('') +
-        '</div>';
+        paged.items.map(function (ed, i) { return editionCard(ed, i === 0 && paged.items.length % 3 === 0); }).join('') +
+        '</div>' + renderPager(paged.total);
     } else {
       html += '<div class="empty">More editions appear here each morning.</div>';
     }
@@ -254,8 +333,10 @@
 
   function renderResults(list, heading, terms) {
     if (!list.length) { view.innerHTML = '<div class="empty">Nothing found.</div>'; return; }
+    var paged = paginate(list, RESULTS_PER_PAGE);
     view.innerHTML = '<h3 class="section-label">' + esc(heading) + '</h3>' +
-      list.map(function (r) { return resultRow(r, terms); }).join('');
+      paged.items.map(function (r) { return resultRow(r, terms); }).join('') +
+      renderPager(paged.total);
   }
 
   function route() {
@@ -279,6 +360,7 @@
   var t;
   qEl.addEventListener('input', function () {
     clearTimeout(t);
+    page = 1;
     t = setTimeout(function () { if (qEl.value.trim()) { activeTopic = null; renderTopics(); } route(); }, 140);
   });
 

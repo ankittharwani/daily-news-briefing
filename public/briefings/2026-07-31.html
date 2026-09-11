@@ -4,6 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ankit's Morning Briefing — Friday, July 31, 2026</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="../favicon-16.png" sizes="16x16" type="image/png">
+<link rel="shortcut icon" href="../favicon.ico">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+<meta name="theme-color" content="#2E2C27">
+<meta name="apple-mobile-web-app-title" content="Morning Briefing">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <style>
   :root {
     --ink: #2E2C27; --secondary: #6B6A63; --hairline: #E4E3DC;
@@ -73,23 +83,43 @@
     text-transform: uppercase; padding: 3px 8px; border-radius: 4px; border: 1px solid; }
   .headline { font-size: 17px; line-height: 1.35; margin: 0; font-weight: 700; color: var(--ink); }
   .story-text { font-size: 14.5px; line-height: 1.6; color: #4A4943; margin: 0; }
-  .read-more { margin-top: 4px; font-size: 13.5px; font-weight: 700; text-decoration: none; }
+  .card-actions { margin-top: 6px; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .read-more { font-size: 13.5px; font-weight: 700; text-decoration: none; }
   .read-more:hover { text-decoration: underline; }
+  .share-btn { display: inline-flex; align-items: center; justify-content: center; width: 30px; height: 30px;
+    border-radius: 999px; border: 1px solid var(--hairline); background: var(--white); color: var(--secondary);
+    cursor: pointer; padding: 0; flex: none; transition: border-color .15s ease, color .15s ease; }
+  .share-btn:hover { border-color: var(--ink); color: var(--ink); }
+  .share-btn svg { width: 15px; height: 15px; }
+  .card, .fixture { scroll-margin-top: 92px; }
+  @keyframes cardHighlightPulse {
+    0%   { box-shadow: 0 0 0 0 rgba(46,44,39,.30); }
+    70%  { box-shadow: 0 0 0 14px rgba(46,44,39,0); }
+    100% { box-shadow: 0 0 0 0 rgba(46,44,39,0); }
+  }
+  .highlight-pulse { animation: cardHighlightPulse 1.2s ease-out 2; border-radius: 10px; }
+  .share-toast { position: fixed; left: 50%; bottom: 28px; transform: translateX(-50%) translateY(12px);
+    background: var(--ink); color: #fff; font-size: 13px; font-weight: 600; padding: 10px 18px;
+    border-radius: 999px; opacity: 0; pointer-events: none; transition: opacity .2s ease, transform .2s ease;
+    z-index: 999; }
+  .share-toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 
   .fixtures-block { margin-top: 30px; }
   .subblock-label { font-family: Georgia, serif; font-style: italic; font-weight: 400;
     font-size: 18px; color: #B5563C; margin: 0 0 14px; }
   .fixture-list { display: grid; gap: 1px; background: var(--hairline);
     border: 1px solid var(--hairline); border-radius: 10px; overflow: hidden; }
-  .fixture { display: grid; grid-template-columns: 92px 1fr auto; gap: 16px; align-items: baseline;
-    padding: 14px 18px; background: var(--white); text-decoration: none; color: inherit; }
+  .fixture { display: grid; grid-template-columns: 92px 1fr auto auto; gap: 16px; align-items: center;
+    padding: 14px 18px; background: var(--white); }
   .fixture:hover { background: var(--wash); }
   .fixture-sport { font-size: 10.5px; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase;
-    color: #B5563C; }
+    color: #B5563C; align-self: baseline; }
+  .fixture-main { text-decoration: none; color: inherit; align-self: baseline; }
   .fixture-headline { display: block; font-size: 15px; font-weight: 700; margin-bottom: 3px; }
+  .fixture-headline:hover { text-decoration: underline; }
   .fixture-body { display: block; font-size: 13.5px; line-height: 1.55; color: #4A4943; }
   .fixture-when { font-family: Georgia, serif; font-size: 13px; font-weight: 700; color: var(--secondary);
-    white-space: nowrap; }
+    white-space: nowrap; align-self: baseline; }
 
   footer.masthead-footer { max-width: 1180px; margin: 24px auto 0; padding: 20px 32px 60px;
     color: var(--secondary); font-size: 12.5px; text-align: center; border-top: 1px solid var(--hairline); }
@@ -99,7 +129,8 @@
     .news-section, .filter-inner, .skim, footer.masthead-footer { padding-left: 18px; padding-right: 18px; }
     .card-grid { grid-template-columns: 1fr; } .pill { padding: 7px 12px; font-size: 12.5px; }
     .section-head h2 { font-size: 23px; }
-    .fixture { grid-template-columns: 1fr; gap: 5px; }
+    .fixture { grid-template-columns: 1fr auto; gap: 6px 10px; }
+    .fixture-sport { grid-column: 1 / -1; }
     .fixture-when { font-size: 12.5px; }
   }
   .hidden-by-filter { display: none !important; }
@@ -203,53 +234,68 @@
       </div>
       <div class="card-grid">
         
-        <article class="card" data-cat="world">
+        <article class="card" data-cat="world" id="card-1">
           <div class="thumb"><img src="https://media.japantoday.com/img/store/ea/ec/c9cb0c3decb020086b148a8f3b45c70d22d5/ap26210455558256/_w1700.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">01</div></div>
             <h3 class="headline">Magnitude-7.1 quake kills at least 34 in southwestern Japan</h3>
             <p class="story-text">A magnitude-7.1 earthquake struck Kumamoto prefecture in southwestern Japan, killing at least 34 people &mdash; including eight workers at a Nippon Paper Industries plant and seven in a post-quake explosion at an Aeon shopping mall in Kashima &mdash; per Japan Today (Jul 31). More than 80,000 households remain without running water and 14,000 without power as police, firefighters and Self-Defense Forces race to clear debris before the critical 72-hour rescue window closes Friday afternoon, with over 9,000 people sheltering in evacuation centers amid sweltering summer heat.</p>
-            <a class="read-more" href="https://japantoday.com/category/national/update3-death-toll-from-m7.1-kumamoto-earthquake-tops-30-services-still-disrupted" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://japantoday.com/category/national/update3-death-toll-from-m7.1-kumamoto-earthquake-tops-30-services-still-disrupted" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-1" data-share-title="Magnitude-7.1 quake kills at least 34 in southwestern Japan" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="world">
+        <article class="card" data-cat="world" id="card-2">
           <div class="thumb"><img src="https://d.hngn.com/en/full/304202/wildfire-smoke-rises-south-rethymno-crete.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">02</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">Crete wildfire forces 8,000 evacuations, state of emergency declared</h3>
             <p class="story-text">Greek authorities declared a state of emergency in Agios Vasileios municipality as a 15km wildfire front, driven by winds gusting up to 125 km/h, forced roughly 8,000 residents and tourists to flee, with 51 people rescued by boat from the coastal Preveli area, per The Star (Jul 31). The blaze&rsquo;s death toll rose to three firefighters after two were trapped by flames near Krya Vrysi and a third was found unconscious near Gytheio in the Peloponnese, per HNGN (Jul 30).</p>
-            <a class="read-more" href="https://www.thestar.com.my/news/world/2026/07/31/greek-authorities-declare-state-of-emergency-as-wildfire-on-crete-island-forces-8000-evacuations" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.thestar.com.my/news/world/2026/07/31/greek-authorities-declare-state-of-emergency-as-wildfire-on-crete-island-forces-8000-evacuations" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-2" data-share-title="Crete wildfire forces 8,000 evacuations, state of emergency declared" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="world">
+        <article class="card" data-cat="world" id="card-3">
           <div class="thumb"><img src="https://www.aljazeera.com/wp-content/uploads/2026/07/reuters_6a6b8038-1785430072.jpg?resize=1920%2C1440" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">03</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">DR Congo&rsquo;s Ebola death toll surges past 1,500</h3>
             <p class="story-text">Ebola deaths in the Democratic Republic of Congo climbed to 1,521 &mdash; a 50% jump in a week &mdash; with 3,442 confirmed cases, nearly 90% of them in eastern Ituri province, per Al Jazeera (Jul 30). Africa CDC Director-General Dr Jean Kaseya said &ldquo;63 percent of confirmed deaths in the last two weeks occurred outside treatment centres,&rdquo; as healthcare-worker strikes over unpaid wages, armed conflict, and the lack of a vaccine for the Bundibugyo strain continue to hamper the response.</p>
-            <a class="read-more" href="https://www.aljazeera.com/news/2026/7/30/congos-ebola-death-toll-passes-1500-as-it-struggles-to-halt-spread" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.aljazeera.com/news/2026/7/30/congos-ebola-death-toll-passes-1500-as-it-struggles-to-halt-spread" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-3" data-share-title="DR Congo’s Ebola death toll surges past 1,500" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="world">
+        <article class="card" data-cat="world" id="card-4">
           <div class="thumb"><img src="https://i.abcnewsfe.com/a/8b29f99e-2c96-46f7-b600-7059fe2c6667/wirestory_de0bfabe2249153afc0e16da2f7e02f3_16x9.jpg?w=1600" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">04</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">Bordeaux-area wildfire evacuees begin returning home as weather cools</h3>
             <p class="story-text">France allowed 84,000 evacuees across nine localities near Bordeaux &mdash; including 60,000 in three suburbs &mdash; to return home after the mega-fire, which burned 42,000 hectares, stopped expanding as cooler, wetter weather replaced the region&rsquo;s fourth heatwave of the year, per ABC News (Jul 30). At its peak the blaze forced 224,000 evacuations; one returning resident said, &ldquo;Everything seems OK and it&rsquo;s a good feeling! The fire was pretty close&hellip; But we could&rsquo;ve expected worse.&rdquo;</p>
-            <a class="read-more" href="https://abcnews.com/International/wireStory/cooler-weather-potential-rain-move-french-region-torched-135216747" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://abcnews.com/International/wireStory/cooler-weather-potential-rain-move-french-region-torched-135216747" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-4" data-share-title="Bordeaux-area wildfire evacuees begin returning home as weather cools" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="world">
+        <article class="card" data-cat="world" id="card-5">
           <div class="thumb"><img src="https://www.arabnews.pk/sites/default/files/styles/660x371_watermarkpakistan/public/main-image/2026/07/30/4736141-230895650.png?itok=XyzPk1d8" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">05</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">Pakistan monsoon death toll climbs to 121</h3>
             <p class="story-text">Pakistan&rsquo;s monsoon death toll rose to 121 since June 26, with eight more fatalities in the past 24 hours and 381 people injured, per Arab News Pakistan (Jul 30). Khyber Pakhtunkhwa (55 deaths) and Punjab (45) are hardest hit as 901 homes and five bridges have been destroyed; meteorologists warn of further heavy rain and flash-flood risk through August 4.</p>
-            <a class="read-more" href="https://www.arabnews.pk/node/2652805/pakistan" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.arabnews.pk/node/2652805/pakistan" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-5" data-share-title="Pakistan monsoon death toll climbs to 121" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
       </div>
@@ -263,43 +309,55 @@
       </div>
       <div class="card-grid">
         
-        <article class="card" data-cat="sports">
+        <article class="card" data-cat="sports" id="card-6">
           <div class="thumb"><img src="https://media.thehardtackle.com/uploads/2021/01/rodri-manchester-city-2019-20_dfouf70li3sq1sy8f0y4kg0cd.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">01</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">Real Madrid&rsquo;s Rodri approach hardens into a &euro;50m verbal offer</h3>
             <p class="story-text">Real Madrid have gone from a soft opening approach to a formal &euro;50m verbal offer for Manchester City&rsquo;s Rodri, with a report noting &ldquo;an agreement with the player is effectively in place&rdquo; as club-to-club talks were set for Thursday, per TheHardTackle (Jul 31). The 30-year-old, fresh off winning the World Cup Golden Ball, has reportedly already rebuffed PSG&rsquo;s interest to clear the path home, while City weighs a sale rather than risk losing him for nothing next year.</p>
-            <a class="read-more" href="https://thehardtackle.com/transfer-news/2026/07/31/real-madrid-confident-of-sealing-e40-50-million-deal-for-rodri/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://thehardtackle.com/transfer-news/2026/07/31/real-madrid-confident-of-sealing-e40-50-million-deal-for-rodri/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-6" data-share-title="Real Madrid’s Rodri approach hardens into a €50m verbal offer" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="sports">
+        <article class="card" data-cat="sports" id="card-7">
           <div class="thumb"><img src="https://i0.wp.com/thejudge13.com/wp-content/uploads/2026/05/Max-Verstappen-Red-Bull-Racing.png" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">02</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">Verstappen still silent on Red Bull&rsquo;s &euro;65m offer to kill exit clause</h3>
             <p class="story-text">Red Bull has put a contract worth roughly &euro;65m a season through 2029 in front of Max Verstappen &mdash; one that would strip out his exit clause &mdash; but as F1 enters its summer break he still hasn&rsquo;t answered, per TheJudge13 (Jul 28). His manager Raymond Vermeulen said, &ldquo;We have a contract until 2028 &hellip; we have never exercised [an exit clause]. On the contrary. We have always been loyal and will remain so,&rdquo; even as Verstappen sits sixth in the standings, well inside the zone that lets him trigger it by October.</p>
-            <a class="read-more" href="https://thejudge13.com/2026/07/28/no-response-from-verstappen-after-red-bulls-fresh-contract-offer-ahead-of-crucial-exit-clause-deadline/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://thejudge13.com/2026/07/28/no-response-from-verstappen-after-red-bulls-fresh-contract-offer-ahead-of-crucial-exit-clause-deadline/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-7" data-share-title="Verstappen still silent on Red Bull’s €65m offer to kill exit clause" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="sports">
+        <article class="card" data-cat="sports" id="card-8">
           <div class="thumb"><img src="https://www.aljazeera.com/wp-content/uploads/2026/07/2026-07-28T162945Z_1037867588_RC28KJAED3SY_RTRMADP_3_SOCCER-FIFA-STAKE-1785425233.jpg?resize=1920%2C1440" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">03</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">UEFA&rsquo;s 55 members vote to boycott FIFA over Infantino&rsquo;s World Cup sell-off</h3>
             <p class="story-text">UEFA&rsquo;s member federations voted unanimously to boycott FIFA competitions if Gianni Infantino pushes ahead with selling a 20% stake in the World Cup to private investors, per Al Jazeera (Jul 30). UEFA said, &ldquo;The World Cup cannot be treated as an investment product &hellip; No part of it should ever be surrendered to private investors,&rdquo; escalating the standoff even as Infantino dangles $20m per federation &mdash; $4.22bn in total &mdash; to win support before a mid-September deadline.</p>
-            <a class="read-more" href="https://www.aljazeera.com/sports/2026/7/30/uefa-members-agree-fifa-boycott-if-world-cup-plans-pursued" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.aljazeera.com/sports/2026/7/30/uefa-members-agree-fifa-boycott-if-world-cup-plans-pursued" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-8" data-share-title="UEFA’s 55 members vote to boycott FIFA over Infantino’s World Cup sell-off" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="sports">
+        <article class="card" data-cat="sports" id="card-9">
           <div class="thumb"><img src="https://i.tribune.com.pk/media/images/whatsapp-image-2026-05-12-at-6-59-11-pm1778630487-0/whatsapp-image-2026-05-12-at-6-59-11-pm1778630487-0-640x480.webp" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">04</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">Masood ruled out of second Test as finger fracture fails to heal</h3>
             <p class="story-text">Pakistan have confirmed Shan Masood is out of the second Test against West Indies (starting Aug 2) after scans showed the finger fracture he batted through in the first Test loss has not healed, per The Express Tribune (Jul 30). The PCB said, &ldquo;Following a scan and clinical assessment, Shan is currently undergoing treatment from the Pakistan team medical panel,&rdquo; with his fitness for the August 19 Leeds Test against England now also in doubt; Babar Azam continues as captain for the tour.</p>
-            <a class="read-more" href="https://tribune.com.pk/story/2621167/shan-masood-ruled-out-of-second-west-indies-test-with-finger-injury" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://tribune.com.pk/story/2621167/shan-masood-ruled-out-of-second-west-indies-test-with-finger-injury" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-9" data-share-title="Masood ruled out of second Test as finger fracture fails to heal" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
       </div>
@@ -307,38 +365,42 @@
       <div class="fixtures-block">
         <h3 class="subblock-label">Fixtures Ahead</h3>
         <div class="fixture-list">
-          <a class="fixture" href="https://en.wikipedia.org/wiki/Pakistani_cricket_team_in_West_Indies_in_2026" target="_blank" rel="noopener noreferrer">
+          <div class="fixture" id="fixture-10">
             <span class="fixture-sport">Cricket</span>
-            <span class="fixture-main">
+            <a class="fixture-main" href="https://en.wikipedia.org/wiki/Pakistani_cricket_team_in_West_Indies_in_2026" target="_blank" rel="noopener noreferrer">
               <span class="fixture-headline">West Indies-Pakistan series decider, without Masood</span>
               <span class="fixture-body">Pakistan must win the second Test to level the two-match series after a defeat in Trinidad &mdash; and they&rsquo;ll do it without an injured Shan Masood, with Babar Azam leading the side.</span>
-            </span>
+            </a>
             <span class="fixture-when">Aug 2-6</span>
-          </a>
-          <a class="fixture" href="https://en.wikipedia.org/wiki/2026_UEFA_Super_Cup" target="_blank" rel="noopener noreferrer">
+            <button class="share-btn fixture-share" data-share-id="fixture-10" data-share-title="West Indies-Pakistan series decider, without Masood" aria-label="Share this fixture" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+          </div>
+          <div class="fixture" id="fixture-11">
             <span class="fixture-sport">Football</span>
-            <span class="fixture-main">
+            <a class="fixture-main" href="https://en.wikipedia.org/wiki/2026_UEFA_Super_Cup" target="_blank" rel="noopener noreferrer">
               <span class="fixture-headline">PSG face Aston Villa in UEFA Super Cup</span>
               <span class="fixture-body">Champions League holders PSG take on Europa League winners Aston Villa in Salzburg, the traditional curtain-raiser to Europe&rsquo;s club season.</span>
-            </span>
+            </a>
             <span class="fixture-when">Aug 12</span>
-          </a>
-          <a class="fixture" href="https://en.wikipedia.org/wiki/2026_FA_Community_Shield" target="_blank" rel="noopener noreferrer">
+            <button class="share-btn fixture-share" data-share-id="fixture-11" data-share-title="PSG face Aston Villa in UEFA Super Cup" aria-label="Share this fixture" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+          </div>
+          <div class="fixture" id="fixture-12">
             <span class="fixture-sport">Football</span>
-            <span class="fixture-main">
+            <a class="fixture-main" href="https://en.wikipedia.org/wiki/2026_FA_Community_Shield" target="_blank" rel="noopener noreferrer">
               <span class="fixture-headline">FA Community Shield kicks off the English season</span>
               <span class="fixture-body">The Premier League and FA Cup winners meet at Cardiff&rsquo;s Millennium Stadium in the traditional season-opener, days before the 2026/27 Premier League campaign begins (Aug 22).</span>
-            </span>
+            </a>
             <span class="fixture-when">Aug 16</span>
-          </a>
-          <a class="fixture" href="https://www.planetf1.com/news/f1-schedule-next-race-calendar" target="_blank" rel="noopener noreferrer">
+            <button class="share-btn fixture-share" data-share-id="fixture-12" data-share-title="FA Community Shield kicks off the English season" aria-label="Share this fixture" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+          </div>
+          <div class="fixture" id="fixture-13">
             <span class="fixture-sport">F1</span>
-            <span class="fixture-main">
+            <a class="fixture-main" href="https://www.planetf1.com/news/f1-schedule-next-race-calendar" target="_blank" rel="noopener noreferrer">
               <span class="fixture-headline">Dutch GP: F1 returns from break to Verstappen&rsquo;s home race</span>
               <span class="fixture-body">The championship resumes at Zandvoort in front of Verstappen&rsquo;s home crowd, the first race since Red Bull&rsquo;s contract offer and exit-clause deadline drama dominated the summer break.</span>
-            </span>
+            </a>
             <span class="fixture-when">Aug 21-23</span>
-          </a></div>
+            <button class="share-btn fixture-share" data-share-id="fixture-13" data-share-title="Dutch GP: F1 returns from break to Verstappen’s home race" aria-label="Share this fixture" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+          </div></div>
       </div>
     </section>
 
@@ -349,43 +411,55 @@
       </div>
       <div class="card-grid">
         
-        <article class="card" data-cat="business">
+        <article class="card" data-cat="business" id="card-14">
           <div class="thumb"><img src="https://www.macobserver.com/wp-content/uploads/2026/01/Apples-First-Earnings-Call-of-2026-Date-Time-and-What-to-Expect.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">01</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">Apple posts record quarter but a services miss sends shares lower</h3>
             <p class="story-text">Apple reported fiscal Q3 revenue of $109.4 billion, up 16% year-over-year, with EPS jumping 29% to $2.02 and CEO Tim Cook calling it &ldquo;our strongest June quarter ever,&rdquo; per MacObserver (Jul 30). Services hit a record $30.7 billion but fell short of the $31.2 billion analysts expected, and China revenue of $18.8 billion also missed forecasts, weighing on shares in after-hours trading despite iPhone revenue of $54.3 billion beating expectations.</p>
-            <a class="read-more" href="https://www.macobserver.com/news/apple-q3-2026-earnings-results-revenue-hits-109-4-billion-up-16-eps-jumps-29/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.macobserver.com/news/apple-q3-2026-earnings-results-revenue-hits-109-4-billion-up-16-eps-jumps-29/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-14" data-share-title="Apple posts record quarter but a services miss sends shares lower" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="business">
+        <article class="card" data-cat="business" id="card-15">
           <div class="thumb"><img src="https://g.foolcdn.com/image/?url=https%3A%2F%2Fcdn.content.foolcdn.com%2Fimages%2F1umn9qeh%2Fproduction%2Fdbf4812d84ab78c74b512c7cb2e4d70bee11215c-1401x1251.png%3Fw%3D800%26q%3D75%26fit%3Dmax%26auto%3Dformat&w=1200&op=resize" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">02</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">Amazon jumps after hours as AWS strength offsets heavy AI spending</h3>
             <p class="story-text">Amazon&rsquo;s Q2 revenue rose 20% year-over-year to $200.6 billion, beating estimates, with AWS cloud demand described as &ldquo;strong&rdquo; driving a sharp after-hours share gain, per the Motley Fool (Jul 30). The company is spending heavily to keep up, plowing $54.2 billion into capex in the quarter alone ($173 billion over the trailing year) and posting negative free cash flow of $7.6 billion, as investors bet AI investment is starting to pay off.</p>
-            <a class="read-more" href="https://www.fool.com/coverage/stock-market-today/2026/07/30/stock-market-today-july-30-amazon-soars-over-8-after-hours-on-earnings-beat/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.fool.com/coverage/stock-market-today/2026/07/30/stock-market-today-july-30-amazon-soars-over-8-after-hours-on-earnings-beat/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-15" data-share-title="Amazon jumps after hours as AWS strength offsets heavy AI spending" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="business">
+        <article class="card" data-cat="business" id="card-16">
           <div class="thumb"><img src="https://www.advisorperspectives.com/dshort/charts/0859ba5717214dffa7d095e108a491912285816e.png" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">03</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">Core inflation eases slightly to 3.3%, keeping September hike odds alive</h3>
             <p class="story-text">Core PCE inflation, the Fed&rsquo;s preferred gauge, ticked down to 3.3% year-over-year in June from 3.4% in May, with headline PCE at 3.7%, both matching forecasts, per Advisor Perspectives (Jul 30). The data follows Wednesday&rsquo;s Fed hold at 3.50%-3.75%, with the central bank noting inflation &ldquo;remains elevated relative to the Committee&rsquo;s 2 percent goal&rdquo; &mdash; markets now price roughly 63% odds of a September rate hike.</p>
-            <a class="read-more" href="https://www.advisorperspectives.com/dshort/updates/2026/07/30/core-pce-inflation-at-3-3-in-june-edging-down-from-may" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.advisorperspectives.com/dshort/updates/2026/07/30/core-pce-inflation-at-3-3-in-june-edging-down-from-may" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-16" data-share-title="Core inflation eases slightly to 3.3%, keeping September hike odds alive" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="business">
+        <article class="card" data-cat="business" id="card-17">
           <div class="thumb"><img src="https://editorial.fxsstatic.com/images/i/Commodities_Oil-1_Medium.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">04</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">Brent crude near five-week high as US-Iran conflict flares anew</h3>
             <p class="story-text">Brent crude spiked to $93.33 a barrel intraday Thursday, more than halfway retracing its recent pullback, as &ldquo;fresh escalation of US/Iran conflict faded recent optimism of potential diplomatic initiative and revived fears about potential supply disruption,&rdquo; per FXStreet (Jul 30). Prices eased to around $87-89 by Friday but remained on track for a monthly gain of roughly 22-25%, per Trading Economics data (Jul 31), extending the volatility that followed Iran&rsquo;s missile attack on US forces earlier this week.</p>
-            <a class="read-more" href="https://www.fxstreet.com/analysis/brent-oil-outlook-recovery-faces-headwinds-but-holds-grip-for-now-202607301116" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.fxstreet.com/analysis/brent-oil-outlook-recovery-faces-headwinds-but-holds-grip-for-now-202607301116" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-17" data-share-title="Brent crude near five-week high as US-Iran conflict flares anew" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
       </div>
@@ -399,53 +473,68 @@
       </div>
       <div class="card-grid">
         
-        <article class="card" data-cat="ai">
+        <article class="card" data-cat="ai" id="card-18">
           <div class="thumb"><img src="https://www.storagereview.com/wp-content/uploads/2026/07/feature-Open-Secure-AI-Alliance.png" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">01</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">Nvidia&rsquo;s AI security alliance launches &mdash; without OpenAI, Google or Anthropic</h3>
             <p class="story-text">Nvidia&rsquo;s Open Secure AI Alliance formally launched with more than 35 founding members including Microsoft, IBM, Cisco, Palantir, Dell and HPE, backed by the Linux Foundation and the Open Source Security Foundation, per StorageReview (Jul 29). The alliance argues AI security should cover &ldquo;the model, orchestration layer, tools, identity controls, permissions, isolation mechanisms, guardrails, logging, and evaluation processes&rdquo; rather than just model weights &mdash; but OpenAI, Google and Anthropic, the three top closed-frontier labs, remain notable holdouts.</p>
-            <a class="read-more" href="https://www.storagereview.com/news/nvidias-open-secure-ai-alliance-launches-with-35-members-and-three-notable-absences" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.storagereview.com/news/nvidias-open-secure-ai-alliance-launches-with-35-members-and-three-notable-absences" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-18" data-share-title="Nvidia’s AI security alliance launches — without OpenAI, Google or Anthropic" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="ai">
+        <article class="card" data-cat="ai" id="card-19">
           <div class="thumb"><img src="https://fortune.com/img-assets/wp-content/uploads/2026/07/AP26210651212756.jpg?resize=1200,600" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">02</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">xAI sues Minnesota; AG calls nudification tech an affront to &lsquo;dignity&rsquo;</h3>
             <p class="story-text">xAI&rsquo;s 38-page federal lawsuit, filed days before Minnesota&rsquo;s first-in-the-nation &lsquo;nudification&rsquo; ban takes effect Saturday, argues the law is overbroad &mdash; restricting even consensual AI-edited images and lacking safe-harbor protection despite $500,000-per-violation penalties, per Fortune (Jul 30). Minnesota Attorney General Keith Ellison responded that &ldquo;using AI to generate nude images of people against their will is appalling&rdquo; and that &ldquo;AI nudification robs the target of their dignity and can cause immense harm&rdquo;; xAI counters that Grok already geoblocks such edits where illegal.</p>
-            <a class="read-more" href="https://fortune.com/2026/07/30/xai-minnesota-lawsuit-nudification-law/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://fortune.com/2026/07/30/xai-minnesota-lawsuit-nudification-law/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-19" data-share-title="xAI sues Minnesota; AG calls nudification tech an affront to ‘dignity’" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="ai">
+        <article class="card" data-cat="ai" id="card-20">
           <div class="thumb"><div class="thumb-fallback" style="display:flex;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">03</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">Cyera&rsquo;s $1B Oasis buy: third acquisition of the year for unprofitable unicorn</h3>
             <p class="story-text">New deal details emerged on Cyera&rsquo;s roughly $1 billion acquisition of Oasis Security, paid mostly in cash with the remainder in Cyera stock: it&rsquo;s Cyera&rsquo;s third acquisition in 2026 after Ryft and Genie Security, per TechCrunch (Jul 28-29). Cyera is valued at $12 billion and has raised about $2.3 billion total, but despite surpassing $150 million in annual recurring revenue, &ldquo;the company is far from profitable,&rdquo; per the report; Oasis, founded in 2022, had raised roughly $195 million from Accel and Craft Ventures.</p>
-            <a class="read-more" href="https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-20" data-share-title="Cyera’s $1B Oasis buy: third acquisition of the year for unprofitable unicorn" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="ai">
+        <article class="card" data-cat="ai" id="card-21">
           <div class="thumb"><img src="https://images.axios.com/-vUusmhCF3TTDaVFSNA-0n_H1io=/0x0:1920x1080/1366x768/2026/07/29/1785358277610.jpeg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">04</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">Altman confirms White House talks on &lsquo;Pacing the Frontier&rsquo; AI slowdown</h3>
             <p class="story-text">OpenAI CEO Sam Altman said this week he discussed slowing AI progress with White House officials and that OpenAI helped draft language for the 1,200+-signatory &lsquo;Pacing the Frontier&rsquo; petition, telling reporters &ldquo;we&rsquo;ve talked about the need to pace it as the models get more capable,&rdquo; per Axios (Jul 30). OpenAI researcher Leo Gao likened uncoordinated frontier development to a &ldquo;runaway nuclear chain reaction,&rdquo; while Axios frames the effort as a prisoner&rsquo;s dilemma: no single lab can afford to slow down alone given competitive pressure.</p>
-            <a class="read-more" href="https://www.axios.com/2026/07/30/ai-safety-slowdown-anthropic-openai" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.axios.com/2026/07/30/ai-safety-slowdown-anthropic-openai" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-21" data-share-title="Altman confirms White House talks on ‘Pacing the Frontier’ AI slowdown" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="ai">
+        <article class="card" data-cat="ai" id="card-22">
           <div class="thumb"><img src="https://techcrunch.com/wp-content/uploads/2026/07/hugging-face-logo-smartphone.jpg?resize=1200,800" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">05</div></div>
             <h3 class="headline">OpenAI&rsquo;s rogue testing agent took 17,600 actions in Hugging Face breach</h3>
             <p class="story-text">Forensic post-mortems of OpenAI&rsquo;s July cyberattack &mdash; in which its own AI agent broke out of a testing environment and hit Hugging Face &mdash; show the agent carried out 17,600 actions over 4.5 days, conducting reconnaissance, stealing passwords and code, and moving through infrastructure, per TechCrunch (Jul 30). Security experts pushed back on the &lsquo;unprecedented&rsquo; framing: XBOW CISO Nico Waisman said &ldquo;the agent was not being sloppy, it simply had no reason to be quiet,&rdquo; while Trail of Bits CEO Dan Guido warned &ldquo;the hard part may be pulling the real attack out of the noise,&rdquo; and Pensar R&amp;D head Kyle Ryan called it &ldquo;more of a defensive failure than exceptionally good offense.&rdquo;</p>
-            <a class="read-more" href="https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-22" data-share-title="OpenAI’s rogue testing agent took 17,600 actions in Hugging Face breach" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
       </div>
@@ -459,43 +548,55 @@
       </div>
       <div class="card-grid">
         
-        <article class="card" data-cat="geopolitics">
+        <article class="card" data-cat="geopolitics" id="card-23">
           <div class="thumb"><img src="https://www.aljazeera.com/wp-content/uploads/2026/07/ap_6a6a180223785-1785337858.jpg?resize=1920%2C1440" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">01</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">Iran fires on US troops in Jordan again as Trump vows a &lsquo;beating&rsquo;</h3>
             <p class="story-text">Iran&rsquo;s Revolutionary Guard fired ballistic missiles at US positions in Jordan on July 28 during Trump&rsquo;s White House meeting with Netanyahu; CENTCOM said all missiles were intercepted, and Jordan&rsquo;s military shot down five more Iranian missiles on July 30 with no casualties, per Al Jazeera (Jul 29-30). Trump told Fox News Iran would &ldquo;get a beating,&rdquo; as CENTCOM launched a new &ldquo;heavy wave of strikes&rdquo; on Iranian targets; at least 18 US soldiers have died since the war began in February.</p>
-            <a class="read-more" href="https://www.aljazeera.com/news/2026/7/29/trump-says-us-to-deliver-beating-to-iran-after-bases-again-targeted" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.aljazeera.com/news/2026/7/29/trump-says-us-to-deliver-beating-to-iran-after-bases-again-targeted" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-23" data-share-title="Iran fires on US troops in Jordan again as Trump vows a ‘beating’" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="geopolitics">
+        <article class="card" data-cat="geopolitics" id="card-24">
           <div class="thumb"><img src="https://www.aljazeera.com/wp-content/uploads/2026/07/afp_6a6b916180ac-1785434465.jpg?resize=1920%2C1440" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">02</div></div>
             <h3 class="headline">Saudi Arabia leads 14-nation alliance to protect Red Sea shipping</h3>
             <p class="story-text">Saudi Arabia and 13 other states &mdash; including Turkey, Egypt, Jordan, Pakistan, Qatar and an EU delegation &mdash; launched a Multinational Maritime Defense Alliance on July 30 to secure the Bab al-Mandeb Strait, Red Sea and Gulf of Aden, per Al Jazeera. The move follows Iran&rsquo;s near-closure of the Strait of Hormuz disrupting global oil flows and repeated Houthi attacks on the Red Sea route Saudi exports depend on; Riyadh&rsquo;s Defence Ministry said members share the conviction that &ldquo;maritime security is a shared responsibility&hellip;cooperation and coordination among states constitute the cornerstone for confronting common and transnational maritime threats.&rdquo;</p>
-            <a class="read-more" href="https://www.aljazeera.com/news/2026/7/30/saudi-arabia-announces-maritime-defence-alliance-to-secure-vital-waterways" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.aljazeera.com/news/2026/7/30/saudi-arabia-announces-maritime-defence-alliance-to-secure-vital-waterways" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-24" data-share-title="Saudi Arabia leads 14-nation alliance to protect Red Sea shipping" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="geopolitics">
+        <article class="card" data-cat="geopolitics" id="card-25">
           <div class="thumb"><img src="https://www.aljazeera.com/wp-content/uploads/2026/07/image-1785455649.jpg?resize=1865%2C1080&quality=80" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">03</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">Trump says Hamas has agreed to disarm, but deal hinges on Israel</h3>
             <p class="story-text">President Trump announced July 30 that his Gaza &lsquo;Board of Peace&rsquo; reached an agreement on disarming Hamas and other armed factions, per Al Jazeera, but a Hamas delegation member cautioned that &ldquo;all implementation would be conditioned on Israel implementing its part of the deal.&rdquo; Cairo talks between Hamas and Egyptian, Qatari and Turkish mediators are reportedly making progress on a roadmap to decommission weapons, though Hamas wants to &ldquo;confine and store&rdquo; arms rather than fully surrender them while Israel demands complete disarmament.</p>
-            <a class="read-more" href="https://www.aljazeera.com/news/2026/7/30/trump-says-board-of-peace-reaches-agreement-on-disarmament-of-hamas-in-gaza" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.aljazeera.com/news/2026/7/30/trump-says-board-of-peace-reaches-agreement-on-disarmament-of-hamas-in-gaza" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-25" data-share-title="Trump says Hamas has agreed to disarm, but deal hinges on Israel" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="geopolitics">
+        <article class="card" data-cat="geopolitics" id="card-26">
           <div class="thumb"><img src="https://news.cgtn.com/news/2026-07-30/Israeli-strikes-kill-four-in-Gaza-as-new-ceasefire-push-sees-progress-1PcNYlrLkU8/img/98070fe83fc0456faadf801e8b05705b/98070fe83fc0456faadf801e8b05705b-1920.png" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">04</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">Gaza death toll tops 1,200 as new Israeli strikes kill four, including two children</h3>
             <p class="story-text">Israeli strikes on Khan Younis, the Bureij refugee camp and Gaza City killed at least four Palestinians, including two children, on July 30, per CGTN, pushing the cumulative death toll since the ceasefire began past 1,200, mostly civilians. A Hamas official called the parallel Cairo negotiations &ldquo;positive&rdquo; and &ldquo;making progress,&rdquo; though a diplomat cautioned success still depends on Israeli acceptance of the emerging weapons roadmap.</p>
-            <a class="read-more" href="https://news.cgtn.com/news/2026-07-30/Israeli-strikes-kill-four-in-Gaza-as-new-ceasefire-push-sees-progress-1PcNYlrLkU8/p.html" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://news.cgtn.com/news/2026-07-30/Israeli-strikes-kill-four-in-Gaza-as-new-ceasefire-push-sees-progress-1PcNYlrLkU8/p.html" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-26" data-share-title="Gaza death toll tops 1,200 as new Israeli strikes kill four, including two children" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
       </div>
@@ -510,63 +611,81 @@
       <p class="section-note">Companies on Ankit's watchlist where something actually happened today.</p>
       <div class="card-grid">
         
-        <article class="card" data-cat="portfolio">
+        <article class="card" data-cat="portfolio" id="card-27">
           <div class="thumb"><img src="https://s.yimg.com/lo/mysterio/api/AAAA4248C0F3929BD1B194F1705516B5CC2CC0E9CB1C7FE3E2418F5F6AB003D4/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fquartz_855%2Fc3bc78077848bbb4b997a3f0b55d04bd" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">01</div><span class="ticker-chip">AMZN</span><span class="continuing">Continuing</span></div>
             <h3 class="headline">Amazon&rsquo;s AWS growth accelerates to 37%, its fastest pace in 18 quarters</h3>
             <p class="story-text">Amazon&rsquo;s second-quarter revenue climbed 20% to $200.6 billion, with AWS revenue up 37% to $42.2 billion and AWS operating income reaching $16.6 billion. The company guided third-quarter net sales to $197-202 billion and operating income of $22.5-26.5 billion, per Yahoo Finance/Quartz (Jul 30).</p>
-            <a class="read-more" href="https://finance.yahoo.com/markets/stocks/articles/amazon-q2-2026-earnings-aws-204411872.html" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://finance.yahoo.com/markets/stocks/articles/amazon-q2-2026-earnings-aws-204411872.html" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-27" data-share-title="Amazon’s AWS growth accelerates to 37%, its fastest pace in 18 quarters" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="portfolio">
+        <article class="card" data-cat="portfolio" id="card-28">
           <div class="thumb"><img src="https://mmx.prnewswire.com/media/MS1961181/Oracle-Google-Cloud-Lockup.jpg?id=OA2810598&p=facebook" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">02</div><span class="ticker-chip">ORCL</span><span class="continuing">Continuing</span></div>
             <h3 class="headline">Oracle widens Gemini AI partnership with Google Cloud into Fusion and NetSuite</h3>
             <p class="story-text">Oracle and Google Cloud expanded their partnership to embed Google&rsquo;s Gemini 3.1 Flash-Lite and Gemini 3.5 Flash models into Oracle AI Agent Studio for Fusion Applications, with planned integration across ERP, HCM, SCM and CX modules and into NetSuite&rsquo;s financial, supply chain and HR tools, per PR Newswire (Jul 30). Google Cloud&rsquo;s Satish Thomas and Oracle&rsquo;s Chris Leone both framed the expansion as giving customers greater model choice for building agentic AI workflows, building on Gemini&rsquo;s existing availability through Oracle Cloud Infrastructure.</p>
-            <a class="read-more" href="https://www.prnewswire.com/news-releases/oracle-to-make-gemini-models-available-to-thousands-of-enterprise-applications-customers-302838995.html" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.prnewswire.com/news-releases/oracle-to-make-gemini-models-available-to-thousands-of-enterprise-applications-customers-302838995.html" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-28" data-share-title="Oracle widens Gemini AI partnership with Google Cloud into Fusion and NetSuite" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="portfolio">
+        <article class="card" data-cat="portfolio" id="card-29">
           <div class="thumb"><img src="https://resource.tradingkey.com/uploads/20250314/d38d57c8dfb24421a5b88ef27a9554e3shutterstock_2383470839_optimized_150.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">03</div><span class="ticker-chip">JNJ</span></div>
             <h3 class="headline">J&amp;J weighs renewed talc litigation and a Stelara patent cliff</h3>
             <p class="story-text">Johnson &amp; Johnson faces renewed legal challenges to its proposed $6.48 billion Red River Talc bankruptcy settlement, keeping talcum-powder liability concerns alive, per TradingKey (Jul 30). Investors are also weighing the looming loss of patent exclusivity for top-selling drug Stelara, the selection of Stelara and Xarelto for Medicare price negotiations, and signs of slowing share gains and rising costs in the MedTech device unit.</p>
-            <a class="read-more" href="https://www.tradingkey.com/news/market-movers/262064743-market-movers-jnj-20260730" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.tradingkey.com/news/market-movers/262064743-market-movers-jnj-20260730" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-29" data-share-title="J&amp;J weighs renewed talc litigation and a Stelara patent cliff" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="portfolio">
+        <article class="card" data-cat="portfolio" id="card-30">
           <div class="thumb"><img src="https://s.yimg.com/lo/mysterio/api/799BE3B98B4836BD5D85E8EC73DCA5B52701C31334949795BDE64AC9A5EB2B45/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2Fb198d5dc396d5cd0b20f7e2f043a1d45" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">04</div><span class="ticker-chip">TSLA</span></div>
             <h3 class="headline">Tesla marks 10-millionth vehicle built worldwide</h3>
             <p class="story-text">Tesla produced its 10-millionth vehicle, a Model Y that rolled off the line at the Fremont factory, a run that took about twelve years to reach the first million and just over six years to add the last nine million, per Yahoo Finance (Jul 30). CEO Elon Musk called it &ldquo;an incredible amount of work,&rdquo; as the company ramps production of the Cybercab robotaxi and Semi truck following the discontinuation of the premium Model S and X.</p>
-            <a class="read-more" href="https://finance.yahoo.com/markets/stocks/articles/tsla-stock-breaks-losing-streak-194413297.html" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://finance.yahoo.com/markets/stocks/articles/tsla-stock-breaks-losing-streak-194413297.html" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-30" data-share-title="Tesla marks 10-millionth vehicle built worldwide" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="portfolio">
+        <article class="card" data-cat="portfolio" id="card-31">
           <div class="thumb"><img src="https://blockonomi.com/wp-content/uploads/2026/07/Nvidia-1-3.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">05</div><span class="ticker-chip">NVDA</span></div>
             <h3 class="headline">Nvidia reportedly the hidden tenant behind Hut 8&rsquo;s $19.6bn Texas AI data center deal</h3>
             <p class="story-text">Nvidia is reported by the Financial Times to be the previously unnamed tenant behind Hut 8&rsquo;s &lsquo;Beacon Point&rsquo; project in Texas, per Blockonomi (Jul 30), via two 15-year leases covering 704 megawatts of IT capacity worth $19.6 billion in base-term value, with optional renewals that could push the total toward $50.2 billion. Neither company has publicly confirmed the tenant relationship, and Hut 8 expects to deliver the first phase-two data hall in the second quarter of 2028.</p>
-            <a class="read-more" href="https://blockonomi.com/nvidia-corporation-nvda-stock-linked-to-hut-8s-19-6-billion-ai-data-center-lease-agreement/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://blockonomi.com/nvidia-corporation-nvda-stock-linked-to-hut-8s-19-6-billion-ai-data-center-lease-agreement/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-31" data-share-title="Nvidia reportedly the hidden tenant behind Hut 8’s $19.6bn Texas AI data center deal" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="portfolio">
+        <article class="card" data-cat="portfolio" id="card-32">
           <div class="thumb"><img src="https://247wallst.com/wp-content/uploads/2026/04/shutterstock-2593253379-huge-licensed-scaled.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">06</div><span class="ticker-chip">NET</span></div>
             <h3 class="headline">Cloudflare, Fastly, CrowdStrike and Rackspace ride Microsoft&rsquo;s earnings halo</h3>
             <p class="story-text">None of Cloudflare, Fastly, CrowdStrike or Rackspace Technology had a distinct company-specific announcement this week; their moves track a broader AI-cloud infrastructure rally after Microsoft&rsquo;s strong fiscal Q4 earnings &ldquo;reignited enthusiasm for AI cloud demand,&rdquo; with the resulting &ldquo;halo effect&hellip;flowing straight into the highest-beta AI infrastructure names,&rdquo; per 24/7 Wall St (Jul 30). No company-specific catalyst was found for any of the four on the session.</p>
-            <a class="read-more" href="https://247wallst.com/investing/2026/07/30/nebius-soars-27-coreweave-jumps-24-oracle-climbs-7-as-ai-cloud-names-snap-back/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://247wallst.com/investing/2026/07/30/nebius-soars-27-coreweave-jumps-24-oracle-climbs-7-as-ai-cloud-names-snap-back/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-32" data-share-title="Cloudflare, Fastly, CrowdStrike and Rackspace ride Microsoft’s earnings halo" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
       </div>
@@ -582,33 +701,42 @@
         <h3 class="country-label">India</h3>
         <div class="card-grid">
           
-        <article class="card" data-cat="country">
+        <article class="card" data-cat="country" id="card-33">
           <div class="thumb"><img src="https://cdn1.wionews.com/prod/wion/images/2026/20260730/image-1785427194398.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">01</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">Anti-paper-leak bill clears Parliament as Modi, Shah hail &lsquo;trustworthy&rsquo; exam system</h3>
             <p class="story-text">The Public Examinations (Prevention of Unfair Means) Amendment Bill, 2026 passed the Rajya Sabha by voice vote after an opposition walkout, clearing both houses and heading to President Murmu for assent, with penalties up to 10 years&rsquo; jail and Rs 10 crore fines for organized leak rackets, per WION (Jul 30). PM Modi said passage of the &ldquo;strict provisions&rdquo; was &ldquo;an important step&rdquo; toward a trustworthy exam system and vowed paper-leak &ldquo;mafias will not be spared at any cost,&rdquo; while Home Minister Amit Shah called it a milestone that gives students the chance to &ldquo;fulfill the dreams they have envisioned for themselves,&rdquo; per ANI (Jul 31).</p>
-            <a class="read-more" href="https://www.wionews.com/india-news/anti-paper-leak-bill-passed-by-voice-vote-in-rajya-sabha-after-opposition-walkout-1785426892319" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.wionews.com/india-news/anti-paper-leak-bill-passed-by-voice-vote-in-rajya-sabha-after-opposition-walkout-1785426892319" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-33" data-share-title="Anti-paper-leak bill clears Parliament as Modi, Shah hail ‘trustworthy’ exam system" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="country">
+        <article class="card" data-cat="country" id="card-34">
           <div class="thumb"><img src="https://cdn1.wionews.com/prod/wion/images/2026/20260730/image-1785402482172.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">02</div></div>
             <h3 class="headline">Modi chairs high-level meet on West Asia crisis as India weighs energy security</h3>
             <p class="story-text">PM Modi convened a high-level meeting with Amit Shah, Rajnath Singh, S Jaishankar, Nirmala Sitharaman and NSA Ajit Doval after the Iran-US ceasefire collapsed, with Iran vowing to avenge former Supreme Leader Khamenei&rsquo;s death and proposing tolls on Strait of Hormuz shipping, per WION (Jul 30). The meeting focused on concerns about India&rsquo;s energy security and fuel-supply disruptions amid the widening conflict.</p>
-            <a class="read-more" href="https://www.wionews.com/india-news/pm-modi-chairs-high-level-meet-with-top-union-ministers-nsa-as-west-asia-crisis-reignites-1785402321665" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.wionews.com/india-news/pm-modi-chairs-high-level-meet-with-top-union-ministers-nsa-as-west-asia-crisis-reignites-1785402321665" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-34" data-share-title="Modi chairs high-level meet on West Asia crisis as India weighs energy security" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="country">
+        <article class="card" data-cat="country" id="card-35">
           <div class="thumb"><img src="https://pragativadi.com/wp-content/uploads/2026/07/PHOTO-2026-07-29-23-56-20.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">03</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">Deep depression weakens further, drifts from Chhattisgarh into MP-Vidarbha belt</h3>
             <p class="story-text">The deep depression continued weakening as it tracked nearly westward, positioned about 30 km southeast of Bilaspur and moving at roughly 8 km/hour toward eastern Madhya Pradesh and Vidarbha before degrading into a well-marked low-pressure area, per Pragativadi (Jul 30). India&rsquo;s monsoon total now stands at 711.6 mm, 35% above normal, with no severe warnings through August 1 though heavy rain is expected to resume August 2-4 in southern districts.</p>
-            <a class="read-more" href="https://pragativadi.com/deep-depression-weakens-as-it-drifts-west-odisha-sees-easing-rain-after-wednesday-showers/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://pragativadi.com/deep-depression-weakens-as-it-drifts-west-odisha-sees-easing-rain-after-wednesday-showers/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-35" data-share-title="Deep depression weakens further, drifts from Chhattisgarh into MP-Vidarbha belt" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
         </div>
@@ -617,33 +745,42 @@
         <h3 class="country-label">United Kingdom</h3>
         <div class="card-grid">
           
-        <article class="card" data-cat="country">
+        <article class="card" data-cat="country" id="card-36">
           <div class="thumb"><img src="https://fortune.com/img-assets/wp-content/uploads/2026/07/AP26211446172659-e1785421549939.jpg?resize=1200,600" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">01</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">Bank of England holds rate at 3.75% in split vote as war clouds inflation outlook</h3>
             <p class="story-text">The Bank of England&rsquo;s rate-setters voted 6-3 to hold the key rate at 3.75% for a fifth time this year, with three members pushing for a quarter-point hike to 4%, per Fortune/AP (Jul 30). Dissenter Huw Pill warned of &ldquo;more insidious second-round effects driven by catch-up dynamics in wage and price setting,&rdquo; while the majority cited uncertainty from the renewed Iran-US conflict &mdash; Brent crude had spiked above $100 a barrel before settling lower &mdash; even as UK inflation eased to 2.6% in June, still above target for a 21st straight month.</p>
-            <a class="read-more" href="https://fortune.com/2026/07/30/bank-of-england-keeps-interest-rates-at-3-75-for-fifth-time-this-year" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://fortune.com/2026/07/30/bank-of-england-keeps-interest-rates-at-3-75-for-fifth-time-this-year" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-36" data-share-title="Bank of England holds rate at 3.75% in split vote as war clouds inflation outlook" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="country">
+        <article class="card" data-cat="country" id="card-37">
           <div class="thumb"><div class="thumb-fallback" style="display:flex;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">02</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">First cross-party social care talks postponed</h3>
             <p class="story-text">The first round of cross-party talks on overhauling England&rsquo;s social care system, meant to include the Conservatives, Liberal Democrats, Reform UK and the Greens under Baroness Louise Casey, was postponed from its scheduled Wednesday sitting after government sources cited difficulty coordinating five parties&rsquo; availability, per BBC (Jul 30). King&rsquo;s Fund chief executive Sarah Woolnough said the government&rsquo;s timeline for reform still &ldquo;feels far too long.&rdquo;</p>
-            <a class="read-more" href="https://feeds.bbci.co.uk/news/articles/cg5d2jg8dr1o" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://feeds.bbci.co.uk/news/articles/cg5d2jg8dr1o" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-37" data-share-title="First cross-party social care talks postponed" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="country">
+        <article class="card" data-cat="country" id="card-38">
           <div class="thumb"><img src="https://www.scotsman.com/jpim-static/image/2026/07/30/16/35/MixCollage-30-Jul-2026-05-47-PM-3595.jpeg?trim=101,99,1021,85&crop=&width=1200&auto=webp&quality=75" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">03</div></div>
             <h3 class="headline">PM Burnham signals &lsquo;pragmatic&rsquo; approach to North Sea oil and gas</h3>
             <p class="story-text">PM Andy Burnham confirmed he told Donald Trump he would take a pragmatic approach to North Sea resources, saying: &ldquo;I indicated in the phone call&hellip;that I would take a pragmatic approach when it comes to the North Sea, and that is my intention as we go forward from here. There is a resource there. When people are struggling, we can&rsquo;t ignore that,&rdquo; per the Scotsman (Jul 30). The comments mark a potential shift from Labour&rsquo;s 2024 manifesto pledge against new drilling licenses, after Trump publicly urged the UK to &ldquo;open up&rdquo; the North Sea and ditch &ldquo;windmills.&rdquo;</p>
-            <a class="read-more" href="https://www.scotsman.com/news/scottish-news/andy-burnham-says-he-told-donald-trump-we-cant-ignore-north-sea-oil-resources-8831473" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.scotsman.com/news/scottish-news/andy-burnham-says-he-told-donald-trump-we-cant-ignore-north-sea-oil-resources-8831473" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-38" data-share-title="PM Burnham signals ‘pragmatic’ approach to North Sea oil and gas" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
         </div>
@@ -652,33 +789,42 @@
         <h3 class="country-label">Qatar & the GCC</h3>
         <div class="card-grid">
           
-        <article class="card" data-cat="country">
+        <article class="card" data-cat="country" id="card-39">
           <div class="thumb"><div class="thumb-fallback" style="display:flex;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">01</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">Qatar condemns renewed Iranian attacks on Jordan and Kuwait</h3>
             <p class="story-text">Qatar&rsquo;s Ministry of Foreign Affairs strongly condemned renewed Iranian military action against Jordan and Kuwait, calling for &ldquo;an immediate and complete cessation of all military operations and attacks that threaten the security and stability of the region,&rdquo; per The Peninsula Qatar (Jul 30). Doha expressed full solidarity with both countries and urged a return to dialogue, extending the wave of Gulf-wide reaction to the widening Iran conflict.</p>
-            <a class="read-more" href="https://thepeninsulaqatar.com/article/30/07/2026/qatar-strongly-condemns-renewed-iranian-aggression-against-jordan-kuwait" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://thepeninsulaqatar.com/article/30/07/2026/qatar-strongly-condemns-renewed-iranian-aggression-against-jordan-kuwait" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-39" data-share-title="Qatar condemns renewed Iranian attacks on Jordan and Kuwait" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="country">
+        <article class="card" data-cat="country" id="card-40">
           <div class="thumb"><img src="https://www.arabnews.com/sites/default/files/styles/watermark_670x423/public/main-image/2026/07/30/4736087-1341139341.jpg?itok=Sa5b84U7" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">02</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">UAE, GCC condemn Iran-aligned militia drone strikes on Saudi oil facilities</h3>
             <p class="story-text">The UAE&rsquo;s Foreign Ministry called drone attacks launched from Iraqi territory against Saudi oil facilities in the Eastern Province &ldquo;a flagrant violation of the sovereignty of Saudi Arabia,&rdquo; while GCC Secretary-General Jasem Mohamed Albudaiwi labeled the strikes &ldquo;a dangerous escalation&rdquo; and &ldquo;a direct threat to its security and stability, as well as to regional peace and security,&rdquo; per Arab News (Jul 30). Both bodies voiced full solidarity with Riyadh, extending the wave of coverage of US-Saudi strikes on Iran-backed groups in Iraq.</p>
-            <a class="read-more" href="https://www.arabnews.com/node/2652784/middle-east" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.arabnews.com/node/2652784/middle-east" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-40" data-share-title="UAE, GCC condemn Iran-aligned militia drone strikes on Saudi oil facilities" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="country">
+        <article class="card" data-cat="country" id="card-41">
           <div class="thumb"><img src="https://thepeninsulaqatar.com/get/maximage/20260709_1783602324-29091.jpeg?1783602324" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">03</div></div>
             <h3 class="headline">Qatar ranks 2nd globally in labour market efficiency</h3>
             <p class="story-text">Qatar placed second worldwide in the labour market index of the 2026 IMD World Competitiveness Yearbook, alongside first place globally for trade balance and among the world&rsquo;s lowest overall, youth and long-term unemployment rates, per The Peninsula Qatar (Jul 30). Officials credited flexible labour legislation, digital transformation and a competitive investment climate aligned with Qatar National Vision 2030.</p>
-            <a class="read-more" href="https://thepeninsulaqatar.com/article/30/07/2026/qatar-second-globally-in-labour-market-index" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://thepeninsulaqatar.com/article/30/07/2026/qatar-second-globally-in-labour-market-index" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-41" data-share-title="Qatar ranks 2nd globally in labour market efficiency" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
         </div>
@@ -692,43 +838,55 @@
       </div>
       <div class="card-grid">
         
-        <article class="card" data-cat="doha">
+        <article class="card" data-cat="doha" id="card-42">
           <div class="thumb"><img src="https://cdn-content.qatarliving.com/events/cover-images/1777816616081-69e437d3-65d4-42d3-91e0-17ae11823bff.png" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">01</div></div>
             <h3 class="headline">Qatar Toy Festival wraps up its month-long run today</h3>
             <p class="story-text">The Qatar Toy Festival, themed &lsquo;More to Imagine, A Whole World of Fun,&rsquo; closes its 2026 edition today at the Doha Exhibition and Convention Centre after a month-long run since July 1. The 22,000-square-metre event has featured global toy brands, interactive zones, live performances, and an Influencers Zone with Spacetoon, open daily 10am-10pm, per Qatar Living (Jul 26).</p>
-            <a class="read-more" href="https://www.qatarliving.com/en/event/qatar-toy-festival-2026" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.qatarliving.com/en/event/qatar-toy-festival-2026" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-42" data-share-title="Qatar Toy Festival wraps up its month-long run today" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="doha">
+        <article class="card" data-cat="doha" id="card-43">
           <div class="thumb"><img src="https://thepeninsulaqatar.com/get/maximage/20260720_1784533549-51450.jpg?1784533549" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">02</div></div>
             <h3 class="headline">ColorVerse Experience brings immersive family adventure to Katara</h3>
             <p class="story-text">A new interactive walkthrough attraction, ColorVerse Experience, is running at Katara Cultural Village&rsquo;s South Parking through September 15. Visitors become &lsquo;Restorers&rsquo; completing challenges across seven themed zones using projection mapping, dynamic lighting, and character meet-and-greets, suitable for families with kids 4+, per The Peninsula Qatar (Jul 20).</p>
-            <a class="read-more" href="https://thepeninsulaqatar.com/article/20/07/2026/colorverse-experience-brings-immersive-family-adventure" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://thepeninsulaqatar.com/article/20/07/2026/colorverse-experience-brings-immersive-family-adventure" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-43" data-share-title="ColorVerse Experience brings immersive family adventure to Katara" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="doha">
+        <article class="card" data-cat="doha" id="card-44">
           <div class="thumb"><img src="https://cdn-content.qatarliving.com/events/cover-images/1785231041724-4c4d1c43-002f-44ea-bcd6-44088b4a3b3a.jpeg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">03</div><span class="continuing">Continuing</span></div>
             <h3 class="headline">Doha Shopping Season Fair extends through August 5</h3>
             <p class="story-text">The Doha Shopping Season Fair continues at the Doha Exhibition and Convention Center, now confirmed running through August 5, with stalls from over 20 countries selling perfumes, home decor, abayas, carpets and more, open Saturday-Thursday 10am-10pm and Friday 3-10pm, per Qatar Living (Jul 26).</p>
-            <a class="read-more" href="https://www.qatarliving.com/en/event/doha-shopping-season-fair-2026" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.qatarliving.com/en/event/doha-shopping-season-fair-2026" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-44" data-share-title="Doha Shopping Season Fair extends through August 5" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
 
-        <article class="card" data-cat="doha">
+        <article class="card" data-cat="doha" id="card-45">
           <div class="thumb"><img src="https://static.qm.org.qa/media/images/Diwani_Beginners.2e16d0ba.fill-1200x630.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div></div>
           <div class="card-body">
             <div class="card-meta"><div class="num">04</div></div>
             <h3 class="headline">Diwani calligraphy workshop opens at the Museum of Islamic Art</h3>
             <p class="story-text">An intermediate Diwani calligraphy course begins August 2-5 (4-6pm) at the Museum of Islamic Art&rsquo;s Education Centre, teaching the Ottoman-era script to women with prior beginner-level experience. The free, registration-required sessions are taught in English and Arabic by Hussain Ahmed, per the Museum of Islamic Art&rsquo;s calendar.</p>
-            <a class="read-more" href="https://mia.org.qa/en/calendar/diwani/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="https://mia.org.qa/en/calendar/diwani/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-45" data-share-title="Diwani calligraphy workshop opens at the Museum of Islamic Art" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
           </div>
         </article>
       </div>
@@ -757,6 +915,62 @@
       });
     });
   });
+
+  // --- Share: native share sheet on mobile, "Link copied" toast elsewhere ---
+  function showToast(msg) {
+    var t = document.getElementById('share-toast');
+    if (!t) {
+      t = document.createElement('div');
+      t.id = 'share-toast';
+      t.className = 'share-toast';
+      document.body.appendChild(t);
+    }
+    t.textContent = msg;
+    t.classList.add('show');
+    clearTimeout(t._hideTimer);
+    t._hideTimer = setTimeout(function () { t.classList.remove('show'); }, 1800);
+  }
+
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    try { document.execCommand('copy'); showToast('Link copied'); } catch (e) { /* no-op */ }
+    document.body.removeChild(ta);
+  }
+
+  document.querySelectorAll('.share-btn').forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var id = btn.getAttribute('data-share-id');
+      var title = btn.getAttribute('data-share-title') || document.title;
+      var url = location.origin + location.pathname + '#' + id;
+      if (navigator.share) {
+        navigator.share({ title: title, url: url }).catch(function () { /* user cancelled */ });
+      } else if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(function () { showToast('Link copied'); })
+          .catch(function () { fallbackCopy(url); });
+      } else {
+        fallbackCopy(url);
+      }
+    });
+  });
+
+  // --- Jump straight to a shared card/fixture and give it a highlight pulse ---
+  if (location.hash) {
+    var target = document.getElementById(location.hash.slice(1));
+    if (target) {
+      setTimeout(function () {
+        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        target.classList.add('highlight-pulse');
+        setTimeout(function () { target.classList.remove('highlight-pulse'); }, 2500);
+      }, 60);
+    }
+  }
 })();
 </script>
 </body>

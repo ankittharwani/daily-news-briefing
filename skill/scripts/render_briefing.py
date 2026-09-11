@@ -40,7 +40,33 @@ Never invent an image URL. Leave "img" null and the fallback line-art icon rende
 """
 
 import argparse
+import html
+import itertools
 import json
+
+_ID_SEQ = itertools.count(1)
+
+
+def next_id(prefix):
+    """A stable, page-unique anchor id for a card or fixture — used both as the
+    DOM id share links jump to and as the fragment in the copied/shared URL."""
+    return f"{prefix}-{next(_ID_SEQ)}"
+
+
+def share_title(headline):
+    """Story headlines are authored as raw inline HTML (entities like &rsquo;).
+    Round-trip through unescape+escape so the data-share-title attribute holds
+    a real quote/apostrophe character (what navigator.share should display),
+    while staying safe to embed inside a double-quoted HTML attribute."""
+    return html.escape(html.unescape(headline), quote=True)
+
+
+SHARE_ICON = (
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" '
+    'stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/>'
+    '<circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>'
+    '<path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg>'
+)
 
 ICONS = {
     "trophy": '<path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0V4Z"/><path d="M7 5H4a3 3 0 0 0 3 3M17 5h3a3 3 0 0 1-3 3"/>',
@@ -114,14 +140,23 @@ def story_card(story, num, section_key, chip=None):
         tags += '<span class="continuing">Continuing</span>'
     chip_html = f'<span class="ticker-chip">{chip}</span>' if chip else ""
     meta = f'<div class="card-meta"><div class="num">{num:02d}</div>{chip_html}{tags}</div>'
+    card_id = next_id("card")
+    share_btn = (
+        f'<button class="share-btn" data-share-id="{card_id}" '
+        f'data-share-title="{share_title(story["headline"])}" '
+        f'aria-label="Share this story" title="Share">{SHARE_ICON}</button>'
+    )
     return f'''
-        <article class="card" data-cat="{section_key}">
+        <article class="card" data-cat="{section_key}" id="{card_id}">
           {thumb_html(story.get("img"))}
           <div class="card-body">
             {meta}
             <h3 class="headline">{story["headline"]}</h3>
             <p class="story-text">{story["body"]}</p>
-            <a class="read-more" href="{story["url"]}" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+            <div class="card-actions">
+              <a class="read-more" href="{story["url"]}" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              {share_btn}
+            </div>
           </div>
         </article>'''
 
@@ -131,15 +166,22 @@ def render_fixtures(fixtures):
         return ""
     rows = []
     for f in fixtures:
+        fixture_id = next_id("fixture")
+        share_btn = (
+            f'<button class="share-btn fixture-share" data-share-id="{fixture_id}" '
+            f'data-share-title="{share_title(f["headline"])}" '
+            f'aria-label="Share this fixture" title="Share">{SHARE_ICON}</button>'
+        )
         rows.append(f'''
-          <a class="fixture" href="{f["url"]}" target="_blank" rel="noopener noreferrer">
+          <div class="fixture" id="{fixture_id}">
             <span class="fixture-sport">{f["sport"]}</span>
-            <span class="fixture-main">
+            <a class="fixture-main" href="{f["url"]}" target="_blank" rel="noopener noreferrer">
               <span class="fixture-headline">{f["headline"]}</span>
               <span class="fixture-body">{f["body"]}</span>
-            </span>
+            </a>
             <span class="fixture-when">{f["when"]}</span>
-          </a>''')
+            {share_btn}
+          </div>''')
     return f'''
       <div class="fixtures-block">
         <h3 class="subblock-label">Fixtures Ahead</h3>
@@ -330,23 +372,43 @@ CSS = """
     text-transform: uppercase; padding: 3px 8px; border-radius: 4px; border: 1px solid; }
   .headline { font-size: 17px; line-height: 1.35; margin: 0; font-weight: 700; color: var(--ink); }
   .story-text { font-size: 14.5px; line-height: 1.6; color: #4A4943; margin: 0; }
-  .read-more { margin-top: 4px; font-size: 13.5px; font-weight: 700; text-decoration: none; }
+  .card-actions { margin-top: 6px; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .read-more { font-size: 13.5px; font-weight: 700; text-decoration: none; }
   .read-more:hover { text-decoration: underline; }
+  .share-btn { display: inline-flex; align-items: center; justify-content: center; width: 30px; height: 30px;
+    border-radius: 999px; border: 1px solid var(--hairline); background: var(--white); color: var(--secondary);
+    cursor: pointer; padding: 0; flex: none; transition: border-color .15s ease, color .15s ease; }
+  .share-btn:hover { border-color: var(--ink); color: var(--ink); }
+  .share-btn svg { width: 15px; height: 15px; }
+  .card, .fixture { scroll-margin-top: 92px; }
+  @keyframes cardHighlightPulse {
+    0%   { box-shadow: 0 0 0 0 rgba(46,44,39,.30); }
+    70%  { box-shadow: 0 0 0 14px rgba(46,44,39,0); }
+    100% { box-shadow: 0 0 0 0 rgba(46,44,39,0); }
+  }
+  .highlight-pulse { animation: cardHighlightPulse 1.2s ease-out 2; border-radius: 10px; }
+  .share-toast { position: fixed; left: 50%; bottom: 28px; transform: translateX(-50%) translateY(12px);
+    background: var(--ink); color: #fff; font-size: 13px; font-weight: 600; padding: 10px 18px;
+    border-radius: 999px; opacity: 0; pointer-events: none; transition: opacity .2s ease, transform .2s ease;
+    z-index: 999; }
+  .share-toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 
   .fixtures-block { margin-top: 30px; }
   .subblock-label { font-family: Georgia, serif; font-style: italic; font-weight: 400;
     font-size: 18px; color: #B5563C; margin: 0 0 14px; }
   .fixture-list { display: grid; gap: 1px; background: var(--hairline);
     border: 1px solid var(--hairline); border-radius: 10px; overflow: hidden; }
-  .fixture { display: grid; grid-template-columns: 92px 1fr auto; gap: 16px; align-items: baseline;
-    padding: 14px 18px; background: var(--white); text-decoration: none; color: inherit; }
+  .fixture { display: grid; grid-template-columns: 92px 1fr auto auto; gap: 16px; align-items: center;
+    padding: 14px 18px; background: var(--white); }
   .fixture:hover { background: var(--wash); }
   .fixture-sport { font-size: 10.5px; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase;
-    color: #B5563C; }
+    color: #B5563C; align-self: baseline; }
+  .fixture-main { text-decoration: none; color: inherit; align-self: baseline; }
   .fixture-headline { display: block; font-size: 15px; font-weight: 700; margin-bottom: 3px; }
+  .fixture-headline:hover { text-decoration: underline; }
   .fixture-body { display: block; font-size: 13.5px; line-height: 1.55; color: #4A4943; }
   .fixture-when { font-family: Georgia, serif; font-size: 13px; font-weight: 700; color: var(--secondary);
-    white-space: nowrap; }
+    white-space: nowrap; align-self: baseline; }
 
   footer.masthead-footer { max-width: 1180px; margin: 24px auto 0; padding: 20px 32px 60px;
     color: var(--secondary); font-size: 12.5px; text-align: center; border-top: 1px solid var(--hairline); }
@@ -356,7 +418,8 @@ CSS = """
     .news-section, .filter-inner, .skim, footer.masthead-footer { padding-left: 18px; padding-right: 18px; }
     .card-grid { grid-template-columns: 1fr; } .pill { padding: 7px 12px; font-size: 12.5px; }
     .section-head h2 { font-size: 23px; }
-    .fixture { grid-template-columns: 1fr; gap: 5px; }
+    .fixture { grid-template-columns: 1fr auto; gap: 6px 10px; }
+    .fixture-sport { grid-column: 1 / -1; }
     .fixture-when { font-size: 12.5px; }
   }
   .hidden-by-filter { display: none !important; }
@@ -380,6 +443,62 @@ JS = """
       });
     });
   });
+
+  // --- Share: native share sheet on mobile, "Link copied" toast elsewhere ---
+  function showToast(msg) {
+    var t = document.getElementById('share-toast');
+    if (!t) {
+      t = document.createElement('div');
+      t.id = 'share-toast';
+      t.className = 'share-toast';
+      document.body.appendChild(t);
+    }
+    t.textContent = msg;
+    t.classList.add('show');
+    clearTimeout(t._hideTimer);
+    t._hideTimer = setTimeout(function () { t.classList.remove('show'); }, 1800);
+  }
+
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    try { document.execCommand('copy'); showToast('Link copied'); } catch (e) { /* no-op */ }
+    document.body.removeChild(ta);
+  }
+
+  document.querySelectorAll('.share-btn').forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var id = btn.getAttribute('data-share-id');
+      var title = btn.getAttribute('data-share-title') || document.title;
+      var url = location.origin + location.pathname + '#' + id;
+      if (navigator.share) {
+        navigator.share({ title: title, url: url }).catch(function () { /* user cancelled */ });
+      } else if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(function () { showToast('Link copied'); })
+          .catch(function () { fallbackCopy(url); });
+      } else {
+        fallbackCopy(url);
+      }
+    });
+  });
+
+  // --- Jump straight to a shared card/fixture and give it a highlight pulse ---
+  if (location.hash) {
+    var target = document.getElementById(location.hash.slice(1));
+    if (target) {
+      setTimeout(function () {
+        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        target.classList.add('highlight-pulse');
+        setTimeout(function () { target.classList.remove('highlight-pulse'); }, 2500);
+      }, 60);
+    }
+  }
 })();
 """
 
@@ -393,12 +512,27 @@ def build_html(data, display_date, archive_rel="../index.html"):
     body += "\n" + render_country_section(data["country_groups"])
     body += "\n" + render_doha_section(data["doha_events"])
 
+    # archive_rel points at index.html relative to this page (default "../index.html");
+    # the icon set lives alongside index.html at the site root, so reuse that same
+    # relative prefix rather than hard-coding a page depth.
+    icon_base = archive_rel.rsplit("/", 1)[0] + "/" if "/" in archive_rel else ""
+
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ankit's Morning Briefing — {display_date}</title>
+<link rel="icon" href="{icon_base}favicon.svg" type="image/svg+xml">
+<link rel="icon" href="{icon_base}favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="{icon_base}favicon-16.png" sizes="16x16" type="image/png">
+<link rel="shortcut icon" href="{icon_base}favicon.ico">
+<link rel="apple-touch-icon" href="{icon_base}apple-touch-icon.png">
+<link rel="manifest" href="{icon_base}site.webmanifest">
+<meta name="theme-color" content="#2E2C27">
+<meta name="apple-mobile-web-app-title" content="Morning Briefing">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <style>{CSS}
 {ACCENT_CSS}
 </style>
