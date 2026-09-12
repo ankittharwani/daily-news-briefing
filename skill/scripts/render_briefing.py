@@ -423,12 +423,17 @@ __ACCENT_DARK__
 
   /* --- Lead ------------------------------------------------------------ */
   .lead { max-width: 1120px; margin: 0 auto; padding: 24px 34px 26px;
-    display: flex; gap: 18px; align-items: flex-start; }
+    display: flex; gap: 18px; align-items: flex-start;
+    --lead-fs: clamp(24px, 3.4vw, 34px); --lead-lh: 1.3; --lead-tag-h: 23px; }
+  /* Centre the marker on the headline's FIRST line box, not on the whole
+     block and not on its baseline. The headline is a clamp(), so the offset
+     has to be derived from it rather than typed as a fixed margin. */
   .lead-tag { font-family: var(--mono); font-size: 11px; font-weight: 700;
     letter-spacing: 0.17em; text-transform: uppercase; background: var(--gold);
-    color: var(--paper); padding: 5px 9px; flex: none; margin-top: 5px; }
+    color: var(--paper); padding: 5px 9px; line-height: 1.2; flex: none;
+    margin-top: calc((var(--lead-fs) * var(--lead-lh) - var(--lead-tag-h)) / 2); }
   [data-theme="dark"] .lead-tag { color: #15140F; }
-  .lead-text { font-size: clamp(24px, 3.4vw, 34px); line-height: 1.3; margin: 0;
+  .lead-text { font-size: var(--lead-fs); line-height: var(--lead-lh); margin: 0;
     letter-spacing: -0.012em; max-width: 24ch; text-decoration: none; text-wrap: balance; }
   .lead-text:hover { text-decoration: underline; text-underline-offset: 4px;
     text-decoration-thickness: 1px; }
