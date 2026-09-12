@@ -1,4 +1,4 @@
-# Ankit's Morning Briefing — repo guide for Claude Code
+# The Date Line — repo guide for Claude Code
 
 This repo is both a live site (db.labs.tocn.ai) and the durable source of
 truth for the automation that builds it — see `README.md` for the published
@@ -33,19 +33,24 @@ Playwright-based `render.js` that rasterizes them to the PNG/ICO sizes in
 the icon stays in the same system as the page — see the "Favicon / app icon"
 note in `skill/SKILL.md`.
 
-## Current system, briefly (so you know what you're changing)
+## Current system
 
-- Typography: Georgia/Times serif for all headings and the masthead;
-  system sans-serif (`-apple-system, ... Helvetica, Arial`) for body text.
-- Palette: ink `#2E2C27`, secondary text `#6B6A63`, hairline `#E4E3DC`, wash
-  `#F9F9F7`, white `#FCFCFB` — plus one accent color per section
-  (`ACCENT_MAP` in `render_briefing.py`): world `#2B4257`, sports `#B5563C`,
-  business `#A9822E`, ai `#2C7A73`, geopolitics `#3E5C8A`, portfolio
-  (Market Watch) `#4F6B4A`, country `#8C3A3A`, doha `#6B4C7A`.
-- One responsive breakpoint (`@media (max-width: 760px)`); no dark-mode
-  support currently (no `prefers-color-scheme`).
-- Editorial/broadsheet tone: serif headlines, hairline rules, restrained
-  color used only as section accents — not a typical "app" look.
+**`DESIGN.md` in the repo root is the brand guideline** — palette, the two-face
+rule, the logo, the component language, and what a change has to respect. Read
+it before touching either file above; don't re-derive the system from the CSS.
+
+The short version: the publication is *The Date Line*, a personal wire service
+set with broadsheet care. One governing rule carries the whole system —
+monospace for every piece of machinery (datelines, section labels, story
+numerals, ticker chips, CONTINUING tags), serif for every piece of reading
+(nameplate, headlines, body, skim). Two faces, no third, both system stacks
+because web fonts are forbidden here. Light and dark are both first-class.
+Section colour appears as rules, never as filled pills or coloured card
+borders.
+
+Because there is no build step, the tokens are **duplicated** between
+`render_briefing.py` and `index_template.html`. Change both, or the home page
+and the editions drift apart.
 
 None of the above is sacred — redesign it however the taste/impeccable
 skills recommend. The palette and type choices above are just the starting
@@ -111,3 +116,22 @@ public/briefings/<date>.html` for every file in `data/` would re-render the
 full history under the new design. Worth doing, but treat it as a deliberate
 choice you make (and mention to Ankit), not something to do silently as
 part of a design pass.
+
+## Skill routing
+
+When the user's request matches an available skill, invoke it via the Skill tool. When in doubt, invoke the skill.
+
+Key routing rules:
+- Product ideas/brainstorming → invoke /office-hours
+- Strategy/scope → invoke /plan-ceo-review
+- Architecture → invoke /plan-eng-review
+- Design system/plan review → invoke /design-consultation or /plan-design-review
+- Full review pipeline → invoke /autoplan
+- Bugs/errors → invoke /investigate
+- QA/testing site behavior → invoke /qa or /qa-only
+- Code review/diff check → invoke /review
+- Visual polish → invoke /design-review
+- Ship/deploy/PR → invoke /ship or /land-and-deploy
+- Save progress → invoke /context-save
+- Resume context → invoke /context-restore
+- Author a backlog-ready spec/issue → invoke /spec

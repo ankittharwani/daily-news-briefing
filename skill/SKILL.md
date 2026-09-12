@@ -1,14 +1,18 @@
 ---
 name: ankit-morning-briefing
-description: Builds and publishes Ankit's daily morning news briefing — an eight-section HTML news digest (World, Sports with fixtures, Business & Markets, AI & Technology, Geopolitics, Market Watch on his stock watchlist, Country Updates for India/UK/Qatar & GCC, and Doha Events) plus a searchable dated archive at db.labs.tocn.ai. Use this whenever asked to run, build, regenerate, or troubleshoot Ankit's morning briefing, its Market Watch/stock section, or its archive site — including when invoked unattended by the daily scheduled task, or when Ankit asks to see a past edition, add or drop tickers from the watchlist, change the home page, add a section, or redeploy. Do not use for a generic personal calendar/schedule "morning brief" — that's a different, unrelated concept.
+description: Builds and publishes The Date Line, Ankit's daily morning news briefing — an eight-section HTML news digest (World, Sports with fixtures, Business & Markets, AI & Technology, Geopolitics, Market Watch on his stock watchlist, Country Updates for India/UK/Qatar & GCC, and Doha Events) plus a searchable dated archive at db.labs.tocn.ai. Use this whenever asked to run, build, regenerate, or troubleshoot The Date Line or Ankit's morning briefing, its Market Watch/stock section, or its archive site — including when invoked unattended by the daily scheduled task, or when Ankit asks to see a past edition, add or drop tickers from the watchlist, change the home page, add a section, or redeploy. Do not use for a generic personal calendar/schedule "morning brief" — that's a different, unrelated concept.
 ---
 
-# Ankit's Morning Briefing
+# The Date Line — Ankit's morning briefing
 
 A fully-automated daily pipeline: research real news → render a single-file
 HTML digest in a fixed editorial design → fold it into a multi-day archive with
 a browsable cover page → push to GitHub, which deploys the whole archive to
 Netlify via Actions → hand today's edition to Ankit directly.
+
+The publication is called **The Date Line**; "Ankit's morning briefing" is its
+subtitle. The name is the dateline a wire story carries, and the line where the
+day begins. Use it in page titles and the masthead; never rename it casually.
 
 This skill is normally invoked **unattended**, once a day, by a scheduled task.
 Treat every run as a fresh session with no memory of previous runs: everything
@@ -53,6 +57,11 @@ Watch**, **Country Updates** (India / United Kingdom / Qatar & the GCC), and
 World leads deliberately: every other section is a special interest, so without
 it a major global story has nowhere to sit and the edition opens with sport.
 See `references/research-guide.md` for the World/Geopolitics boundary.
+
+**The first story of the World section is the day's LEAD** — the renderer
+promotes its headline to display size under the masthead, above everything
+else. Order the World stories so the most consequential one is first; it is
+the line the whole edition opens on.
 
 ## Overview of the eight steps
 
@@ -241,23 +250,36 @@ being skipped, etc.) — brief, not a full recap.
 
 ## When asked to change the design or add a feature
 
+**Read `DESIGN.md` in the repo root first.** It is the brand guideline for
+The Date Line — the tokens, the two-face rule, the logo construction, and the
+rules a change has to respect. Do not invent design decisions that contradict
+it; if a change genuinely needs a new rule, put the rule in DESIGN.md too.
+
 The CSS/JS design system lives inline inside `scripts/render_briefing.py`
 (the `CSS` and `JS` string constants) and in `assets/index_template.html` for
 the cover page. Edit those directly rather than hand-writing one-off HTML —
 keeping them as the single source of truth is what makes every future edition
-(and every past one, since old pages aren't regenerated) consistent. If you
-change the per-section accent colors or add a section, update both the
-`ACCENT_MAP`/`PILLS` constants in `render_briefing.py` and the corresponding
-research-guide/section-order notes so future unattended runs stay in sync.
+(and every past one, since old pages aren't regenerated) consistent.
+
+Because there is no build step, the design tokens are **duplicated** between
+those two files. A palette or type change has to be made in both or the home
+page and the editions drift apart. If you change the per-section accent colors
+or add a section, update the `ACCENT_MAP`/`PILLS` constants in
+`render_briefing.py`, the matching `--accent-*` variables and `TOPICS` array in
+`index_template.html`, and the section-order notes in
+`references/research-guide.md`, so future unattended runs stay in sync.
 
 **Favicon / app icon.** Source lives at `assets/favicon/icon.svg` (rounded,
 used everywhere — browser tab, `favicon.svg`/`.ico`/PNGs) and
 `assets/favicon/icon-square.svg` (full-bleed, no rounding, used only for
-`apple-touch-icon.png` since iOS applies its own mask). It's a small sunrise
-mark — a horizon line in the site's cream (`#F9F9F7`) and a rising sun in the
-Business-section gold accent (`#B5893A`) on the ink background (`#2E2C27`),
-deliberately drawn from colors already in the design system rather than new
-ones. To regenerate the PNGs/ICO after editing either SVG:
+`apple-touch-icon.png` since iOS applies its own mask). It's the dL monogram:
+one vertical stroke serves as both the d's ascender and the L's stem, and runs
+on past the letter top and bottom — that overrun is the date line the
+publication is named for. Cream (`#F7F4EA`) on ink (`#1A1815`). The same
+letterform is inlined in the page as `MARK_SVG` (in `currentColor`, so it
+reverses on the ink bar and prints on paper); if you change one, change both.
+See DESIGN.md for construction, clear space and minimum size. To regenerate
+the PNGs/ICO after editing either SVG:
 ```bash
 NODE_PATH=/opt/node-tools/node_modules node assets/favicon/render.js
 python3 -c "

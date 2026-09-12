@@ -3,3 +3,10 @@ __pycache__/
 *.pyc
 research_2026-08-01/
 build/
+.gbrain-source
+
+# Impeccable working artifacts: generated comps and review screenshots are
+# large and regenerable. The direction contract (.impeccable/surfaces) and the
+# workflow config are kept, since future sessions read them.
+.impeccable/mocks/
+.impeccable/review/

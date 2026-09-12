@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-12T00:00:00Z",
+  "title": "Design System: The Date Line",
+  "extensions": {
+    "colorMeta": {
+      "ink": { "role": "neutral", "displayName": "Warm Ink", "canonical": "#1A1815", "darkPair": "#ECE7DA", "tonalRamp": ["#0D0C0A", "#1A1815", "#2E2B25", "#474337", "#6E6A5E", "#9B9483", "#C6C0B0", "#ECE7DA"] },
+      "paper": { "role": "neutral", "displayName": "Warm Paper", "canonical": "#F7F4EA", "darkPair": "#15140F", "tonalRamp": ["#15140F", "#26241C", "#3B3830", "#5C584B", "#8B8578", "#B8B2A2", "#EFEADC", "#F7F4EA"] },
+      "paper-2": { "role": "neutral", "displayName": "Paper Shade", "canonical": "#EFEADC", "darkPair": "#1E1C16", "tonalRamp": ["#1E1C16", "#2C2921", "#403C31", "#625D4D", "#918B77", "#BDB7A3", "#E2DCCC", "#EFEADC"] },
+      "hair": { "role": "neutral", "displayName": "Hairline", "canonical": "#D9D3C2", "darkPair": "#332F26", "tonalRamp": ["#1B1914", "#332F26", "#4A4537", "#6A6450", "#948D75", "#B8B19A", "#D9D3C2", "#EDE9DD"] },
+      "muted": { "role": "neutral", "displayName": "Muted", "canonical": "#6E6A5E", "darkPair": "#9B9483", "tonalRamp": ["#1F1D19", "#332F29", "#4B4740", "#6E6A5E", "#8A8474", "#9B9483", "#C0BAA9", "#E0DBCD"] },
+      "body-text": { "role": "neutral", "displayName": "Reading Ink", "canonical": "#3A362D", "darkPair": "#CFC9B9", "tonalRamp": ["#12110E", "#23211B", "#3A362D", "#565143", "#7D7767", "#A49D8B", "#CFC9B9", "#E9E4D8"] },
+      "gold": { "role": "primary", "displayName": "Publication Gold", "canonical": "#856420", "darkPair": "#C9A24E", "note": "Darkened from #9A7828 during the build to clear 4.5:1 as small text on paper. Never assigned to a section.", "tonalRamp": ["#2B2009", "#463514", "#63491A", "#856420", "#A57F32", "#C9A24E", "#DFC079", "#F0DCAF"] },
+      "accent-world": { "role": "secondary", "displayName": "Wire Navy", "canonical": "#2B4257", "darkPair": "#7FA5CC", "tonalRamp": ["#0D141B", "#16222E", "#2B4257", "#3C5C79", "#5B82A6", "#7FA5CC", "#A9C4E0", "#D3E0EF"] },
+      "accent-sports": { "role": "secondary", "displayName": "Terracotta", "canonical": "#A8482C", "darkPair": "#E08863", "tonalRamp": ["#2B1109", "#4A1E12", "#6E2D1B", "#A8482C", "#C4653F", "#E08863", "#EDAE92", "#F6D4C4"] },
+      "accent-business": { "role": "secondary", "displayName": "Old Brass", "canonical": "#8A6A1E", "darkPair": "#D9AA55", "tonalRamp": ["#2D2209", "#4A3811", "#684E18", "#8A6A1E", "#B08A33", "#D9AA55", "#E9C888", "#F4E2BC"] },
+      "accent-ai": { "role": "secondary", "displayName": "Verdigris", "canonical": "#1F6B64", "darkPair": "#5FBDB3", "tonalRamp": ["#08211F", "#0F3934", "#16514B", "#1F6B64", "#3B958C", "#5FBDB3", "#95D7D0", "#C7EAE6"] },
+      "accent-geopolitics": { "role": "secondary", "displayName": "Chart Blue", "canonical": "#3E5C8A", "darkPair": "#8CACD6", "tonalRamp": ["#121B29", "#1E2D44", "#2C4265", "#3E5C8A", "#5C7FB1", "#8CACD6", "#B3C8E5", "#D8E3F2"] },
+      "accent-portfolio": { "role": "secondary", "displayName": "Field Green", "canonical": "#47633F", "darkPair": "#8AB183", "tonalRamp": ["#141C11", "#22301E", "#33472C", "#47633F", "#648A5A", "#8AB183", "#B2CDAD", "#D7E5D4"] },
+      "accent-country": { "role": "secondary", "displayName": "Oxide Red", "canonical": "#8C3A3A", "darkPair": "#D97A7A", "tonalRamp": ["#240E0E", "#3F1919", "#5E2626", "#8C3A3A", "#B45555", "#D97A7A", "#E9A8A8", "#F5D2D2"] },
+      "accent-doha": { "role": "secondary", "displayName": "Aubergine", "canonical": "#63456F", "darkPair": "#B08BC2", "tonalRamp": ["#1C1320", "#2E2035", "#46304E", "#63456F", "#856394", "#B08BC2", "#CDB2DA", "#E5D7EC"] }
+    },
+    "typographyMeta": {
+      "nameplate": { "displayName": "Nameplate", "purpose": "\"The Date Line\", centred, once per page. Serif 400, never heavier." },
+      "lead": { "displayName": "Lead", "purpose": "The day's first story headline beside the gold LEAD marker. A headline, never a summary sentence." },
+      "section-title": { "displayName": "Section Title", "purpose": "The eight fixed section heads, sitting over a 2px accent rule." },
+      "headline": { "displayName": "Headline", "purpose": "Every story card headline. Underlined only on hover." },
+      "skim": { "displayName": "Skim", "purpose": "The 30-Second Skim lines, against a gold mono numeral." },
+      "body": { "displayName": "Body", "purpose": "Story summaries in Reading Ink, capped at 62ch." },
+      "label": { "displayName": "Label", "purpose": "Mono 700 machinery: block labels, brand word, LEAD, CONTINUING and ticker tags." },
+      "meta": { "displayName": "Meta", "purpose": "Mono 400 machinery: index links, READ MORE, fixture dates, pager, colophon, toast." },
+      "stamp": { "displayName": "Stamp", "purpose": "The dateline — DOHA · SAT 12 SEP 2026 — tabular, between two gold rails." }
+    },
+    "shadows": [
+      { "name": "none", "value": "none", "purpose": "The system has no elevation. Depth is rules and tone; surfaces are printed, not floating." },
+      { "name": "search-highlighter", "value": "inset 0 -0.42em 0 color-mix(in srgb, var(--gold) 34%, transparent)", "purpose": "The only box-shadow in the build: a translucent gold stroke under matched search text on the archive. Ink, not lift." }
+    ],
+    "motion": [
+      { "name": "hover", "value": "150ms ease", "purpose": "Colour and border changes on index links, share buttons, pager, theme toggle." },
+      { "name": "toast", "value": "200ms ease", "purpose": "The share toast's opacity and 10px rise." },
+      { "name": "control-rise", "value": "250ms cubic-bezier(.2,.7,.3,1)", "purpose": "The back-to-top control entering past 0.9 viewport heights." },
+      { "name": "mark-found", "value": "2s ease-out markFound", "purpose": "A shared card flashes 22% of its section accent on arrival from a share link." },
+      { "name": "reduced-motion", "value": "0.001ms !important", "purpose": "prefers-reduced-motion collapses every animation and transition and disables smooth scrolling." }
+    ],
+    "breakpoints": [
+      { "name": "edition-columns", "value": "860px", "purpose": "Story columns collapse from 2 to 1." },
+      { "name": "edition-phone", "value": "700px", "purpose": "Gutters 34px to 18px, dateline rails to 40px, index rail scrolls horizontally." },
+      { "name": "archive-mid", "value": "900px", "purpose": "Edition grid 3-up to 2-up; latest-edition hero stacks." },
+      { "name": "archive-phone", "value": "620px", "purpose": "Edition grid to 1-up, topic rail scrolls horizontally." }
+    ],
+    "maintenanceHazard": "The :root token block is duplicated verbatim between skill/scripts/render_briefing.py (CSS constant, via ACCENT_MAP/GOLD/accent_vars) and skill/assets/index_template.html. The no-build-step, single-self-contained-file constraint leaves nowhere shared for tokens to live, so any token change must be made in both files or the archive silently splits from the editions. Diff the two :root blocks before committing a palette or type change.",
+    "hardConstraints": [
+      "Eight sections in fixed order — World, Sports (with Fixtures Ahead), Business & Markets, AI & Technology, Geopolitics, Market Watch, Country Updates, Doha Events — topped by the 30-Second Skim. ACCENT_MAP, PILLS, the archive TOPICS array and skill/references/research-guide.md stay in sync.",
+      "Market Watch may never render a share price, percentage move, position size or share count, and no visual element may require one.",
+      "Every page is one self-contained HTML file: inline CSS and JS, no external stylesheet, no build step, no web font. Hotlinked article images are the only exception.",
+      "Mobile must keep working; the site is read on a phone at dawn."
+    ],
+    "logo": {
+      "construction": "A dL monogram in which one vertical stroke serves as both the d's ascender and the L's stem, running past the letter at top and bottom — that overrun is the date line. The bowl's counter is punched out with fill-rule=\"evenodd\" so the mark is one path in currentColor and needs no per-theme copy.",
+      "viewBox": "11 3 43 58",
+      "clearSpace": "At least the width of the vertical stroke (7.5 units, ~17% of the mark's width) on all sides.",
+      "minimumSize": "16px; below that the bowl's counter closes up.",
+      "sizesInUse": ["21px brand bar", "26px colophon", "34-48px image-well fallback"],
+      "variants": {
+        "icon.svg": "Rounded tile (14px radius on a 64px artboard). Source for favicon.svg, favicon.ico and the 512/192/48/32/16 PNGs.",
+        "icon-square.svg": "The identical mark full-bleed with no rounding. Used only for apple-touch-icon.png, because iOS applies its own mask and would clip a pre-rounded tile."
+      },
+      "regenerate": "Run skill/assets/favicon/render.js under Playwright/Chromium, then build favicon.ico from the 16/32/48 PNGs and copy the results into public/. Exact commands are in skill/SKILL.md."
+    }
+  },
+  "components": [
+    {
+      "name": "Story Card",
+      "kind": "card",
+      "refersTo": "story-card",
+      "description": "The unit of an edition: a hairline, an optional 16:9 image well, a mono meta row, a serif headline and body, and an action row. Borderless, background-less, square.",
+      "html": "<article class=\"ds-card\" style=\"--accent:#2B4257\"><div class=\"ds-card-meta\"><span class=\"ds-num\">01</span><span class=\"ds-tag ds-tag-continuing\">Continuing</span></div><h3 class=\"ds-headline\"><a href=\"#\">Houthi forces complete their capture of Yemen&rsquo;s Red Sea coast</a></h3><p class=\"ds-story-text\">Seizing the port of Mocha gives them the Bab al-Mandeb chokepoint, through which roughly 12% of global trade passes.</p><div class=\"ds-card-actions\"><a class=\"ds-read-more\" href=\"#\">Read more &rarr;</a><button class=\"ds-share-btn\" aria-label=\"Share this story\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"18\" cy=\"5\" r=\"3\"/><circle cx=\"6\" cy=\"12\" r=\"3\"/><circle cx=\"18\" cy=\"19\" r=\"3\"/><path d=\"M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49\"/></svg></button></div></article>",
+      "css": ".ds-card { display: block; background: none; border-top: 1px solid #D9D3C2; padding-top: 16px; margin-bottom: 30px; font-family: Georgia, \"Iowan Old Style\", serif; max-width: 480px; } .ds-card-meta { display: flex; align-items: center; gap: 9px; margin-bottom: 9px; } .ds-num { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; font-weight: 700; letter-spacing: 0.08em; font-variant-numeric: tabular-nums; color: var(--accent); } .ds-tag { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; padding: 3px 7px; border: 1px solid var(--accent); color: var(--accent); } .ds-tag-continuing { background: var(--accent); color: #F7F4EA; } .ds-headline { font-size: 21px; line-height: 1.32; font-weight: 400; letter-spacing: -0.008em; text-wrap: balance; margin: 0 0 9px; color: #1A1815; } .ds-headline a { color: inherit; text-decoration: none; } .ds-headline a:hover { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; } .ds-story-text { font-size: 15px; line-height: 1.62; color: #3A362D; margin: 0 0 13px; max-width: 62ch; } .ds-card-actions { display: flex; align-items: center; justify-content: space-between; gap: 10px; } .ds-read-more { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; letter-spacing: 0.13em; text-transform: uppercase; text-decoration: none; color: var(--accent); } .ds-read-more:hover { text-decoration: underline; text-underline-offset: 3px; } .ds-share-btn { display: inline-flex; align-items: center; justify-content: center; width: 27px; height: 27px; border: 1px solid #D9D3C2; background: none; color: #6E6A5E; cursor: pointer; padding: 0; flex: none; border-radius: 0; transition: border-color .15s ease, color .15s ease; } .ds-share-btn svg { width: 14px; height: 14px; } .ds-share-btn:hover, .ds-share-btn:focus-visible { border-color: var(--accent); color: var(--accent); } .ds-share-btn:focus-visible { outline: 2px solid #856420; outline-offset: 2px; }"
+    },
+    {
+      "name": "Masthead",
+      "kind": "custom",
+      "refersTo": "nameplate",
+      "description": "The publication's fingerprint: a mono dateline stamp between two gold rails, the serif nameplate, a mono standfirst, and the double hairline close.",
+      "html": "<header class=\"ds-masthead\"><div class=\"ds-dateline\"><span class=\"ds-rail\"></span><span class=\"ds-stamp\">Doha &middot; Sat 12 Sep 2026</span><span class=\"ds-rail\"></span></div><h1 class=\"ds-nameplate\">The Date Line</h1><p class=\"ds-standfirst\">Ankit&rsquo;s morning briefing &middot; 38 stories &middot; ~9 min</p><div class=\"ds-rule-double\"></div></header>",
+      "css": ".ds-masthead { text-align: center; font-family: Georgia, \"Iowan Old Style\", serif; color: #1A1815; padding: 8px 0 0; } .ds-dateline { display: flex; align-items: center; gap: 18px; justify-content: center; margin-bottom: 20px; } .ds-rail { height: 1px; background: #856420; flex: 1; max-width: 230px; } .ds-stamp { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; white-space: nowrap; font-variant-numeric: tabular-nums; } .ds-nameplate { font-weight: 400; font-size: clamp(40px, 7.2vw, 68px); line-height: 1; letter-spacing: -0.018em; margin: 0 0 14px; } .ds-standfirst { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #6E6A5E; margin: 0 0 22px; font-variant-numeric: tabular-nums; } .ds-rule-double { border-top: 2.5px solid #1A1815; border-bottom: 1px solid #1A1815; height: 4px; }"
+    },
+    {
+      "name": "Lead Marker",
+      "kind": "custom",
+      "refersTo": "lead-marker",
+      "description": "The only gold fill in the system, beside the day's first headline at lead scale. One per edition.",
+      "html": "<div class=\"ds-lead\"><span class=\"ds-lead-tag\">Lead</span><a class=\"ds-lead-text\" href=\"#\">Xi Jinping lands in Delhi for his first India visit in seven years</a></div>",
+      "css": ".ds-lead { display: flex; gap: 18px; align-items: flex-start; font-family: Georgia, \"Iowan Old Style\", serif; color: #1A1815; } .ds-lead-tag { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; font-weight: 700; letter-spacing: 0.17em; text-transform: uppercase; background: #856420; color: #F7F4EA; padding: 5px 9px; flex: none; margin-top: 5px; } .ds-lead-text { font-size: clamp(24px, 3.4vw, 34px); line-height: 1.3; letter-spacing: -0.012em; max-width: 24ch; text-decoration: none; text-wrap: balance; color: inherit; } .ds-lead-text:hover { text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px; } .ds-lead-text:focus-visible { outline: 2px solid #856420; outline-offset: 2px; }"
+    },
+    {
+      "name": "Section Index",
+      "kind": "nav",
+      "refersTo": "index-link",
+      "description": "The sticky eight-section filter rail. Mono uppercase, hairline-divided, gold underline on the active item.",
+      "html": "<nav class=\"ds-index\"><div class=\"ds-index-inner\"><button class=\"ds-index-link ds-active\">All</button><button class=\"ds-index-link\">World</button><button class=\"ds-index-link\">Sports</button><button class=\"ds-index-link\">Business</button><button class=\"ds-index-link\">AI &amp; Tech</button><button class=\"ds-index-link\">Market Watch</button></div></nav>",
+      "css": ".ds-index { background: #F7F4EA; border-top: 1px solid #1A1815; border-bottom: 1px solid #1A1815; } .ds-index-inner { display: flex; justify-content: center; flex-wrap: wrap; } .ds-index-link { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; letter-spacing: 0.13em; text-transform: uppercase; background: none; border: none; border-right: 1px solid #D9D3C2; color: #6E6A5E; padding: 11px 15px; cursor: pointer; position: relative; white-space: nowrap; border-radius: 0; transition: color .15s ease; } .ds-index-link:last-child { border-right: none; } .ds-index-link:hover { color: #1A1815; } .ds-index-link:focus-visible { outline: 2px solid #856420; outline-offset: -2px; } .ds-index-link.ds-active { color: #1A1815; font-weight: 700; } .ds-index-link.ds-active::after { content: \"\"; position: absolute; left: 15px; right: 15px; bottom: 5px; height: 2px; background: #856420; }"
+    },
+    {
+      "name": "Skim List",
+      "kind": "custom",
+      "refersTo": "skim",
+      "description": "The 30-Second Skim: a mono gold numeral against a serif sentence, hairline-separated, under a tailed block label.",
+      "html": "<div class=\"ds-skim\"><h2 class=\"ds-block-label\">The 30-Second Skim</h2><ol class=\"ds-skim-list\"><li><span class=\"ds-skim-num\">01</span><span class=\"ds-skim-text\">Houthi forces completed their capture of Yemen&rsquo;s entire Red Sea coast after seizing the port of Mocha.</span></li><li><span class=\"ds-skim-num\">02</span><span class=\"ds-skim-text\">Wall Street snapped a four-day losing streak as oil retreated from the week&rsquo;s highs.</span></li></ol></div>",
+      "css": ".ds-skim { font-family: Georgia, \"Iowan Old Style\", serif; color: #1A1815; max-width: 640px; } .ds-block-label { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; font-weight: 700; letter-spacing: 0.17em; text-transform: uppercase; margin: 0; display: flex; align-items: center; gap: 16px; white-space: nowrap; } .ds-block-label::after { content: \"\"; height: 1px; background: #D9D3C2; flex: 1; } .ds-skim-list { list-style: none; margin: 18px 0 0; padding: 0; display: flex; flex-direction: column; } .ds-skim-list li { display: flex; gap: 18px; align-items: baseline; padding: 13px 0; border-bottom: 1px solid #D9D3C2; } .ds-skim-list li:last-child { border-bottom: none; } .ds-skim-num { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; color: #856420; flex: none; font-variant-numeric: tabular-nums; letter-spacing: 0.06em; } .ds-skim-text { font-size: 16.5px; line-height: 1.55; }"
+    },
+    {
+      "name": "Fixture Row",
+      "kind": "list-item",
+      "refersTo": "story-card",
+      "description": "Fixtures Ahead inside Sports: a row list rather than cards, hairline above each row, accent sport label and mono date.",
+      "html": "<div class=\"ds-fixture-list\" style=\"--accent:#A8482C\"><div class=\"ds-fixture\"><span class=\"ds-fixture-sport\">Cricket</span><a class=\"ds-fixture-main\" href=\"#\"><span class=\"ds-fixture-headline\">India v England, third Test at Lord&rsquo;s</span><span class=\"ds-fixture-body\">Series level at 1-1 after a Leeds collapse.</span></a><span class=\"ds-fixture-when\">Sep 15-19</span></div></div>",
+      "css": ".ds-fixture-list { display: flex; flex-direction: column; font-family: Georgia, \"Iowan Old Style\", serif; color: #1A1815; max-width: 620px; } .ds-fixture { display: grid; grid-template-columns: 104px 1fr auto; gap: 18px; align-items: baseline; padding: 15px 0; border-top: 1px solid #D9D3C2; } .ds-fixture:last-child { border-bottom: 1px solid #D9D3C2; } .ds-fixture-sport { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); } .ds-fixture-main { text-decoration: none; color: inherit; } .ds-fixture-headline { display: block; font-size: 17px; line-height: 1.3; margin-bottom: 4px; } .ds-fixture-main:hover .ds-fixture-headline { text-decoration: underline; text-underline-offset: 3px; } .ds-fixture-body { display: block; font-size: 14px; line-height: 1.55; color: #3A362D; } .ds-fixture-when { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #6E6A5E; white-space: nowrap; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search-input",
+      "description": "The archive's only input: a serif field with no box, on an ink underline that turns gold on focus.",
+      "html": "<div class=\"ds-search-row\"><svg class=\"ds-search-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input class=\"ds-search-input\" type=\"text\" placeholder=\"Search every edition &mdash; a company, a country, a person\"></div>",
+      "css": ".ds-search-row { position: relative; display: flex; align-items: center; max-width: 560px; } .ds-search-icon { position: absolute; left: 0; width: 16px; height: 16px; color: #6E6A5E; pointer-events: none; } .ds-search-input { width: 100%; padding: 13px 34px 13px 28px; border: none; border-bottom: 1px solid #1A1815; border-radius: 0; background: none; color: #1A1815; font-family: Georgia, \"Iowan Old Style\", serif; font-size: 19px; } .ds-search-input::placeholder { color: #6E6A5E; } .ds-search-input:focus { outline: none; border-bottom-color: #856420; }"
+    },
+    {
+      "name": "Pager",
+      "kind": "nav",
+      "refersTo": "pager-num-active",
+      "description": "Windowed pagination on the archive — 1 ... 4 5 [6] 7 8 ... 40 — in hairline-bordered mono squares.",
+      "html": "<nav class=\"ds-pager\"><button class=\"ds-pager-btn\" disabled>&larr; Prev</button><button class=\"ds-pager-num\">1</button><span class=\"ds-pager-ellipsis\">&hellip;</span><button class=\"ds-pager-num ds-active\">6</button><button class=\"ds-pager-num\">7</button><button class=\"ds-pager-btn\">Next &rarr;</button></nav>",
+      "css": ".ds-pager { display: flex; align-items: center; justify-content: center; gap: 4px; flex-wrap: wrap; } .ds-pager-btn, .ds-pager-num { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1A1815; background: none; border: 1px solid #D9D3C2; border-radius: 0; padding: 8px 13px; cursor: pointer; transition: border-color .15s ease, background .15s ease; } .ds-pager-num { padding: 8px 11px; min-width: 36px; font-variant-numeric: tabular-nums; } .ds-pager-btn:hover:not(:disabled), .ds-pager-num:hover:not(.ds-active) { border-color: #1A1815; } .ds-pager-num.ds-active { background: #1A1815; border-color: #1A1815; color: #F7F4EA; cursor: default; } .ds-pager-btn:disabled { opacity: 0.35; cursor: default; } .ds-pager-btn:focus-visible, .ds-pager-num:focus-visible { outline: 2px solid #856420; outline-offset: 2px; } .ds-pager-ellipsis { padding: 8px 3px; color: #6E6A5E; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; }"
+    },
+    {
+      "name": "Brand Bar",
+      "kind": "nav",
+      "refersTo": "index-link",
+      "description": "The publication's spine: ink in both themes, carrying the dL mark, the tracked brand word, a context note and the theme toggle.",
+      "html": "<div class=\"ds-brand-bar\"><a class=\"ds-brand-word\" href=\"#\"><svg class=\"ds-mark\" viewBox=\"11 3 43 58\" fill=\"currentColor\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3.6a5 7.4 0 1 0 0 14.8 5 7.4 0 1 0 0-14.8Z\"/><rect x=\"37.5\" y=\"40\" width=\"14.5\" height=\"4\"/><rect x=\"30\" y=\"5\" width=\"7.5\" height=\"54\"/></svg><span>The Date Line</span></a><div class=\"ds-brand-spacer\"></div><a class=\"ds-brand-back\" href=\"#\">All editions &rarr;</a><button class=\"ds-theme-toggle\" aria-label=\"Switch between light and dark\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4\"/></svg></button></div>",
+      "css": ".ds-brand-bar { background: #1A1815; color: #F7F4EA; padding: 10px 34px; display: flex; align-items: center; gap: 11px; } .ds-mark { height: 21px; width: auto; display: block; flex: none; } .ds-brand-word { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; font-weight: 700; letter-spacing: 0.17em; text-transform: uppercase; text-decoration: none; color: inherit; white-space: nowrap; display: flex; align-items: center; gap: 11px; } .ds-brand-spacer { flex: 1; } .ds-brand-back { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; letter-spacing: 0.08em; color: inherit; text-decoration: none; white-space: nowrap; opacity: .72; } .ds-brand-back:hover { opacity: 1; text-decoration: underline; text-underline-offset: 3px; } .ds-theme-toggle { flex: none; width: 28px; height: 28px; border: 1px solid rgba(247,244,234,.24); border-radius: 0; background: transparent; color: inherit; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; transition: background .15s ease; } .ds-theme-toggle svg { width: 14px; height: 14px; } .ds-theme-toggle:hover { background: rgba(247,244,234,.12); } .ds-theme-toggle:focus-visible { outline: 2px solid #C9A24E; outline-offset: 2px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Personal Wire Service",
+    "overview": "The Date Line is a one-reader newswire that has been set with broadsheet care. It reads as if a wire desk printed a single edition for a single subscriber: a dateline stamp, a centred nameplate, a LEAD marker, eight numbered sections. The page refuses the obvious newspaper pastiche — cream card stock, coloured pills, drop shadows on rounded tiles — and gets its authority instead from division of labour between exactly two type faces and from rules drawn in ink.\n\nEverything mechanical is monospace: the dateline, the story numerals, the section index, the CONTINUING tag, the ticker chip, READ MORE, the edition and read-time meta, the colophon. Everything readable is serif: the nameplate, every headline, the skim, every sentence of body copy. There is no third face anywhere in the build, and no web font at all — the single-self-contained-file constraint means system stacks only, so the stacks themselves are the brand.\n\nLight and dark are equal citizens, not a light design with a night filter bolted on. Every ground, hairline, text tone, gold and section accent ships a light value and a dark value; the theme is written to data-theme on <html> by an inline pre-paint script so the correct world is already on screen at first paint. This is a product decision made visible: the page is read on a phone at dawn.",
+    "keyCharacteristics": [
+      "Two faces and no third: monospace for machinery, serif for reading.",
+      "Zero shadows, zero corner radius; hierarchy is rules, weight and space.",
+      "Eight section accents, each with a light and a dark value, delivered through one --accent variable.",
+      "A publication gold that belongs to the masthead and the LEAD alone.",
+      "Story cards flow in CSS columns, so short and long stories pack like a printed page.",
+      "A story with no verified photograph renders text-led — no empty image well."
+    ],
+    "rules": [
+      { "name": "The Gold Belongs To The Paper Rule", "body": "Gold marks the publication itself — dateline rails, LEAD, skim numerals, focus and selection. It is never a section's colour, and a section may never borrow it.", "section": "colors" },
+      { "name": "The Accent Is A Rule, Not A Surface Rule", "body": "Section colour is spent on 1–2px rules and 11px mono labels. It fills exactly one element in the whole system — the CONTINUING tag — and gold fills exactly one — the LEAD marker. Adding a third filled accent element breaks the page.", "section": "colors" },
+      { "name": "The Both-Grounds Rule", "body": "No colour enters the system without a dark-mode partner. A hard-coded hex inside a component rule is a bug, with two sanctioned exceptions already in the build: the ink brand bar, and #15140F used as the text colour on gold fills in dark mode.", "section": "colors" },
+      { "name": "The Two Faces Rule", "body": "Monospace carries every piece of machinery; serif carries every piece of reading. There is no third face and no web font. If a new element is neither apparatus nor prose, decide which it is before styling it.", "section": "typography" },
+      { "name": "The Tabular Numerals Rule", "body": "Every mono numeral that sits in a column or a stamp sets font-variant-numeric: tabular-nums — dateline, standfirst, story numerals, fixture dates, edition dates, pager.", "section": "typography" },
+      { "name": "The Weight Ceiling Rule", "body": "Serif never goes above 400. Emphasis comes from size, rules and space. Mono uses exactly two weights: 700 for labels, 400 for meta.", "section": "typography" },
+      { "name": "The One Measure Rule", "body": "Every band — bar, masthead, lead, index, skim, section, colophon — is 1120px wide with the same gutter. Nothing runs full-bleed except the ink brand bar's background.", "section": "layout" },
+      { "name": "The Printed Surface Rule", "body": "No box-shadow for elevation, no blur, no scrim, no glass. If an element needs separation, give it a hairline or a change of ground.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do decide first whether a new element is machinery or reading, then give it the mono label/meta role or the serif headline/body role. Nothing sits between.",
+      "Do reach section colour through var(--accent); a section-specific selector in a component rule is a mistake the [data-section] mapping exists to prevent.",
+      "Do give every new colour both a light and a dark value in the same edit.",
+      "Do separate things with a hairline (var(--hair)) or a change of ground, at 1px, 2px for a section head, 2.5px/1px for the masthead close.",
+      "Do set font-variant-numeric: tabular-nums on any mono numeral that sits in a column or a stamp.",
+      "Do make the same token edit in both skill/scripts/render_briefing.py and skill/assets/index_template.html. The no-build-step rule means there is nowhere shared for tokens to live, so the :root block is duplicated verbatim between the two files. This is the system's main maintenance hazard: a token changed in one file only will silently split the archive from the editions. Diff the two :root blocks before committing any palette or type change.",
+      "Do keep the eight sections in their fixed order — World, Sports (with Fixtures Ahead), Business & Markets, AI & Technology, Geopolitics, Market Watch, Country Updates, Doha Events — topped by the 30-Second Skim, and keep ACCENT_MAP, PILLS, the archive's TOPICS array and skill/references/research-guide.md in sync when anything about that set changes.",
+      "Do keep every page a single self-contained HTML file: inline CSS and JS, no external stylesheet, no build step, no web font. Hotlinked article images are the only exception, upgraded to https:// before they are emitted.",
+      "Do test both themes and a phone width for every change; the theme is set pre-paint from localStorage['dateline-theme'], so a change that only looks right in light is half-built."
+    ],
+    "donts": [
+      "Don't introduce a third type family, a web font, or a serif weight above 400.",
+      "Don't add a box-shadow for elevation or a border-radius to any interface element. The one rounded form in the system is the app-icon tile; the one shadow is the search highlighter.",
+      "Don't fill a shape with a section accent. The CONTINUING tag is the only accent fill and the LEAD marker is the only gold fill; a third filled marker flattens the distinction both rely on.",
+      "Don't give gold to a section, or borrow a section accent for masthead furniture.",
+      "Don't replace the column flow with a CSS grid; a row sized to its tallest card is exactly the hole the columns exist to avoid.",
+      "Don't render an empty or placeholder image well for a story with no photograph — let the card go text-led.",
+      "Don't render a share price, percentage move, position size or share count anywhere in Market Watch, and don't add any visual element (sparkline, numeric badge, delta arrow) that would require one.",
+      "Don't substitute a glyph or emoji for the dL mark, and don't redraw the mark per theme — it is currentColor by design.",
+      "Don't add a kicker or eyebrow label above a headline as a new pattern. The archive's \"Latest edition\" line is a carried defect, not a component to copy."
+    ]
+  }
+}

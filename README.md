@@ -1,7 +1,11 @@
-# Ankit's Morning Briefing — Archive
+# The Date Line — Archive
 
-A daily news digest for Ankit, researched and published automatically each
-morning (7am Asia/Qatar). Live at **https://db.labs.tocn.ai**
+Ankit's morning briefing: a daily news digest researched and published
+automatically each morning (7am Asia/Qatar). Live at
+**https://db.labs.tocn.ai**
+
+The design system and brand guideline live in `DESIGN.md`; product truth
+(who it is for, what must never change) lives in `PRODUCT.md`.
 
 ## Layout
 
