@@ -1,0 +1,329 @@
+{
+  "skim": [
+    "Typhoon Dujuan&rsquo;s Japan death toll rose to four as record rainfall triggered a landslide search for six missing people, while Cisco Talos disclosed the first known malware that lets a four-model AI committee vote on its own hacking decisions.",
+    "Trump told the UN General Assembly he must decide whether to &lsquo;annihilate&rsquo; Iran or let it rebuild under a deal, hours after Iran signalled it could reopen the Strait of Hormuz within seven days if Washington eases pressure.",
+    "Meta&rsquo;s Muse AI agent hit No. 1 on the App Store and pulled PayPal into its checkout network, powering a chip-stock rally, even as OpenAI and xAI both slashed their AI pricing the same day.",
+    "Paramount settled a 12-state lawsuit clearing its $111 billion Warner Bros. Discovery takeover, and India&rsquo;s women cricketers thrashed Sri Lanka by 147 runs for a maiden Asian Games gold.",
+    "Cyclone Arnab bears down on India&rsquo;s east coast tonight, Qatar&rsquo;s Amir called the Gulf crisis &lsquo;one of the most dangerous phases&rsquo; the region has faced, and Erdogan&rsquo;s UN remarks on Kashmir drew a sharp rebuke from Delhi."
+  ],
+  "sections": [
+    {
+      "key": "world",
+      "title": "World",
+      "icon": "news",
+      "stories": [
+        {
+          "headline": "Typhoon Dujuan&rsquo;s Japan Toll Rises to Four as Record Rains Trigger Landslide Searches",
+          "body": "Typhoon Dujuan has killed at least four people in Japan &mdash; three in Chiba Prefecture and one in the Kanagawa region &mdash; and injured 22, with six more missing after landslides prompted search operations, per the Taipei Times (Sep 23). More than 45,000 households in Chiba lost power and over 460 houses were damaged; Oshima island logged 832mm of rain in 48 hours, more than double September&rsquo;s average, while Tokyo&rsquo;s Edogawa Ward hit a record 282.5mm in 24 hours. Scientists note that &ldquo;a warmer atmosphere holds more water,&rdquo; intensifying the risk such storms pose as they track north.",
+          "img": "https://img.taipeitimes.com/images/2026/09/23/p01-260923-320.jpg",
+          "url": "https://www.taipeitimes.com/News/front/archives/2026/09/23/2003864735",
+          "continues": true
+        },
+        {
+          "headline": "Bangladesh&rsquo;s Measles Toll Passes 1,065 as Outbreak Enters Seventh Month",
+          "body": "Bangladesh&rsquo;s measles death toll climbed to 1,065 after two more children died in the 24 hours to Sep 22, with 1,257 new suspected cases logged and the cumulative suspected caseload reaching 182,292 since mid-March, per The Business Standard (Sep 22). Confirmed lab-verified infections stand at 20,738, with 160,980 patients hospitalized to date and 154,510 recovered. The Directorate General of Health Service reported the fresh cases as the catch-up vaccination drive continues to trail the outbreak&rsquo;s spread.",
+          "img": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/07/04/measles.jpg",
+          "url": "https://www.tbsnews.net/bangladesh/measles-death-toll-reaches-1065-2-more-children-die-24-hours-1550366",
+          "continues": true
+        },
+        {
+          "headline": "Moroccans Vote Today After Deadly Youth Protests and Mass Migration Attempts Shadowed the Campaign",
+          "body": "Morocco holds parliamentary elections Sep 23, with 7,288 candidates from 27 parties competing for 395 seats and roughly 15.8 million of 26.7 million eligible voters registered &mdash; a 9.7% decline since 2021 &mdash; per Arab News (Sep 22). The vote follows deadly Gen Z protests in 2025 over youth unemployment (37% among 15-to-29-year-olds) and July&rsquo;s mass crossing into Spain&rsquo;s Ceuta enclave that left dozens dead. &ldquo;Following the Gen Z movement, if young people&rsquo;s voices are truly heard, change will happen,&rdquo; said 23-year-old voter Ayoub Belaidi.",
+          "img": "https://assets.maestronewsroom.com/media/system/proxies/5311a86d-a83b-4208-8b5e-330248619bce.webp",
+          "url": "https://www.arabnews.com/middle-east/morocco-holds-elections-after-mass-migration-attempts-and-deadly-youth-protests-heres-what-to-know-3002673",
+          "continues": true
+        }
+      ]
+    },
+    {
+      "key": "sports",
+      "title": "Sports",
+      "icon": "trophy",
+      "stories": [
+        {
+          "headline": "India&rsquo;s Women Thrash Sri Lanka by 147 Runs for Maiden Asian Games Cricket Gold",
+          "body": "India&rsquo;s women&rsquo;s cricket team beat Sri Lanka by 147 runs in the Asian Games gold-medal match at Korogi Sports Park, posting 216/3 before bowling Sri Lanka out for just 69, per ICC (Sep 22). Smriti Mandhana top-scored with 79 off 45 balls and Richa Ghosh smashed 49 off 22, while Deepti Sharma took 3 wickets and Shafali Verma, Sree Charani and Shreyanka Patil claimed two apiece to seal India&rsquo;s first-ever Asian Games gold in the sport.",
+          "img": "https://images.icc-cricket.com/image/upload/t_ratio21_9-size30-webp/prd/ptxn2dufg6lrxneelmyf",
+          "url": "https://www.icc-cricket.com/news/india-beat-sri-lanka-to-claim-asian-games-gold",
+          "continues": true
+        },
+        {
+          "headline": "AC Milan Toast San Siro&rsquo;s 100th Birthday With Rout as Roma, Inter and Lazio Share the Lead",
+          "body": "AC Milan beat Lecce 3-0 at San Siro on the stadium&rsquo;s 100th anniversary, with Christian Pulisic, Adrien Rabiot and Diego Moreira on the scoresheet, per Serie A matchday-five results (Sep 20). Elsewhere, Roma and Inter drew 2-2 to end four-game winning streaks apiece, leaving Roma, Inter and Lazio &mdash; 2-0 winners over Venezia &mdash; tied atop the table on 13 points, with Roma&rsquo;s Donyell Malen the division&rsquo;s top scorer on six goals.",
+          "img": "https://icdn.sempremilan.com/wp-content/uploads/2026/09/ac-milan-v-us-lecce-serie-a-2026-27-5.jpg",
+          "url": "https://sempremilan.com/ac-milan-3-0-lecce-match-report-2026-27",
+          "continues": false
+        },
+        {
+          "headline": "McLaren Flags &lsquo;Three Essentials&rsquo; for Baku as Verstappen Chases End to 14-Race Drought",
+          "body": "McLaren says confidence, precision and disciplined execution will be essential at this week&rsquo;s Azerbaijan Grand Prix, bringing floor and rear-tyre aerodynamic upgrades for a circuit that pairs F1&rsquo;s longest straight with its tightest corners, per RacingNews365 (Sep 22). Technical chief Rob Marshall warned that &ldquo;a small mistake can lead to significant repairs, lost track time and resources being diverted away from performance,&rdquo; recalling Oscar Piastri&rsquo;s qualifying crash there last year, while Max Verstappen returns to the track he dominated in 2025 still without a win in his last 14 races.",
+          "img": "https://cdn.racingnews365.com/2024/Norris/XPB_1296653_HiRes.jpg",
+          "url": "https://racingnews365.com/mclaren-call-on-lando-norris-and-oscar-piastri-to-execute-three-essentials-in-baku",
+          "continues": true
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "title": "Business & Markets",
+      "icon": "chart",
+      "stories": [
+        {
+          "headline": "Nasdaq Hits Fresh Record as Muse-Driven Chip Rally Meets an Oil Slide on Iran&rsquo;s Hormuz Signal",
+          "body": "The Nasdaq closed at a second straight record Tuesday, up 0.45%, while the Dow slipped 0.36%, as Meta&rsquo;s Muse AI agent added roughly $192 billion to the company&rsquo;s market cap and fed a broader chip-stock rally, per Yahoo Finance (Sep 22). Crude fell sharply after reports that Iran signalled it could reopen the Strait of Hormuz within a week, with WTI dropping 2.92% to $89.67 and Brent briefly slipping below $100; Viking Therapeutics also jumped 25% on strong obesity-drug trial results.",
+          "img": "https://d29szjachogqwa.cloudfront.net/images/2026-09/37f22e80-6f8b-4044-abe4-f5cd6fdce5b9",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-22-nasdaq-dow-sp-500-080625961.html",
+          "continues": false
+        },
+        {
+          "headline": "Paramount Settles 12-State Lawsuit, Clearing Path to Close $111 Billion Warner Bros. Discovery Deal",
+          "body": "Paramount Skydance has reached a settlement with the coalition of 12 state attorneys general who had sued to block its takeover of Warner Bros. Discovery, removing the legal obstacle that threatened the merger, per NPR (Sep 22). The settlement follows Paramount&rsquo;s concessions to run Warner Bros. and Paramount Pictures as separate studios and shield CNN&rsquo;s newsroom from corporate editorial interference, clearing the way for the $111 billion deal to close.",
+          "img": null,
+          "url": "https://www.npr.org/2026/09/22/nx-s1-5977050/paramount-settles-lawsuit-with-12-states-over-warner-bros-discovery-merger",
+          "continues": true
+        },
+        {
+          "headline": "Chinese Gold Imports Top 1,000 Tonnes Through August, Already Exceeding All of 2025",
+          "body": "Gold held near $4,370-4,380 an ounce Tuesday even after the Fed&rsquo;s recent rate hike, supported by Chinese demand that has pushed the country&rsquo;s gold imports past 1,000 tonnes through August &mdash; more than the whole of 2025 &mdash; per Yahoo Finance (Sep 22). &ldquo;The yuan has remained strong since the beginning of this year, creating favourable conditions for gold imports,&rdquo; said Jinrui Futures analyst Zijie Wu.",
+          "img": "https://s.yimg.com/lo/mysterio/api/d8535668fc821c8cbb0f94bbee34423f4e7910216511576dd61ad9681ca2a54f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Ftuesday.png",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-september-22-2026-gold-prices-holding-as-chinese-gold-imports-set-record-104326063.html",
+          "continues": true
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "AI & Technology",
+      "icon": "cpu",
+      "stories": [
+        {
+          "headline": "Cisco Talos Finds First Malware That Lets a Four-Model AI Committee Vote on Its Own Attacks",
+          "body": "Cisco Talos researchers disclosed ClosedQuorum, a Go-based Windows implant that puts tactical command-and-control decisions to a vote among four AI models &mdash; Google Gemini, DeepSeek, Qwen and Mistral, with DeepSeek breaking ties &mdash; rather than waiting on a human operator, per BleepingComputer (Sep 22). The models choose autonomously between stealing credentials and crypto-wallets, injecting shellcode, establishing persistence or lateral movement, with stolen data routed out through Discord webhooks; Talos called it &ldquo;an architectural shift towards attack-chain automation,&rdquo; though it remains unclear whether the malware has been deployed against real targets.",
+          "img": "https://www.bleepstatic.com/content/hl-images/2025/10/21/Robot.jpg",
+          "url": "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
+          "continues": false
+        },
+        {
+          "headline": "Meta&rsquo;s Muse Hits No. 1 on the App Store as PayPal Joins Its Checkout Network",
+          "body": "Meta&rsquo;s Muse AI shopping agent has racked up 2.8 million downloads in the US and Canada in its first 12 days and topped Apple&rsquo;s free app charts, and PayPal has now joined Stripe and Shopify in letting Muse check out across its merchant network, sending PYPL up 2% and Shopify up over 7%, per Yahoo Finance (Sep 22). The agent&rsquo;s momentum is also feeding a CPU-demand bet that has lifted Arm, Intel and AMD this week &mdash; even as Amazon continues to block Muse from browsing or buying on its own site.",
+          "img": "https://techcrunch.com/wp-content/uploads/2026/09/download-1.webp",
+          "url": "https://finance.yahoo.com/technology/ai/articles/paypal-joins-meta-muse-checkout-162220957.html",
+          "continues": true
+        },
+        {
+          "headline": "OpenAI Cuts API Prices in Half With New GPT-6 Sol and Luna Models",
+          "body": "OpenAI launched GPT-6 Sol and Luna at half the price of its prior 5.6-series models &mdash; $2/$10 per million tokens versus $4/$20 &mdash; with Sol aimed at complex coding work and Luna at high-volume clerical tasks, per TechCrunch (Sep 22). The company says Sol &ldquo;makes about half as many mistakes as its predecessor, reaching Astra-level reliability at much lower cost,&rdquo; crediting improved caching and inference; Luna rolls out free to all users while Sol arrives in ChatGPT Work, Codex and the API.",
+          "img": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg",
+          "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+          "continues": false
+        },
+        {
+          "headline": "xAI Undercuts Musk&rsquo;s Own AI-Slowdown Pledge With Grok 4.7&rsquo;s Aggressive Pricing",
+          "body": "Nine days after Elon Musk publicly endorsed an industry slowdown framework, saying &ldquo;Dario is right,&rdquo; xAI shipped Grok 4.7 at $2/$6 per million input/output tokens &mdash; about 80% cheaper than rivals Claude Fable 5.1 and GPT-6 Astra &mdash; per Forkast (Sep 21). The 500,000-token-context model cut its standard jailbreak-compliance rate from 0.73% in the prior version to 0.01%, and is now available on Cursor, OpenRouter, Vercel and Cloudflare alongside xAI&rsquo;s own API.",
+          "img": "https://forkast.news/wp-content/uploads/2026/09/grok-47-pricing-break-from-pact-1024x687.jpg",
+          "url": "https://forkast.news/nine-days-after-musk-endorsed-a-slowdown-xai-ships-a-model-that-undercuts-the-slowdown-by-80/",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "geopolitics",
+      "title": "Geopolitics",
+      "icon": "globe",
+      "stories": [
+        {
+          "headline": "Trump Tells UN He Must Decide Whether to &lsquo;Annihilate&rsquo; Iran, Calls on Nations to Quit the ICC",
+          "body": "In his UN General Assembly address, Trump said &ldquo;I have a big decision to make: Will a deal be made with Iran that lets them rebuild&hellip;or do I annihilate the Islamic Republic, and do it quickly?&rdquo; per Axios (Sep 22). He also called on &ldquo;all nations&rdquo; that belong to the International Criminal Court to quit the court, and claimed Iran was stalling talks to see the outcome of November&rsquo;s US midterm elections, insisting that timeline would not change his own decision-making.",
+          "img": "https://images.axios.com/NuFMTKqCv1uXYdjjhnZhgpnaBgs=/0x135:8256x4779/1366x768/2026/09/22/1790087987914.jpeg",
+          "url": "https://www.axios.com/2026/09/22/trump-speech-un-general-assembly-iran-annihilate",
+          "continues": true
+        },
+        {
+          "headline": "Iran Signals It Could Reopen Strait of Hormuz Within Seven Days if US Eases Pressure",
+          "body": "A senior Iranian official told Kyodo News and Reuters that Iran could reopen the Strait of Hormuz within seven days if Washington eases military pressure, lifts its blockade on Iranian ports and shows readiness to resume negotiations, per Traders Agency (Sep 22). The official said there is &ldquo;a possibility of moving toward an agreement&rdquo; if the US demonstrates &ldquo;seriousness and commitment,&rdquo; building on a seven-point proposal Iran presented Sep 19; the report could not be independently verified and drew no confirmed US response by publication time.",
+          "img": "https://tradersagency.com/_images/a6c61b739725ab68-1200.webp",
+          "url": "https://tradersagency.com/blog/iran-signals-hormuz-could-reopen-within-seven-days-if-us-eases-pressure-oil-slips-to-two-week-low",
+          "continues": true
+        },
+        {
+          "headline": "Zelensky Says Ukraine Ready for Energy Truce With Russia After 40-Minute Trump Talks",
+          "body": "Zelensky said Ukraine would halt strikes on Russian energy facilities if Moscow reciprocates, following a 40-minute meeting with Trump at the UN General Assembly, per Al Jazeera (Sep 23). &ldquo;We are ready for energy ceasefire. If they don&rsquo;t want us to attack their diesel and refineries, and etc, we are ready &mdash; if they will not attack our energy system,&rdquo; Zelensky said, while cautioning there was no agreement for Ukraine to unilaterally halt strikes on Russian oil operations and warning Russia was preparing a major new offensive before winter.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/AFP__20260922__C92T693__v1__HighRes__MeetingBetweenUkrainianPresidentVolodymyrZelens-1790114322.jpg",
+          "url": "https://www.aljazeera.com/news/2026/9/23/zelenskyy-says-ukraine-ready-for-energy-truce-with-russia-after-trump-talks",
+          "continues": true
+        },
+        {
+          "headline": "France and Canada Press for Gaza Aid Access and Palestinian Statehood at UNGA",
+          "body": "French President Macron told the UN General Assembly that &ldquo;there are those who claim that peace has been achieved, but this has not opened the way for humanitarian aid deliveries. This sight is shameful,&rdquo; while Canadian PM Mark Carney pledged a further CA$100 million ($71 million) in aid &mdash; 80% humanitarian, 20% for peace and security initiatives &mdash; bringing Canada&rsquo;s pledges since the war began past CA$600 million, per Al Jazeera (Sep 23). Both leaders also criticized Israel&rsquo;s E1 settlement project, as the Board of Peace prepared to brief dozens of countries on Gaza reconstruction Sep 23 with 71 rebuilding projects still lacking a start date.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6ab321fb-1790124539.jpg",
+          "url": "https://www.aljazeera.com/news/2026/9/23/canada-pledges-aid-for-palestine-as-uk-and-france-demand-action-at-unga",
+          "continues": true
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "sport": "Cricket",
+      "headline": "India Open ODI Series vs West Indies in Thiruvananthapuram",
+      "body": "India begin a three-match ODI series against West Indies on Sep 27, with Shubman Gill captaining a squad that retains Rohit Sharma and Virat Kohli while controversially omitting Rishabh Pant, who instead captains Rest of India in the Irani Cup, and Hardik Pandya.",
+      "url": "https://www.business-standard.com/amp/cricket/news/india-odi-squad-vs-wi-rohit-keeps-his-place-jurel-preferred-over-pant-126091601327_1.html",
+      "when": "Sep 27"
+    },
+    {
+      "sport": "Wheelchair Rugby League",
+      "headline": "England Open World Cup Title Defence in Australia",
+      "body": "England&rsquo;s wheelchair rugby league squad, captained by Lewis King and including Jack Brown, Rob Hawkins and Finlay O&rsquo;Neill, open their World Cup title defence against Wales in Wollongong.",
+      "url": "https://morningstaronline.co.uk/article/sport-brief-september-22-2026",
+      "when": "Oct 30"
+    }
+  ],
+  "portfolio": [
+    {
+      "ticker": "TWLO",
+      "headline": "Twilio Jumps as Analysts Bet on Consumer AI-Agent Growth",
+      "body": "Rosenblatt raised its Twilio price target to $290 from $275 and TD Cowen lifted its target to $300 from $260, arguing consumer AI agents could make Twilio &ldquo;a significant new communications and identity layer&rdquo; and that AI-generated voice traffic looks additive rather than cannibalistic to its existing business. The moves follow Twilio&rsquo;s Q2 beat of $1.50 billion in revenue, up 22% year-over-year. Per Benzinga (Sep 22).",
+      "img": null,
+      "url": "https://www.benzinga.com/markets/large-cap/26/09/61929018/twilio-stock-jumps-as-analysts-see-ai-agents-dialing-up-growth",
+      "continues": false
+    },
+    {
+      "ticker": "ARM",
+      "headline": "Arm Rides Meta&rsquo;s Muse Into a Fresh CPU-Demand Bet",
+      "body": "Arm extended its rally as Meta&rsquo;s Muse agent reinforces investor bets that autonomous AI agents will need far more CPU capacity than expected, a read-through that has also lifted Intel and AMD this week. Because Arm licenses the instruction-set architecture behind most of the industry&rsquo;s chips and earns royalties on volume rather than running its own fabs, it captures demand across manufacturers rather than from any single customer win. Per 24/7 Wall St (Sep 21).",
+      "img": "https://247wallst.com/wp-content/uploads/2012/12/94073253.jpg",
+      "url": "https://247wallst.com/investing/2026/09/21/arm-surges-13-as-metas-muse-agent-reignites-cpu-demand-bet-intel-jumps-12-amd-climbs-9/",
+      "continues": true
+    },
+    {
+      "ticker": "FSLY",
+      "headline": "Fastly Gives Back Gains as Investor Day Meets Profit-Taking",
+      "body": "Fastly pulled back the session after its long-awaited Investor Day met rather than beat elevated expectations built up ahead of the event, even as the company reported 43% year-over-year growth in security revenue; rivals Cloudflare and Akamai both rose, suggesting the move was Fastly-specific rather than sector-wide. &ldquo;An event that meets those expectations rather than beating them gives holders a reason to take the gain,&rdquo; wrote 24/7 Wall St&rsquo;s David Moadel (Sep 22).",
+      "img": "https://247wallst.com/wp-content/uploads/2026/07/neocloud.jpg",
+      "url": "https://247wallst.com/investing/2026/09/22/fastly-tumbles-7-as-investor-day-meets-profit-taking-cloudflare-and-akamai-edge-higher/",
+      "continues": true
+    },
+    {
+      "ticker": "CDE",
+      "headline": "Coeur Mining Firms Up at an Invitation-Only Mining Forum",
+      "body": "Coeur Mining rose as it presented its diversified precious-metal and critical-mineral portfolio at the invitation-only Mining Forum Americas conference, against a backdrop of strong quarterly results including roughly $1.09 billion in revenue and a 41.8% gross margin. Per StocksToTrade (Sep 22).",
+      "img": "https://content.stockstotrade.com/wp-content/uploads/2026/09/cde-stock-firms-up-as-coeur-mining-showcases-assets-at-mining-forum.jpg",
+      "url": "https://stockstotrade.com/news/coeur-mining-inc-cde-news-2026_09_22-2/",
+      "continues": false
+    },
+    {
+      "ticker": "BYND",
+      "headline": "Beyond Meat Stays Volatile With No Fresh Company News",
+      "body": "Beyond Meat moved again with no company-specific announcement behind it, continuing the volatility that has followed its 1-for-30 reverse stock split last month as the plant-based meat maker works through weak growth and debt concerns. No clear catalyst was found for the session.",
+      "img": null,
+      "url": "https://www.fool.com/investing/2026/09/03/why-beyond-meat-stock-slumped-last-month/",
+      "continues": false
+    },
+    {
+      "ticker": "YOLO",
+      "headline": "Cannabis Names Rally Together Without a Specific Catalyst",
+      "body": "Cannabis-focused funds YOLO and MJ both jumped in tandem, tracking each other rather than responding to any single company or policy announcement identified for the session &mdash; a sector-wide move rather than a company-specific one.",
+      "img": null,
+      "url": "https://www.fool.com/investing/2026/09/22/2-cannabis-stocks-that-are-quietly-trouncing-the-m/",
+      "continues": false
+    }
+  ],
+  "country_groups": [
+    {
+      "label": "India",
+      "stories": [
+        {
+          "headline": "Cyclone Arnab to Make Landfall Tonight as IMD Issues Orange Alerts Across Six States",
+          "body": "A deep depression expected to intensify into Cyclone Arnab was tracking toward landfall between Visakhapatnam and Gopalpur by Wednesday night, per WION (Sep 23). Orange alerts cover 11 districts each in Andhra Pradesh and Odisha, with red alerts in Srikakulam and Vizianagaram; fishermen across West Bengal, Odisha and Bangladesh have been told to stay ashore until Friday and schools have closed in several Odisha districts, though Odisha Chief Secretary Anu Garg said the system &ldquo;could intensify into a deep depression, but not a cyclone,&rdquo; despite IMD forecasts.",
+          "img": "https://cdn1.wionews.com/prod/wion/images/2026/20260923/image-1790110055335.jpeg",
+          "url": "https://www.wionews.com/india-news/cyclone-arnab-landfall-expected-before-midnight-tomorrow-as-imd-issues-orange-alerts-across-six-states-1790110010899",
+          "continues": false
+        },
+        {
+          "headline": "Erdogan&rsquo;s Kashmir Remarks at UNGA Draw Sharp Rebuke From Delhi",
+          "body": "Turkish President Erdogan told the UN General Assembly that &ldquo;in South Asia, it is important that all disputes, including the Kashmir issue, be addressed through dialogue within the framework of the United Nations Charter,&rdquo; weeks after Turkey signed the Mecca Joint Defence Agreement with Pakistan and Saudi Arabia, per The Tribune (Sep 22). India&rsquo;s external affairs ministry spokesperson Randhir Jaiswal hit back that &ldquo;Pakistan has a habit of misrepresenting facts and propagating falsehoods to serve its malicious propaganda,&rdquo; reasserting that Jammu and Kashmir is an integral part of India and that &ldquo;talks and terror cannot go together.&rdquo;",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6ab2a909e015-1790093577.jpg",
+          "url": "https://www.tribuneindia.com/news/usa-news/days-after-mecca-pact-with-pakistan-turkish-president-erdogan-raises-kashmir-bogey-at-unga",
+          "continues": true
+        },
+        {
+          "headline": "Bank Unions Confirm Three-Day Nationwide Strike From September 28",
+          "body": "The United Forum of Bank Unions, which says it represents 90% of India&rsquo;s banking workforce, confirmed a three-day nationwide strike from Sep 28-30 after talks with the government failed, demanding a five-day banking week, pension reforms and a uniform dearness-allowance formula for pensioners, per The Print (Sep 22). The action coincides with banks&rsquo; half-yearly closing on Sep 30, and combined with the preceding weekend could disrupt banking services for five consecutive days.",
+          "img": null,
+          "url": "https://theprint.in/economy/bank-unions-to-go-ahead-with-3-day-nationwide-strike-from-sep-28/3050258/",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "stories": [
+        {
+          "headline": "Burnham Presses Two-State Solution at UNGA, Says Failure to Act Will &lsquo;Corrode Trust&rsquo;",
+          "body": "British PM Andy Burnham used his UN General Assembly address to defend the UK&rsquo;s ban on trade with Israeli settlement goods and to oppose Israel&rsquo;s E1 West Bank settlement expansion as blocking a two-state solution, per Al Jazeera (Sep 23). &ldquo;We all live in an era of low trust in politics&hellip;if we fail to back those words with deeds, we will further corrode trust,&rdquo; Burnham said, joining France and Canada in pressing for stronger action on Gaza reconstruction and humanitarian access.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6ab321fb-1790124539.jpg",
+          "url": "https://www.aljazeera.com/news/2026/9/23/canada-pledges-aid-for-palestine-as-uk-and-france-demand-action-at-unga",
+          "continues": true
+        }
+      ]
+    },
+    {
+      "label": "Qatar & the GCC",
+      "stories": [
+        {
+          "headline": "Qatar&rsquo;s Amir Calls Gulf Crisis &lsquo;One of the Most Dangerous Phases&rsquo; in UN Address",
+          "body": "Addressing the UN General Assembly, Sheikh Tamim bin Hamad Al-Thani said the US-Israeli conflict with Iran represents &ldquo;one of the most dangerous phases&rdquo; facing the region but remains solvable through diplomacy, per Al Jazeera (Sep 22). &ldquo;We remain convinced that the crisis in the Gulf can be resolved through diplomatic means, through reopening the Strait of Hormuz to maritime navigation,&rdquo; he said, positioning Qatar as a &ldquo;trusted mediator&rdquo; while also condemning Israeli actions in Gaza as &ldquo;genocide&rdquo; and calling for a regional collective security system.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-22T163815Z_1173335269_RC2GONAN3U8Q_RTRMADP_3_UN-ASSEMBLY-1790095198.jpg",
+          "url": "https://www.aljazeera.com/news/2026/9/22/qatars-emir-urges-diplomacy-as-gulf-at-one-of-the-most-dangerous",
+          "continues": true
+        },
+        {
+          "headline": "Qatar&rsquo;s PM Meets Iran&rsquo;s Foreign Minister on UNGA Sidelines to Push De-Escalation",
+          "body": "Qatar&rsquo;s Prime Minister and Foreign Minister Sheikh Mohammed bin Abdulrahman bin Jassim Al-Thani met Iranian Foreign Minister Abbas Araghchi on the sidelines of the 81st UN General Assembly, reviewing &ldquo;the latest developments in the region and ongoing efforts to de-escalate tensions and create conditions conducive to dialogue,&rdquo; per The Peninsula Qatar (Sep 22). The meeting came as Doha continued a packed run of bilateral diplomacy in New York.",
+          "img": "https://thepeninsulaqatar.com/get/maximage/20260922_1790096967-129.jpeg",
+          "url": "https://thepeninsulaqatar.com/article/22/09/2026/prime-minister-meets-iranian-foreign-minister-5",
+          "continues": true
+        },
+        {
+          "headline": "Saudi Arabia Prepares &lsquo;Very Sizeable Response&rsquo; as Houthi Attacks Intensify",
+          "body": "Saudi Arabia is preparing a large, coalition-coordinated response after a surge in Houthi attacks, with King&rsquo;s College London senior research fellow Nawaf Obaid saying &ldquo;there will be a very sizeable Saudi response,&rdquo; per Al Jazeera (Sep 20). The escalation follows Turkey and Pakistan&rsquo;s pledges of military support to Riyadh under last month&rsquo;s Mecca Joint Defence Agreement, as the UK has separately approved RAF refuelling support for Saudi jets flying defensive missions.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/image-1789896376.jpg",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/20/there-will-be-a-very-sizeable-saudi-response-to-houthi-attacks",
+          "continues": true
+        }
+      ]
+    }
+  ],
+  "doha_events": [
+    {
+      "headline": "International Ice Cream Show",
+      "body": "A free ice cream festival runs at the Oasis Stage, Mall of Qatar, from Sep 24 to Oct 3, per Qatar Living.",
+      "img": null,
+      "url": "https://www.qatarliving.com/en/article/events-to-check-out-in-qatar-this-week-september-20-27-2026"
+    },
+    {
+      "headline": "Dharohar &ndash; Suron Ki Amar Kahani",
+      "body": "A ticketed evening of Indian classical music and heritage storytelling takes place at Al Masa Ballroom, Holiday Inn, on Sep 24, with tickets via Q-Tickets, per Qatar Living.",
+      "img": null,
+      "url": "https://www.qatarliving.com/en/article/events-to-check-out-in-qatar-this-week-september-20-27-2026"
+    },
+    {
+      "headline": "Philharmonic at the Library",
+      "body": "A free classical concert (registration required) is held at Qatar National Library on Sep 24, per Qatar Living.",
+      "img": null,
+      "url": "https://www.qatarliving.com/en/article/events-to-check-out-in-qatar-this-week-september-20-27-2026"
+    },
+    {
+      "headline": "Salt & Sweat &ndash; Edition 2",
+      "body": "A beachside fitness-and-wellness event runs at Doha Beach Club over Sep 25-26, with tickets via Q-Tickets, per Qatar Living.",
+      "img": null,
+      "url": "https://www.qatarliving.com/en/article/events-to-check-out-in-qatar-this-week-september-20-27-2026"
+    },
+    {
+      "headline": "QPO Presents: Tchaikovsky&rsquo;s Romeo &amp; Juliet",
+      "body": "The Qatar Philharmonic Orchestra performs Tchaikovsky&rsquo;s Romeo and Juliet Fantasy Overture at the Opera House, Katara Cultural Village, on Sep 26, with tickets from QAR 175, per Qatar Living.",
+      "img": null,
+      "url": "https://www.qatarliving.com/en/article/events-to-check-out-in-qatar-this-week-september-20-27-2026"
+    }
+  ]
+}
