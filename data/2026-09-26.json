@@ -1,0 +1,398 @@
+{
+  "skim": [
+    "Typhoon Dujuan killed 12 in Japan and left 3 missing as a second storm, Surigae, threatens the Ryukyu Islands, while the CDC confirmed the US&rsquo;s first measles death of a record 3,659-case year.",
+    "Nationwide protests erupted across India over an alleged deletion of 130 million voters from the rolls, a federal appeals court upheld the Pentagon&rsquo;s blacklisting of Anthropic, and Microsoft unveiled its biggest-ever Copilot overhaul.",
+    "Oil reversed sharply on reports of a phased US-Iran deal to reopen the Strait of Hormuz, sending the Dow up 478 points, while Meta&rsquo;s Muse became the fastest-growing app launch in company history.",
+    "The US pushed for trilateral Russia-Ukraine talks in the UAE as Pakistan and Afghanistan traded air strikes along their border, and Trump held his first direct talks with Venezuela&rsquo;s acting president.",
+    "George Russell claimed a career-best pole in Baku ahead of today&rsquo;s Azerbaijan GP, Qatar condemned Houthi missile strikes on Saudi cities, and Doha&rsquo;s ice cream and Spanish food festivals run through early October."
+  ],
+  "sections": [
+    {
+      "key": "world",
+      "title": "World",
+      "icon": "news",
+      "stories": [
+        {
+          "headline": "Second Storm Bears Down on Japan as Typhoon Dujuan's Death Toll Hits 12",
+          "body": "Typhoon Dujuan tore through eastern Japan on Sep 21-22, leaving 12 dead &mdash; seven in Chiba, four in Kanagawa, one in Miyazaki &mdash; and three missing, after Oshima island logged an all-time station record of 832mm of rain in 48 hours, smashing the previous 2013 mark, per The Watchers (Sep 24). Landslides and embankment failures near Narita destroyed homes and cut power to tens of thousands as rescue crews combed a landslide site in Kamogawa, Chiba. Japan is now bracing for Tropical Storm Surigae, forecast to bring &ldquo;excessive rainfall and violent winds&rdquo; that &ldquo;may cause flash flooding and landslides&rdquo; across the Ryukyu Islands, including Okinawa, on Sep 26-28, prompting Canada to issue a travel warning, per 604 Now (Sep 24).",
+          "url": "https://watchers.news/2026/09/24/typhoon-dujuan-leaves-12-dead-and-3-missing-record-rain-floods-and-landslides-hit-japan/",
+          "continues": false,
+          "img": "https://watchers.news/wp-content/uploads/2026/09/Rescue-operatives-at-the-landslide-site-in-Kamogawa-City-Chiba-Prefecture-on-September-24-2026.webp"
+        },
+        {
+          "headline": "Nine Days Out, Brazil's Presidential Race Heads for a Runoff",
+          "body": "With Brazil&rsquo;s Oct 4 election nine days away, a new Datafolha poll shows President Luiz Inácio Lula da Silva at 40% support and Senator Flávio Bolsonaro at 36%, leaving both short of the majority needed to avoid a runoff, per MercoPress (Sep 25). The survey of 2,002 voters, taken Sep 22-23 with a 2-point margin of error, found Lula dominant in the Northeast (55% to 25%) while Bolsonaro leads among evangelicals (47% to 27%) and in the South (47% to 27%); a simulated Oct 25 runoff shows a statistical dead heat, 47% to 45%. Minor candidates Augusto Cury and Ronaldo Caiado trail far behind at 5% and 4% respectively.",
+          "url": "https://en.mercopress.com/2026/09/25/nine-days-from-the-vote-neither-brazilian-front-runner-comes-close-to-50",
+          "continues": false,
+          "img": "https://en.mercopress.com/data/cache/noticias/111571/600x315/bra.jpeg"
+        },
+        {
+          "headline": "US Measles Cases Hit Record 3,659 as CDC Confirms Year's First Death",
+          "body": "The US measles outbreak has grown to 3,659 confirmed cases as of Sep 24 &mdash; already topping 2025&rsquo;s full-year total of 2,289 and making 2026 the worst year for the disease since it was declared eliminated in 2000, per the CDC (updated Sep 25). The agency also logged its first nationally confirmed measles death of the year, a figure it cautions &ldquo;is subject to change&rdquo; as reviews continue, even as Pennsylvania alone has already recorded 835 cases, 164 hospitalizations and four deaths across 39 counties, per Contagion Live (Sep 25). Cases now span 47 jurisdictions, with 95% tied to active outbreaks and only 10 states meeting the 95% vaccination coverage needed for herd immunity.",
+          "url": "https://www.contagionlive.com/view/measles-update-september-25-2026",
+          "continues": false,
+          "img": "https://cdn.sanity.io/images/0vv8moc6/contagion/10a48b2c979fee8ca0cac35ff6f0cddbeb7c4651-1200x628.png"
+        },
+        {
+          "headline": "CRISPR Trial Offers New Way to Fight Blood Cancer Without Harming Healthy Cells",
+          "body": "Researchers at Washington University School of Medicine used CRISPR to delete the CD33 protein from donor stem cells before transplanting them into 30 adults with acute myeloid leukemia or myelodysplastic syndrome, achieving 100% engraftment by day 28, according to a trial published in Nature Medicine and reported by ScienceDaily (Sep 25). &ldquo;We are encouraged by the results ... showing that a CD33-deleted stem cell transplant looks very similar to the outcomes of standard stem cell transplantation,&rdquo; said Dr. John F. DiPersio, professor of medicine at the university&rsquo;s Siteman Cancer Center. Seven of the 30 patients died during the study &mdash; four from cancer progression, three from transplant complications &mdash; but the edited grafts could eventually let doctors target CD33-bearing cancer cells without destroying the donor graft itself.",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260924020408.htm",
+          "continues": false,
+          "img": "https://www.sciencedaily.com/images/1920/cancer-cell-amidst-red-blood-cells.webp"
+        }
+      ]
+    },
+    {
+      "key": "sports",
+      "title": "Sports",
+      "icon": "trophy",
+      "stories": [
+        {
+          "headline": "Russell Storms to Stunning Pole in Baku as Antonelli Crashes Out",
+          "body": "George Russell converted his practice pace into pole position for the Azerbaijan Grand Prix, lapping Baku City Circuit in 1:42.526 &mdash; a 0.837-second margin over Ferrari&rsquo;s Charles Leclerc that he called &ldquo;probably the biggest margin of my whole career, even including F2, F3 days,&rdquo; per Formula1.com (Sep 25). Mercedes teammate Kimi Antonelli crashed out at Turn 1 in Q1, wrecking his car and leaving him down in P16 for Saturday&rsquo;s race.",
+          "url": "https://www.formula1.com/en/latest/article/russell-charges-to-pole-position-as-antonelli-suffers-shock-exit-in-qualifying-for-azerbaijan-gp.6vFe7216mR8JZuWE4QIB4w",
+          "continues": true,
+          "img": "https://media.formula1.com/image/upload/t_16by9North/c_lfill,w_2048/q_auto/v1740000001/fom-website/2026/Azerbaijan/GettyImages-2297076069.webp"
+        },
+        {
+          "headline": "Nepal Stun Afghanistan by Five Wickets at Asian Games",
+          "body": "Nepal chased down Afghanistan&rsquo;s 102 for 7 with 103 for 5 in 17.2 overs at Kōrogi Sports Park, with Rohit Paudel unbeaten on 33 and Sundeep Jora smashing 34 off 35 balls, per Nepal News (Sep 25). Lalit Rajbanshi (3 for 13) and Kushal Bhurtel (4 for 21) had earlier torn through Afghanistan&rsquo;s top order to set up the Group A opening-day upset.",
+          "url": "https://english.nepalnews.com/s/sports/asian-games-kushal-bhurtel-lalit-rajbanshi-star-as-nepal-beat-afghanistan-by-five-wickets/",
+          "continues": false,
+          "img": "https://english.nepalnews.com/wp-content/uploads/2026/09/c47feae8-8944-4738-bfc7-7f76e0c0b7d8.jpeg"
+        },
+        {
+          "headline": "Hong Kong Bounce Back to Sink Oman at Asian Games Cricket",
+          "body": "Hong Kong recovered from their opening eight-wicket defeat to Malaysia by beating Oman by 41 runs in a Group B fixture at the Asian Games, picking up their first points of the tournament, per the Morning Star (Sep 25). The top two from each group advance to the quarter-finals alongside India, Pakistan, Bangladesh and Sri Lanka.",
+          "url": "https://morningstaronline.co.uk/article/sport-brief-september-25-2026",
+          "continues": true,
+          "img": null
+        },
+        {
+          "headline": "Belgium Rout Italy, France Edge Turkey to Open Nations League",
+          "body": "Belgium thumped Italy 2-0 and France beat Turkey 1-0 as the 2026-27 UEFA Nations League A campaign kicked off across Europe, per Goal.com (Sep 24). The Netherlands and Germany also renewed their rivalry the same night, playing out a 1-1 draw.",
+          "url": "https://www.goal.com/en/competition/uefa-nations-league-a/fixtures-results/595nsvo7ykvoe690b1e4u5n56",
+          "continues": false,
+          "img": null
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "title": "Business & Markets",
+      "icon": "chart",
+      "stories": [
+        {
+          "headline": "Oil Slides as US-Iran Hormuz Deal Talk Fuels Dow&rsquo;s 478-Point Jump",
+          "body": "Crude reversed hard on reports that US and Iranian officials are discussing a phased deal to reopen the Strait of Hormuz, a sharp turn from this week&rsquo;s stalled-diplomacy narrative. WTI crude dropped 2.8% to $91.96 a barrel and Brent fell toward $99 &mdash; down roughly 5% for the week &mdash; while the Dow Jones Industrial Average jumped 478 points to 51,828.62 as investors cheered the eased supply-risk outlook, per Yahoo Finance (Sep 25).",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html",
+          "continues": true,
+          "img": "https://s.yimg.com/lo/mysterio/api/8811daa94df3a20fc4a0296a8176b3fa6157219567202b6a3ab9dbf09ad6295e/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-09%2Fa60bea2d-ecf7-4f30-95e3-5f89aa56f621"
+        },
+        {
+          "headline": "US and China Extend Trade Truce to January 10 as Xi Visits Washington",
+          "body": "Treasury Secretary Scott Bessent said the US and China agreed to push their tariff truce &mdash; originally set to expire Nov. 10 &mdash; to Jan. 10, 2027, telling reporters &ldquo;that is going to be extended&hellip; to give us more time to see what we can do on the economic front,&rdquo; per Supply Chain Dive (Sep 24). Bessent said China has been &ldquo;very fulsome&rdquo; in meeting its pledge to buy 25 million metric tons of US soybeans annually through 2028, though Beijing remains behind on roughly $17 billion in other promised agricultural purchases.",
+          "url": "https://www.supplychaindive.com/news/us-china-to-extend-trade-war-truce-by-2-months/831251/",
+          "continues": false,
+          "img": "https://imgproxy.divecdn.com/zBPLtjrdJhfZyQZYXZjNksZNtf4HjfZcmu89y40bmkk/g:nowe:0:83/c:3200:1807/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjk1ODA3MDM0LmpwZw==.webp"
+        },
+        {
+          "headline": "Paramount Says Warner Bros. Discovery Deal Timing &lsquo;Not Yet Certain&rsquo;",
+          "body": "Paramount Skydance told investors &ldquo;the ultimate timing for the closing of the WBD Merger, if any, is not yet certain,&rdquo; even as it penciled in an Oct. 5 record date to distribute roughly 470 million warrants tied to its $111 billion acquisition of Warner Bros. Discovery, per Variety (Sep 25). The company said the deal remains subject to further closing conditions and that its planned Oct. 6 move of PSKY shares to the NYSE from Nasdaq could still be pushed back.",
+          "url": "https://uk.finance.yahoo.com/news/paramount-says-timing-warner-bros-214617159.html",
+          "continues": false,
+          "img": "https://s.yimg.com/lo/mysterio/api/5ce117a94b2eb58725bf84110917d89c3d1a53b85764fd3cec3aa1d8d6138e90/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fvariety.com%2F5c0923834f6be580f536d0bed5aad37c.jpg"
+        },
+        {
+          "headline": "Silver Jumps to $64 as Gold Holds Near $4,280 Amid Bond Selloff",
+          "body": "Gold held near $4,280.19 an ounce Friday, down more than 2% for the week, while silver climbed to $64.04, compressing the gold-silver ratio to 66.8 from above 67 as investors favored physical metals amid a bond selloff that pushed 10-year Treasury yields to roughly 5.1&ndash;5.2%, their highest since the 2008 financial crisis, per USAGOLD and Yahoo Finance (Sep 25). BlackRock&rsquo;s Rick Rieder called the yield surge &ldquo;not a crisis but an eye-opener.&rdquo;",
+          "url": "https://www.usagold.com/daily-precious-metals-market-report-september-25-2026/",
+          "continues": false,
+          "img": "https://www.usagold.com/wp-content/uploads/2026/08/usagold-og-image.png"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "AI & Technology",
+      "icon": "cpu",
+      "stories": [
+        {
+          "headline": "Appeals Court Upholds Pentagon's Anthropic Blacklist in 2-1 Ruling",
+          "body": "A federal appeals court ruled 2-1 on Sep 25 that the Pentagon lawfully blacklisted Anthropic from its defense supply chain, with Judge Gregory Katsas writing that &ldquo;a system a military customer cannot fully predict is, by definition, a supply chain problem, whatever the reason for the unpredictability,&rdquo; per Eastern Herald (Sep 25). The Pentagon designated Anthropic a supply-chain risk in March after the company refused to loosen Claude&rsquo;s contractual restrictions on autonomous weapons and domestic surveillance; Anthropic says the exclusion has already cost hundreds of millions of dollars and is weighing further appeal.",
+          "url": "https://easternherald.com/2026/09/25/anthropic-pentagon-blacklist-appeals-court-claude-refusals/",
+          "continues": false,
+          "img": "https://easternherald.com/wp-content/uploads/2026/09/anthropic-pentagon-appeals-court-2026.jpg"
+        },
+        {
+          "headline": "Microsoft Unveils Biggest-Ever Copilot Overhaul With Persistent 'Autopilot' Agent",
+          "body": "Microsoft unveiled its biggest Copilot overhaul yet on Sep 25, reorganizing the app around three pillars &mdash; Home, Code, and a renamed Autopilot agent (formerly Scout) &mdash; that persist across Teams, Outlook and documents to handle recurring, multi-day tasks. CEO Satya Nadella said &ldquo;every agent has to have an identity. Everything it does needs to be observed,&rdquo; per VentureBeat (Sep 25), while EVP Jacob Andreou said the new Copilot Managed Runtime means &ldquo;hosting and sharing an application literally becomes as simple as saving and sharing a Word document.&rdquo; The redesign, aimed squarely at OpenAI and Anthropic&rsquo;s enterprise push, rolls out first to Frontier participants with broader availability planned for late 2026.",
+          "url": "https://venturebeat.com/technology/microsoft-revamps-its-copilot-ai-with-a-persistent-autopilot-agent-and-hosting-for-ai-generated-apps",
+          "continues": false,
+          "img": "https://images.ctfassets.net/jdtwqhzvc2n1/6EUhTXbKVqJRTmWTFMslKT/c0c08bd277bf75b233658ba18ab51974/ChatGPT_Image_Sep_25__2026__07_14_31_AM.png?w=800&q=75"
+        },
+        {
+          "headline": "Cognition's Devin Tops $1 Billion Revenue Run Rate",
+          "body": "Cognition&rsquo;s AI coding agent Devin has pushed the startup&rsquo;s annualized revenue run rate past $1 billion &mdash; more than double the $492 million figure reported earlier in 2026 &mdash; per Benzinga (Sep 25). The milestone lands less than two years after Devin&rsquo;s general release, with enterprise customers now including GE Aerospace, Rivian, Citi, Mercedes-Benz, Goldman Sachs, and the U.S. Army and Navy. Cognition said the growth reflects that &ldquo;every company is now a software company.&rdquo;",
+          "url": "https://www.benzinga.com/markets/private-markets/26/09/62006714/ai-coding-startup-cognition-tops-1-billion-revenue-run-rate",
+          "continues": false,
+          "img": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/09/25/Ai-The-Concept-Of-Controlling-Technology.jpg"
+        },
+        {
+          "headline": "Meta's Muse Becomes Company's Fastest-Growing App Launch Ever",
+          "body": "Meta&rsquo;s new AI app Muse has become the fastest-growing launch in company history, topping 3.4 million downloads and holding the #1 U.S. App Store spot since Sep 18, per TechCrunch (Sep 25). The app posted 55% day-over-day download growth in its first two weeks &mdash; more than double ChatGPT&rsquo;s initial 24% pace &mdash; with daily active users jumping 27% after Meta Connect announcements, even though Meta-driven promotion accounted for just 6% of ad impressions. &ldquo;The trick with Muse is to build promotional units that can showcase something the AI agent can do for the user,&rdquo; said Connor Hayes, Meta&rsquo;s head of Threads.",
+          "url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
+          "continues": false,
+          "img": "https://techcrunch.com/wp-content/uploads/2026/09/muse-figure.png?resize=1200,671"
+        }
+      ]
+    },
+    {
+      "key": "geopolitics",
+      "title": "Geopolitics",
+      "icon": "globe",
+      "stories": [
+        {
+          "headline": "US Pushes for Trilateral Russia-Ukraine Talks in UAE as Strikes Continue",
+          "body": "The US is arranging technical-level, three-way talks between Washington, Kyiv and Moscow, possibly hosted in the United Arab Emirates, per Al Jazeera (Sep 25). President Zelenskyy said &ldquo;the American side has proposed meeting at a technical level in a three-way format&rdquo; and is awaiting a date, while warning &ldquo;Russia will only escalate as winter approaches unless there is pressure&rdquo; and that &ldquo;US sanctions must be implemented&rdquo; for diplomacy to work. Kremlin spokesman Dmitry Peskov confirmed a trilateral meeting could happen soon but gave no details, as Ukraine reported eight regions hit by Russian strikes the same day.",
+          "url": "https://www.aljazeera.com/news/2026/9/25/us-seeking-to-revive-russia-ukraine-ceasefire-talks",
+          "continues": false,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2022/02/AP22059473563020.jpg?resize=1920%2C1440"
+        },
+        {
+          "headline": "Pakistan-Afghanistan Border Fighting Escalates, Undermining Qatar-Led Mediation",
+          "body": "Pakistan said it foiled an &ldquo;attempted Afghan aggression&rdquo; in the Gulistan border area on Friday after conducting air strikes on 10 Afghan locations it said targeted &ldquo;terrorist hideouts and support infrastructure,&rdquo; per Al Jazeera (Sep 25). Afghan spokesperson Zabihullah Mujahid said the strikes hit Kandahar, Paktia and Khost provinces, and Kabul vowed to respond, while Taliban officials denied a reported drone incursion into Pakistan that preceded the strikes. The escalation threatens to derail peace mediation efforts by China, Turkey, Qatar and Saudi Arabia between the two neighbors.",
+          "url": "https://www.aljazeera.com/news/2026/9/25/pakistani-forces-kill-afghan-taliban-fighters-in-border-escalation",
+          "continues": false,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-24T092006Z_1498853770_RC2KPNA6I1N1_RTRMADP_3_AFGHANISTAN-PAKISTAN-1790305246.jpg?resize=1920%2C1440"
+        },
+        {
+          "headline": "Trump Meets Venezuela&rsquo;s Rodriguez, Presses for Elections",
+          "body": "President Trump held his first direct talks with Venezuela&rsquo;s acting president Delcy Rodriguez at the UN General Assembly, about 15 minutes, since the US ousted Nicolás Maduro in January, per Axios (Sep 23). Trump told Rodriguez &ldquo;you have to have elections at the end of the day,&rdquo; while Rodriguez said &ldquo;there will be elections in Venezuela&rdquo; and that officials have &ldquo;opened a political dialogue with opposition groups.&rdquo; A three-step plan &mdash; reforming the Supreme Court, restructuring the electoral commission and resolving Venezuela&rsquo;s $300 billion debt &mdash; is under discussion, with an election date still undecided between 2027 and 2028.",
+          "url": "https://www.axios.com/2026/09/23/trump-venezuela-rodriguez-meeting-elections",
+          "continues": false,
+          "img": "https://images.axios.com/FfapunMxc09mL94NXPLVslHsUxY=/0x0:1920x1080/1366x768/2026/09/23/1790186681804.jpg"
+        },
+        {
+          "headline": "Sudan Ceasefire Standoff: US Reportedly Holds Army Chief&rsquo;s UN Visa",
+          "body": "The US reportedly withheld a UN visa from Sudanese army chief Abdel Fattah al-Burhan, who was due to address the UN General Assembly Sep 26, conditioning it on acceptance of a 90-day ceasefire proposed by US adviser Massad Boulos, per Al Jazeera (Sep 24). UN spokesman Stephane Dujarric said the UN was &ldquo;deeply concerned&rdquo; and urged US compliance with the UN Headquarters Agreement, while Sudan&rsquo;s foreign ministry said any approach must &ldquo;be grounded in respect for Sudan&rsquo;s sovereignty.&rdquo; US State Department spokesman Tommy Pigott said neither warring faction &ldquo;represent legitimate, constitutional governance for Sudan.&rdquo;",
+          "url": "https://www.aljazeera.com/news/2026/9/24/outcry-in-sudan-as-us-reportedly-holds-army-chiefs-un-visa-over-ceasefire",
+          "continues": false,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/AP24247583218926-1790212267.jpg?resize=1200%2C675"
+        },
+        {
+          "headline": "Russian Helicopter Briefly Breaches Poland as NATO Flank Incursions Mount",
+          "body": "A Russian Mi-8 helicopter from Kaliningrad crossed roughly 350 yards into Polish territory for 42 seconds on Wednesday, prompting Polish jets to scramble, per Stars and Stripes (Sep 24). Polish Defense Minister Wladyslaw Kosiniak-Kamysz said &ldquo;these are not isolated incidents, but an element of constant pressure,&rdquo; a day after Poland intercepted a Russian Il-20 reconnaissance plane over the Baltic Sea and Romania scrambled F-16s over an unidentified target crossing from Ukraine. Estonia&rsquo;s foreign minister Margus Tsahkna offered a counterpoint, noting &ldquo;it&rsquo;s empty on the other side of Estonia&rsquo;s border because Russia&rsquo;s troops are in Ukraine.&rdquo;",
+          "url": "https://www.stripes.com/theaters/europe/2026-09-24/russian-helicopter-poland-nato-22949648.html",
+          "continues": false,
+          "img": "https://www.stripes.com/incoming/i96avd-250926polandphoto03.jpeg/alternates/LANDSCAPE_480/250926POLANDphoto03.JPEG"
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "sport": "F1",
+      "headline": "Bahrain GP Heads to Malaysia for Sepang's F1 Return",
+      "body": "Formula 1 resumes with the Bahrain Grand Prix relocated to the Sepang International Circuit in Malaysia &mdash; the venue&rsquo;s first F1 race since 2017 &mdash; as Russell looks to convert his Baku pole into further momentum.",
+      "url": "https://www.formula1.com/en/racing/2026",
+      "when": "Oct 2-4"
+    },
+    {
+      "sport": "Football",
+      "headline": "Chelsea Host Arsenal in WSL Derby at Stamford Bridge",
+      "body": "Chelsea welcome Arsenal to Stamford Bridge for a Women&rsquo;s Super League fixture, kicking off at 4:30pm UK time.",
+      "url": "https://www.chelseafc.com/en/news/article/chelsea-women-vs-arsenal-how-to-watch-kick-off-time-live-stream-info",
+      "when": "Sep 27"
+    },
+    {
+      "sport": "Cricket",
+      "headline": "India Host West Indies for Two More ODIs",
+      "body": "After the series opener in Thiruvananthapuram, India face West Indies in the 2nd ODI at Guwahati and the 3rd at New Chandigarh, with a five-match T20I series to follow through mid-October.",
+      "url": "https://www.outlookindia.com/sports/cricket/india-vs-west-indies-2026-odi-schedule-full-list-of-matches-dates-venues-and-timings",
+      "when": "Sep 30-Oct 3"
+    },
+    {
+      "sport": "Cricket",
+      "headline": "Asian Games Cricket Reaches Its Medal Matches",
+      "body": "After quarter-finals on Sep 28-29 and semi-finals on Oct 1, the men&rsquo;s cricket competition at the Asian Games crowns its champion with bronze and gold medal matches at Kōrogi Sports Park in Nisshin.",
+      "url": "https://www.wisden.com/cricket-news/asian-games-mens-cricket-competition-2026-full-squads-teams-format-schedule-venue-and-all-you-need-to-know",
+      "when": "Oct 3"
+    }
+  ],
+  "portfolio": [
+    {
+      "ticker": "MSFT",
+      "headline": "Wall Street Weighs Microsoft's Copilot Overhaul and AI Capex",
+      "body": "Analysts framed Microsoft&rsquo;s newly unveiled Copilot overhaul &mdash; adding code-generation tools and a persistent Autopilot agent &mdash; as a bid to convert AI features into premium subscriptions, even as the company continues spending more than $115 billion a year on data centers and AI infrastructure. The Motley Fool noted Microsoft trades at roughly 21 times cash from operations, below its five-year average of 25, leaving room for upside if the new agent features drive adoption.",
+      "img": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fcdn.content.foolcdn.com%2Fimages%2F1umn9qeh%2Fproduction%2F23fc1b822f8eafa9d627ca7fbac8d5b39aebf467-1401x1251.png%3Fw%3D800%26q%3D75%26fit%3Dmax%26auto%3Dformat&w=1200&op=resize",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/09/25/stock-market-today-sept-25-microsoft-stock-jumps-4-after-revamping-copilot-with-code-generation-and-agentic-ai-tools/",
+      "continues": true
+    },
+    {
+      "ticker": "PYPL",
+      "headline": "PayPal Draws Fresh Takeover Interest From Unnamed West Coast Tech Company",
+      "body": "PayPal is reportedly drawing acquisition interest from an unnamed West Coast technology company weighing an all-stock offer, per a Betaville market alert cited by traders, though PayPal&rsquo;s board is said to prefer an all-cash structure. The fresh speculation follows the collapse last month of a Stripe-Advent International consortium bid worth more than $50 billion (up to $68 per share in cash) over a $2 billion breakup-fee dispute. Separately, PayPal and Meta expanded their AI-payments partnership, and Great Hill Capital&rsquo;s Thomas Hayes floated a hypothetical $90 billion Meta acquisition scenario he argued could carry an implied free-cash-flow yield of around 7%.",
+      "img": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/09/25/London--Uk---August-2021-Paypal-Finance-.jpg",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/09/62005454/why-is-paypal-stock-surging-on-friday",
+      "continues": false
+    },
+    {
+      "ticker": "INTC",
+      "headline": "Intel Rides AI-Agent Optimism and Foundry Progress",
+      "body": "Intel shares extended a multi-day advance this week as investor enthusiasm around AI agents &mdash; spurred by Meta&rsquo;s newly launched Muse assistant &mdash; fueled bets that rising agent usage will require more data-center chip capacity. The Motley Fool noted Intel&rsquo;s revenue grew 25% year-over-year last quarter and pointed to the company&rsquo;s government backing and expanding foundry partnerships across the semiconductor supply chain as tailwinds.",
+      "img": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F889282%2Fsemiconductor.jpg&w=1200&op=resize",
+      "url": "https://www.fool.com/investing/2026/09/25/why-intel-stock-jumped-this-week/",
+      "continues": false
+    },
+    {
+      "ticker": "CRWD",
+      "headline": "CrowdStrike Slips as Akamai&rsquo;s $11.6 Billion Anthropic Deal Stirs Margin Worries",
+      "body": "CrowdStrike doesn&rsquo;t compete directly with Akamai, but its shares softened alongside other infrastructure-adjacent software names after Akamai disclosed a seven-year, $11.6 billion cloud-services agreement with Anthropic. As part of the deal, Akamai issued Anthropic a warrant for convertible preferred shares equal to roughly 5% of its outstanding stock at $111.33 per share, and Akamai plans $5.5 billion in capital expenditures, including $1.7 billion in 2026, to support the buildout. Investors read the equity-heavy terms as a sign that landing marquee AI customers increasingly requires vendors to absorb heavy capex or give up equity, raising margin-compression concerns across the sector.",
+      "img": "https://cdn.benzinga.com/cdn-cgi/image/width=3840,format=auto,quality=85/files/images/story/2026/09/25/CrowdStrikeKirkland--Washington--Usa---D.jpg",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/09/62004588/crowdstrike-stock-slides-amid-akamais-11-6-billion-deal",
+      "continues": false
+    },
+    {
+      "ticker": "NET",
+      "headline": "Cloudflare Cools With Cloud-Security Peers Amid AI Capex Jitters",
+      "body": "Cloudflare eased alongside CrowdStrike and other richly valued cloud-security names on Sep 25 as investors booked profits following a multi-week rally and questioned how quickly the company&rsquo;s new AI and edge-computing features will convert into high-margin revenue. The move also came against a backdrop of a recent convertible debt offering and routine Rule 144 insider-sale filings, which added to volatility. TradingKey noted analysts have kept a Buy consensus on the stock over the past month, with price targets ranging from $160 to $400 and an average near $334.",
+      "img": "https://resource.tradingkey.com/cms_uploads/img/20230814/292a73ea96beb98e5f665e124a82e00c.jpg",
+      "url": "https://www.tradingkey.com/news/market-movers/262187188-market-movers-net-20260925",
+      "continues": false
+    },
+    {
+      "ticker": "TWLO",
+      "headline": "Twilio Downgraded by HSBC to Reduce, Says AI-Agent Rally Overdone",
+      "body": "Twilio&rsquo;s recent run-up drew a rare pushback on Sep 25 when HSBC analyst Sameer Lam downgraded the stock to Reduce from Hold while maintaining his $211 price target. Lam argued the rally &mdash; fueled by investor excitement over Meta&rsquo;s Muse AI agent and the broader thesis that AI agents will expand messaging, calling and authentication volumes &mdash; overstates Twilio&rsquo;s actual role in that trend. The call marks a reversal from the price-target increases Twilio drew earlier in the week.",
+      "img": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/09/25/Portland--Or--Usa---Apr-14--2020-The-Twi.jpg",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/09/62002270/twilio-stock-drops-after-hsbc-downgrade-to-reduce",
+      "continues": true
+    },
+    {
+      "ticker": "EDIT",
+      "headline": "Gene-Editing Stocks Still Digesting Anthropic&rsquo;s Claude-Discovered DNA Enzyme",
+      "body": "Editas Medicine and CRISPR Therapeutics remained under pressure this week after Anthropic reported that its Claude AI model had identified a novel phage enzyme system, dubbed ART, by mining public genomic databases &mdash; a discovery combining a known RNA-to-DNA copying enzyme with repeating DNA sequences that resemble CRISPR&rsquo;s targeting mechanism. CRISPR pioneer Feng Zhang of MIT called the finding &ldquo;genuinely intriguing&rdquo; but cautioned the system&rsquo;s function remains unproven and any therapeutic use is likely years away. No new company-specific announcement from either Editas or CRISPR Therapeutics was found for Friday&rsquo;s session, so the continued softness reflects the sector still digesting Wednesday&rsquo;s AI research news rather than fresh company news.",
+      "img": "https://news.stocktwits-cdn.com/large_crispr_therapeutics_jpg_04265b6667.webp",
+      "url": "https://stocktwits.com/news-articles/markets/equity/crsp-ntla-beam-prme-edit-shares-slip-did-claude-just-spook-gene-editing-stocks/cZM4eZORBBa",
+      "continues": false
+    }
+  ],
+  "country_groups": [
+    {
+      "label": "India",
+      "stories": [
+        {
+          "headline": "Nationwide Protests Erupt Over CEC's Alleged Deletion of 130 Million Voters",
+          "body": "Protests spread across Delhi, Assam, UP, Punjab, Bihar, West Bengal, Karnataka and other states on Sep 25 after an Indian Express report alleged Chief Election Commissioner Gyanesh Kumar unilaterally deleted roughly 130 million voters from the rolls, per ummid.com (Sep 25). Police used water cannons and detained activists including Yogendra Yadav, while Assam Congress chief Gaurav Gogoi said the CEC &ldquo;has committed a crime and act of treason&hellip;he should resign immediately.&rdquo;",
+          "url": "https://www.ummid.com/news/2026/9/25/vote-chori-protests-against-cec-gyanesh-kumar-across-india.html",
+          "continues": true,
+          "img": "https://ummid.com/news/2026/9/25/protest-against-cec.webp"
+        },
+        {
+          "headline": "IIT Bombay Postpones Exams, Apologises as Wakode Hunger Strike Continues",
+          "body": "IIT Bombay postponed mid-semester exams from Sep 26&ndash;27 to Oct 10&ndash;11 and issued an apology over its earlier statement on student Sahil Wakode&rsquo;s death, as his parents&rsquo; hunger strike continued at Azad Maidan, per WION (Sep 25). The National Commission for Scheduled Castes held a spot inquiry at the campus on Sep 24, around 20 people have been questioned, and Wakode&rsquo;s locked phone has been sent for forensic analysis.",
+          "url": "https://www.wionews.com/india-news/sahil-wakode-death-inside-the-investigation-into-the-iit-bombay-student-s-final-hours-1790308684167",
+          "continues": true,
+          "img": "https://cdn3.wionews.com/prod/wion/images/2026/20260924/image-1790268302143.jpg"
+        },
+        {
+          "headline": "Modi Tells Seva Yatra Volunteers: Convey Service Through Action, Not Words",
+          "body": "Addressing young Seva Yatri volunteers via video link, PM Modi said &ldquo;we should not preach about service; we should convey its message through our actions,&rdquo; per Indian News Network (Sep 25). The remarks came as part of the month-long Seva Sankalp Abhiyan marking 25 years of his public life, with motorcycle convoys of volunteers travelling from his birthplace Vadnagar to his constituency Varanasi.",
+          "url": "https://www.indianewsnetwork.com/en/prime-minister-modi-engages-youth-seva-sankalp-yatra-initiative-20260925",
+          "continues": false,
+          "img": "https://ddnews.gov.in/wp-content/uploads/2026/09/pm-modi-9-1024x576.jpg"
+        },
+        {
+          "headline": "Air India Pilot Suspended After Failing Pre-Flight Alcohol Test",
+          "body": "An Air India first officer was pulled from Zurich&ndash;Delhi flight AI 151 on September 6 after ground staff detected alcohol on his breath, with sobriety tests confirming he exceeded permitted limits, per WION (Sep 25). He was repatriated as a passenger and remains suspended pending India&rsquo;s DGCA review, weeks after another Air India pilot tested positive for a psychoactive substance on an August 4 Phuket&ndash;Delhi flight that suffered a sudden altitude loss.",
+          "url": "https://www.wionews.com/world/air-india-pilot-suspended-after-failing-pre-flight-alcohol-test-on-zurich-delhi-route-1790325709294",
+          "continues": false,
+          "img": "https://cdn3.wionews.com/prod/wion/images/2026/20260925/image-1790325842248.jpg"
+        }
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "stories": [
+        {
+          "headline": "Burnham Rules Out Early Election, Commits to 2029 Vote",
+          "body": "PM Andy Burnham said &ldquo;yes, that&rsquo;s when the next election will take place. I categorically rule out any speculation about an early vote,&rdquo; confirming 2029 as the date (Sep 25). Reports suggest some of his advisers are privately weighing an earlier ballot after Labour&rsquo;s polling improved since he took office in July, though the Conservatives and Reform UK remain competitive.",
+          "url": "https://mezha.net/eng/news/a5afd14f_uk_prime_minister/",
+          "continues": false,
+          "img": "https://mezha.fsn1.your-objectstorage.com/ua/uploads/2026/09/25/uk-prime-minister-andy.webp"
+        },
+        {
+          "headline": "Investigation: UK Universities Briefed Arms Maker BAE Systems on Pro-Palestine Protests",
+          "body": "A Liberty Investigates/Al Jazeera probe (Sep 24) found 13 British universities, including Manchester, Nottingham and Birmingham, discussed campus protest security and messaging strategy with BAE Systems, which gives them up to &pound;15 million a year. UN expert Gina Romero said &ldquo;when public universities take operational cues and security strategies from weapons manufacturers to suppress their own students, the boundary between higher education and corporate defence interests collapses.&rdquo;",
+          "url": "https://www.aljazeera.com/news/2026/9/24/how-uk-universities-discussed-protests-with-bae-systems",
+          "continues": false,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/2025-09-09T175849Z_1306409824_RC2FOGAAS2EU_RTRMADP_3_BRITAIN-DEFENCE-2-1790178948.jpg?resize=1920%2C1440"
+        }
+      ]
+    },
+    {
+      "label": "Qatar & the GCC",
+      "stories": [
+        {
+          "headline": "Pakistan, Turkiye Move Closer to Joining Saudi Fight Against Houthis",
+          "body": "Beyond the previously reported urgent talks, Turkey&rsquo;s Gen. Selcuk Bayraktaroglu and Pakistan&rsquo;s Field Marshal Asim Munir are travelling to Saudi Arabia, and Islamabad has named a retired lieutenant general as secretary general of a new General Secretariat in Riyadh, per Al Jazeera (Sep 25). Turkish FM Hakan Fidan said &ldquo;our agreement includes an alliance commitment, we stand by our word,&rdquo; with the Mecca Joint Defence Agreement due before Turkey&rsquo;s parliament on October 1.",
+          "url": "https://www.aljazeera.com/news/2026/9/25/pakistan-turkiye-edge-closer-towards-joining-saudi-war-against-houthis",
+          "continues": true,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/HTB2EDnX0AAxR-I-1790322577.jpg?resize=1920%2C1440"
+        },
+        {
+          "headline": "Qatar Condemns Houthi Missile Attacks on Saudi Cities",
+          "body": "Qatar&rsquo;s Foreign Ministry strongly condemned Houthi ballistic missile attacks on the Saudi cities of Taif and Yanbu, calling them &ldquo;a violation of Saudi Arabia&rsquo;s sovereignty and international law&rdquo; and voicing &ldquo;categorical rejection of the attacks targeting civilians and civilian infrastructure,&rdquo; per The Peninsula Qatar (Sep 25). Doha affirmed that Saudi Arabia&rsquo;s security is tied to Qatar&rsquo;s own and to collective GCC security.",
+          "url": "https://thepeninsulaqatar.com/article/25/09/2026/qatar-strongly-condemns-houthi-missile-attacks-on-saudi-arabia",
+          "continues": false,
+          "img": "https://thepeninsulaqatar.com/get/maximage/20240720_1721475555-285.jpg?1721475555"
+        },
+        {
+          "headline": "Qatar's Maritime Sector Nears Full Digitalisation",
+          "body": "Qatar&rsquo;s Ministry of Transport added 11 new electronic services for the maritime sector, bringing the total to 21 and pushing online transactions for large vessels to about 95%, per The Peninsula Qatar (Sep 25). Ibrahim bin Hassan Al Kuwari said the digital push &ldquo;will make access to services easier and save time,&rdquo; with users now able to complete ownership transfers, vessel sales and mortgage certificates remotely via the Tawtheeq authentication system.",
+          "url": "https://thepeninsulaqatar.com/article/25/09/2026/qatar-maritime-sector-moves-closer-to-full-digitalisation",
+          "continues": false,
+          "img": "https://thepeninsulaqatar.com/get/maximage/20260709_1783602324-72833.jpeg?1783602324"
+        }
+      ]
+    }
+  ],
+  "doha_events": [
+    {
+      "headline": "Interactive Ice Cream Show Sweetens Mall of Qatar",
+      "body": "Mall of Qatar&rsquo;s Oasis Stage hosts the International Ice Cream Show through Oct 3, with free daily shows at 4:30pm, 6pm and 7:30pm blending live entertainment, science experiments and ice-cream flavor voting, per Qatar Living (Sep 22).",
+      "url": "https://www.qatarliving.com/en/article/step-into-an-interactive-ice-cream-adventure-at-mall-of-qatar-this-september",
+      "continues": false,
+      "img": "https://cdn-content.qatarliving.com/articles/featured/1790084155168-2f64e2a5-72cf-4b21-ad94-aea6ecc251ac.png"
+    },
+    {
+      "headline": "Eat Spain, Drink Spain Festival Spans Doha Through Oct 4",
+      "body": "Running Sep 20&ndash;Oct 4 across Doha restaurants and retailers &mdash; including Coya, La Pergola, Carrefour and LuLu &mdash; the second edition of Eat Spain Drink Spain brings tastings of paella, tortilla española and gambas al ajillo alongside cooking demos, per Fact Qatar (Sep 16).",
+      "url": "https://factqatar.com/eat-spain-drink-spain-returns-to-qatar-for-second-edition/",
+      "continues": false,
+      "img": "https://factqatar.com/wp-content/uploads/2026/09/Pic.-2.jpg"
+    },
+    {
+      "headline": "Mena W Fena Market Extends Its Run to Late October",
+      "body": "The open-air market spotlighting local Qatari makers at Al Hazm continues daily through Oct 24, giving shoppers another month to browse homegrown food, fashion and craft stalls, per Qatar Living (Sep 20).",
+      "url": "https://www.qatarliving.com/en/article/events-to-check-out-in-qatar-this-week-september-20-27-2026",
+      "continues": true,
+      "img": "https://cdn-content.qatarliving.com/articles/featured/1789930790694-7f92e824-3761-4391-b84f-d776f627d60e.png"
+    },
+    {
+      "headline": "Free Gulf Cup Screenings at 3-2-1 Museum Run Through the Final",
+      "body": "The free, no-registration Arabian Gulf Cup screenings on Level 7 of the 3-2-1 Qatar Olympic and Sports Museum continue through the tournament, with semifinals on Oct 3 and the final on Oct 6, per The Peninsula Qatar (Sep 22).",
+      "url": "https://thepeninsulaqatar.com/article/22/09/2026/free-arabian-gulf-cup-live-screenings-announced-at-qatar-olympic-and-sports-museum",
+      "continues": true,
+      "img": "https://thepeninsulaqatar.com/get/maximage/20260330_1774874055-711.jpg?1774874056"
+    },
+    {
+      "headline": "Unboxing Heritage Workshop Turns Craft Into Packaging Design",
+      "body": "Liwan Design Studios and Labs hosts &ldquo;Unboxing Heritage: Designing Contemporary Experiences from Local Craft&rdquo; from Sep 26&ndash;30, 4&ndash;7pm, a QR450 workshop led by designer Azza Dsouli on turning local craft into packaging design, per The Peninsula Qatar (Sep 23).",
+      "url": "https://thepeninsulaqatar.com/article/23/09/2026/things-to-do-this-weekend-in-qatar-september-24-26-2026",
+      "continues": false,
+      "img": "https://thepeninsulaqatar.com/get/maximage/20260923_1790157038-473.jpg?1790157038"
+    }
+  ]
+}
