@@ -1,0 +1,402 @@
+{
+  "skim": [
+    "Spain&rsquo;s Sánchez called a snap election for Nov 29 after a housing revolt, France braced for a nationwide &lsquo;act 3&rsquo; strike, and Ethiopia&rsquo;s renewed Red Sea demand drew a four-nation rebuke from Egypt, Eritrea, Somalia and Sudan.",
+    "Yemen&rsquo;s government launched an offensive to retake Sana&rsquo;a from the Houthis, Iran said the Strait of Hormuz stays shut until seven conditions are met, and Zelenskyy said Ukraine is ready for US-brokered trilateral talks with Russia by month&rsquo;s end.",
+    "Wall Street hit fresh records even as bond yields spiked to a 52-week high, Microsoft and Meta scaled back their internal use of Anthropic&rsquo;s Claude, and Reflection AI unveiled a 501B-parameter open model aimed at China&rsquo;s GLM-5.2.",
+    "Saudi Arabia and the UAE clashed in the Gulf Cup 27 final in Jeddah, India opened a five-match T20I series against West Indies in Lucknow, and Kimi Antonelli&rsquo;s F1 points lead ballooned to 84 after George Russell&rsquo;s Sepang retirement.",
+    "India&rsquo;s Chief Justice rebuked the Election Commission over a disputed SIR voter form, the UK&rsquo;s Green Party voted to brand Zionism racism over the objection of 4 of its 5 MPs, and Doha opened an immersive art exhibition at Media Majlis ahead of a packed week of concerts and sport."
+  ],
+  "sections": [
+    {
+      "key": "world",
+      "title": "World",
+      "icon": "news",
+      "stories": [
+        {
+          "headline": "Spain&rsquo;s Sánchez calls snap election for Nov. 29 after housing revolt",
+          "body": "Prime Minister Pedro Sánchez called a snap election for Nov. 29 after parliament rejected his minority government&rsquo;s housing relief measures, per Al Jazeera (Oct 5). Spain&rsquo;s housing crisis &mdash; rents nearly doubling and home prices up 90% over a decade &mdash; has fueled protests topping 70,000 after an 87-year-old woman&rsquo;s televised eviction in Madrid; Sánchez said &ldquo;we need to renew people&rsquo;s support,&rdquo; while opposition leader Alberto Núñez Feijóo asked voters if they want &ldquo;four more years of what we&rsquo;ve been living through, or whether they want to give change a chance.&rdquo;",
+          "url": "https://www.aljazeera.com/news/2026/10/5/spanish-prime-minister-pedro-sanchez-announces-snap-election",
+          "continues": false,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/14339385-1791186029.jpg?resize=1200%2C630"
+        },
+        {
+          "headline": "Nobel Medicine Prize honors optogenetics pioneers who &lsquo;light up&rsquo; the brain",
+          "body": "Karl Deisseroth (Stanford), Peter Hegemann and Georg Nagel (both Germany) won the 2026 Nobel Prize in Physiology or Medicine for optogenetics, the technique of using light to control nerve cells, per Al Jazeera (Oct 5). The Nobel committee said the method &ldquo;has fundamentally altered our understanding of the brain,&rdquo; with committee chair Per Svenningsson adding it &ldquo;provides opportunities for mapping the brain in a way that we could once only dream of&rdquo;; applications include studying addiction, fear and movement, and improving cochlear implants.",
+          "url": "https://www.aljazeera.com/news/2026/10/5/nobel-medicine-prize-honours-us-and-german-scientists-for-optogenetics-work",
+          "continues": false,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6ac38b11394d4-1791200017.jpg?resize=1920%2C1440"
+        },
+        {
+          "headline": "France braces for &lsquo;act 3&rsquo; of student protests as nationwide strike hits Tuesday",
+          "body": "French students and seven teachers&rsquo; unions (FSU, CGT, FO, CFDT, Unsa, Sud, Solidaires) planned a nationwide strike and a 2pm march from Place de la République on Oct 6, with CGT and Solidaires calling for a broader general strike, per The Local France (Oct 5). Many lycées face fresh closures on top of the roughly 400&ndash;500 already shut; the government has accused the hard-left of &ldquo;infiltrating&rdquo; the movement, while La France Insoumise leader Manuel Bompard urged protesters to &ldquo;carry on mobilising, but do so calmly and peacefully.&rdquo;",
+          "url": "https://www.thelocal.fr/20261005/strikes-and-demos-what-to-expect-from-tuesdays-act-3-of-student-protests-in-france",
+          "continues": true,
+          "img": "https://assets.thelocal.com/cdn-cgi/rs:fit:1200/quality:75/plain/https://apiwp.thelocal.com/wp-content/uploads/2026/10/watermarks-logo-AFP__20261005__D28U6XL__v1__MidRes__FrancePoliticsEducationDemo.jpg@webp"
+        },
+        {
+          "headline": "Imran Khan&rsquo;s party marches on Islamabad demanding his release",
+          "body": "More than 5,000 supporters of jailed former Pakistani PM Imran Khan&rsquo;s PTI party set off from Khyber Pakhtunkhwa on Oct 4, aiming to reach Islamabad&rsquo;s outskirts by Thursday, per Al Jazeera (Oct 4). The march went ahead after government talks collapsed; Islamabad has blocked access roads with shipping containers, and Interior Minister Mohsin Naqvi warned, &ldquo;If they violate the orders&hellip;we will pursue them one by one.&rdquo;",
+          "url": "https://www.aljazeera.com/news/2026/10/4/pro-imran-khan-mass-rally-launched-after-pakistan-government-talks-fail",
+          "continues": false,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261004__D27V7WE__v1__HighRes__PakistanPoliticsProtest-1791131061.jpg?resize=1920%2C1440"
+        }
+      ]
+    },
+    {
+      "key": "sports",
+      "title": "Sports",
+      "icon": "trophy",
+      "stories": [
+        {
+          "headline": "Saudi Arabia and UAE collide in Gulf Cup 27 final",
+          "body": "Saudi Arabia and the UAE meet tonight at Jeddah&rsquo;s Alinma Stadium (kickoff 9pm Saudi/10pm UAE time) in the Gulf Cup 27 final, each chasing a long title drought &mdash; Saudi Arabia&rsquo;s first since 2004, the UAE&rsquo;s first since 2013, per Gulf News (Oct 4). Saudi Arabia reached the final by beating Qatar 3-2 on penalties after 120 goalless minutes, with goalkeeper Mohammed Al Owais saving two spot-kicks, while the UAE advanced on Ousmane Camara&rsquo;s 22nd-minute strike in a 1-0 semi-final win over Oman.",
+          "url": "https://gulfnews.com/sport/uae-set-to-face-saudi-arabia-in-arabian-gulf-cup-27-final-1.500697757",
+          "continues": true,
+          "img": "https://media.assettype.com/gulfnews%2F2026-10-04%2F6kydsgrf%2FUAE-Players-celebrating-semifinal-win?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100"
+        },
+        {
+          "headline": "India open five-match T20I series against West Indies in Lucknow",
+          "body": "India and West Indies begin a five-match T20I series this evening at Lucknow&rsquo;s Ekana Stadium, with the toss at 6:30pm IST ahead of a 7pm start, per Careerindia (Oct 5). Captain Shreyas Iyer&rsquo;s side has reshuffled its squad after Washington Sundar withdrew and Naman Dhir was drafted in, while Ekana&rsquo;s mixed red-and-black soil strips typically offer early grip before easier strokeplay, with clear skies around 28&deg;C and dew expected to factor in after 8:30pm.",
+          "url": "https://www.careerindia.com/features/india-vs-west-indies-1st-t20i-2026-match-guide-lucknow-011-66589.html",
+          "continues": true,
+          "img": "https://images.careerindia.com/img/2026/10/india-vs-west-indies-1st-t20i-2026-match-guide-lucknow_1200x675_1791161020947_.jpg"
+        },
+        {
+          "headline": "Antonelli&rsquo;s F1 title lead balloons to 84 points after Russell&rsquo;s Sepang DNF",
+          "body": "Kimi Antonelli leads the F1 drivers&rsquo; standings on 320 points after Max Verstappen&rsquo;s rain-hit Bahrain GP win at Sepang, with Mercedes teammate George Russell&rsquo;s race ending in an engine failure on lap 50 from third place, per GPFans (Oct 4). Lewis Hamilton&rsquo;s recovery drive to the podium &mdash; following what the outlet called &ldquo;a risky strategy call&rdquo; from Ferrari &mdash; cut Russell&rsquo;s buffer over him to 22 points, while Mercedes still leads Ferrari by 151 points in the constructors&rsquo; table.",
+          "url": "https://www.gpfans.com/en/f1-news/1090983/f1-standings-bahrain-grand-prix-2026-points-leaders-drivers-constructors/",
+          "continues": true,
+          "img": "https://sportsbase.io/images/gpfans/copy_1200x800/00598a4b9bdd07d6b60a9e130e8725501dd28e94.jpg"
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "title": "Business &amp; Markets",
+      "icon": "chart",
+      "stories": [
+        {
+          "headline": "Nasdaq hits fresh record as Wall Street shrugs off surging bond yields",
+          "body": "The Nasdaq Composite closed at a record 27,477.31 (+1.05%) on Monday, with the S&amp;P 500 up 0.66% to 7,773.99 and the Dow adding 0.18% to 51,267.90, as markets kept digesting Friday&rsquo;s weak September jobs report, per TheStreet (Oct 5). Yet the rally came even as the 10-year Treasury yield pushed to a 52-week high of 5.31%; strategist Daniela Hathorn said equities are &ldquo;benefiting from Friday&rsquo;s softer US labor market report,&rdquo; even as stubbornly high risk-free rates created an unusual split between roaring growth stocks and a selling-off bond market.",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-05-2026",
+          "continues": true,
+          "img": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMTk5ODI3/us-stocks-markets-nyse.jpg"
+        },
+        {
+          "headline": "SpaceX shares jump to four-month high as Morgan Stanley calls stock &lsquo;cheap and getting cheaper&rsquo;",
+          "body": "SpaceX (SPCX) shares surged 7.6% Monday to $171.09, their highest close since mid-June, after Morgan Stanley&rsquo;s Adam Jonas reiterated a $300 price target &mdash; about 75% above the close &mdash; arguing the stock looks expensive on headline multiples but cheap on growth-adjusted ones, per Benzinga (Oct 5). Jonas cited potential AI product launches, Starship progress and new cloud contracts as catalysts; the pop pushed Elon Musk&rsquo;s net worth up roughly $30.6 billion in a day to about $1.03 trillion.",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62173587/spacex-stock-rises-as-analysts-see-significant-upside",
+          "continues": false,
+          "img": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/10/05/October-31-2025--Texas-Usa--Logo-Spacex-.jpg"
+        },
+        {
+          "headline": "Oil slides nearly 2% as traders digest OPEC+&rsquo;s steady November output",
+          "body": "US crude for November delivery fell 2.16% Monday to $89.14 a barrel, giving back ground even as broader risk assets rallied on fading Fed rate-hike fears, per Yahoo Finance market data (Oct 5). The pullback comes two days after OPEC+ agreed to hold output steady for November, suggesting supply dynamics &mdash; not just rate bets &mdash; are now the bigger driver of crude&rsquo;s swings.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-5-135537124.html",
+          "continues": true,
+          "img": null
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "AI &amp; Technology",
+      "icon": "cpu",
+      "stories": [
+        {
+          "headline": "Reflection AI unveils 501B-parameter Beam model, claims 3-4x compute efficiency edge over China&rsquo;s GLM-5.2",
+          "body": "Nvidia- and Sequoia-backed Reflection AI unveiled Beam, a 501-billion-parameter open-weight model (23B active parameters, trained on 23.8 trillion tokens, 1-million-token context window) that it says matches Z.ai&rsquo;s GLM-5.2 on reasoning benchmarks while using &ldquo;3-4x less inference compute,&rdquo; per TechCrunch (Oct 5). The claims haven&rsquo;t been independently verified, but the startup &mdash; which has raised $4.7 billion at a $25 billion valuation and locked in over $7 billion in Nvidia GB300 compute deals with SpaceX and Nebius through 2029 &mdash; plans to release the weights this month via hyperscalers and open-source libraries.",
+          "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+          "continues": false,
+          "img": "https://techcrunch.com/wp-content/uploads/2026/10/Reflection-AI-Beam.png?resize=1200,669"
+        },
+        {
+          "headline": "Microsoft and Meta scale back internal use of Anthropic&rsquo;s Claude as rivalry deepens",
+          "body": "Microsoft cut its planned $1 billion annual internal Claude budget by a third and is steering staff toward GitHub Copilot, while Meta has roughly halved its Claude Code user base from about 60,000 to 30,000 employees in favor of in-house tools Muse Code and MetaCode, per PYMNTS (Oct 5). The pullback comes even though Anthropic still holds 43.5% of the US enterprise AI market as of July, underscoring how both companies increasingly treat Anthropic as a rival rather than a vendor.",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/microsoft-meta-steer-staff-from-anthropic-claude-in-house-ai/",
+          "continues": true,
+          "img": "https://www.pymnts.com/wp-content/uploads/2026/10/Meta-Microsoft-AI-chatbots.jpeg"
+        },
+        {
+          "headline": "OpenAI to start showing ads inside ChatGPT&rsquo;s image generator",
+          "body": "OpenAI said it will test visual ads during image generation in ChatGPT starting later this month with select US advertisers, stating &ldquo;ads will be clearly labeled, and remain separate from the image being created,&rdquo; per Bleeping Computer (Oct 5). The move targets ChatGPT&rsquo;s roughly 1.2 billion weekly users who don&rsquo;t pay for subscriptions, and OpenAI is building out conversion-tracking via partners including LiveRamp, AppsFlyer and Branch.",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-will-show-visual-ads-in-chatgpt-while-you-generate-images/",
+          "continues": false,
+          "img": "https://www.bleepstatic.com/content/hl-images/2023/11/08/ChatGPT.jpg"
+        },
+        {
+          "headline": "Nvidia challenger Etched fields funding offers at $40-50B, doubling its valuation in two months",
+          "body": "AI chip startup Etched, which builds inference-focused hardware it says &ldquo;can process more tokens faster and at a lower cost than Nvidia&rsquo;s,&rdquo; is fielding new funding offers at a $40-50 billion valuation &mdash; up from the $21 billion it was valued at just two months ago when Jane Street led a $700 million round, per TechCrunch (Oct 5). A round of that size would reportedly give the four-year-old company as much as 3.5 years of runway.",
+          "url": "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/",
+          "continues": false,
+          "img": "https://techcrunch.com/wp-content/uploads/2026/07/Sequoia_Etched-Abhishek-Malani-Robert-Wachen-Sonya-Huang-Gavin-Uberti-copy.jpeg"
+        }
+      ]
+    },
+    {
+      "key": "geopolitics",
+      "title": "Geopolitics",
+      "icon": "globe",
+      "stories": [
+        {
+          "headline": "Ethiopia&rsquo;s Red Sea demand draws four-nation pushback as Tigray war widens",
+          "body": "Hours after Ethiopian forces retook Mekelle, PM Abiy Ahmed used his Oct 5 inauguration for a new term to renew Ethiopia&rsquo;s demand for sovereign Red Sea access, saying &ldquo;based on the principle of give and take, we will work diligently to ensure that Ethiopia has an outlet to the sea,&rdquo; per Al Jazeera (Oct 5). Egypt, Eritrea, Somalia and Sudan&rsquo;s army chief issued a joint declaration rejecting the claim &mdash; &ldquo;control of the Red Sea should remain with the coastal states&rdquo; &mdash; with Egypt&rsquo;s el-Sisi calling for &ldquo;dialogue, not confrontation,&rdquo; as Eritrea has already severed diplomatic ties with Addis Ababa.",
+          "url": "https://www.aljazeera.com/news/2026/10/5/ethiopias-pm-insists-on-access-to-red-sea-despite-regional-conflict-threat",
+          "continues": true,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-05T203347Z_237506659_RC28XNAVC8K2_RTRMADP_3_ETHIOPIA-POLITICS-1791247531.jpg?resize=1200%2C675"
+        },
+        {
+          "headline": "Yemen&rsquo;s government launches offensive to retake Sana&rsquo;a from Houthis",
+          "body": "Rashad al-Alimi, head of Yemen&rsquo;s Presidential Leadership Council, declared a major offensive to reclaim all Houthi-held territory, with forces claiming the port city of Mocha, the town of Dhubab and positions along the Bab al-Mandeb strait, per Al Jazeera (Oct 5). Turkey and Pakistan agreed to rapid military deployment to bolster Saudi Arabia&rsquo;s security as the fight widens; analyst Raiman al-Hamdani cautioned government forces are &ldquo;scattered across a bunch of fronts and running on old pre-war gear,&rdquo; warning the conflict &ldquo;seems to be moving into a more dangerous phase.&rdquo;",
+          "url": "https://www.aljazeera.com/news/2026/10/5/yemeni-govt-forces-aim-for-sanaa-but-houthi-defeat-will-be-a-challenge",
+          "continues": false,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261003__D2699KL__v2__HighRes__TopshotYemenSaudiIsranUsIsraelWar-1791192768.jpg?resize=1920%2C1440"
+        },
+        {
+          "headline": "Iran says Hormuz stays closed until US meets its seven conditions",
+          "body": "Iran declared the Strait of Hormuz will remain shut until Washington accepts a seven-point plan based on the Islamabad memorandum, with parliament speaker Mohammad Bagher Ghalibaf saying &ldquo;the era of wasting time and dictating unilateral demands is over,&rdquo; per Al Jazeera (Oct 4). Foreign Minister Abbas Araghchi said Iran remains open to diplomacy but is &ldquo;more prepared than before&rdquo; if the US strikes again, as the closure &mdash; now past seven months since the Feb. 28 strikes &mdash; continues disrupting roughly a fifth of global oil and gas shipping.",
+          "url": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions",
+          "continues": true,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/08/getty_6a83dd487a-1787026760.jpg?resize=1920%2C1440"
+        },
+        {
+          "headline": "Zelenskyy says Ukraine ready for US-brokered trilateral talks with Russia by month&rsquo;s end",
+          "body": "Standing alongside German Chancellor Friedrich Merz in Kyiv, President Zelenskyy said Washington has proposed technical-level trilateral talks with Russia by the end of October, possibly in the UAE, per Al Jazeera (Oct 4): &ldquo;I confirmed to [the US] that our side is ready to support this timeline.&rdquo; The announcement came the same day Russian strikes hit Kyiv&rsquo;s Northern Bridge during Merz&rsquo;s visit, and as Zelenskyy said Russia fired roughly 900 jet-powered drones at Ukraine that week alone, about half of them intercepted.",
+          "url": "https://www.aljazeera.com/news/2026/10/4/ukraine-ready-for-us-backed-talks-with-russia-zelenskyy",
+          "continues": true,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ac270a7-1791127719.jpg?resize=770%2C513&quality=80"
+        },
+        {
+          "headline": "Sudan&rsquo;s army seizes RSF&rsquo;s largest North Kordofan stronghold as aid driver killed",
+          "body": "Sudan&rsquo;s military said it captured Al-Mazroub, described as &ldquo;the RSF&rsquo;s largest stronghold in North Kordofan,&rdquo; with army spokesman Mohammed Deidan noting the town &ldquo;links the states of North Kordofan and West Kordofan&rdquo; and is key to cutting RSF supply lines, per Al Jazeera (Oct 2). Days later an air strike of unclear origin killed a UN World Food Programme truck driver in South Kordofan on a clearly marked aid convoy, with WFP warning &ldquo;these incidents underscore the increasingly challenging security environment in Sudan,&rdquo; where roughly 19.5 million people face acute food insecurity.",
+          "url": "https://www.aljazeera.com/news/2026/10/2/sudans-army-says-it-captured-rsf-stronghold-in-north-kordofan",
+          "continues": true,
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/AP25199749467891-1790689918.jpg?resize=1920%2C1440"
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "sport": "F1",
+      "headline": "Singapore Grand Prix",
+      "body": "Qualifying on Oct 10 and the race on Oct 11 at the Marina Bay street circuit come as Antonelli tries to extend his 84-point championship cushion over Russell.",
+      "url": "https://www.formula1.com/en/racing/2026/bahrain",
+      "when": "Oct 10-11"
+    },
+    {
+      "sport": "Cricket",
+      "headline": "Australia vs South Africa, 1st Test",
+      "body": "Australia&rsquo;s tour opener in Durban starts Oct 9, with Marnus Labuschagne&rsquo;s warm-up century fresh in mind and South Africa still monitoring quick Kagiso Rabada&rsquo;s fitness.",
+      "url": "https://www.icc-cricket.com/news/star-proteas-pacer-in-race-to-be-fit-for-australia-tests",
+      "when": "Oct 9-13"
+    },
+    {
+      "sport": "Football",
+      "headline": "UEFA Champions League, Matchday 2",
+      "body": "Europe&rsquo;s top clubs return to continental action with the competition&rsquo;s second round of group matches.",
+      "url": "https://www.uefa.com/uefachampionsleague/",
+      "when": "Oct 13-14"
+    },
+    {
+      "sport": "Cricket",
+      "headline": "India vs West Indies, 2nd T20I",
+      "body": "The five-match series moves to Ranchi&rsquo;s JSCA International Stadium three days after the Lucknow opener.",
+      "url": "https://www.tv9marathi.com/sports/cricket-news/series/schedule/wi-in-ind-5-t20is-2026-15498",
+      "when": "Oct 9"
+    }
+  ],
+  "portfolio": [
+    {
+      "ticker": "TWLO",
+      "company": "Twilio",
+      "headline": "Twilio joins the S&amp;P 500 as the Paramount&ndash;WBD merger closes",
+      "body": "Twilio is being added to the S&amp;P 500 before Tuesday's open, taking the slot vacated by Warner Bros. Discovery as WBD's merger with Paramount Skydance closes the same day, per Yahoo Finance (Oct 5). Index funds and ETFs that track the S&amp;P 500 must now buy the stock to match the benchmark &mdash; a mechanical source of demand that has nothing to do with Twilio's own operating results.",
+      "img": "https://s.yimg.com/lo/mysterio/api/ff456f70ceb155c3837a6ffc04c640e477cab3a9458bcb5a2bb23d2edcc5f528/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2Fd328f7db7fa019e809cef3d7281ab08b.jpg",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-twilio-stock-fans-mark-140222749.html",
+      "continues": true
+    },
+    {
+      "ticker": "INTC",
+      "company": "Intel",
+      "headline": "Musk's TSMC talks for Terafab cloud Intel's exclusivity bet",
+      "body": "Elon Musk confirmed on X that Taiwan Semiconductor is in talks to help build his Terafab chip project, writing &ldquo;in discussions, but something may come of it,&rdquo; per Invezz (Oct 5). D.A. Davidson analyst Gil Luria said any TSMC role undercuts the market's read that Intel would be Terafab's sole foundry partner, calling it a sign of &ldquo;a lack of confidence in trusting the future of his important endeavor to Intel alone.&rdquo; Separately, Susquehanna flagged that Intel's laptop CPU market share slipped to 68.1% in Q3 as AMD and Qualcomm gained ground.",
+      "img": "https://invezz-wp-media.lon1.digitaloceanspaces.com/2026/10/image-23.png",
+      "url": "https://invezz.com/news/2026/10/05/why-is-intel-stock-falling-on-monday/",
+      "continues": false
+    },
+    {
+      "ticker": "NVDA",
+      "company": "Nvidia",
+      "headline": "Nvidia lifts buyback authorization to $235 billion",
+      "body": "Nvidia's board approved a $150 billion increase to its share-repurchase program, bringing the total remaining authorization to $235 billion, which the company expects to execute through fiscal 2028, per StockTitan (Sept 28). CEO Jensen Huang said &ldquo;our cash generation gives us the capacity to invest in technologies and return capital to shareholders.&rdquo; Separately, Nvidia-backed startup Reflection AI debuted its first open-weight model, Beam, aimed at competing with lower-cost Chinese AI models (Reuters, Oct 5).",
+      "img": "https://static.stocktitan.net/company-logo/nvda-lg.png?v=eda4950a3f",
+      "url": "https://www.stocktitan.net/news/NVDA/nvidia-announces-a-150-billion-share-repurchase-authorization-wrx3s030roop.html",
+      "continues": false
+    },
+    {
+      "ticker": "NET",
+      "company": "Cloudflare",
+      "headline": "Cloudflare launches Basin data platform as cloud rally broadens",
+      "body": "Cloudflare launched Basin, a serverless data platform built on Apache Iceberg and its R2 storage that lets developers query their own data without managing servers or paying egress fees, per Business Wire (Oct 1). CTO Dane Knecht said &ldquo;developers shouldn't need to become data infrastructure operators just to answer questions from their own data.&rdquo; 247wallst (Oct 5) separately noted investor appetite concentrating in higher-beta cloud names like Cloudflare even as peer CoreWeave lagged &mdash; a sector-rotation story more than a company-specific one.",
+      "img": "https://mms.businesswire.com/media/20261001450315/en/2919229/22/cflogo.jpg",
+      "url": "https://www.businesswire.com/news/home/20261001450315/en/Cloudflare-Launches-Basin-A-More-Open-and-Accessible-Data-Platform-for-Developers/",
+      "continues": false
+    },
+    {
+      "ticker": "CRSP",
+      "company": "CRISPR Therapeutics",
+      "headline": "CRISPR Therapeutics to present new autoimmune CAR-T data in November",
+      "body": "CRISPR Therapeutics will present Phase 1 data on zugocabtagene geleucel (zugo-cel), its CRISPR/Cas9 gene-edited anti-CD19 CAR-T therapy, in refractory systemic sclerosis at the American College of Rheumatology's Convergence meeting on November 8, per GlobeNewswire (Oct 2). The therapy is also being tested across other autoimmune, hematologic and neurologic indications. Gene-editing peer Editas Medicine moved with it &mdash; see next.",
+      "img": null,
+      "url": "https://www.globenewswire.com/news-release/2026/10/02/3373871/0/en/crispr-therapeutics-to-present-clinical-data-on-zugocabtagene-geleucel-zugo-cel-in-autoimmune-disease-at-the-american-college-of-rheumatology-acr-convergence-2026.html",
+      "continues": false
+    },
+    {
+      "ticker": "EDIT",
+      "company": "Editas Medicine",
+      "headline": "Editas extends rebound after Guggenheim's Buy upgrade",
+      "body": "Guggenheim upgraded Editas Medicine to Buy from Neutral with a $5 price target, citing EDIT-401's potential for atherosclerotic cardiovascular disease patients who need more than a 50% reduction in LDL cholesterol, with a Phase 1/2a study expected to start in Q4 (TheFly, Sept 23). The upgrade came as gene-editing stocks, Editas included, were still recovering from a sell-off after Anthropic disclosed that its Claude model had identified a previously unknown CRISPR-like enzyme system. Sector peer CRISPR Therapeutics also advanced on its own autoimmune-trial news (above); no newer company-specific item was found for today.",
+      "img": "https://blog.tipranks.com/wp-content/uploads/2022/09/shutterstock_1061972606-750x406.jpg",
+      "url": "https://www.tipranks.com/news/the-fly/editas-medicine-upgraded-to-buy-at-guggenheim-on-edit-401-potential-thefly-news",
+      "continues": false
+    },
+    {
+      "ticker": "PYPL",
+      "company": "PayPal",
+      "headline": "Venmo credit card adds bonus cash back for splitting bills",
+      "body": "PayPal's Venmo rolled out an enhanced Venmo Credit Card paying 3% automatic cash back on dining, entertainment and streaming, plus a bonus 1% when a purchase is split with friends and repaid within 30 days, with no annual or foreign-transaction fees, per PR Newswire (Oct 5). Venmo GM Alexis Sowa said &ldquo;Venmo users have always been social spenders. They go out together, they split the bill, and they settle up in the app.&rdquo;",
+      "img": "https://mmx.prnewswire.com/media/MS941824/Venmo-Logo.jpg?id=OA2985816&p=facebook",
+      "url": "https://www.prnewswire.com/news-releases/the-venmo-credit-card-now-pays-up-to-4-cash-back-when-you-split-with-friends-302897820.html",
+      "continues": false
+    },
+    {
+      "ticker": "CDE",
+      "company": "Coeur Mining",
+      "headline": "Coeur banks record exploration spend; no fresh catalyst found for today's move",
+      "body": "Coeur disclosed a record $158 million 2026 exploration budget, including $24 million at its New Afton site, where September drilling turned up &ldquo;higher-than-expected gold and copper intercepts&rdquo; at the K-Zone and East Picrite Trend, per Yahoo Finance (Oct 5). Spot gold and silver were little changed to modestly higher on the day, so neither bullion prices nor any company-specific announcement explain today's session &mdash; the exploration news itself reads as a long-term positive, not a negative.",
+      "img": "https://s.yimg.com/lo/mysterio/api/939a15fbca9766ac6fe361c24ed105e228f105013e98ccebfab7cb69e073b1fb/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2Fa804a82b740daf6b6ceae753a2922fc3.jpg",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bull-case-coeur-mining-cde-051223642.html",
+      "continues": false
+    },
+    {
+      "ticker": "RXT",
+      "company": "Rackspace Technology",
+      "headline": "Rackspace still digesting securities-fraud suits; no new trigger found",
+      "body": "Multiple law firms continued soliciting Rackspace Technology shareholders for a securities class action tied to the company's AI-pivot guidance cut, with the latest investor-alert notices dated September 28 (Business Wire). No company-specific news was found dated October 5 or 6, so today's move looks like continued digestion of that litigation overhang and August's guidance cut rather than a fresh catalyst.",
+      "img": null,
+      "url": "https://www.businesswire.com/news/home/20260928087107/en/RXT-CLASS-ACTION-DEADLINE-TONIGHT-Faruqi-Faruqi-LLP-Reminds-Rackspace-Technology-RXT-Investors-of-Securities-Class-Action-Lawsuit-Deadline-on-September-28-2026/",
+      "continues": false
+    }
+  ],
+  "country_groups": [
+    {
+      "label": "India",
+      "stories": [
+        {
+          "headline": "Modi, Swiss President Parmelin sign transport and mobility pacts; PM gifts award-winning Indian cheeses",
+          "body": "During Guy Parmelin&rsquo;s three-day state visit, PM Modi and the Swiss President held bilateral talks and signed agreements on transport technologies, mobility systems and infrastructure, per WION (Oct 5). Modi presented Parmelin three award-winning Indian cheeses &ndash; Gulmarg, Konark and Yeoor &ndash; plus a hand-carved Himalayan walnut wall panel, in what WION called a &ldquo;deliberate piece of culinary diplomacy&rdquo;; the visit culminates in the 2nd India-EFTA Prosperity Summit on Oct 7.",
+          "url": "https://www.wionews.com/india-news/pm-modi-gifts-swiss-president-made-in-india-cheese-1791220627923",
+          "continues": true,
+          "img": "https://cdn3.wionews.com/prod/wion/images/2026/20261005/image-1791220950127.jpeg"
+        },
+        {
+          "headline": "Jaishankar: &ldquo;US remains a critical economic and strategic partner for India&rdquo;",
+          "body": "External Affairs Minister S Jaishankar called the US India&rsquo;s &ldquo;principal strategic partner&rdquo; and said a proposed trade deal represents &ldquo;big steps with great possibilities,&rdquo; per WION (Oct 5). Defending India&rsquo;s multi-alignment with China, Russia, Europe and the Gulf, he added &ldquo;every relationship is net-net a plus for us&rdquo; and cautioned, &ldquo;we can&rsquo;t say US is to blame for all the trade problems.&rdquo;",
+          "url": "https://www.wionews.com/india-news/us-remains-a-critical-economic-and-strategic-partner-for-india-jaishankar-1791218082943",
+          "continues": false,
+          "img": "https://cdn3.wionews.com/prod/wion/images/2026/20261005/image-1791218142029.jpg"
+        },
+        {
+          "headline": "CJI Surya Kant contradicts Election Commission: &ldquo;Modified Form 6 has not been approved by us&rdquo;",
+          "body": "Chief Justice Surya Kant directly rebutted the ECI&rsquo;s September 26 claim that the Supreme Court had endorsed a modified Form 6 for the SIR voter-roll exercise, stating &ldquo;any modified Form 6 has not been approved by us. Let&rsquo;s be clear,&rdquo; per WION (Oct 5). The form now requires new voters to disclose whether parents or grandparents were previously enrolled, a change made without formally amending the Registration of Electors Rules, 1960 &ndash; and which two Election Commissioners had reportedly objected to; this is a new flashpoint in the SIR dispute that drove this week&rsquo;s India-bloc protests.",
+          "url": "https://www.wionews.com/india-news/supreme-court-cji-surya-kant-eci-modified-form-6-sir-1791194930792",
+          "continues": true,
+          "img": "https://cdn3.wionews.com/prod/wion/images/2026/20261005/image-1791199098058.jpg"
+        }
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "stories": [
+        {
+          "headline": "UK Green Party votes &ldquo;Zionism is racism&rdquo; despite revolt from 4 of its 5 MPs",
+          "body": "The Green Party of England and Wales passed a conference motion branding Zionism an &ldquo;ethnonationalist political project&rdquo; to be treated as racism, by 1,022 votes to 813 in Brighton, per IBTimes UK (Oct 5). Jewish party leader Zack Polanski was absent, campaigning in a by-election; MPs Ellie Chowns, Carla Denyer and Caroline Lucas publicly opposed the motion, with Chowns warning it risked reinforcing divisive &ldquo;zero-sum&rdquo; politics, and Israel has since barred Polanski from entering the country.",
+          "url": "https://www.ibtimes.co.uk/uk-greens-vote-zionism-racism-despite-revolt-4-5-mps-israel-bans-polanski-1823587",
+          "continues": false,
+          "img": "https://d.ibtimes.co.uk/en/full/1834706/zack-polanski.png"
+        },
+        {
+          "headline": "PM Andy Burnham resists push to reverse state pension age to 65",
+          "body": "A parliamentary petition seeking to roll the State Pension age back to 65 has passed 18,789 signatures, triggering a government response, per IBTimes UK (Oct 5). PM Burnham signalled he wants any future triple-lock changes to still guarantee pensions rise by &ldquo;at least inflation or 2.5 per cent,&rdquo; while defending the current trajectory toward a pension age of 67 and then 68, with some of the savings floated to help fund his proposed National Care Service.",
+          "url": "https://www.ibtimes.co.uk/andy-burnham-state-pension-age-debate-1823687",
+          "continues": false,
+          "img": "https://d.ibtimes.co.uk/en/full/1834809/official-portrait-andy-burnham.png"
+        }
+      ]
+    },
+    {
+      "label": "Qatar &amp; the GCC",
+      "stories": [
+        {
+          "headline": "GCC chief: electricity, water interconnection a &ldquo;strategic priority&rdquo; as savings top $5.2bn",
+          "body": "GCC Secretary-General Jasem Mohamed Albudaiwi said electricity and water systems remain a top joint priority for resource security, citing 2025 GCC electricity generation of roughly 876,000 GWh (up 9.6%) and desalinated water output of about 8.5 billion cubic metres (up 10.8%), per The Peninsula Qatar (Oct 5). He noted the GCC electricity grid interconnection delivered $952 million in savings in 2025 alone, pushing cumulative savings past $5.2 billion since launch, and called for &ldquo;translating these directives into practical initiatives.&rdquo;",
+          "url": "https://thepeninsulaqatar.com/article/05/10/2026/gcc-secretary-general-developing-electricity-and-water-systems-and-bolstering-gcc-interconnection-represent-strategic-priority-to-support-resource-security-and-sustainability",
+          "continues": false,
+          "img": "https://thepeninsulaqatar.com/get/maximage/20261005_1791206804-656.jpg?1791206804"
+        },
+        {
+          "headline": "GCC states post world&rsquo;s highest outward remittances at $161 billion",
+          "body": "GCC countries collectively sent about $161 billion in workers&rsquo; remittances abroad in 2025, a 13.6% year-on-year jump of roughly $19 billion, per The Peninsula Qatar (Oct 4). That total dwarfs the US ($107bn), Switzerland ($43bn), Germany ($27bn) and France ($21bn), and now equals 6.6% of combined GCC GDP, up from 6.0% in 2024, reflecting continued expatriate-worker inflows tied to infrastructure and services-sector growth.",
+          "url": "https://thepeninsulaqatar.com/article/04/10/2026/gcc-records-worlds-highest-outward-workers-remittances-at-about-161-billion",
+          "continues": false,
+          "img": "https://thepeninsulaqatar.com/get/maximage/20240327_1711530478-724.jpg?1711530479"
+        },
+        {
+          "headline": "Qatar joins Cairo launch of Arab report warning food and water security &ldquo;must not be used as tools of war&rdquo;",
+          "body": "Qatar was represented by Amna Abdulrahman Al Sulaiti at the League of Arab States launch in Cairo of the Arab Thought Foundation&rsquo;s 14th Arab Cultural Development Report, &ldquo;Arab Food and Water Security: Accumulated Crises and Promising Initiatives,&rdquo; per The Peninsula Qatar (Oct 5). Arab League Secretary-General Nabil Fahmy said water and food security &ldquo;are integral to the broader concept of Arab national security&rdquo; and &ldquo;must not be used as tools of war or political pressure,&rdquo; urging proactive regional cooperation over crisis management.",
+          "url": "https://thepeninsulaqatar.com/article/05/10/2026/qatar-attends-launch-of-report-on-arab-food-and-water-security",
+          "continues": false,
+          "img": "https://thepeninsulaqatar.com/get/maximage/20261005_1791216226-998.jpg?1791216226"
+        }
+      ]
+    }
+  ],
+  "doha_events": [
+    {
+      "headline": "&ldquo;All That Is Unseen&rdquo; opens at Media Majlis, Northwestern Qatar",
+      "body": "Artist collective Marshmallow Laser Feast&rsquo;s immersive exhibition, exploring &ldquo;hidden systems that connect people with the living world&rdquo; through science, art and technology, previewed Oct 4 and opened to the public Oct 5, running through January 21, 2027 at Media Majlis Museum, Education City &ndash; free admission, per Qatar Living (Oct 4).",
+      "url": "https://www.qatarliving.com/en/article/things-to-do-in-qatar-this-week-4-11-october-2026",
+      "continues": false,
+      "img": "https://cdn-content.qatarliving.com/articles/featured/1791097932594-a908e5ce-8ce3-4940-9266-2472d6791d17.png"
+    },
+    {
+      "headline": "TJ &amp; KZ bring &ldquo;In Between&rdquo; Middle East tour to QNCC",
+      "body": "Filipino duo TJ &amp; KZ perform a live set of ballads, duets and OPM favourites at Al Mayassa Theatre, QNCC on Oct 9, following a sold-out run in the Philippines; tickets start at QAR 199, per Qatar Living (Oct 4).",
+      "url": "https://www.qatarliving.com/en/article/things-to-do-in-qatar-this-week-4-11-october-2026",
+      "continues": false,
+      "img": "https://cdn-content.qatarliving.com/articles/featured/1791097932594-a908e5ce-8ce3-4940-9266-2472d6791d17.png"
+    },
+    {
+      "headline": "Abdulaziz Louis live in Doha at QNCC",
+      "body": "Singer Abdulaziz Louis performs at QNCC on Oct 8, with tickets starting at QAR 190, per Qatar Living (Oct 4) &ndash; one of several concerts filling Doha&rsquo;s venues this week alongside Ramy Sabry and TJ &amp; KZ.",
+      "url": "https://www.qatarliving.com/en/article/things-to-do-in-qatar-this-week-4-11-october-2026",
+      "continues": false,
+      "img": "https://cdn-content.qatarliving.com/articles/featured/1791097932594-a908e5ce-8ce3-4940-9266-2472d6791d17.png"
+    },
+    {
+      "headline": "WTT Youth Star Contender table tennis kicks off across Aspire and Lusail",
+      "body": "The international WTT Youth Star Contender tournament runs Oct 7&ndash;16 across Aspire Ladies Sports Hall and Lusail Sports Hall, with daily youth matches from 3pm; ticket pricing TBC, per Qatar Living (Oct 4).",
+      "url": "https://www.qatarliving.com/en/article/things-to-do-in-qatar-this-week-4-11-october-2026",
+      "continues": false,
+      "img": "https://cdn-content.qatarliving.com/articles/featured/1791097932594-a908e5ce-8ce3-4940-9266-2472d6791d17.png"
+    },
+    {
+      "headline": "5K Night Dash lights up Lusail Boulevard",
+      "body": "A night-time 5K run takes over Lusail Boulevard on Oct 10, with entry priced at QAR 140, per Qatar Living (Oct 4) &ndash; part of a packed week of family, sport and culture events across the city.",
+      "url": "https://www.qatarliving.com/en/article/things-to-do-in-qatar-this-week-4-11-october-2026",
+      "continues": false,
+      "img": "https://cdn-content.qatarliving.com/articles/featured/1791097932594-a908e5ce-8ce3-4940-9266-2472d6791d17.png"
+    }
+  ]
+}
