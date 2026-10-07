@@ -1,0 +1,393 @@
+{
+  "skim": [
+    "President Trump said at a Nebraska rally the US could let Iran &lsquo;take out&rsquo; Los Angeles and San Diego as &lsquo;a very small price to pay&rsquo; in the Iran war, drawing bipartisan backlash led by Governor Gavin Newsom calling it &lsquo;deranged&rsquo; and &lsquo;dangerous.&rsquo;",
+    "France suspended high-school classes nationwide after a violent &lsquo;act 3&rsquo; protest drew 500,000 demonstrators and 6,100 arrests since the movement began, Kenya confirmed its first Ebola case tied to the DRC&rsquo;s epidemic, and Australia&rsquo;s top court blocked a coal mine expansion in a landmark climate ruling.",
+    "Google locked in a 20-year, $4.3-billion nuclear power deal with Constellation Energy to feed its AI data centers, Wall Street closed at fresh records even as bond yields ran hot, and Mistral unveiled a 1-trillion-parameter model it says needed far fewer GPUs than Chinese or US rivals.",
+    "Yemeni government forces claimed a key Taiz mountain peak as Houthis said they thwarted a push toward the Bab al-Mandeb Strait, Sudan&rsquo;s army chief ruled out RSF talks and vowed a &lsquo;military option&rsquo; until the group is eliminated, and Saudi Arabia said three were hurt in attacks on its Jazan and Najran airports.",
+    "India&rsquo;s Rahul and Priyanka Gandhi were briefly detained at a Delhi protest demanding the Election Commission chief&rsquo;s resignation as PM Modi marked 25 years as head of government, the UK threatened to expel 27 Israeli diplomats over a Jerusalem consulate row, and Saudi Arabia beat the UAE 2-0 to win its first Gulf Cup since 2004."
+  ],
+  "sections": [
+    {
+      "key": "world",
+      "title": "World",
+      "icon": "news",
+      "stories": [
+        {
+          "headline": "Trump says US could let Iran &lsquo;take out&rsquo; Los Angeles and San Diego, sparking bipartisan backlash",
+          "body": "At a Nebraska rally on Oct 5, President Trump said of the US-Israeli war against Iran, &ldquo;Let them take out Los Angeles. Let them take out San Diego. This is a very small price to pay,&rdquo; per Al Jazeera (Oct 7). California Governor Gavin Newsom called the remarks &ldquo;deranged&rdquo; and &ldquo;dangerous,&rdquo; Republican House candidate Jim Desmond said &ldquo;no American city is expendable,&rdquo; and the White House&rsquo;s Steven Cheung dismissed the backlash as a &ldquo;media freakout,&rdquo; claiming Trump meant a de-nuclearized Iran would pose no such threat.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ac5845b-1791329371.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/10/7/politicians-slam-trumps-suggestion-that-iran-take-san-diego-los-angeles",
+          "continues": false
+        },
+        {
+          "headline": "France shuts high schools nationwide as student protests turn violent, 6,100 arrested",
+          "body": "French PM S&eacute;bastien Lecornu suspended high school classes nationwide for the rest of the week after Tuesday&rsquo;s &lsquo;act 3&rsquo; protests drew up to 500,000 demonstrators and left nearly 2,000 schools blockaded or closed, per Al Jazeera (Oct 6). Police reported 215 injured teenagers and 715 injured officers &mdash; including a 15-year-old who lost a hand after picking up a police grenade in Lens &mdash; and 6,100 arrests since the protests began; Lecornu said &ldquo;burning down a high school does not improve the state of high school buildings,&rdquo; while ordering ministers to address students&rsquo; repair and overcrowding demands by month&rsquo;s end.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-06T143354Z_1584354009_RC2QXNAR89HL_RTRMADP_3_FRANCE-PROTEST-1791297526.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount",
+          "continues": true
+        },
+        {
+          "headline": "Kenya confirms first Ebola case as DRC epidemic edges toward becoming history&rsquo;s second-deadliest",
+          "body": "Kenya confirmed its first Ebola case after a Kenyan national who had lived in the Democratic Republic of Congo for seven years died in Nairobi, having travelled by road to Kampala before flying in on Saturday, per Al Jazeera (Oct 6). Health Secretary Aden Duale said the patient &ldquo;had been ill for about a month before travelling,&rdquo; and officials are now tracing 28 contacts plus 23 fellow flight passengers for 21-day isolation; the DRC&rsquo;s own outbreak has topped 8,300 confirmed cases and 4,000 deaths across seven provinces, with the WHO warning it is &ldquo;far from over&rdquo; and could surpass the 2014-2016 West Africa epidemic&rsquo;s 11,000-plus deaths.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ac506a9dbe4-1791297193.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/10/6/kenya-confirms-first-ebola-case-after-patient-from-dr-congo-dies-in-nairobi",
+          "continues": false
+        },
+        {
+          "headline": "Australia&rsquo;s top court blocks coal mine expansion in landmark climate ruling",
+          "body": "Australia&rsquo;s High Court ruled 3-2 against expanding the Mount Pleasant coal mine in New South Wales, finding planning authorities failed to weigh the project&rsquo;s emissions against the climate harm they cause, per Al Jazeera (Oct 7). Mine owner Mach Energy had sought to nearly double output and extend operations to 2048; plaintiff Wendy Wales said &ldquo;we cannot dig up coal, ship it overseas, watch it drive climate change,&rdquo; while co-plaintiff Tony Lonergan called the ruling &ldquo;the end of coal mine approvals that look the other way on climate&rdquo; &mdash; a decision campaigners say sets binding national precedent.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/20261007_MACH-Energy-V-DAMSHEG_067-1791339502.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/10/7/australia-top-court-rules-against-coal-mine-expansion-citing-climate-harm",
+          "continues": false
+        },
+        {
+          "headline": "&lsquo;We are desperate&rsquo;: Venezuela&rsquo;s power cuts deepen as oil output rises",
+          "body": "Nearly 63% of Venezuelan households suffered daily power cuts in 2026, up from 37.1% in 2024, even as oil production climbed almost 30% this year to 1.2 million barrels a day, per Al Jazeera (Oct 6). Maracaibo lawyer Patricia Cueva said &ldquo;we cannot understand how a country so rich in resources can be practically left in the dark,&rdquo; while energy specialist Nelson Hernandez blamed &ldquo;systematic neglect of the infrastructure&rdquo; as Venezuela&rsquo;s overwhelmingly hydropower-dependent grid strains to also supply a growing, prioritized oil sector.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-03T023434Z_1011373688_RC2UUNA1R9IO_RTRMADP_3_VENEZUELA-PROTEST-ELECTRICITY-1791254728.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/longform/2026/10/6/we-are-desperate-venezuelas-power-cuts-fuel-growing-public-anger",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "sports",
+      "title": "Sports",
+      "icon": "trophy",
+      "stories": [
+        {
+          "headline": "Harmanpreet Kaur resigns as India&rsquo;s all-format women&rsquo;s captain",
+          "body": "Harmanpreet Kaur, 37, stepped down as India&rsquo;s all-format captain with immediate effect, ending a run that began with the T20I armband in 2016 and grew to cover Tests and ODIs in 2022 after Mithali Raj&rsquo;s retirement, per ICC (Oct 6). &ldquo;This is not an easy decision,&rdquo; she said. &ldquo;It carries years of memories, emotions, sacrifices, and moments that will stay with me for the rest of my life&hellip;Now, I&rsquo;m ready to play for the love of the game again. Captaincy ends. The journey continues.&rdquo; No successor has been named yet.",
+          "img": "https://images.icc-cricket.com/image/upload/t_ratio16_9-size30-webp/v1791265438/prd/zlljvwuq5hdwqxe5fiza",
+          "url": "https://www.icc-cricket.com/news/harmanpreet-kaur-steps-down-as-india-captain",
+          "continues": false
+        },
+        {
+          "headline": "Saudi Arabia end 22-year wait, beat UAE 2-0 to win Gulf Cup 27",
+          "body": "Saudi Arabia beat the UAE 2-0 in the Gulf Cup 27 final at Jeddah&rsquo;s King Abdullah Sports City Stadium, with Hammam Al Hammami striking in the 11th minute and Feras Al Brikan adding a second two minutes later, per Khaleej Times (Oct 7). The win ends a 22-year title drought for the hosts &mdash; their first Gulf Cup since 2004 &mdash; after they edged Qatar on penalties in the semi-final, while UAE coach Zlatko Dalic had warned beforehand that Saudi Arabia came in &ldquo;with a clean sheet, and the advantage of home ground and the stadium.&rdquo;",
+          "img": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-10-06/n129qvbx/2026newsmlUP1EMA61M50N71256643292.jpeg",
+          "url": "https://www.khaleejtimes.com/sports/football/saudi-arabia-end-22-year-wait-for-another-gulf-cup-title",
+          "continues": true
+        },
+        {
+          "headline": "McLaren admits tyre-strategy blunder deepened Sepang slump",
+          "body": "McLaren team principal Andrea Stella admitted the team misjudged tyre strategy at the Bahrain Grand Prix in Sepang, starting both Lando Norris and Oscar Piastri on dry slicks before a longer-than-expected damp window forced costly late stops, per Formula1.com (Oct 5). &ldquo;It was an incorrect judgment as to the crossover at which the dry tyres would be faster than the intermediate tyres,&rdquo; Stella said, as Piastri salvaged P6 and Norris recovered from P15 to P9 &mdash; McLaren&rsquo;s second poor showing in just over a week after scoring zero points in Azerbaijan.",
+          "img": "https://media.formula1.com/image/upload/t_16by9South/c_lfill,w_2048/q_auto/v1740000001/trackside-images/2026/F1_Grand_Prix_of_Bahrain_in_Malaysia___Qualifying/2298335965.webp",
+          "url": "https://www.formula1.com/en/latest/article/an-incorrect-judgement-how-mclaren-got-their-sums-wrong-on-sepang-tyre-strategy.4v0pYbPzbMliaDbxtRYrH0",
+          "continues": true
+        },
+        {
+          "headline": "Ronaldo rules out Portugal return while Jesus remains coach",
+          "body": "Cristiano Ronaldo will not rejoin Portugal&rsquo;s national team &ldquo;for as long as [coach Jorge] Jesus remains head coach,&rdquo; per Goal.com (Oct 6), after walking out of the squad&rsquo;s camp when Jesus warmed him up but never brought him on during a 2-1 win over Norway. The 41-year-old flew back to Saudi Arabia by private jet and posted a farewell message on Instagram; Jesus has publicly denied any conflict, saying he &ldquo;had not acted wrongly in the matter,&rdquo; and reconciliation efforts between Ronaldo and the Portuguese FA have so far failed.",
+          "img": "https://assets.goal.com/images/v3/getty-2296886791/crop/MM5DINBTGQ5DENBZGQ5G433XMU5DAORSGMYQ====/GettyImages-2296886791.jpg",
+          "url": "https://www.goal.com/en/news/cristiano-ronaldo-sets-hard-line-condition-for-return-to-portugal-squad/blte9989c89d8b5dc2e",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "title": "Business &amp; Markets",
+      "icon": "chart",
+      "stories": [
+        {
+          "headline": "Nasdaq, S&amp;P 500 and Dow all close at fresh records as Treasury yields ease",
+          "body": "The S&amp;P 500 climbed to a record 7,818.93 (+0.58%) and the Nasdaq Composite closed at a record 27,599.79 (+0.45%) on Tuesday, with the Dow adding 0.49% to 51,521.28 even as the Russell 2000 slipped 0.57%, per TheStreet (Oct 6). The rally came as the 10-year Treasury yield eased to 5.275% and oil prices retreated, with Capital.com analyst Kyle Rodda noting &ldquo;earnings growth estimates for the upcoming earnings season have been upwardly revised to nearly 30%.&rdquo;",
+          "img": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMTk4MDI0/untitled.jpg?profile=share16-9",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-06-2026",
+          "continues": true
+        },
+        {
+          "headline": "Google locks in 20-year nuclear power deal with Constellation as AI demand strains the grid",
+          "body": "Google and Constellation Energy announced a 20-year agreement adding 890 megawatts of new nuclear capacity to the PJM grid, plus access to 2,700 MW from existing plants for 15 years, with Constellation committing more than $4.3 billion to upgrade 11 reactor units across six plants in Illinois, New Jersey and Pennsylvania, per SiliconANGLE (Oct 7). Google&rsquo;s Amanda Peterson Corio said &ldquo;the fastest new megawatt is often the one that can be provided by existing infrastructure,&rdquo; and the deal is expected to sustain 4,400 jobs and create about 7,200 construction jobs, as Google Cloud separately signed a 5-year contract supplying Constellation with Gemini Enterprise tools for grid management.",
+          "img": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/Screenshot-from-2026-10-07-09-02-04.png",
+          "url": "https://siliconangle.com/2026/10/06/google-goes-nuclear-to-power-its-ai-data-centers-committing-to-purchase-890-megawatts-of-energy-from-constellation/",
+          "continues": false
+        },
+        {
+          "headline": "AI cloud startup Lambda targets $4 billion raise at $14.5 billion valuation ahead of 2027 IPO",
+          "body": "Lambda is in talks to raise as much as $4 billion at a $14.5 billion pre-money valuation led by Coatue Management and Blackstone, in what would likely be its last private round before a planned 2027 public listing, per TechCrunch (Oct 6). The Nvidia-backed &ldquo;neocloud&rdquo; has seen its contracted backlog balloon from $15 billion in June to $50 billion in September &mdash; much of it tied to a single $35 billion compute commitment from Anthropic signed in late August &mdash; and recently took on an additional $1 billion in debt to fund data-center buildouts, joining CoreWeave and Nebius in heading toward the public markets.",
+          "img": "https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-1148109686.jpg?resize=1200,687",
+          "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "AI &amp; Technology",
+      "icon": "cpu",
+      "stories": [
+        {
+          "headline": "Mistral unveils 1-trillion-parameter &lsquo;Le Chonk&rsquo; model, says it used a fraction of the GPUs its rivals need",
+          "body": "Mistral introduced Mistral Large 4 (internally nicknamed &ldquo;Le Chonk&rdquo;), a 1-trillion-parameter multimodal model aimed at the middle ground between closed US models and open Chinese rivals, per TechCrunch (Oct 6). VP Pierre Stock said the model was trained &ldquo;using only 4,000 Nvidia GPUs which is two to three times less than our Chinese competitors, and significantly less than the closed source competitors,&rdquo; targeting cybersecurity, finance and chip-design use cases favored by backers ASML and Samsung; it&rsquo;s live only behind a guardrailed endpoint for now, with open-weights due in about three weeks after safety testing.",
+          "img": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2264771189.jpg?resize=1200,800",
+          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+          "continues": false
+        },
+        {
+          "headline": "DeepSeek seeks up to $15 billion ahead of a 2027 Chinese IPO as revenue run-rate tops $1 billion",
+          "body": "Chinese AI lab DeepSeek is raising roughly $12 billion &mdash; with term sheets pointing to as much as $15 billion, well above its original $7.4 billion target &mdash; from backers including CATL and Tencent, ahead of a 2027 listing Bloomberg called &ldquo;one of the most highly anticipated debuts on the Chinese market in years,&rdquo; per PYMNTS (Oct 6). The round comes as DeepSeek&rsquo;s annualized revenue run-rate has more than doubled to $1 billion in recent months, with rival Moonshot also chasing an early-2027 IPO off a $50 billion valuation.",
+          "img": "https://www.pymnts.com/wp-content/uploads/2026/07/DeepSeek-funding-1.jpg",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/deepseek-looks-to-raise-12-billion-ahead-of-ipo/",
+          "continues": false
+        },
+        {
+          "headline": "Retailers and airlines lock out AI shopping agents, leaving Meta&rsquo;s Muse and ChatGPT&rsquo;s Instinct stuck at the door",
+          "body": "Personal AI agents built to book flights and shop &mdash; Meta&rsquo;s Muse, ChatGPT&rsquo;s Dots and Instinct &mdash; are getting blocked by anti-bot defenses at sites including Amazon, Walmart, Delta, United, eBay, Zillow, Yelp, Adidas and Pizza Hut, with some users even getting their accounts suspended, per TechCrunch (Oct 6). Meta argued &ldquo;turning away a personal agent means turning away the customer behind it,&rdquo; while Delta said it&rsquo;s protecting customers from &ldquo;unauthorized automated activity&rdquo; and Yelp now requires paid licensing for agent access &mdash; prompting Meta, Walmart and Stripe to begin work on an open standard for agent-to-business communication.",
+          "img": "https://techcrunch.com/wp-content/uploads/2026/10/ai-agent-bots-GettyImages-2243729307.jpg?resize=1200,800",
+          "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+          "continues": false
+        },
+        {
+          "headline": "Anthropic expands free Claude access for startups as it fights for developer mindshare",
+          "body": "Anthropic widened its Claude for Startups program to give qualifying companies &mdash; those founded within five years or funded within the last two &mdash; a free year of Claude Team (up to five seats), $1,000 in API credits, Claude Marketplace access and office hours with its Applied AI team, per TechCrunch (Oct 6). The company said &ldquo;we created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone,&rdquo; expanding an initiative first launched during SF Tech Week.",
+          "img": "https://techcrunch.com/wp-content/uploads/2026/06/Claude-photo.jpg?w=1024",
+          "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "geopolitics",
+      "title": "Geopolitics",
+      "icon": "globe",
+      "stories": [
+        {
+          "headline": "Yemeni forces claim key Taiz mountain peak as Houthis say advance toward Bab al-Mandeb thwarted",
+          "body": "Saudi-backed Yemeni government forces said they have tightened control over the highest peak in Taiz&rsquo;s Jabal Habashi district as part of their &lsquo;Dawn of Yemen&rsquo; operation to retake Houthi-held territory, per Al Jazeera (Oct 7). Houthi military spokesman Yahya Saree countered that his forces have &ldquo;thwarted attempts by Yemeni government forces to advance toward the Bab al-Mandeb Strait,&rdquo; as both sides battle for control of the Red Sea chokepoint and the port of Mocha.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261006__D2CY4NQ__v1__HighRes__YemenSaudiIranUsIsraelWar-1791326270.jpg",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/7/iran-war-live-yemen-forces-claim-control-over-strategic-taiz-mountain-peak",
+          "continues": true
+        },
+        {
+          "headline": "Sudan&rsquo;s al-Burhan rejects talks with RSF, vows &lsquo;military option&rsquo; until group is eliminated",
+          "body": "Sudanese army chief Abdel Fattah al-Burhan ruled out negotiations with the Rapid Support Forces, telling supporters near Merowe that the &ldquo;military option&rdquo; will continue until the RSF is removed from the country, per Al Jazeera (Oct 7). The declaration came as at least 10 civilians were killed in West Kordofan and more than 5,500 people were displaced in Blue Nile state, deepening a three-and-a-half-year war that has killed tens of thousands and displaced roughly 13 million people since April 2023.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2025/03/2025-03-26T180816Z_829443454_RC25LDA12HGH_RTRMADP_3_SUDAN-POLITICS-BURHAN-1743017279.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/10/7/sudans-al-burhan-rejects-talks-vows-to-retake-all-territory-from-rsf",
+          "continues": true
+        },
+        {
+          "headline": "Pakistan, Turkiye stress &lsquo;supporting role&rsquo; as their forces back Saudi fight against Houthis",
+          "body": "Pakistan&rsquo;s Defence Minister Khawaja Asif said Pakistani and Turkish troops deployed under August&rsquo;s Mecca pact are &ldquo;playing a supporting role&rdquo; in &ldquo;reconnaissance and such things,&rdquo; stressing &ldquo;the combat is practically being conducted by Saudi Arabia&rsquo;s own forces,&rdquo; per Al Jazeera (Oct 6). Deputy PM Ishaq Dar said the pact &ldquo;has no offensive agenda,&rdquo; even as analysts questioned how long Islamabad can hold a defensive posture while Saudi Arabia conducts offensive operations against the Houthis in Yemen.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-08-07T121313Z_1273338148_RC2NTMA666TO_RTRMADP_3_SAUDI-DEFENCE-AGREEMENT-1791289963.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/10/6/pakistan-turkiye-join-saudi-deterrence-against-houthis-what-that-means",
+          "continues": true
+        },
+        {
+          "headline": "Russian drones sink Turkish-owned grain ship in Romanian waters, killing two",
+          "body": "A Turkish-owned grain vessel caught fire and sank in Romania&rsquo;s Black Sea exclusive economic zone on Monday after what Kyiv says was a Russian drone strike, killing two of the crew and forcing the rescue of 11 others, including Azerbaijani and Indian nationals, per Al Jazeera (Oct 5). President Zelenskyy called it &ldquo;a horrific strike by two Russian drones on a civilian vessel in neutral waters carrying corn,&rdquo; the latest in a string of suspected incursions &mdash; Romania has destroyed nine drifting sea mines since the war began &mdash; that fuel fears Moscow&rsquo;s war could spill over into NATO territory.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ac3b961-1791211873.jpg",
+          "url": "https://www.aljazeera.com/news/2026/10/5/ukraine-says-russian-drone-attack-sinks-ship-in-romanian-waters",
+          "continues": false
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "sport": "F1",
+      "headline": "Singapore Grand Prix (sprint weekend)",
+      "body": "A sprint-format weekend at Marina Bay runs practice and sprint qualifying Oct 9, the sprint race and grid qualifying Oct 10, and the Grand Prix Oct 11, as Antonelli defends an 84-point title cushion fresh off Verstappen&rsquo;s Sepang win.",
+      "url": "https://www.formula1.com/en/latest/article/what-time-is-the-formula-1-2026-singapore-grand-prix-and-how-can-i-watch-it.26vUwPc8sNYNC4KJRyXzLC",
+      "when": "Oct 9-11"
+    },
+    {
+      "sport": "Cricket",
+      "headline": "Australia vs South Africa, 1st Test",
+      "body": "The three-match WTC27 series opens Oct 9 at Durban&rsquo;s Kingsmead, with fast bowler Anrich Nortje in line for his first Test since 2023 after being named in South Africa&rsquo;s 18-player preliminary squad.",
+      "url": "https://www.icc-cricket.com/news/nortje-raring-to-go-for-test-return-against-australia",
+      "when": "Oct 9-13"
+    },
+    {
+      "sport": "Cricket",
+      "headline": "India vs West Indies, 2nd T20I",
+      "body": "The five-match series moves to Ranchi&rsquo;s JSCA International Stadium after the Lucknow opener, with West Indies carrying Amir Jangoo as injury cover for Jewel Andrew.",
+      "url": "https://www.icc-cricket.com/news/west-indies-face-injury-concern-ahead-of-india-t20is",
+      "when": "Oct 9"
+    },
+    {
+      "sport": "Football",
+      "headline": "UEFA Champions League, Matchday 2",
+      "body": "Europe&rsquo;s top clubs return to continental action for the competition&rsquo;s second round of group-phase matches.",
+      "url": "https://www.uefa.com/uefachampionsleague/",
+      "when": "Oct 13-14"
+    }
+  ],
+  "portfolio": [
+    {
+      "ticker": "TWLO",
+      "company": "Twilio",
+      "headline": "Twilio gives back its S&amp;P 500 pop as HSBC&rsquo;s valuation downgrade lingers",
+      "body": "Twilio pulled back Tuesday as traders took profits after Monday&rsquo;s mechanical rally on joining the S&amp;P 500 in Warner Bros. Discovery&rsquo;s old slot &mdash; the index-fund buying this section flagged yesterday &mdash; per Benzinga (Oct 6). HSBC&rsquo;s Sameer Lam downgraded the stock to Reduce with a $211 price target on Sept 25, arguing it had &ldquo;moved ahead of fundamentals amid speculation,&rdquo; while TD Cowen and Rosenblatt still carry $300 and $290 targets respectively against a Street-wide average near $260.50.",
+      "img": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/10/06/San-Jose--Ca--Usa---Nov-29--2023-Twilio-.jpg",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62202617/whats-going-on-with-twilio-stock-tuesday",
+      "continues": true
+    },
+    {
+      "ticker": "CRWD",
+      "company": "CrowdStrike",
+      "headline": "CrowdStrike climbs as Fal.Con Europe sells out and StoneX lifts target to $325",
+      "body": "CrowdStrike rose Tuesday after saying its Fal.Con Europe 2026 conference sold out faster than any in its three-year history, with registrations up 60% year-over-year, per The Motley Fool (Oct 6). StoneX analyst Yi Fu Lee raised his price target to $325 from $250 while keeping a Buy rating, citing sustained demand for the Falcon platform.",
+      "img": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F890404%2Fperson-in-a-data-center-using-a-tablet-computer.jpg&w=1200&op=resize",
+      "url": "https://www.fool.com/investing/2026/10/06/why-crowdstrike-stock-ticked-higher-on-tuesday/",
+      "continues": false
+    },
+    {
+      "ticker": "CRSP",
+      "company": "CRISPR Therapeutics",
+      "headline": "CRISPR Therapeutics drifts with gene-editing peers; no fresh trigger found",
+      "body": "No company-specific news was found for CRISPR Therapeutics dated today. The stock continues to trade with the small-cap gene-editing cohort &mdash; also including Editas, Intellia and Beam &mdash; which has been volatile since Anthropic disclosed in September that its Claude model had identified a previously unknown CRISPR-like enzyme system, a storyline this section flagged in yesterday&rsquo;s Editas card, per Yahoo Finance (Sept 23).",
+      "img": "https://s.yimg.com/lo/mysterio/api/d249dcd76ee3ced00febb74087e05beb95e66e275eaff60679b4b7b4577e4002/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2F278e90ff658702256557641d84a5f97e",
+      "url": "https://finance.yahoo.com/healthcare/articles/crsp-ntla-beam-prme-edit-214919545.html",
+      "continues": true
+    },
+    {
+      "ticker": "EDIT",
+      "company": "Editas Medicine",
+      "headline": "Editas moves with the gene-editing cohort again; Guggenheim upgrade still the latest catalyst",
+      "body": "Editas moved with the rest of the gene-editing cohort again Tuesday, with no fresh company-specific trigger found. Guggenheim&rsquo;s Sept 23 upgrade to Buy, built on EDIT-401&rsquo;s potential in atherosclerotic cardiovascular disease, remains the most recent dedicated catalyst &mdash; see CRISPR Therapeutics, above, for the sector-wide story.",
+      "img": "https://s.yimg.com/lo/mysterio/api/d249dcd76ee3ced00febb74087e05beb95e66e275eaff60679b4b7b4577e4002/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2F278e90ff658702256557641d84a5f97e",
+      "url": "https://finance.yahoo.com/healthcare/articles/crsp-ntla-beam-prme-edit-214919545.html",
+      "continues": true
+    },
+    {
+      "ticker": "AMZN",
+      "company": "Amazon",
+      "headline": "Amazon holds near highs as AWS&rsquo;s fastest growth in 18 quarters sets up Oct. 28 earnings",
+      "body": "Amazon held near its highs Tuesday with no single new catalyst, continuing to ride AWS&rsquo;s 37% revenue growth last quarter &mdash; its fastest pace in 18 quarters &mdash; ahead of Q3 earnings due Oct 28, per Tradingpedia (Oct 5). Wall Street stays overwhelmingly bullish, with 56 of 59 analysts rating the stock a buy-equivalent and an average price target of $323.84.",
+      "img": null,
+      "url": "https://www.tradingpedia.com/2026/10/05/amazon-treads-water-as-aws-surges-ahead-of-q3-earnings/",
+      "continues": false
+    },
+    {
+      "ticker": "INTC",
+      "company": "Intel",
+      "headline": "Intel extends its slide as the Terafab exclusivity question lingers",
+      "body": "Intel extended Monday&rsquo;s slide Tuesday with no new company-specific news dated today. The most recent dedicated catalyst remains Monday&rsquo;s reporting that Elon Musk is in talks with Taiwan Semiconductor on his Terafab chip project &mdash; which analysts said undercuts the market&rsquo;s assumption that Intel would be Terafab&rsquo;s exclusive foundry partner &mdash; a story this section covered yesterday, per Invezz (Oct 5).",
+      "img": null,
+      "url": "https://invezz.com/news/2026/10/05/why-is-intel-stock-falling-on-monday/",
+      "continues": true
+    },
+    {
+      "ticker": "RXT",
+      "company": "Rackspace Technology",
+      "headline": "Rackspace keeps digesting its fraud suits as RBC lifts target to $4",
+      "body": "Rackspace Technology continues to digest the securities-fraud suits and August guidance cut this section covered yesterday, with no fresh trigger dated today, per MarketBeat (Oct 5). The company&rsquo;s adjusted loss of $0.08 per share beat consensus estimates of a $0.09 loss, and RBC has since raised its price target to $4.00 from $2.50, even as the broader analyst consensus holds at Reduce.",
+      "img": "https://www.marketbeat.com/logos/rackspace-technology-inc-logo-1200x675.png?v=20221207145454",
+      "url": "https://www.marketbeat.com/instant-alerts/price-rackspace-technology-nasdaq-rxt-shares-down-64-should-you-sell-2026-10-05/",
+      "continues": true
+    }
+  ],
+  "country_groups": [
+    {
+      "label": "India",
+      "stories": [
+        {
+          "headline": "PM Modi marks 25 years as head of government, Cabinet hails &lsquo;Nation First&rsquo; legacy",
+          "body": "Prime Minister Narendra Modi marked 25 years since first becoming Gujarat chief minister on Oct 7, 2001, offering prayers at Shri Vinayaka Mandir in New Delhi&rsquo;s Sarojini Nagar as the Union Cabinet passed a resolution titled &ldquo;From Gujarat to India: A Development Vision Grows,&rdquo; per WION (Oct 7). The resolution credited him with three successive Lok Sabha victories and three landslide Gujarat mandates, praising his &ldquo;unwavering commitment to public service, resolute determination, visionary leadership and the spirit of &lsquo;Nation First&rsquo;.&rdquo;",
+          "img": "https://cdn3.wionews.com/prod/wion/images/2026/20261007/image-1791343468157.jpeg",
+          "url": "https://www.wionews.com/photos/pm-modi-offers-prayers-at-delhi-temple-to-mark-25-years-as-head-of-government-1791343350535",
+          "continues": false
+        },
+        {
+          "headline": "Rahul, Priyanka Gandhi detained at Delhi protest demanding CEC&rsquo;s resignation",
+          "body": "Delhi Police detained Leader of Opposition Rahul Gandhi, Congress MP Priyanka Gandhi Vadra, general secretary KC Venugopal and MP Deepender Singh Hooda during an INDIA bloc &ldquo;Save Democracy&rdquo; sit-in at Akashvani Bhavan, about 100 metres from Election Commission headquarters, demanding Chief Election Commissioner Gyanesh Kumar&rsquo;s resignation over the SIR voter-roll revision, per WION (Oct 6). Congress posted on Gandhi&rsquo;s behalf: &ldquo;When peaceful dissent is met with detention and mistreatment, one question stands above all: What is the government afraid of?&rdquo; &mdash; escalating the Form 6/SIR dispute that drove the CJI&rsquo;s rebuke of the Election Commission a day earlier.",
+          "img": "https://cdn3.wionews.com/prod/wion/images/2026/20261006/image-1791298512058.jpg?rect=(0,94,2670,2000)&imwidth=800&imheight=600&format=webp&quality=medium",
+          "url": "https://www.wionews.com/india-news/rahul-gandhi-priyanka-gandhi-detained-at-akashvani-bhavan-amid-protest-against-cec-1791297923454",
+          "continues": true
+        },
+        {
+          "headline": "CBI raids Punjab CM Bhagwant Mann&rsquo;s camp office amid ED corruption probe",
+          "body": "The CBI raided Punjab CM Bhagwant Mann&rsquo;s camp office and the residence of his OSD, Rajbir Singh Ghuman, on the evening of Oct 6, after the Punjab and Haryana High Court ordered a probe into Enforcement Directorate corruption material a public-interest petition said had &ldquo;prima facie disclosed cognisable offences,&rdquo; per WION (Oct 6). ED materials allege middleman Nitin Gohal used Ghuman to secure officer transfers, confidential documents and arms-licence help; Mann called it political retaliation, saying &ldquo;the BJP has started preparing for the Punjab elections&hellip;agencies&hellip;will be misused in Punjab to defame the Punjab government.&rdquo;",
+          "img": "https://cdn3.wionews.com/prod/wion/images/2026/20261006/image-1791298859881.jpg?rect=(0,139,982,735)&imwidth=800&imheight=600&format=webp&quality=medium",
+          "url": "https://www.wionews.com/india-news/cbi-raids-punjab-cm-bhagwant-mann-s-camp-office-his-osd-s-residence-1791298525664",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "stories": [
+        {
+          "headline": "Home Secretary Mahmood: migrant women in France &lsquo;probably been raped&rsquo; en route to UK",
+          "body": "Home Secretary Shabana Mahmood said trafficking gangs control Channel crossing routes, telling a podcast &ldquo;you can almost guarantee that every woman that&rsquo;s in the north of France has probably been raped along the journey,&rdquo; per IBTimes UK (Oct 6). The remarks came days after roughly 149 migrants landed at Haslar Marina in Gosport and about 300 anti-migrant protesters clashed with police there; Mahmood said criminal gangs, not governments, should not be deciding who reaches British sanctuary, while distancing herself from far-right support.",
+          "img": "https://d.ibtimes.co.uk/en/full/1834985/uk-migrants.jpg",
+          "url": "https://www.ibtimes.co.uk/shabana-mahmood-channel-crossings-trafficking-abuse-1823869",
+          "continues": false
+        },
+        {
+          "headline": "UK to give two weeks&rsquo; unpaid leave after pregnancy loss from April 2027",
+          "body": "Workers in England, Scotland and Wales will gain a legal right to up to two weeks&rsquo; unpaid leave after a pregnancy loss before 24 weeks &mdash; covering miscarriage, some terminations, failed IVF transfers and surrogacy losses, and extending to partners and intended co-parents &mdash; from April 2027, per IBTimes UK (Oct 6). Baby-loss charity Sands called it &ldquo;an important first step&rdquo; but warned unpaid leave may leave bereaved parents exposed to financial hardship, since previous law covered only losses after 24 weeks (stillbirths).",
+          "img": "https://d.ibtimes.co.uk/en/full/1835000/pregnant.png",
+          "url": "https://www.ibtimes.co.uk/uk-pregnancy-loss-unpaid-leave-2027-1823881",
+          "continues": false
+        },
+        {
+          "headline": "UK threatens to expel 27 Israeli diplomats over East Jerusalem consulate closure",
+          "body": "Britain reportedly warned it will expel 27 Israeli diplomats in a &ldquo;27-for-27&rdquo; reciprocal move if Israel closes the British Consulate General in East Jerusalem by an Oct 8 deadline, per IBTimes UK (Oct 6). The closure is Israel&rsquo;s response to UK sanctions on West Bank settlements, and came after National Security Adviser Jonathan Powell&rsquo;s mission to Israel failed to head it off; Israeli opposition leader Yair Lapid criticized the government&rsquo;s handling, saying &ldquo;creating crises is not a policy.&rdquo;",
+          "img": "https://d.ibtimes.co.uk/en/full/1834993/national-security-adviser-jonathan-powell.jpg",
+          "url": "https://www.ibtimes.co.uk/britain-israel-27-diplomats-jerusalem-consulate-closure-1823888",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "label": "Qatar &amp; the GCC",
+      "stories": [
+        {
+          "headline": "Saudi Arabia says three hurt in attacks on Jazan, Najran airports",
+          "body": "Three people suffered minor injuries and material damage was reported after attacks hit King Abdullah bin Abdulaziz International Airport in Jazan and Najran International Airport on the evening of Oct 5, per The Peninsula Qatar (Oct 6). Saudi Arabia&rsquo;s General Authority of Civil Aviation said &ldquo;emergency response teams and the relevant authorities immediately began dealing with the attacks upon their occurrence, in accordance with approved procedures and plans,&rdquo; and was coordinating with security authorities to assess the damage; no group had claimed responsibility.",
+          "img": "https://thepeninsulaqatar.com/get/maximage/20261006_1791274561-563.jpg?1791274561",
+          "url": "https://thepeninsulaqatar.com/article/06/10/2026/three-injured-in-attacks-on-jazan-and-najran-international-airports-saudi-arabia",
+          "continues": false
+        },
+        {
+          "headline": "Turkiye, Pakistan agree to &lsquo;rapid deployment&rsquo; of forces to Saudi Arabia under Mecca pact",
+          "body": "Turkiye, Pakistan and Saudi Arabia said after an Oct 5 emergency meeting in Riyadh that they would &ldquo;move immediately to the practical implementation of the collective defence commitments&hellip;and ensure their rapid deployment in the Kingdom,&rdquo; under the Mecca Joint Defence Agreement signed in August, per The Peninsula Qatar (Oct 6). The deployment responds to escalating attacks on Saudi Arabia, including on the holy cities of Mecca and Medina; troop numbers were not disclosed, filling in detail on the deployment pact yesterday&rsquo;s briefing noted only in passing.",
+          "img": "https://thepeninsulaqatar.com/get/maximage/20261006_1791289031-254.jpeg?1791289031",
+          "url": "https://thepeninsulaqatar.com/article/06/10/2026/turkiye-pakistan-to-deploy-forces-to-saudi-joint-statement",
+          "continues": true
+        },
+        {
+          "headline": "Qatar: Iran war&rsquo;s economic toll &lsquo;unbearable&rsquo; as Washington-Tehran contacts continue",
+          "body": "Qatar&rsquo;s foreign ministry said US-Iran mediation remains active, with director Ibrahim bin Sultan Ibrahim Al Hashmi saying &ldquo;contacts and visits are ongoing with the aim of making progress in the talks between Washington and Tehran,&rdquo; and that Qatar is &ldquo;open to a visit from the Iranian side to learn about the latest developments,&rdquo; per Euronews (Oct 6). Qatar called the war&rsquo;s economic strain &ldquo;unbearable,&rdquo; citing disruption reaching beyond oil and gas into fertiliser ingredients, helium and aluminium, while backing the Saudi-Turkiye-Pakistan Mecca defence pact without yet committing to join it militarily.",
+          "img": "https://images.euronews.com/articles/stories/09/94/14/69/1200x675_cmsv2_783eb496-f53c-52f6-972a-221b80409faf-9941469.jpg",
+          "url": "https://www.euronews.com/2026/10/06/whole-world-is-paying-for-iran-war-qatar-warns-as-mediation-efforts-continue",
+          "continues": true
+        }
+      ]
+    }
+  ],
+  "doha_events": [
+    {
+      "headline": "Ramy Sabry brings Arabic pop favourites to QNCC",
+      "body": "Egyptian singer-composer Ramy Sabry performs live at Qatar National Convention Centre on Oct 8, with doors at 7pm and the show starting at 9pm, per Marhaba.qa.",
+      "img": "https://marhaba.qa/wp-content/uploads/2026/09/The-Arabic-icon-Ramy-Sabry-at-QNCC-Doha.jpg",
+      "url": "https://marhaba.qa/event/the-arabic-icon-ramy-sabry-at-qncc-doha/"
+    },
+    {
+      "headline": "Angham headlines a night of Arabic classics at Al Mayassa Theatre",
+      "body": "Egyptian diva Angham performs her greatest hits at Al Mayassa Theatre, QNCC on Oct 16, with doors at 8pm and the set starting at 9pm, per Marhaba.qa.",
+      "img": "https://marhaba.qa/wp-content/uploads/2026/07/Angham-Concert-.jpg",
+      "url": "https://marhaba.qa/event/angham-concert/"
+    },
+    {
+      "headline": "The Doha Players stage &ldquo;Silent Sky&rdquo; at THIS Theatre",
+      "body": "Lauren Gunderson&rsquo;s play about Harvard astronomer Henrietta Leavitt runs Oct 14&ndash;23 at THIS Theatre in Al Thumama (Mesaimeer), staged by The Doha Players, with doors at 7pm and curtain at 7:30pm nightly, per Marhaba.qa.",
+      "img": null,
+      "url": "https://marhaba.qa/event/silent-sky-by-lauren-gundersen/"
+    },
+    {
+      "headline": "Comedian NEMR brings his global stand-up tour to Marsa Malaz Kempinski",
+      "body": "Lebanese-American comedian NEMR performs a new stand-up set at the Palazzo Ballroom, Marsa Malaz Kempinski on Oct 28, doors at 8pm for a 9pm start, per Marhaba.qa.",
+      "img": "https://marhaba.qa/wp-content/uploads/2026/08/NEMR-Live-in-Doha.jpg",
+      "url": "https://marhaba.qa/event/nemr-live-in-doha-a-brand-new-stand-up-comedy-global-event/"
+    },
+    {
+      "headline": "Moscow Ballet La Classique brings &ldquo;Swan Lake&rdquo; to QNCC",
+      "body": "Moscow Ballet La Classique stages Swan Lake at Al Mayassa Theatre, QNCC on Oct 30, with 3pm and 8pm showtimes, per Qatar Living (Sept 5).",
+      "img": "https://cdn-content.qatarliving.com/articles/featured/1788639135132-e80d50be-129d-4d96-92c7-ffea9d16dcba.jpg",
+      "url": "https://www.qatarliving.com/en/article/swan-lake-doha-2026-tickets-timings-parking-qncc"
+    }
+  ]
+}
