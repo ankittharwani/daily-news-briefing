@@ -1,0 +1,377 @@
+{
+  "skim": [
+    "The WHO logged 4,205 deaths from an Ebola outbreak that has now reached Kenya via a traveler from DR Congo, while a migrant boat capsized off Djibouti en route to Yemen, killing at least 139 people.",
+    "A cyberattack on internet-connected refrigeration units spoiled food and sparked fires at hundreds of French supermarkets &mdash; Intermarch&eacute;, Carrefour and Coop&eacute;rative U among them &mdash; and hit five other European countries, per Al Jazeera.",
+    "Houthi forces struck Riyadh and Dammam airports for a third straight day, pushing the death toll to 18, as Zelensky accused Russia of violating Trump&rsquo;s declared &ldquo;energy ceasefire&rdquo; within hours by striking a Kharkiv power plant.",
+    "Australia set South Africa 421 to win the Durban Test as the Proteas reached 51 for 1 at bad light, while Brent crude surged toward $106 a barrel on the Saudi attacks and big US banks kicked off earnings season.",
+    "Opposition leaders marched on India&rsquo;s Supreme Court demanding the Election Commissioner&rsquo;s removal, UK PM Andy Burnham said it&rsquo;s &ldquo;clear&rdquo; Russia interfered in the 2016 Brexit vote, and Meta unveiled its first frontier AI model family, Muse Wonder."
+  ],
+  "sections": [
+    {
+      "key": "world",
+      "title": "World",
+      "icon": "news",
+      "stories": [
+        {
+          "headline": "Ebola Outbreak In Eastern Congo Crosses Into Kenya, Death Toll Tops 4,200",
+          "body": "The WHO has recorded 8,728 confirmed cases and 4,205 deaths &mdash; a 48.2% fatality rate &mdash; from the Bundibugyo-strain Ebola outbreak now spread across 64 health zones in eastern DR Congo, with North Kivu now driving nearly 40% of new infections, per Al Jazeera (Oct 11). Kenya confirmed its first imported case after a Kenyan citizen who fell ill in DRC travelled via Uganda to Nairobi and died Oct 5, prompting contact-tracing of 28 people; &ldquo;for weeks, treatment capacity has stretched to its limit,&rdquo; said MSF&rsquo;s Stephanie Hoffmann, while Africa CDC chief Jean Kaseya warned &ldquo;we need to know where every contact is, track them and quickly identify anyone showing symptoms.&rdquo;",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/Hygienist-at-an-Ebola-treatment-center-in-Bunia-1791552746.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/10/11/ebola-spreads-in-eastern-drc-as-kenya-confirms-imported-case",
+          "continues": false
+        },
+        {
+          "headline": "At Least 139 Dead As Migrant Boat Capsizes Off Djibouti En Route To Yemen",
+          "body": "A boat carrying more than 300 Horn of Africa migrants &mdash; mostly Ethiopians seeking work in the Gulf &mdash; capsized near Guhere in the Gulf of Aden overnight Thursday into Friday, killing at least 139 people, including 15 children, and leaving 84 missing, the International Organization for Migration told Al Jazeera (Oct 11). More than 80 survivors, all Ethiopian, were rescued; IOM Djibouti chief Alexandre Coissac called it &ldquo;a stark reminder of the dangers faced by migrants along this migration corridor,&rdquo; which saw more than 900 deaths or disappearances last year alone.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20260429__A97Y9E8__v1__HighRes__DjiboutiEthiopiaYemenMigrationConflict-1791716774.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/10/11/at-least-109-dead-over-100-missing-as-migrant-boat-capsizes-off-djibouti",
+          "continues": false
+        },
+        {
+          "headline": "Cyberattack Spoils Food At Hundreds Of French Supermarkets, Sparks Fires",
+          "body": "A hack on internet-connected refrigeration units pushed fridge and freezer temperatures as high as 50 degrees Celsius at hundreds of stores run by Intermarch&eacute; (300+ shops), Coop&eacute;rative U (100+), Carrefour (80) and others across France, spoiling food and sparking fires; Paris prosecutors called it &ldquo;large-scale,&rdquo; per Al Jazeera (Oct 13). Coop&eacute;rative U chief executive Dominique Schelcher called the attack &ldquo;unprecedented&rdquo; on X, French cybersecurity agency ANSSI traced the flaw to outdated firmware in Danish-made Danfoss refrigeration controllers, and researcher Felix Aime said Spain, Portugal, Poland, Germany and Belgium were also hit.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/getty_6acd7f210c-1791852321.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/10/13/unprecedented-cyberattack-hits-french-supermarkets-causing-food-losses",
+          "continues": false
+        },
+        {
+          "headline": "Hurricane Simon And Storm Rachel Leave At Least Three Dead In Record Pacific Season",
+          "body": "Mexican officials reported at least three storm deaths &mdash; a 71-year-old man crushed when a retaining wall collapsed in Chilpancingo, Guerrero, a girl killed by the remnants of former-hurricane Rachel in Baja California, and a cliff diver swept away in Mazatl&aacute;n &mdash; as Hurricane Simon weakened from Category 4 to Category 2 off Jalisco, per Al Jazeera/AP (Oct 12). The eastern Pacific has logged 21 named storms this year, pushing accumulated cyclone energy past the 2018 record, and the U.S. National Hurricane Center&rsquo;s latest advisory (8pm MST, Oct 12) still clocked Simon at 100mph winds stalled 85 miles off Cabo Corrientes, with re-intensification possible by Wednesday.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6acd4f16-1791840022.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/10/12/two-deaths-reported-as-hurricane-simon-storm-rachel-batter-mexicos-coast",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "sports",
+      "title": "Sports",
+      "icon": "trophy",
+      "stories": [
+        {
+          "headline": "Australia Declare, Set South Africa 421 To Win Durban Test",
+          "body": "On day four at Kingsmead, Australia declared their second innings on 314 for 6, setting South Africa a target of 421 to win the series-opening Test &mdash; a sharp escalation from the 139-run lead reported a day earlier. Chasing history, the Proteas reached 51 for 1 before bad light, still needing 370 more with nine wickets in hand heading into the final day, per Cricket.com.au (Oct 12).",
+          "img": "https://resources.cricket-australia.pulselive.com/cricket-australia/photo/2026/10/12/40a9325d-e044-4036-a57e-390c8c89b3cf/renshaw.jpg",
+          "url": "https://www.cricket.com.au/news/4588270/live-blog-australia-south-africa-first-test-2026-durban-kingsmead-ball-by-ball-scores-highlights-news",
+          "continues": true
+        },
+        {
+          "headline": "Coventry Rout Newcastle 4-1 To Climb Out Of Relegation Zone",
+          "body": "Jack Rudoni&rsquo;s early penalty and further goals from Sidiki Cherif, Ellis Simms and Stephen Mfuni gave newly-promoted Coventry a 4-1 win over Newcastle &mdash; their first home victory of the season &mdash; per Sky Sports (Oct 12). Manager Frank Lampard called it &ldquo;a complete performance&rdquo; while Newcastle&rsquo;s Matthias Jaissle apologised to travelling fans after back-to-back away defeats.",
+          "img": "https://e0.365dm.com/26/10/768x432/skysports-premier-league-coventry_7375464.jpg?20261012221405",
+          "url": "https://www.skysports.com/football/news/13592799/coventry-4-1-newcastle-sky-blues-earn-first-home-win-of-season-to-move-out-of-premier-league-relegation-zone",
+          "continues": false
+        },
+        {
+          "headline": "Red Bull Boss Hails Verstappen&rsquo;s &lsquo;Outstanding&rsquo; Role In Resurgence",
+          "body": "Days after Max Verstappen&rsquo;s Singapore win, Red Bull principal Laurent Mekies said the champion&rsquo;s technical feedback has been &ldquo;a massive boost&rdquo; for car development, calling his sensitivity &ldquo;outstanding, probably without any equivalent,&rdquo; per Formula1.com (Oct 12). Red Bull now sit just seven points behind McLaren for third in the constructors&rsquo; standings, with Verstappen climbing into the top four of the drivers&rsquo; championship.",
+          "img": "https://media.formula1.com/image/upload/c_lfill,w_2048/q_auto/v1740000001/fom-website/2026/Singapore/GettyImages-2299683933.webp",
+          "url": "https://www.formula1.com/en/latest/article/its-a-massive-boost-mekies-hails-outstanding-verstappen-in-red-bull-resurgence.1SJ9jPPGYuqQ8X7ASQo2KY",
+          "continues": true
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "title": "Business &amp; Markets",
+      "icon": "briefcase",
+      "stories": [
+        {
+          "headline": "Oil Surges Toward $106 As Houthi Attacks Rattle Saudi Supply",
+          "body": "Brent crude climbed to a near two-week high of $106.19 a barrel and WTI rose to $92.96, per Sunday Guardian Live (Oct 12), after the Houthis claimed a weekend strike on Riyadh&rsquo;s King Khalid International Airport and tankers were hit near the Strait of Hormuz. Goldman Sachs raised its December Brent forecast to $90 from $85 on the added risk premium, even as Russia pledged over 300,000 metric tons of diesel exports in a bid to ease the squeeze.",
+          "img": "https://sundayguardianlive.com/wp-content/uploads/2026/10/zai-outage-today-in-us-4.jpg",
+          "url": "https://sundayguardianlive.com/world/oil-prices-today-brent-crude-climbs-to-near-two-week-high-at-10619-as-houthi-attacks-on-saudi-arabia-and-strait-of-hormuz-tanker-strikes-raise-supply-fears-304200/",
+          "continues": false
+        },
+        {
+          "headline": "Big Banks Kick Off Earnings Season Amid Rate And Credit Scrutiny",
+          "body": "JPMorgan, Goldman Sachs and Citigroup report third-quarter results Tuesday (Oct 13), the first of the big US lenders this season, per TheStreet (Oct 12). Analysts expect roughly 30% EPS growth for the quarter per Capital.com&rsquo;s Kyle Rodda, with investors watching loan demand, credit quality and commercial real estate stress amid reports of buyers walking away from deals. Financial stocks rallied Monday ahead of the results, helping lift the Dow even as tech shares lagged, per Yahoo Finance/The Motley Fool (Oct 12).",
+          "img": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMjAwNjM1/stock-markets-open-after-best-quarter-since-2020.jpg?profile=share16-9",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-oct-12-2026-dow-futures-climb-as-wall-street-gears-up-for-busy-week",
+          "continues": false
+        },
+        {
+          "headline": "Memory Chip Stocks Slide As China&rsquo;s CXMT Threatens DRAM Dominance",
+          "body": "South Korea&rsquo;s Kospi sank and Samsung Electronics and SK Hynix each fell sharply on Monday, extending a five-session losing streak, per Yahoo Finance (Oct 12). The rout followed news that Chinese memory maker CXMT has advanced a denser memory-cell design and aims to launch server memory using it by end-2026, threatening the roughly 90% of the global DRAM market held by Samsung, SK Hynix and Micron &mdash; even after Samsung posted a preliminary record $80 billion quarterly profit the prior week.",
+          "img": "https://s.yimg.com/lo/mysterio/api/1c123655fa1d9e616c2d4dfbb656f008d1eef0ac8cab34dc8405f2f9df954b64/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F96de4805-7547-4f6d-a102-54f69b67e79f",
+          "url": "https://finance.yahoo.com/markets/stocks/article/chip-selloff-extends-as-south-korean-stock-market-sinks-6-032602153.html",
+          "continues": false
+        },
+        {
+          "headline": "Kroger To Cut 3,000 Corporate Jobs Over Three Years",
+          "body": "Kroger plans to eliminate about 3,000 corporate roles over the next three years, CEO Greg Foran told staff in a memo citing &ldquo;more layers, more handoffs and more overhead than we need,&rdquo; per Grocery Dive (Oct 12). The move backs Foran&rsquo;s push to lower prices and compete with Walmart, Costco and Amazon, as Kroger separately heads into an October 19 Delaware trial over Albertsons&rsquo; roughly $8 billion damages claim from their collapsed merger.",
+          "img": "https://imgproxy.divecdn.com/Yd8M0BowMFjuy3tNVh9z43LSX8Cqxo_-O5ot-w4OY8M/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy04MTk0NTc2Ny5qcGc=.webp",
+          "url": "https://www.grocerydive.com/news/kroger-corporate-layoffs-3000-employees/832811/",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "AI &amp; Technology",
+      "icon": "cpu",
+      "stories": [
+        {
+          "headline": "Microsoft Unveils Maia 300, Its Third-Gen In-House AI Chip",
+          "body": "Microsoft officially unveiled the Maia 300, its third-generation in-house AI chip built on TSMC&rsquo;s N2P process, positioning it as the company&rsquo;s primary AI inference system with production rollout targeted for 2027, per The Verge (Oct 12). The move continues Microsoft&rsquo;s push to cut reliance on Nvidia silicon &mdash; it has reportedly been negotiating with TSMC for capacity above 300,000 units and courting customers such as Anthropic for the custom chip.",
+          "img": null,
+          "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+          "continues": false
+        },
+        {
+          "headline": "Apple Set To Unveil Smart Home Hub At &lsquo;Welcome Home&rsquo; Event",
+          "body": "Apple holds a press event in Tribeca, New York today, teased by marketing chief Greg Joswiak with the line &ldquo;Welcome home,&rdquo; per iClarified and TheNextWeb (both Oct 8). Reporting from Bloomberg&rsquo;s Mark Gurman points to Apple&rsquo;s first dedicated smart-home hub with a display, a faster HomePod mini, a new Apple TV, and LG-made accessories such as a doorbell and smart lock, all built around the Siri AI features introduced with iOS 27. Apple has not officially confirmed product names or a public livestream.",
+          "img": "https://www.iclarified.com/images/news/102681/102681/102681-1280.jpg",
+          "url": "https://www.iclarified.com/102681/apple-announces-october-13-welcome-home-event",
+          "continues": false
+        },
+        {
+          "headline": "Nadella Says Companies Should Treat AI Models As &lsquo;Compromised&rsquo;",
+          "body": "In an Oct 10 post reported by DNYUZ, Microsoft CEO Satya Nadella argued firms should treat frontier AI models &ldquo;like insider risks&rdquo; and build systems that assume they are compromised from the start. He called for separating models from the controls that govern their access, externalizing safeguards, and ensuring an authorized person can always trigger an &ldquo;emergency brake&rdquo; to pause or shut down a model mid-task, while disclosing any AI failures to affected parties promptly.",
+          "img": "https://dnyuz.com/wp-content/uploads/2026/10/6aca696e7bf24b4467e6a102.webp",
+          "url": "https://dnyuz.com/2026/10/10/satya-nadella-says-a-companys-relationship-with-ai-should-have-trust-issues/",
+          "continues": false
+        },
+        {
+          "headline": "Microsoft&rsquo;s Brad Smith Calls For Global AI Safety Rules",
+          "body": "Microsoft President Brad Smith said on Oct 12, per the BBC, that AI products face fewer mandatory safety requirements than milk or washing machines, and argued the UK is well placed to help lead the creation of binding international AI safety standards. The comments add a major tech-industry voice to the push for formal AI regulation.",
+          "img": null,
+          "url": "https://www.bbc.com/news/articles/c6rmy7zmvx3lo",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "geopolitics",
+      "title": "Geopolitics",
+      "icon": "globe",
+      "stories": [
+        {
+          "headline": "Houthi Strikes On Riyadh And Dammam Airports Escalate; Death Toll Hits 18",
+          "body": "Yemen&rsquo;s Houthis struck Riyadh&rsquo;s King Khalid International Airport for a third consecutive day and also hit Dammam&rsquo;s King Fahd airport, pushing the death toll to at least 18 and forcing Saudi Arabia to extend King Khalid&rsquo;s closure until Saturday, per Al Jazeera (Oct 13). President Trump said the Houthis are &ldquo;misbehaving very badly,&rdquo; while Saudi coalition spokesman Turki al-Maliki said forces intercepted two Houthi ballistic missiles aimed at the Khamis Mushait airbase; separately, Iran has denied directing the Houthis and urged Riyadh to pursue peace talks.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/14348484-1791697139.jpg?resize=1620%2C1080&quality=80",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/13/iran-war-live-trump-says-houthis-misbehaving-as-riyadh-flights-halted",
+          "continues": true
+        },
+        {
+          "headline": "Zelensky Says Russia Violated Trump&rsquo;s &lsquo;Energy Ceasefire&rsquo; Within Hours",
+          "body": "Speaking to the Warsaw Security Forum, Zelensky said Ukraine was &ldquo;horribly surprised&rdquo; that Russia struck energy facilities, including a Kharkiv power plant, despite Trump&rsquo;s weekend ceasefire announcement, warning &ldquo;if Russia does not agree to an energy ceasefire, we will respond,&rdquo; per Al Jazeera (Oct 12). Kremlin spokesman Dmitry Peskov said &ldquo;we do not want a ceasefire&rdquo; and rejected a 60-day election truce, while Macron said he&rsquo;d seen no Russian compliance and the EU added nearly 1,600 new sanctions on Russia&rsquo;s military-industrial complex &mdash; its largest sanctions expansion since the war began, per EU foreign policy chief Kaja Kallas.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/getty_6accafc0b4-1791799232.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/10/12/ukraines-zelenskyy-accuses-russia-of-violating-trumps-energy-ceasefire",
+          "continues": true
+        },
+        {
+          "headline": "US Forces Disable Cargo Ship Running Iran Blockade In Gulf Of Oman",
+          "body": "US CENTCOM says a fighter jet struck the stern of the Panama-flagged M/V Ocean Molica with a precision munition to disable its propulsion after its crew &ldquo;ignored repeated warnings&rdquo; and tried to run the US naval blockade on Iranian ports, per Al Jazeera (Oct 11). CENTCOM said the blockade, resumed July 14, has now disabled four commercial vessels, turned back roughly 135 ships and destroyed 10 IRGC-linked tankers; Senator Chris Murphy criticized the strikes, asking &ldquo;why are taxpayers paying billions to hit commercial ships?&rdquo; as Iran&rsquo;s IRGC separately said it struck an LPG carrier in the Strait of Hormuz for using an &ldquo;illegal route.&rdquo;",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20260905__C7FF8WM__v1__HighRes__UsIranIsraelWar-1791684574.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/10/11/us-forces-disable-ship-attempting-to-run-iran-blockade-in-gulf-of-oman",
+          "continues": false
+        },
+        {
+          "headline": "China Sanctions Paraguay And Belize Ministers Over Taiwan Ties",
+          "body": "Beijing sanctioned Paraguay&rsquo;s Communications Minister Gustavo Villate and Belize&rsquo;s Foreign Minister Francis Fonseca, freezing their China-based assets and barring entry to Hong Kong and Macau, accusing them of &ldquo;egregious actions&rdquo; damaging &ldquo;China&rsquo;s core interests,&rdquo; per Al Jazeera (Oct 12). The move came two days after Taiwan&rsquo;s National Day, when President Lai Ching-te said the island &ldquo;will not give up our freedom&rdquo; &mdash; a speech China&rsquo;s Taiwan Affairs Office condemned; Paraguay and Belize are among just 12 countries retaining formal diplomatic ties with Taipei.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2025/10/2025-10-10T055620Z_915059261_RC2P8HAXN45P_RTRMADP_3_TAIWAN-POLITICS-1760082600.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/10/12/china-sanctions-paraguay-belize-ministers-over-taiwan-ties",
+          "continues": false
+        },
+        {
+          "headline": "Egypt Accused Of Air Strike Killing 72 Sudanese Gold Miners Near Border",
+          "body": "Sudanese rights group Emergency Lawyers accused Egyptian fighter jets of targeting civilian miners in the disputed Jabal al-Uqaydat/Halaib Triangle border region, killing at least 72 workers in an unverified toll, per Al Jazeera (Oct 11). Egypt has issued no comment on this strike, though after a similar attack killed 23 workers at the same site in June, its army said it had conducted a &ldquo;large-scale operation&rdquo; against illegal gold mining &ldquo;within Egyptian territory,&rdquo; detaining 223 people including 136 foreign nationals.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ac446fc5b93-1791248124_52008b-1791253386.jpg?resize=1200%2C630&quality=80",
+          "url": "https://www.aljazeera.com/news/2026/10/11/at-least-72-sudanese-miners-killed-in-air-strike-rights-monitor",
+          "continues": false
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "sport": "Cricket",
+      "headline": "2nd Test Moves To Gqeberha",
+      "body": "Whatever the result in Durban, Australia and South Africa move on to St George&rsquo;s Park for the second Test of the series.",
+      "url": "https://www.cricket.com.au/news/4588270/live-blog-australia-south-africa-first-test-2026-durban-kingsmead-ball-by-ball-scores-highlights-news",
+      "when": "Oct 18-22"
+    },
+    {
+      "sport": "Football",
+      "headline": "Champions League Matchday 2",
+      "body": "Arsenal host Lille as Europe&rsquo;s top clubs return to midweek action, with Liverpool, Manchester City and the other Premier League sides also in continental action.",
+      "url": "https://www.sportbusy.com/champions-league-schedule-2026-27/arsenal/",
+      "when": "Oct 13-14"
+    },
+    {
+      "sport": "F1",
+      "headline": "United States Grand Prix, Austin",
+      "body": "F1 resumes at the Circuit of the Americas, with Red Bull&rsquo;s resurgent form and the tightening title race in focus.",
+      "url": "https://racingnews365.com/2026-f1-united-states-grand-prix",
+      "when": "Oct 23-25"
+    }
+  ],
+  "portfolio": [
+    {
+      "ticker": "META",
+      "headline": "Meta Unveils Muse Wonder, Its First Frontier AI Model Family",
+      "body": "Meta Platforms launched Muse Wonder and Muse Wonder Full, which it calls &ldquo;our most capable models to date,&rdquo; designed to power AI agents for tasks such as processing insurance claims, reviewing leases and writing code, per Reuters and TipRanks (Oct 12). Mark Zuckerberg told the Financial Times that Meta has caught up with its AI rivals and that Muse Wonder beats comparable Anthropic and OpenAI models on some technical benchmarks, adding that the company will keep expanding AI infrastructure spending beyond the $130&ndash;$145 billion range it guided to in July. Wall Street&rsquo;s average price target on Meta stands at $808, per TipRanks.",
+      "img": null,
+      "url": "https://www.tipranks.com/news/meta-stock-pops-as-zuckerberg-says-firm-has-caught-up-with-ai-rivals-firm-launches-frontier-ai-models",
+      "continues": false
+    },
+    {
+      "ticker": "INTC",
+      "headline": "Intel, Broadcom Chiefs Flag Capital Costs As AI&rsquo;s Biggest Risk",
+      "body": "Speaking at the DBS Asia Future Forward Conference in Singapore, Broadcom CEO Hock Tan said &ldquo;the biggest constraint is capital,&rdquo; while Intel CEO Lip-Bu Tan said financing costs, not demand, are the main hurdle to proving AI&rsquo;s long-run return on investment, per Invezz (Oct 12). The comments landed as the 10-year Treasury yield held near 5.24%, close to 24-year highs, raising the cost of debt that AI infrastructure buildouts increasingly rely on. The same capital-cost worry weighed on other high-multiple cloud and security names &mdash; Oracle, CrowdStrike, Arm Holdings, Cloudflare and Twilio &mdash; extending jitters that began with the prior week&rsquo;s Financial Times report questioning OpenAI&rsquo;s revenue.",
+      "img": null,
+      "url": "https://invezz.com/news/2026/10/12/intel-broadcom-ceos-reveal-biggest-risk-that-could-derail-ai-boom/",
+      "continues": true
+    },
+    {
+      "ticker": "FSLY",
+      "headline": "Oppenheimer Upgrades Fastly On AI Traffic Opportunity",
+      "body": "Oppenheimer upgraded Fastly to Outperform from Perform and raised its price target to $35, citing improving industry checks and a growing opportunity tied to agentic AI traffic moving across Fastly&rsquo;s edge network, per TheFly (around Oct 10). The call followed Fastly&rsquo;s September 22 launch of AI Runtime Control, an AI Firewall and new API Security tools, plus a Comcast content-delivery partnership for live streaming announced September 10. Other desks have also moved on the name recently: Freedom Broker raised its target to $37 and DA Davidson to $23, while BofA kept an Underperform rating with a $22 target.",
+      "img": null,
+      "url": "https://www.tipranks.com/news/the-fly/fastly-upgraded-to-outperform-from-perform-at-oppenheimer-thefly-news",
+      "continues": false
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "headline": "HDFC Bank Posts Double-Digit Growth In Advances, Deposits Ahead Of Results",
+      "body": "HDFC Bank&rsquo;s provisional business update for the quarter ended September 30, 2026 showed period-end advances under management of about &#8377;33,075 billion, up 15.3% year-on-year, and period-end deposits of about &#8377;33,275 billion, up 18.8%, with CASA deposits around &#8377;10,520 billion, per PSU Connect (Oct 5). The bank said the figures are provisional and subject to limited review by its statutory auditors. HDFC Bank is due to report full Q2 FY27 results, including net profit and asset-quality metrics, in mid-October.",
+      "img": null,
+      "url": "https://www.psuconnect.in/financial/hdfc-bank-q2-fy27-period-end-advances-cross-33-lakh-crore",
+      "continues": false
+    },
+    {
+      "ticker": "EDIT",
+      "headline": "Editas Clears Trial Hurdle For Gene-Editing Cholesterol Drug",
+      "body": "Editas Medicine said regulators in Australia and New Zealand cleared it to begin the Phase 1/2 Strive trial of EDIT-401, an in-vivo gene-editing medicine designed to raise LDL-receptor expression in patients with heterozygous familial hypercholesterolemia, with dosing to start this year and initial safety data due in the first quarter of 2027, per a GlobeNewswire release (Oct 8). Wells Fargo subsequently upgraded Editas to Overweight with a $6 price target. Peer CRISPR Therapeutics saw BofA trim its price target to $81 from $82, while keeping a Buy rating, as part of a broader Q3 biotech-sector earnings preview, per TheFly/TipRanks (around Oct 10).",
+      "img": null,
+      "url": "https://www.globenewswire.com/news-release/2026/10/08/3377124/0/en/editas-medicine-receives-approval-to-initiate-first-in-human-clinical-trial-of-edit-401-in-patients-with-hyperlipidemia.html",
+      "continues": false
+    },
+    {
+      "ticker": "RXT",
+      "headline": "Rackspace Securities Suit Cites $150 Million Guidance Cut Over AI Pivot",
+      "body": "A securities-fraud suit against Rackspace Technology alleges the company reaffirmed its full-year 2026 revenue guidance even as its AI-infrastructure push required shifting capacity away from revenue-generating segments, then disclosed on July 9 that it needed to re-prioritize resources, per a GlobeNewswire notice from law firm Bleichmar Fonti &amp; Auld (Sep 2). The company subsequently cut full-year revenue guidance by $150 million and its Private Cloud revenue outlook by $25 million. The suit, filed in the Southern District of New York, names Rackspace and several senior executives as defendants under the Securities Exchange Act.",
+      "img": null,
+      "url": "https://www.globenewswire.com/news-release/2026/09/02/3354940/0/en/rxt-news-rackspace-technology-sued-for-securities-fraud-over-alleged-misrepresentations-about-its-ai-efforts-contact-bfa-law-by-september-28-if-you-lost-money.html",
+      "continues": false
+    },
+    {
+      "ticker": "HYFM",
+      "headline": "Hydrofarm Settles Dispute With New Convertible Preferred Stock",
+      "body": "Hydrofarm Holdings disclosed in an SEC filing that it reached a settlement agreement, including a mutual release of claims, under which it will issue 300,000 shares of a newly designated, non-voting convertible preferred stock to resolve the matter, subject to certain milestones (Oct 9 8-K). Those shares convert into common stock only after stockholders approve the conversion as required under Nasdaq rules, and the issuance relies on a private-placement exemption to an accredited investor. The company also posted a new investor presentation on October 7, its most recent public update ahead of fuller financial disclosures.",
+      "img": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1695295/000143774926032448/hyfm20261008_8k.htm",
+      "continues": false
+    }
+  ],
+  "country_groups": [
+    {
+      "label": "India",
+      "stories": [
+        {
+          "headline": "INDIA Bloc Marches On Supreme Court Over &ldquo;Vote Chori&rdquo; As CJI Declines Meeting",
+          "body": "On Monday, opposition INDIA bloc leaders marched toward the Supreme Court demanding removal of Chief Election Commissioner Gyanesh Kumar over alleged &ldquo;vote chori&rdquo; (vote theft), after Chief Justice Surya Kant declined their request for a meeting, saying the matter was already sub judice. Congress general secretary K C Venugopal said &ldquo;this is not only an agitation, but it has become a movement,&rdquo; as Delhi shut six Metro stations and tightened security, per WION (Oct 12).",
+          "img": "https://cdn3.wionews.com/prod/wion/images/2026/20261012/image-1791777678632.jpg?imwidth=1200&imheight=900",
+          "url": "https://www.wionews.com/india-news/live-blog-opposition-march-live-updates-opposition-to-march-to-supreme-court-over-vote-chori-removal-of-cec-1791776783058",
+          "continues": false
+        },
+        {
+          "headline": "Indian National Dies After Houthi Strike On Riyadh Airport, 11 Others Hurt",
+          "body": "An Indian national from Hyderabad died of injuries from the October 10 attack on Riyadh&rsquo;s King Khalid International Airport, with 11 other Indians injured among the broader casualties, per WION (Oct 12). India&rsquo;s Ministry of External Affairs condemned the &ldquo;dastardly attack&rdquo; and voiced solidarity with Saudi Arabia, as Saudi authorities blamed Houthi militants for the strike.",
+          "img": "https://cdn3.wionews.com/prod/wion/images/2026/20261012/image-1791743680982.jpg?imwidth=1200&imheight=900",
+          "url": "https://www.wionews.com/world/indian-killed-riyadh-airport-attack-11-injured-1791743432157",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "stories": [
+        {
+          "headline": "Burnham Says It&rsquo;s &ldquo;Clear&rdquo; Russia Interfered In 2016 Brexit Vote",
+          "body": "Prime Minister Andy Burnham told The Rest Is Politics podcast it is &ldquo;clear&rdquo; Russia interfered in the 2016 Brexit referendum &mdash; the first time a sitting UK PM has made the claim publicly, per Al Jazeera (Oct 12). Burnham offered no new evidence but said it was important to warn French and German voters that some political currents are Kremlin-driven.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6acc13669ef7-1791759206.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-says-it-is-clear-russia-interfered-in-2016-brexit-vote",
+          "continues": false
+        },
+        {
+          "headline": "Chancellor&rsquo;s &pound;35bn Budget Hole Hardens As Ministers Eye Heat Pump Subsidy Cuts",
+          "body": "Days after reports that Chancellor John Healey was weighing a windfall levy and a petrol VAT cut, UK papers on Oct 12 reported the IFS now puts his funding gap at a firm &pound;35bn, with The Times warning he &ldquo;must find&rdquo; the money for public-service and defence pledges. The Guardian separately reported ministers are preparing to slash heat-pump subsidies, asking Energy Secretary Miatta Fahnbulleh to find over &pound;2bn in savings to help fund higher defence spending.",
+          "img": "https://images.inkl.com/s3/article/lead_image/23930909/1000.jpg",
+          "url": "https://www.inkl.com/news/ministers-preparing-to-slash-heat-pump-subsidies-to-fund-defence-spending",
+          "continues": true
+        },
+        {
+          "headline": "Farage Pledges Five-Year Freeze On UK Asylum System",
+          "body": "Reform UK leader Nigel Farage pledged to suspend Britain&rsquo;s asylum system for five years if elected, voiding pending claims, scrapping tribunals and resettlement routes, and moving to deport roughly 90,000 people with appeals in progress, per ITV News (Oct 12). Farage told the Telegraph &ldquo;the country is currently facing a national security emergency and the first duty of government is to protect its citizens,&rdquo; while Labour called the plan a sign of &ldquo;desperation and weakness.&rdquo;",
+          "img": "https://images.ctfassets.net/pjshm78m9jt4/headerImage-043eae93-ec07-4180-bd8a-9ee4d2ad8b7e/10206e972082fac206a1b80e70c59691/headerImage-043eae93-ec07-4180-bd8a-9ee4d2ad8b7e?fm=jpg&fit=fill&w=1600&h=900&q=80",
+          "url": "https://www.itv.com/news/2026-10-11/farage-to-pledge-to-suspend-asylum-system-for-five-years",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "label": "Qatar & the GCC",
+      "stories": [
+        {
+          "headline": "Houthi Strike Kills One, Injures 11 At Riyadh Airport; Qatar Airways Suspends Flights",
+          "body": "A projectile struck Riyadh&rsquo;s King Khalid International Airport on the night of Oct 11, killing one Pakistani national and injuring 11, Saudi aviation authority GACA said, per Al Jazeera (Oct 12). Qatar Airways temporarily suspended flights to Riyadh and Dammam as the airport stayed shut, and by early Oct 13 Saudi Civil Defense said &ldquo;the danger in Riyadh had passed&rdquo; after an emergency alert, per The Peninsula.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-11T224221Z_1359573611_RC241OA0S2CQ_RTRMADP_3_IRAN-CRISIS-SAUDI-AIRPORT-1791766025.jpg?resize=1200%2C675",
+          "url": "https://www.aljazeera.com/news/2026/10/12/saudi-arabia-says-1-dead-11-injured-in-latest-attack-on-riyadh-airport",
+          "continues": false
+        },
+        {
+          "headline": "Al-Kaabi Tours QatarEnergy Pavilion At Riyadh Petroleum Congress",
+          "body": "Qatar&rsquo;s Minister of State for Energy Affairs Saad Al-Kaabi, who a day earlier urged keeping energy &ldquo;above politics,&rdquo; toured QatarEnergy&rsquo;s pavilion at the World Petroleum Congress in Riyadh, which showcased the North Field Expansion, Golden Pass LNG and Al-Shaheen projects alongside new LNG vessels and sustainability initiatives, per The Peninsula (Oct 12).",
+          "img": "https://thepeninsulaqatar.com/get/maximage/20261012_1791831429-45.jpeg?1791831429",
+          "url": "https://thepeninsulaqatar.com/article/12/10/2026/minister-of-state-for-energy-affairs-tours-qatarenergys-pavilion-at-wpc-exhibition-in-riyadh",
+          "continues": true
+        },
+        {
+          "headline": "Qatar&rsquo;s Amir To Open Shura Council&rsquo;s 55th Annual Session",
+          "body": "Amir Sheikh Tamim bin Hamad Al Thani is set to open the second ordinary session of the Shura Council&rsquo;s second legislative term &mdash; its 55th annual session &mdash; on Tuesday, Oct 13, at the Council&rsquo;s headquarters in Doha, per The Peninsula (Oct 12). He is expected to use the opening speech to review domestic affairs alongside regional and international developments.",
+          "img": "https://thepeninsulaqatar.com/get/maximage/20220224_1645690453-151.jpg?1645690636",
+          "url": "https://thepeninsulaqatar.com/article/12/10/2026/amir-to-inaugurate-shura-councils-ordinary-session-tomorrow-1",
+          "continues": false
+        }
+      ]
+    }
+  ],
+  "doha_events": [
+    {
+      "headline": "WTT Youth Star Contender Doha",
+      "body": "International youth table tennis tournament running at Aspire Ladies Sports Hall and Lusail Sports Hall.",
+      "img": null,
+      "url": "https://www.qatarliving.com/en/article/things-to-do-in-qatar-this-week-4-11-october-2026",
+      "when": "Through Oct 16"
+    },
+    {
+      "headline": "Hospitality Qatar & Food Qatar 2026",
+      "body": "Twin trade exhibitions for hotel, restaurant, food and beverage professionals at the Doha Exhibition and Convention Center.",
+      "img": null,
+      "url": "https://www.qatarliving.com/en/article/qatar-calendar-brings-concerts-culture-sport-and-family-experiences-to-qatar-this-october",
+      "when": "Oct 12-14"
+    },
+    {
+      "headline": "Silent Sky",
+      "body": "Doha Players stage Lauren Gunderson&rsquo;s play about astronomer Henrietta Leavitt at THIS Theatre, Al Thumama.",
+      "img": null,
+      "url": "https://www.qatarliving.com/en/article/qatar-calendar-brings-concerts-culture-sport-and-family-experiences-to-qatar-this-october",
+      "when": "Oct 14-23"
+    },
+    {
+      "headline": "QTRI Old Doha Port Aquathlon",
+      "body": "National aquathlon championship combining swimming and running legs at the Old Doha Port.",
+      "img": null,
+      "url": "https://www.qatarliving.com/en/article/qatar-calendar-brings-concerts-culture-sport-and-family-experiences-to-qatar-this-october",
+      "when": "Oct 17"
+    },
+    {
+      "headline": "Qatar World Cup 10-Ball 2026",
+      "body": "International 10-ball pool tournament with a $450,000 prize fund at the Ezdan Palace Hotel.",
+      "img": null,
+      "url": "https://www.qatarliving.com/en/article/qatar-calendar-brings-concerts-culture-sport-and-family-experiences-to-qatar-this-october",
+      "when": "Oct 19-29"
+    }
+  ]
+}
