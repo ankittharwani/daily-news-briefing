@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>(function(){try{
+  var t = localStorage.getItem('dateline-theme');
+  if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  document.documentElement.setAttribute('data-theme', t);
+}catch(e){}})();</script>
+<title>The Date Line &mdash; Tuesday, October 20, 2026</title>
+<meta name="description" content="Ankit's morning briefing for Tuesday, October 20, 2026 — world, sport, business, AI, geopolitics, market watch, country updates and Doha events.">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="../favicon-16.png" sizes="16x16" type="image/png">
+<link rel="shortcut icon" href="../favicon.ico">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+<meta name="theme-color" content="#1A1815">
+<meta name="apple-mobile-web-app-title" content="The Date Line">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<style>
+  :root {
+    --ink: #1A1815; --paper: #F7F4EA; --paper-2: #EFEADC; --hair: #D9D3C2;
+    --muted: #6E6A5E; --body: #3A362D; --bar: #1A1815; --bar-text: #F7F4EA;
+    --serif: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", Times, serif;
+    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    --accent-world: #2B4257;
+    --accent-sports: #A8482C;
+    --accent-business: #8A6A1E;
+    --accent-ai: #1F6B64;
+    --accent-geopolitics: #3E5C8A;
+    --accent-portfolio: #47633F;
+    --accent-country: #8C3A3A;
+    --accent-doha: #63456F;
+    --gold: #856420;
+  }
+  [data-theme="dark"] {
+    --ink: #ECE7DA; --paper: #15140F; --paper-2: #1E1C16; --hair: #332F26;
+    --muted: #9B9483; --body: #CFC9B9;
+    --accent-world: #7FA5CC;
+    --accent-sports: #E08863;
+    --accent-business: #D9AA55;
+    --accent-ai: #5FBDB3;
+    --accent-geopolitics: #8CACD6;
+    --accent-portfolio: #8AB183;
+    --accent-country: #D97A7A;
+    --accent-doha: #B08BC2;
+    --gold: #C9A24E;
+  }
+  * { box-sizing: border-box; }
+  html { color-scheme: light dark; scroll-behavior: smooth; }
+  html, body { margin: 0; padding: 0; background: var(--paper); color: var(--ink);
+    font-family: var(--serif); -webkit-font-smoothing: antialiased; }
+  a { color: inherit; }
+  ::selection { background: var(--gold); color: var(--paper); }
+  [data-theme="dark"] ::selection { color: #15140F; }
+  :focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  * { scrollbar-color: var(--hair) transparent; }
+  ::-webkit-scrollbar { width: 11px; height: 11px; }
+  ::-webkit-scrollbar-thumb { background: var(--hair); }
+  ::-webkit-scrollbar-track { background: transparent; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 34px; }
+
+  /* --- Brand bar ------------------------------------------------------- */
+  .brand-bar { background: var(--bar); color: var(--bar-text); }
+  .brand-bar-inner { max-width: 1120px; margin: 0 auto; padding: 10px 34px;
+    display: flex; align-items: center; gap: 11px; }
+  .mark { height: 21px; width: auto; display: block; flex: none; }
+  .brand-word { font-family: var(--mono); font-size: 11px; font-weight: 700;
+    letter-spacing: 0.17em; text-transform: uppercase; text-decoration: none;
+    color: inherit; white-space: nowrap; display: flex; align-items: center; gap: 11px; }
+  .brand-spacer { flex: 1; }
+  .brand-back, .brand-date { font-family: var(--mono); font-size: 11px;
+    letter-spacing: 0.08em; color: inherit; text-decoration: none; white-space: nowrap; }
+  .brand-back { opacity: .72; }
+  .brand-back:hover { opacity: 1; text-decoration: underline; text-underline-offset: 3px; }
+  .theme-toggle { flex: none; width: 28px; height: 28px; border: 1px solid rgba(247,244,234,.24);
+    background: transparent; color: inherit; display: inline-flex; align-items: center;
+    justify-content: center; cursor: pointer; padding: 0; transition: background .15s ease; }
+  .theme-toggle:hover { background: rgba(247,244,234,.12); }
+  .theme-toggle svg { width: 14px; height: 14px; }
+  .theme-toggle .icon-moon { display: none; }
+  [data-theme="dark"] .theme-toggle .icon-sun { display: none; }
+  [data-theme="dark"] .theme-toggle .icon-moon { display: inline-block; }
+
+  /* --- Masthead -------------------------------------------------------- */
+  .masthead { max-width: 1120px; margin: 0 auto; padding: 46px 34px 0; text-align: center; }
+  .dateline { display: flex; align-items: center; gap: 18px; justify-content: center;
+    margin-bottom: 20px; }
+  .dateline .rail { height: 1px; background: var(--gold); flex: 1; max-width: 230px; }
+  .dateline .stamp { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.16em;
+    text-transform: uppercase; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .nameplate { font-weight: 400; font-size: clamp(40px, 7.2vw, 68px); line-height: 1;
+    letter-spacing: -0.018em; margin: 0 0 14px; }
+  .nameplate a { text-decoration: none; }
+  .standfirst { font-family: var(--mono); font-size: 11px; letter-spacing: 0.15em;
+    text-transform: uppercase; color: var(--muted); margin: 0 0 22px;
+    font-variant-numeric: tabular-nums; }
+  .rule-double { border-top: 2.5px solid var(--ink); border-bottom: 1px solid var(--ink);
+    height: 4px; }
+
+  /* --- Lead ------------------------------------------------------------ */
+  .lead { max-width: 1120px; margin: 0 auto; padding: 24px 34px 26px;
+    display: flex; gap: 18px; align-items: flex-start;
+    --lead-fs: clamp(24px, 3.4vw, 34px); --lead-lh: 1.3; --lead-tag-h: 23px; }
+  /* Centre the marker on the headline's FIRST line box, not on the whole
+     block and not on its baseline. The headline is a clamp(), so the offset
+     has to be derived from it rather than typed as a fixed margin. */
+  .lead-tag { font-family: var(--mono); font-size: 11px; font-weight: 700;
+    letter-spacing: 0.17em; text-transform: uppercase; background: var(--gold);
+    color: var(--paper); padding: 5px 9px; line-height: 1.2; flex: none;
+    margin-top: calc((var(--lead-fs) * var(--lead-lh) - var(--lead-tag-h)) / 2); }
+  [data-theme="dark"] .lead-tag { color: #15140F; }
+  .lead-text { font-size: var(--lead-fs); line-height: var(--lead-lh); margin: 0;
+    letter-spacing: -0.012em; max-width: 24ch; text-decoration: none; text-wrap: balance; }
+  .lead-text:hover { text-decoration: underline; text-underline-offset: 4px;
+    text-decoration-thickness: 1px; }
+
+  /* --- Section index --------------------------------------------------- */
+  .index-bar { position: sticky; top: 0; z-index: 50; background: var(--paper);
+    border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
+  .index-inner { max-width: 1120px; margin: 0 auto; padding: 0 34px; display: flex;
+    justify-content: center; flex-wrap: wrap; }
+  .index-link { font-family: var(--mono); font-size: 11px; letter-spacing: 0.13em;
+    text-transform: uppercase; background: none; border: none; color: var(--muted);
+    padding: 11px 15px; cursor: pointer; position: relative; white-space: nowrap;
+    border-right: 1px solid var(--hair); transition: color .15s ease; }
+  .index-link:last-child { border-right: none; }
+  .index-link:hover { color: var(--ink); }
+  .index-link.active { color: var(--ink); font-weight: 700; }
+  .index-link.active::after { content: ""; position: absolute; left: 15px; right: 15px;
+    bottom: 5px; height: 2px; background: var(--gold); }
+
+  /* --- Skim ------------------------------------------------------------ */
+  .block-label { font-family: var(--mono); font-size: 11px; font-weight: 700;
+    letter-spacing: 0.17em; text-transform: uppercase; color: var(--ink); margin: 0;
+    display: flex; align-items: center; gap: 16px; white-space: nowrap; }
+  .block-label::after { content: ""; height: 1px; background: var(--hair); flex: 1; }
+  .skim { max-width: 1120px; margin: 0 auto; padding: 34px 34px 6px; }
+  .skim-list { list-style: none; margin: 18px 0 0; padding: 0; display: flex;
+    flex-direction: column; }
+  .skim-list li { display: flex; gap: 18px; align-items: baseline; padding: 13px 0;
+    border-bottom: 1px solid var(--hair); }
+  .skim-list li:last-child { border-bottom: none; }
+  .skim-num { font-family: var(--mono); font-size: 11px; color: var(--gold); flex: none;
+    font-variant-numeric: tabular-nums; letter-spacing: 0.06em; }
+  .skim-text { font-size: 16.5px; line-height: 1.55; }
+
+  /* --- Sections -------------------------------------------------------- */
+  .news-section { max-width: 1120px; margin: 0 auto; padding: 48px 34px 0;
+    scroll-margin-top: 54px; }
+  .section-head { border-bottom: 2px solid var(--accent); padding-bottom: 10px;
+    margin-bottom: 26px; }
+  .section-head h2 { font-weight: 400; font-size: clamp(26px, 3.4vw, 34px); margin: 0;
+    letter-spacing: -0.012em; }
+  .section-note { font-size: 14.5px; font-style: italic; color: var(--muted);
+    margin: -16px 0 24px; max-width: 62ch; }
+  .subblock { margin-top: 38px; }
+  .subblock-label { font-family: var(--mono); font-size: 11px; font-weight: 700;
+    letter-spacing: 0.17em; text-transform: uppercase; color: var(--accent);
+    margin: 0 0 16px; display: flex; align-items: center; gap: 16px; white-space: nowrap; }
+  .subblock-label::after { content: ""; height: 1px; background: var(--hair); flex: 1; }
+  .country-group { margin-top: 34px; }
+  .country-group:first-of-type { margin-top: 0; }
+
+  /* --- Story cards ----------------------------------------------------- */
+  /* Columns rather than a grid: stories are different lengths, and a grid row
+     sized to its tallest card leaves a hole under every short one. Columns
+     flow the way a printed page does. */
+  .card-grid { column-count: 2; column-gap: 34px; }
+  .card { display: block; break-inside: avoid; -webkit-column-break-inside: avoid;
+    background: none; border-top: 1px solid var(--hair); padding-top: 16px;
+    margin-bottom: 30px; }
+  .thumb { position: relative; width: 100%; aspect-ratio: 16 / 9; background: var(--paper-2);
+    overflow: hidden; margin-bottom: 14px; }
+  .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .thumb-fallback { display: none; position: absolute; inset: 0; align-items: center;
+    justify-content: center; color: var(--hair); background: var(--paper-2); }
+  .thumb-fallback .mark { height: 40px; }
+  .card-body { display: flex; flex-direction: column; gap: 9px; }
+  .card-meta { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; }
+  .num { font-family: var(--mono); font-size: 11px; color: var(--accent); font-weight: 700;
+    letter-spacing: 0.08em; font-variant-numeric: tabular-nums; }
+  .tag { font-family: var(--mono); font-size: 11px; font-weight: 700; letter-spacing: 0.12em;
+    text-transform: uppercase; padding: 3px 7px; border: 1px solid var(--accent);
+    color: var(--accent); }
+  .tag.continuing { background: var(--accent); color: var(--paper); border-color: var(--accent); }
+  .headline { font-size: 21px; line-height: 1.32; margin: 0; font-weight: 400;
+    letter-spacing: -0.008em; text-wrap: balance; }
+  .headline a { text-decoration: none; }
+  .headline a:hover { text-decoration: underline; text-underline-offset: 3px;
+    text-decoration-thickness: 1px; }
+  .story-text { font-size: 15px; line-height: 1.62; color: var(--body); margin: 0;
+    max-width: 62ch; }
+  .card-actions { margin-top: 4px; display: flex; align-items: center;
+    justify-content: space-between; gap: 10px; }
+  .read-more { font-family: var(--mono); font-size: 11px; letter-spacing: 0.13em;
+    text-transform: uppercase; text-decoration: none; color: var(--accent); }
+  .read-more:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .share-btn { display: inline-flex; align-items: center; justify-content: center;
+    width: 27px; height: 27px; border: 1px solid var(--hair); background: none;
+    color: var(--muted); cursor: pointer; padding: 0; flex: none;
+    transition: border-color .15s ease, color .15s ease; }
+  .share-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .share-btn svg { width: 14px; height: 14px; }
+  .card, .fixture { scroll-margin-top: 66px; }
+
+  /* --- Fixtures -------------------------------------------------------- */
+  .fixture-list { display: flex; flex-direction: column; }
+  .fixture { display: grid; grid-template-columns: 104px 1fr auto auto; gap: 18px;
+    align-items: baseline; padding: 15px 0; border-top: 1px solid var(--hair); }
+  .fixture:last-child { border-bottom: 1px solid var(--hair); }
+  .fixture-sport { font-family: var(--mono); font-size: 11px; font-weight: 700;
+    letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); }
+  .fixture-main { text-decoration: none; }
+  .fixture-headline { display: block; font-size: 17px; line-height: 1.3; margin-bottom: 4px; }
+  .fixture-main:hover .fixture-headline { text-decoration: underline; text-underline-offset: 3px; }
+  .fixture-body { display: block; font-size: 14px; line-height: 1.55; color: var(--body); }
+  .fixture-when { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--muted); white-space: nowrap;
+    font-variant-numeric: tabular-nums; }
+
+  /* --- Footer & chrome -------------------------------------------------- */
+  .colophon { max-width: 1120px; margin: 64px auto 0; padding: 26px 34px 64px;
+    text-align: center; border-top: 1px solid var(--ink); }
+  .colophon .mark { height: 26px; margin: 0 auto 14px; color: var(--ink); }
+  .colophon p { font-family: var(--mono); font-size: 11px; letter-spacing: 0.04em;
+    color: var(--muted); margin: 0; line-height: 1.9; }
+
+  .back-to-top { position: fixed; right: 22px; bottom: 22px; z-index: 60; width: 42px;
+    height: 42px; border: 1px solid var(--ink); background: var(--paper); color: var(--ink);
+    display: flex; align-items: center; justify-content: center; cursor: pointer;
+    opacity: 0; pointer-events: none; transform: translateY(6px);
+    transition: opacity .25s cubic-bezier(.2,.7,.3,1), transform .25s cubic-bezier(.2,.7,.3,1); }
+  .back-to-top.show { opacity: 1; pointer-events: auto; transform: translateY(0); }
+  .back-to-top:hover { background: var(--ink); color: var(--paper); }
+  .back-to-top svg { width: 17px; height: 17px; }
+
+  .share-toast { position: fixed; left: 50%; bottom: 26px; transform: translateX(-50%) translateY(10px);
+    background: var(--bar); color: var(--bar-text); font-family: var(--mono); font-size: 11px;
+    letter-spacing: 0.13em; text-transform: uppercase; padding: 10px 18px; opacity: 0;
+    pointer-events: none; transition: opacity .2s ease, transform .2s ease; z-index: 99; }
+  .share-toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+  @keyframes markFound {
+    0%   { background: color-mix(in srgb, var(--accent) 22%, transparent); }
+    100% { background: transparent; }
+  }
+  .highlight-pulse { animation: markFound 2s ease-out 1; }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
+  }
+
+  @media (max-width: 860px) {
+    .card-grid { column-count: 1; }
+  }
+  @media (max-width: 700px) {
+    .brand-bar-inner { padding: 9px 18px; gap: 9px; }
+    .brand-back { display: none; }
+    .wrap, .masthead, .lead, .skim, .news-section, .colophon, .index-inner { padding-left: 18px; padding-right: 18px; }
+    .masthead { padding-top: 34px; }
+    .dateline { gap: 12px; margin-bottom: 16px; }
+    .dateline .rail { max-width: 40px; }
+    .dateline .stamp { font-size: 11px; letter-spacing: 0.1em; }
+    .lead { gap: 13px; padding-top: 20px; padding-bottom: 22px; }
+    .index-inner { justify-content: flex-start; flex-wrap: nowrap; overflow-x: auto;
+      scrollbar-width: none;
+      -webkit-mask-image: linear-gradient(90deg, #000 86%, transparent 100%);
+      mask-image: linear-gradient(90deg, #000 86%, transparent 100%); }
+    .index-inner.scroll-end { -webkit-mask-image: none; mask-image: none; }
+    .index-inner::-webkit-scrollbar { display: none; }
+    .fixture { grid-template-columns: 1fr auto; gap: 5px 12px; }
+    .fixture-sport { grid-column: 1 / -1; }
+    .back-to-top { right: 14px; bottom: 14px; width: 38px; height: 38px; }
+  }
+  .hidden-by-filter { display: none !important; }
+
+  [data-section="world"] { --accent: var(--accent-world); }
+  [data-section="sports"] { --accent: var(--accent-sports); }
+  [data-section="business"] { --accent: var(--accent-business); }
+  [data-section="ai"] { --accent: var(--accent-ai); }
+  [data-section="geopolitics"] { --accent: var(--accent-geopolitics); }
+  [data-section="portfolio"] { --accent: var(--accent-portfolio); }
+  [data-section="country"] { --accent: var(--accent-country); }
+  [data-section="doha"] { --accent: var(--accent-doha); }
+</style>
+</head>
+<body>
+
+<div class="brand-bar">
+  <div class="brand-bar-inner">
+    <a class="brand-word" href="../index.html"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="2.5" height="54"/><rect x="33.5" y="5" width="2.5" height="54"/><rect x="30" y="5" width="6" height="1.5"/><rect x="30" y="8" width="6" height="2"/><rect x="30" y="11.5" width="6" height="2"/><rect x="30" y="15" width="6" height="2"/><rect x="30" y="18.5" width="6" height="2"/><rect x="30" y="22" width="6" height="2"/><rect x="30" y="25.5" width="6" height="2"/><rect x="30" y="29" width="6" height="2"/><rect x="30" y="32.5" width="6" height="2"/><rect x="30" y="36" width="6" height="2"/><rect x="30" y="39.5" width="6" height="2"/><rect x="30" y="43" width="6" height="2"/><rect x="30" y="46.5" width="6" height="2"/><rect x="30" y="50" width="6" height="2"/><rect x="30" y="53.5" width="6" height="2"/><rect x="30" y="57" width="6" height="0.5"/><rect x="30" y="57.5" width="6" height="1.5"/></svg><span>The Date Line</span></a>
+    <div class="brand-spacer"></div>
+    <a class="brand-back" href="../index.html">All editions &rarr;</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Switch between light and dark" title="Switch between light and dark">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z"/></svg>
+    </button>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="dateline">
+    <span class="rail"></span>
+    <span class="stamp">Doha &middot; Tue 20 Oct 2026</span>
+    <span class="rail"></span>
+  </div>
+  <h1 class="nameplate">The Date Line</h1>
+  <p class="standfirst">Ankit&rsquo;s morning briefing &middot; 41 stories &middot; ~16 min</p>
+  <div class="rule-double"></div>
+</header>
+
+
+  <div class="lead">
+    <span class="lead-tag">Lead</span>
+    <a class="lead-text" href="https://www.aljazeera.com/news/2026/10/18/macron-denounces-frances-nationwide-rioting-looting" target="_blank" rel="noopener noreferrer">France Rocked By Worst Unrest In Years As Cost-Of-Living Protests Turn Violent</a>
+  </div>
+
+<nav class="index-bar" aria-label="Sections">
+  <div class="index-inner">
+<button class="index-link active" data-filter="all">All</button>
+<button class="index-link" data-filter="world">World</button>
+<button class="index-link" data-filter="sports">Sports</button>
+<button class="index-link" data-filter="business">Business</button>
+<button class="index-link" data-filter="ai">AI &amp; Tech</button>
+<button class="index-link" data-filter="geopolitics">Geopolitics</button>
+<button class="index-link" data-filter="portfolio">Market Watch</button>
+<button class="index-link" data-filter="country">Country</button>
+<button class="index-link" data-filter="doha">Doha</button>
+  </div>
+</nav>
+
+<main>
+
+    <div class="skim">
+      <h2 class="block-label">The 30-Second Skim</h2>
+      <ol class="skim-list"><li><span class="skim-num">01</span><span class="skim-text">Nationwide protests over cost-of-living and school funding turned violent across France, with roughly 550,000 marchers, 2,400 arrests and Macron convening a crisis unit, while Alberta&rsquo;s independence referendum count ran past midnight with no official result yet.</span></li>
+<li><span class="skim-num">02</span><span class="skim-text">Wall Street clawed back some of last week&rsquo;s AI-debt rout as CoreWeave&rsquo;s default-swap costs hit a record and Fed rate-hike odds climbed to 42% ahead of the Oct 28 decision.</span></li>
+<li><span class="skim-num">03</span><span class="skim-text">Trump gave Netanyahu a &lsquo;Complete and Total Endorsement&rsquo; nine days before Israel&rsquo;s election, lashed out at Zelensky over his Russia sanctions pause, and said the US is still hitting Iran &lsquo;economically and militarily.&rsquo;</span></li>
+<li><span class="skim-num">04</span><span class="skim-text">Arsenal and Spurs won late in the Premier League, Kimi Antonelli could clinch the 2026 F1 title at this weekend&rsquo;s US Grand Prix, and Pakistan faces England today in Rawalpindi&rsquo;s ODI tri-series.</span></li>
+<li><span class="skim-num">05</span><span class="skim-text">Rubio said the US is &lsquo;very close&rsquo; to an India trade deal ahead of a Mumbai visit, Qatar&rsquo;s Amir hosted Macron for a state visit in Doha, and Healey was reported poised to hike UK bank taxes in next month&rsquo;s Budget.</span></li></ol>
+    </div>
+
+    <section class="news-section" id="sec-world" data-section="world" data-cat="world">
+      <header class="section-head">
+        <h2>World</h2>
+      </header>
+      
+      <div class="card-grid">
+        <article class="card" data-cat="world" id="card-1">
+          <div class="thumb"><img src="https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ad519db-1792350683.jpg?resize=1920%2C1440" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">01</span></div>
+            <h3 class="headline"><a href="https://www.aljazeera.com/news/2026/10/18/macron-denounces-frances-nationwide-rioting-looting" target="_blank" rel="noopener noreferrer">France Rocked By Worst Unrest In Years As Cost-Of-Living Protests Turn Violent</a></h3>
+            <p class="story-text">Nationwide protests that began last month over underfunded schools merged with anger over living costs and a proposed &euro;54 billion austerity budget, drawing roughly 550,000 marchers before erupting into looting and arson in Paris and other cities, with nearly 2,400 people arrested and about 1,000 police officers injured, per Al Jazeera (Oct 18). President Emmanuel Macron said he felt &ldquo;anger and shame&rdquo; at attempts &ldquo;to bring down the republic,&rdquo; vowed rioters would &ldquo;pay for their crimes,&rdquo; and announced a crisis unit, while far-right leader Jordan Bardella called his response &ldquo;lamentable&rdquo; and &ldquo;cowardly.&rdquo;</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.aljazeera.com/news/2026/10/18/macron-denounces-frances-nationwide-rioting-looting" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-1" data-share-title="France Rocked By Worst Unrest In Years As Cost-Of-Living Protests Turn Violent" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="world" id="card-2">
+          <div class="thumb"><img src="https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ad50c753c64-1792347253.jpg?resize=1920%2C1440" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">02</span><span class="tag continuing">Continuing</span></div>
+            <h3 class="headline"><a href="https://www.ctvnews.ca/edmonton/article/delays-at-more-than-100-alberta-polling-stations-push-back-referendum-results-live-updates-here/" target="_blank" rel="noopener noreferrer">Alberta Referendum Count Delayed As Vote On Leaving Canada Heads To The Wire</a></h3>
+            <p class="story-text">Official results of Monday&rsquo;s historic referendum on whether Alberta should start the legal process toward independence were pushed back after delays at more than 100 polling stations, with Elections Alberta now expecting Question 10 results between 1am and 4am MT Tuesday &mdash; late morning into early afternoon in Doha &mdash; per CTV News (Oct 19). Pre-vote surveys had found roughly four in five Albertans opposed separation, and Premier Danielle Smith, who called the vote but says she voted to remain, urged support for nine other ballot questions even as Prime Minister Mark Carney warned against using a &ldquo;yes&rdquo; vote to &ldquo;send a message&rdquo; to Ottawa, per Al Jazeera (Oct 18).</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.ctvnews.ca/edmonton/article/delays-at-more-than-100-alberta-polling-stations-push-back-referendum-results-live-updates-here/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-2" data-share-title="Alberta Referendum Count Delayed As Vote On Leaving Canada Heads To The Wire" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="world" id="card-3">
+          <div class="thumb"><img src="https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ad5cd888509-1792396680.jpg?resize=1920%2C1331" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">03</span><span class="tag continuing">Continuing</span></div>
+            <h3 class="headline"><a href="https://www.aljazeera.com/news/2026/10/19/how-a-grass-fire-at-a-canadian-military-base-killed-four-soldiers" target="_blank" rel="noopener noreferrer">Investigators Probe Why Alberta Military Base Fire Turned Deadly In Seconds</a></h3>
+            <p class="story-text">Canada&rsquo;s military said investigators are examining why a grass fire that appeared contained before live-fire training suddenly overtook soldiers at Canadian Forces Base Wainwright, killing four and injuring 39; Major-General Wade Rutland said &ldquo;the fire was a kilometre away when the wind shifted &mdash; that is not normal for a fire to move a kilometre in 36 seconds,&rdquo; per Al Jazeera (Oct 19). A leaked memo reportedly rated the live-fire exercise&rsquo;s risk as low despite an Environment Canada warning of gusts up to 100 km/h that day, and Prime Minister Mark Carney called it &ldquo;one of the worst peacetime tragedies for Canada&rsquo;s military on domestic soil.&rdquo;</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.aljazeera.com/news/2026/10/19/how-a-grass-fire-at-a-canadian-military-base-killed-four-soldiers" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-3" data-share-title="Investigators Probe Why Alberta Military Base Fire Turned Deadly In Seconds" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="world" id="card-4">
+          <div class="thumb"><img src="https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261018__D3NT9QY__v1__HighRes__BrazilElectionRunoffDebate-1792377876.jpg?resize=1920%2C1440" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">04</span></div>
+            <h3 class="headline"><a href="https://www.aljazeera.com/news/2026/10/19/lula-and-bolsonaro-spar-in-brazils-fiery-first-presidential-run-off-debate" target="_blank" rel="noopener noreferrer">Lula And Bolsonaro&rsquo;s Son Clash In Brazil&rsquo;s First Runoff Debate</a></h3>
+            <p class="story-text">President Lula da Silva and Senator Flavio Bolsonaro traded insults in their first head-to-head debate ahead of Brazil&rsquo;s Oct 25 presidential runoff, with Lula calling his rival a &ldquo;habitual liar&rdquo; and alleged &ldquo;militiaman,&rdquo; and Flavio branding the president a &ldquo;clown&rdquo; while raising a graft case tied to one of Lula&rsquo;s sons, per Al Jazeera (Oct 19). Flavio, who led the first round 47% to 45% on turnout that saw one in five eligible voters stay home, offered a rare &ldquo;mea culpa&rdquo; over his father Jair Bolsonaro&rsquo;s COVID-19 response, with a second debate set for Oct 23.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.aljazeera.com/news/2026/10/19/lula-and-bolsonaro-spar-in-brazils-fiery-first-presidential-run-off-debate" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-4" data-share-title="Lula And Bolsonaro’s Son Clash In Brazil’s First Runoff Debate" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="world" id="card-5">
+          <div class="thumb"><img src="https://www.aljazeera.com/wp-content/uploads/2026/10/AP26280382243949-1792367191.jpg?resize=1920%2C1440" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">05</span></div>
+            <h3 class="headline"><a href="https://www.aljazeera.com/news/2026/10/19/kenya-confirms-eighth-ebola-case-amid-widening-regional-outbreak" target="_blank" rel="noopener noreferrer">Ebola Outbreak Widens As Kenya Confirms Eighth Case</a></h3>
+            <p class="story-text">Kenya confirmed an eighth Ebola case &mdash; a 49-year-old patient attendant exposed to the country&rsquo;s first case, who died Oct 5 after traveling from the Democratic Republic of Congo &mdash; as the region&rsquo;s outbreak became the DRC&rsquo;s deadliest ever, with more than 9,400 cases and over 4,500 deaths since May, per Al Jazeera (Oct 19). Health official Patrick Amoth said the new patient &ldquo;developed fever, headache and muscle pain&rdquo;; neighbouring Uganda has logged 20 cases and two deaths despite being declared Ebola-free in August, and North Kivu province plans to bar entry from the hard-hit Ituri province for a week starting Monday.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.aljazeera.com/news/2026/10/19/kenya-confirms-eighth-ebola-case-amid-widening-regional-outbreak" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-5" data-share-title="Ebola Outbreak Widens As Kenya Confirms Eighth Case" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article></div>
+    </section>
+
+    <section class="news-section" id="sec-sports" data-section="sports" data-cat="sports">
+      <header class="section-head">
+        <h2>Sports</h2>
+      </header>
+      
+      <div class="card-grid">
+        <article class="card" data-cat="sports" id="card-6">
+          <div class="thumb"><img src="https://www.thescore.com/epl/event/98331/og-image" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">01</span></div>
+            <h3 class="headline"><a href="https://www.thescore.com/epl/event/98331" target="_blank" rel="noopener noreferrer">Brighton Thrash Crystal Palace 5-0 To Climb Into Top Three</a></h3>
+            <p class="story-text">Brighton hammered Crystal Palace 5-0 at the Amex on Oct 18, with Jefferson Canvot&rsquo;s fourth-minute own goal sparking a rout completed by Diego Gómez, Yasin Ayari, Charalampos Kostoulas and Jack Hinshelwood, per TheScore (Oct 18). The result lifts Albion to third in the table on 16 points from seven games with a +18 goal difference, while Palace slump to 14th on seven points after a fifth defeat in seven outings.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.thescore.com/epl/event/98331" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-6" data-share-title="Brighton Thrash Crystal Palace 5-0 To Climb Into Top Three" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="sports" id="card-7">
+          <div class="thumb"><img src="https://www.thescore.com/epl/event/98324/og-image" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">02</span></div>
+            <h3 class="headline"><a href="https://www.thescore.com/epl/event/98324" target="_blank" rel="noopener noreferrer">Tottenham Snatch Late Winner Over Coventry At The Death</a></h3>
+            <p class="story-text">Tottenham needed a stoppage-time header from Ben Davies in the 90+7th minute to see off Coventry City 3-1 at home on Oct 19, after Omar Marmoush had struck his first goal for the club in the 58th minute, per TheScore (Oct 19). James Maddison had put Spurs ahead in the 14th minute before Josh Rudoni leveled for newly promoted Coventry just after half-time, in front of 60,913 fans at the Tottenham Hotspur Stadium.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.thescore.com/epl/event/98324" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-7" data-share-title="Tottenham Snatch Late Winner Over Coventry At The Death" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="sports" id="card-8">
+          <div class="thumb"><img src="https://media.formula1.com/image/upload/c_lfill,w_2048/q_auto/v1740000001/fom-website/2026/United%20States/GettyImages-2242055817.webp" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">03</span></div>
+            <h3 class="headline"><a href="https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-united-states-grand-prix.4utgT1kLqHM2HAM98YP4TW" target="_blank" rel="noopener noreferrer">Antonelli Could Seal Maiden F1 Title At Austin As Verstappen Surges</a></h3>
+            <p class="story-text">Kimi Antonelli could clinch his first Formula 1 Drivers&rsquo; Championship as early as this weekend&rsquo;s United States Grand Prix (Oct 23&ndash;25) at the Circuit of the Americas, needing only a win while nearest rival George Russell finishes ninth or lower and Lewis Hamilton fifth or lower, per Formula1.com (Oct 19). Max Verstappen, who has won the last two races including a sprint-and-race double in Singapore, sits fourth in the standings 119 points back and was called &ldquo;very, very scary&rdquo; by Antonelli himself heading into Austin.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-united-states-grand-prix.4utgT1kLqHM2HAM98YP4TW" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-8" data-share-title="Antonelli Could Seal Maiden F1 Title At Austin As Verstappen Surges" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article></div>
+      <div class="subblock">
+        <h3 class="subblock-label">Fixtures Ahead</h3>
+        <div class="fixture-list">
+          <div class="fixture" id="fixture-9">
+            <span class="fixture-sport">Cricket</span>
+            <a class="fixture-main" href="https://wisden.com/series/pakistan-odi-tri-series-2026/cricket-news/pakistan-tri-series-2026-all-you-need-to-know-full-schedule-squads-venues-and-match-timings-for-the-odi-tri-series" target="_blank" rel="noopener noreferrer">
+              <span class="fixture-headline">Tri-Series Shifts To England As Sri Lanka Regroup</span>
+              <span class="fixture-body">Pakistan face England in Rawalpindi later on Oct 20 in the tri-series&rsquo; second match, with Sri Lanka &ndash; beaten by Salman Ali Agha&rsquo;s century in the opener &ndash; returning to face England on Oct 22. The seven-match league stage then shifts to Lahore&rsquo;s Gaddafi Stadium from Oct 25 ahead of the Oct 31 final.</span>
+            </a>
+            <span class="fixture-when">Oct 20-22</span>
+            <button class="share-btn fixture-share" data-share-id="fixture-9" data-share-title="Tri-Series Shifts To England As Sri Lanka Regroup" aria-label="Share this fixture" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+          </div>
+          <div class="fixture" id="fixture-10">
+            <span class="fixture-sport">Cricket</span>
+            <a class="fixture-main" href="https://khelnow.com/cricket/india-squad-new-zealand-tour-this-date-202610" target="_blank" rel="noopener noreferrer">
+              <span class="fixture-headline">India Open Bumper New Zealand Tour With First T20I</span>
+              <span class="fixture-body">India begin a 12-match tour of New Zealand &ndash; five T20Is, five ODIs and two Tests &ndash; with the opening T20I on Oct 22, per Khel Now.</span>
+            </a>
+            <span class="fixture-when">Oct 22</span>
+            <button class="share-btn fixture-share" data-share-id="fixture-10" data-share-title="India Open Bumper New Zealand Tour With First T20I" aria-label="Share this fixture" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+          </div>
+          <div class="fixture" id="fixture-11">
+            <span class="fixture-sport">Football</span>
+            <a class="fixture-main" href="https://www.realmadrid.com/en/football/first-team/calendar" target="_blank" rel="noopener noreferrer">
+              <span class="fixture-headline">El Clásico Returns To Camp Nou</span>
+              <span class="fixture-body">Barcelona host Real Madrid in Matchday 10&rsquo;s El Clásico on Sunday, Oct 25, at Spotify Camp Nou, per Real Madrid&rsquo;s official fixture calendar.</span>
+            </a>
+            <span class="fixture-when">Oct 25</span>
+            <button class="share-btn fixture-share" data-share-id="fixture-11" data-share-title="El Clásico Returns To Camp Nou" aria-label="Share this fixture" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+          </div>
+          <div class="fixture" id="fixture-12">
+            <span class="fixture-sport">F1</span>
+            <a class="fixture-main" href="https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-united-states-grand-prix.4utgT1kLqHM2HAM98YP4TW" target="_blank" rel="noopener noreferrer">
+              <span class="fixture-headline">United States Grand Prix Could Decide The Title</span>
+              <span class="fixture-body">F1 heads to the Circuit of the Americas for the United States Grand Prix (Oct 23&ndash;25), where points leader Kimi Antonelli has a chance to clinch the championship outright depending on how George Russell and Lewis Hamilton finish.</span>
+            </a>
+            <span class="fixture-when">Oct 23-25</span>
+            <button class="share-btn fixture-share" data-share-id="fixture-12" data-share-title="United States Grand Prix Could Decide The Title" aria-label="Share this fixture" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+          </div></div>
+      </div>
+    </section>
+
+    <section class="news-section" id="sec-business" data-section="business" data-cat="business">
+      <header class="section-head">
+        <h2>Business &amp; Markets</h2>
+      </header>
+      
+      <div class="card-grid">
+        <article class="card" data-cat="business" id="card-13">
+          
+          <div class="card-body">
+            <div class="card-meta"><span class="num">01</span><span class="tag continuing">Continuing</span></div>
+            <h3 class="headline"><a href="https://tradingeconomics.com/commodity/brent-crude-oil" target="_blank" rel="noopener noreferrer">Brent Steadies Above $109 As Gulf Oil Flows Partly Recover</a></h3>
+            <p class="story-text">Brent crude held near $109.70 a barrel on Tuesday, consolidating after last week&rsquo;s roughly 5% rally to a five-month high, per Trading Economics (Oct 19). A US official cited in the same report said Gulf energy shipments have recovered to &ldquo;about 80% of pre-war levels,&rdquo; though refined-product deliveries through the Strait of Hormuz remain limited as IRGC attacks on tankers continue.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://tradingeconomics.com/commodity/brent-crude-oil" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-13" data-share-title="Brent Steadies Above $109 As Gulf Oil Flows Partly Recover" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="business" id="card-14">
+          <div class="thumb"><img src="https://247wallst.com/wp-content/uploads/2026/05/Kevin-Warsh-1.png" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">02</span><span class="tag continuing">Continuing</span></div>
+            <h3 class="headline"><a href="https://247wallst.com/investing/2026/10/15/traders-give-warsh-a-42-chance-of-doing-something-this-month-that-has-only-happened-once-in-the-past-36-years/" target="_blank" rel="noopener noreferrer">Fed Rate-Hike Odds Climb To 42% Ahead Of Oct. 28 Decision</a></h3>
+            <p class="story-text">Traders now price a 41.5% chance the Fed raises rates at its October 28 meeting, up from 22.1% before the hot September CPI report, per 247wallst.com (Oct 15) citing CME Group&rsquo;s FedWatch tool. A hike six days before the November 3 election would be almost unprecedented &mdash; UBS&rsquo;s Simon Penn called it &ldquo;politically untenable&rdquo; and still expects Chair Kevin Warsh to wait until December, even after Warsh said September&rsquo;s move had already removed &ldquo;a dose of accommodation.&rdquo;</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://247wallst.com/investing/2026/10/15/traders-give-warsh-a-42-chance-of-doing-something-this-month-that-has-only-happened-once-in-the-past-36-years/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-14" data-share-title="Fed Rate-Hike Odds Climb To 42% Ahead Of Oct. 28 Decision" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="business" id="card-15">
+          
+          <div class="card-body">
+            <div class="card-meta"><span class="num">03</span><span class="tag continuing">Continuing</span></div>
+            <h3 class="headline"><a href="https://tradingeconomics.com/united-states/stock-market" target="_blank" rel="noopener noreferrer">Wall Street Rebounds As Tech Shares Recover From AI-Debt Rout</a></h3>
+            <p class="story-text">The Nasdaq 100 jumped 1.17% and the S&amp;P 500 rose about 0.2&ndash;0.4% on Monday as AI heavyweights bounced back from last week&rsquo;s selloff, per Trading Economics (Oct 19). The Dow Jones slipped 0.07% to 51,966, with JPMorgan among the biggest decliners as bank stocks fell on earnings even while the broader market stabilized after the Nasdaq&rsquo;s worst week since June.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://tradingeconomics.com/united-states/stock-market" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-15" data-share-title="Wall Street Rebounds As Tech Shares Recover From AI-Debt Rout" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="business" id="card-16">
+          
+          <div class="card-body">
+            <div class="card-meta"><span class="num">04</span></div>
+            <h3 class="headline"><a href="https://www.insiderfinance.io/news/netflix-q3-2026-earnings-oct-20" target="_blank" rel="noopener noreferrer">Netflix Reports Q3 Earnings Today With Ad Tier, Margins In Focus</a></h3>
+            <p class="story-text">Netflix reports third-quarter results after Tuesday&rsquo;s close, with Wall Street consensus near $12.87&ndash;$12.88 billion in revenue and EPS around $0.82, per InsiderFinance. Analysts are watching whether ad-tier revenue &mdash; expected to roughly double year over year to about $3 billion &mdash; and a guided 33.2% operating margin hold up after both Wells Fargo and HSBC cut their ratings last month on competitive pressure from YouTube.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.insiderfinance.io/news/netflix-q3-2026-earnings-oct-20" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-16" data-share-title="Netflix Reports Q3 Earnings Today With Ad Tier, Margins In Focus" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article></div>
+    </section>
+
+    <section class="news-section" id="sec-ai" data-section="ai" data-cat="ai">
+      <header class="section-head">
+        <h2>AI &amp; Technology</h2>
+      </header>
+      
+      <div class="card-grid">
+        <article class="card" data-cat="ai" id="card-17">
+          <div class="thumb"><img src="https://www.roic.ai/api/og/news/coreweave-shares-tumble-69-as-leverage-fears-return-to-haunt-ai-darling-10-16-2026" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">01</span><span class="tag continuing">Continuing</span></div>
+            <h3 class="headline"><a href="https://www.roic.ai/news/coreweave-shares-tumble-69-as-leverage-fears-return-to-haunt-ai-darling-10-16-2026" target="_blank" rel="noopener noreferrer">CoreWeave&rsquo;s Credit Stress Deepens As Default Swaps Hit Record 1,194bps</a></h3>
+            <p class="story-text">CoreWeave&rsquo;s five-year credit default swaps hit a record 1,194.5 basis points &mdash; pricing better-than-60% odds of default within five years, per LetsDataScience (Oct 15) citing ICE Data Services and Bloomberg. Its unsecured 2032 bonds traded below 80 cents on the dollar as shares fell another 6.9% on Oct 16, per Roic (Oct 16); Bernstein&rsquo;s Madison Rezaei maintains an Underperform rating, writing &ldquo;the company&rsquo;s long-term business model remains economically challenged,&rdquo; while CEO Mike Intrator insists its $104 billion backlog &ldquo;more than supports&rdquo; its debt obligations.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.roic.ai/news/coreweave-shares-tumble-69-as-leverage-fears-return-to-haunt-ai-darling-10-16-2026" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-17" data-share-title="CoreWeave’s Credit Stress Deepens As Default Swaps Hit Record 1,194bps" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="ai" id="card-18">
+          
+          <div class="card-body">
+            <div class="card-meta"><span class="num">02</span><span class="tag continuing">Continuing</span></div>
+            <h3 class="headline"><a href="https://aiweekly.co/alerts/reuters-anthropic-ipo-investors-push-valuation-down-to-15t-from-2t-over-q3" target="_blank" rel="noopener noreferrer">Anthropic&rsquo;s IPO Valuation Talk Slips To $1.5 Trillion, Roadshow Targets Nov. 9</a></h3>
+            <p class="story-text">Investors who attended Anthropic&rsquo;s San Francisco investor day are now discussing a $1.5 trillion IPO valuation, down from the roughly $2 trillion previously floated, per Reuters (Oct 15, via AI Weekly) &mdash; attributed to a Q3 growth slowdown even as Q3 revenue hit $16.8 billion. Anthropic is aiming to begin formally marketing shares the week of November 9 and list before Thanksgiving, with cloud and compute commitments exceeding $518 billion over the next decade.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://aiweekly.co/alerts/reuters-anthropic-ipo-investors-push-valuation-down-to-15t-from-2t-over-q3" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-18" data-share-title="Anthropic’s IPO Valuation Talk Slips To $1.5 Trillion, Roadshow Targets Nov. 9" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="ai" id="card-19">
+          <div class="thumb"><img src="https://media.af.net/img/41f9fb29aa890d57.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">03</span></div>
+            <h3 class="headline"><a href="https://af.net/fr/realtime/nvidia-projects-record-q3-2026-revenue-and-announces-150-billion-share-repurchase-program/" target="_blank" rel="noopener noreferrer">Nvidia Guides To $108 Billion Q3 Revenue, Unveils $150 Billion Buyback</a></h3>
+            <p class="story-text">Nvidia is projecting roughly $108 billion in third-quarter revenue and has announced a $150 billion share-repurchase program &mdash; one of the largest buybacks in tech history &mdash; per TechInsider (Oct 8). The company credits surging demand for AI chips and its new Vera Rubin platform, while flagging regulatory scrutiny and competition from AMD as key risks to the outlook.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://af.net/fr/realtime/nvidia-projects-record-q3-2026-revenue-and-announces-150-billion-share-repurchase-program/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-19" data-share-title="Nvidia Guides To $108 Billion Q3 Revenue, Unveils $150 Billion Buyback" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="ai" id="card-20">
+          <div class="thumb"><img src="https://cdn.mos.cms.futurecdn.net/vTWtQPpYKKP4U9pMoa7dNR-2560-80.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">04</span></div>
+            <h3 class="headline"><a href="https://www.windowscentral.com/hardware/nvidia/rtx-spark-laptops-are-being-hailed-as-true-macbook-pro-competitors-with-reviewers-praising-their-ai-power-and-creator-focused-performance" target="_blank" rel="noopener noreferrer">First RTX Spark AI Laptops Ship, Draw MacBook Pro Comparisons</a></h3>
+            <p class="story-text">The first wave of Windows laptops built on Nvidia&rsquo;s RTX Spark superchip &mdash; seven models from Microsoft, Asus, Lenovo, Dell, HP and MSI &mdash; began shipping Oct. 16 starting at $2,599.99, per Windows Central (Oct 17). Reviewers praised the on-device AI power for creators, with The Verge saying Microsoft&rsquo;s Surface Laptop Ultra &ldquo;has come closer than ever to building a Windows alternative to the MacBook Pro,&rdquo; though Wired flagged weak battery life as its main drawback.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.windowscentral.com/hardware/nvidia/rtx-spark-laptops-are-being-hailed-as-true-macbook-pro-competitors-with-reviewers-praising-their-ai-power-and-creator-focused-performance" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-20" data-share-title="First RTX Spark AI Laptops Ship, Draw MacBook Pro Comparisons" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article></div>
+    </section>
+
+    <section class="news-section" id="sec-geopolitics" data-section="geopolitics" data-cat="geopolitics">
+      <header class="section-head">
+        <h2>Geopolitics</h2>
+      </header>
+      
+      <div class="card-grid">
+        <article class="card" data-cat="geopolitics" id="card-21">
+          <div class="thumb"><img src="https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20260217__97WL4GM__v1__HighRes__IranUsConflictIrgcDrills-1792449681.jpg?resize=1920%2C1440" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">01</span></div>
+            <h3 class="headline"><a href="https://www.aljazeera.com/news/liveblog/2026/10/20/draft-3" target="_blank" rel="noopener noreferrer">Trump Says US Still Hitting Iran &lsquo;Economically And Militarily&rsquo; As China Condemns Strikes</a></h3>
+            <p class="story-text">President Trump said the United States continues to hit Iran &ldquo;economically and militarily&rdquo; and praised Russia for &ldquo;laying off Iran&rdquo; and doing &ldquo;nothing&rdquo; in the conflict, as the US-Israeli war on Iran ground on, per Al Jazeera (Oct 20). Chinese Premier Li Qiang condemned the strikes as &ldquo;blatant aggression&rdquo; carried out without UN Security Council consultation, while an Iranian Revolutionary Guard spokesman threatened to target undersea communication cables in the Strait of Hormuz if US attacks continue to disrupt Iran&rsquo;s regional security.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.aljazeera.com/news/liveblog/2026/10/20/draft-3" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-21" data-share-title="Trump Says US Still Hitting Iran ‘Economically And Militarily’ As China Condemns Strikes" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="geopolitics" id="card-22">
+          <div class="thumb"><img src="https://www.aljazeera.com/wp-content/uploads/2026/07/AP26078614880785-1785217104.jpg?resize=1920%2C1440" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">02</span><span class="tag continuing">Continuing</span></div>
+            <h3 class="headline"><a href="https://www.aljazeera.com/news/2026/10/19/trump-defends-russian-sanctions-relief-lashes-out-at-zelenskyy" target="_blank" rel="noopener noreferrer">Trump Lashes Out At Zelensky Over Sanctions Relief For Russia</a></h3>
+            <p class="story-text">Trump defended pausing new Russia sanctions days before they would have taken effect, warning against anything that would &ldquo;drive, foolishly, Russia away from the bargaining table,&rdquo; and writing that Ukraine&rsquo;s Zelensky &ldquo;doesn&rsquo;t want to end this war, and probably never did,&rdquo; per Al Jazeera (Oct 19). Zelensky told NBC&rsquo;s Meet the Press the sanctions waiver &ldquo;will hurt Ukraine&rdquo; and strengthen Putin&rsquo;s war effort, as Ukraine launched more than 1,000 drones overnight at Russian oil and energy sites around St Petersburg, killing one person and cutting power to roughly 20,000 people, per Al Jazeera (Oct 18).</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.aljazeera.com/news/2026/10/19/trump-defends-russian-sanctions-relief-lashes-out-at-zelenskyy" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-22" data-share-title="Trump Lashes Out At Zelensky Over Sanctions Relief For Russia" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="geopolitics" id="card-23">
+          <div class="thumb"><img src="https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a84a378d96a-1787077496.jpg?resize=1920%2C1440" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">03</span><span class="tag continuing">Continuing</span></div>
+            <h3 class="headline"><a href="https://www.aljazeera.com/news/2026/10/18/trump-endorses-netanyahu-in-israeli-legislative-elections" target="_blank" rel="noopener noreferrer">Trump Gives Netanyahu &lsquo;Complete And Total Endorsement&rsquo; Before Israeli Vote</a></h3>
+            <p class="story-text">Nine days before Israel&rsquo;s Oct 27 election, Trump posted a &ldquo;Complete and Total Endorsement&rdquo; of Prime Minister Netanyahu, calling him &ldquo;Strong, Brave, and Brilliant&rdquo; and warning that if Israelis chose a different leader, the US would &ldquo;have to handle things&rdquo; itself, per Al Jazeera (Oct 18). Netanyahu&rsquo;s Likud-led bloc still trails Gadi Eisenkot&rsquo;s centrist Yashar party in recent polling, and the endorsement follows reported friction between the two leaders over the Iran war and Israeli strikes in Lebanon.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.aljazeera.com/news/2026/10/18/trump-endorses-netanyahu-in-israeli-legislative-elections" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-23" data-share-title="Trump Gives Netanyahu ‘Complete And Total Endorsement’ Before Israeli Vote" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="geopolitics" id="card-24">
+          <div class="thumb"><img src="https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ad4d4ad6b6c-1792332973.jpg?resize=1920%2C1440" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">04</span></div>
+            <h3 class="headline"><a href="https://www.aljazeera.com/news/2026/10/18/taiwan-drives-away-16-chinese-ships-accused-of-maritime-harassment" target="_blank" rel="noopener noreferrer">Taiwan Repels 16 Chinese Vessels In &lsquo;Hybrid Warfare&rsquo; Incident</a></h3>
+            <p class="story-text">Taiwan&rsquo;s coastguard said it drove away 16 Chinese coastguard, research and fishing vessels conducting coordinated &ldquo;maritime harassment&rdquo; around Taiwan&rsquo;s main island and the disputed Pratas Islands, some of which entered restricted waters, per Al Jazeera (Oct 18). Taipei accused Beijing of &ldquo;attempting to unilaterally alter the status quo&rdquo; through what it called hybrid warfare, noting China deployed 244 vessels near Taiwan in July alone &mdash; more than four times July 2025&rsquo;s count.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.aljazeera.com/news/2026/10/18/taiwan-drives-away-16-chinese-ships-accused-of-maritime-harassment" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-24" data-share-title="Taiwan Repels 16 Chinese Vessels In ‘Hybrid Warfare’ Incident" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article></div>
+    </section>
+
+    <section class="news-section" id="sec-portfolio" data-section="portfolio" data-cat="portfolio">
+      <header class="section-head">
+        <h2>Market Watch</h2>
+      </header>
+      <p class="section-note">Companies on the watchlist where something actually happened today.</p>
+      <div class="card-grid">
+        <article class="card" data-cat="portfolio" id="card-25">
+          <div class="thumb"><img src="https://blog.tipranks.com/wp-content/uploads/2026/10/amznstock-4-750x406.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">01</span><span class="tag ticker">AMZN</span></div>
+            <h3 class="headline"><a href="https://www.tipranks.com/news/amazon-stock-amzn-gains-5-thanks-to-a-new-price-target-from-morgan-stanley" target="_blank" rel="noopener noreferrer">Morgan Stanley Lifts Amazon Price Target To $350 On AWS-Nvidia GPU Deal</a></h3>
+            <p class="story-text">Morgan Stanley&rsquo;s Brian Nowak raised his Amazon price target to $350 from $335 and reiterated a Buy rating, citing Amazon&rsquo;s agreement to buy roughly two million Nvidia GPUs, which he expects to help drive AWS revenue growth of around 47% in 2027 and push AWS operating margins toward 42% that year, per TipRanks (Oct 19). Nowak also pointed to Amazon&rsquo;s AI shopping assistants and warehouse robotics as additional catalysts heading into 2027.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.tipranks.com/news/amazon-stock-amzn-gains-5-thanks-to-a-new-price-target-from-morgan-stanley" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-25" data-share-title="Morgan Stanley Lifts Amazon Price Target To $350 On AWS-Nvidia GPU Deal" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="portfolio" id="card-26">
+          <div class="thumb"><img src="https://blog.tipranks.com/wp-content/uploads/2026/10/shutterstock_1491230117-750x406.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">02</span><span class="tag ticker">TSLA</span></div>
+            <h3 class="headline"><a href="https://www.tipranks.com/news/will-teslas-q3-earnings-help-tsla-stock-recover-heres-what-analysts-expect" target="_blank" rel="noopener noreferrer">Tesla Heads Into Wednesday&rsquo;s Earnings With Robotaxi Progress And SpaceX Merger Buzz</a></h3>
+            <p class="story-text">Tesla reports third-quarter results on Oct 21, with Wall Street watching for margin pressure from lower vehicle prices; Morgan Stanley&rsquo;s Andrew Percoco notes that Tesla&rsquo;s Austin robotaxi fleet has grown past 300 Cybercabs and surpassed 1 million cumulative unsupervised miles, calling utilization, safety and unit economics the next tests, per TipRanks (Oct 18). Separately, Reuters (Oct 19) reports that speculation over a possible Tesla-SpaceX merger has intensified as both companies&rsquo; AI spending plans face scrutiny this earnings season.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.tipranks.com/news/will-teslas-q3-earnings-help-tsla-stock-recover-heres-what-analysts-expect" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-26" data-share-title="Tesla Heads Into Wednesday’s Earnings With Robotaxi Progress And SpaceX Merger Buzz" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="portfolio" id="card-27">
+          <div class="thumb"><img src="https://mms.businesswire.com/media/20261019277683/en/1872898/22/Palantir_Logo.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">03</span><span class="tag ticker">PLTR</span><span class="tag continuing">Continuing</span></div>
+            <h3 class="headline"><a href="https://www.businesswire.com/news/home/20261019277683/en/Knox-and-Palantir-Partner-to-Further-Accelerate-Delivery-of-Software-through-Largest-Federal-Cloud/" target="_blank" rel="noopener noreferrer">Palantir And Knox Systems Partner To Fast-Track Software Into Federal Cloud</a></h3>
+            <p class="story-text">Palantir and Knox Systems announced a partnership on Oct 19 pairing Palantir&rsquo;s FedRAMP- and IL5-accredited infrastructure with Knox&rsquo;s accelerated authorization process, aiming to get commercial software vendors into government use faster; Knox says it already supports more than 100 AI and enterprise applications across federal environments and can deliver FedRAMP authorization in 90 days or less, per Business Wire (Oct 19). Palantir&rsquo;s global head of business development, Kevin Kawasaki, said the goal is to ensure &ldquo;the mission can&rsquo;t wait for technology to catch up.&rdquo;</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.businesswire.com/news/home/20261019277683/en/Knox-and-Palantir-Partner-to-Further-Accelerate-Delivery-of-Software-through-Largest-Federal-Cloud/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-27" data-share-title="Palantir And Knox Systems Partner To Fast-Track Software Into Federal Cloud" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="portfolio" id="card-28">
+          <div class="thumb"><img src="https://blog.tipranks.com/wp-content/uploads/2022/09/shutterstock_1437974372-750x406.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">04</span><span class="tag ticker">INTC</span><span class="tag continuing">Continuing</span></div>
+            <h3 class="headline"><a href="https://www.tipranks.com/news/the-fly/intel-upgraded-to-neutral-from-underweight-at-jpmorgan-thefly-news" target="_blank" rel="noopener noreferrer">JPMorgan Upgrades Intel To Neutral, Citing Improved Execution Under Lip-Bu Tan</a></h3>
+            <p class="story-text">JPMorgan analyst Harlan Sur upgraded Intel to Neutral from Underweight on Oct 19, keeping an $85 price target, pointing to improved execution and competitiveness in data-center compute plus better manufacturing yields and advanced-packaging progress since CEO Lip-Bu Tan took over, per TipRanks and Invezz (Oct 19). Intel also announced day-zero support for Meta&rsquo;s Muse Spark open model on its Xeon processors and upcoming D-series GPUs, part of a broader rebound across chip stocks nine days ahead of Intel&rsquo;s Oct 29 earnings report.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.tipranks.com/news/the-fly/intel-upgraded-to-neutral-from-underweight-at-jpmorgan-thefly-news" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-28" data-share-title="JPMorgan Upgrades Intel To Neutral, Citing Improved Execution Under Lip-Bu Tan" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="portfolio" id="card-29">
+          <div class="thumb"><img src="https://blog.tipranks.com/wp-content/uploads/2022/09/shutterstock_1928816210-750x406.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">05</span><span class="tag ticker">TWLO</span><span class="tag continuing">Continuing</span></div>
+            <h3 class="headline"><a href="https://www.tipranks.com/news/the-fly/twilio-price-target-raised-to-335-from-260-at-jpmorgan-thefly-news" target="_blank" rel="noopener noreferrer">Twilio Rebounds As Wall Street&rsquo;s Price-Target Hikes Pile Up Ahead Of Earnings</a></h3>
+            <p class="story-text">No fresh company-specific announcement accompanied Twilio&rsquo;s move on Oct 19; the rebound instead follows a string of recent analyst price-target increases &mdash; JPMorgan to $335 and BofA to $320 &mdash; with JPMorgan&rsquo;s Samik Chatterjee citing &ldquo;strong adoption of its messaging platform&rdquo; even as he stays cautious given how far expectations have risen ahead of Twilio&rsquo;s Oct 29 third-quarter report, per TheFly/TipRanks (Oct 8, Oct 14). No new catalyst specific to today&rsquo;s session was found.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.tipranks.com/news/the-fly/twilio-price-target-raised-to-335-from-260-at-jpmorgan-thefly-news" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-29" data-share-title="Twilio Rebounds As Wall Street’s Price-Target Hikes Pile Up Ahead Of Earnings" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="portfolio" id="card-30">
+          
+          <div class="card-body">
+            <div class="card-meta"><span class="num">06</span><span class="tag ticker">BYND</span></div>
+            <h3 class="headline"><a href="https://www.globenewswire.com/news-release/2026/10/15/3381432/0/en/beyond-meat-launches-beyond-immerse-protein-energy-a-sparkling-protein-drink-with-caffeine.html" target="_blank" rel="noopener noreferrer">Beyond Meat Slips With No Clear Catalyst As Product Rollout Continues</a></h3>
+            <p class="story-text">No company-specific news accompanied Beyond Meat&rsquo;s decline on Oct 19; its most recent announcements are routine product rollouts, including an Oct 15 launch of a caffeinated &ldquo;Beyond Immerse&rdquo; sparkling protein drink and an Oct 13 purity-award win for its Starmatter ingredient platform, per GlobeNewswire &mdash; rather than anything tied to the session&rsquo;s move. Beyond Meat remains a small-cap name with a history of high volatility following its 2026 reverse stock split.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.globenewswire.com/news-release/2026/10/15/3381432/0/en/beyond-meat-launches-beyond-immerse-protein-energy-a-sparkling-protein-drink-with-caffeine.html" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-30" data-share-title="Beyond Meat Slips With No Clear Catalyst As Product Rollout Continues" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article></div>
+    </section>
+
+    <section class="news-section" id="sec-country" data-section="country" data-cat="country">
+      <header class="section-head">
+        <h2>Country Updates</h2>
+      </header>
+      
+      
+      <div class="country-group">
+        <h3 class="subblock-label">India</h3>
+        <div class="card-grid">
+        <article class="card" data-cat="country" id="card-31">
+          <div class="thumb"><img src="https://cdn3.wionews.com/prod/wion/images/2026/20261020/image-1792434973426.jpg?imwidth=1200&imheight=900" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">01</span></div>
+            <h3 class="headline"><a href="https://www.wionews.com/india-news/spare-india-from-anarchy-over-400-indian-origin-academics-from-mit-oxford-condemn-anti-cec-protests-1792434690199" target="_blank" rel="noopener noreferrer">400 Indian-Origin Academics From MIT, Oxford Urge India To &lsquo;Spare&rsquo; Nation From Anarchy</a></h3>
+            <p class="story-text">More than 400 people of Indian origin &mdash; academics, students and alumni from MIT, Oxford, Cambridge, Harvard, Yale, Princeton and Stanford across 27 countries &mdash; signed a statement titled &ldquo;Spare India from Anarchy,&rdquo; condemning protests against Chief Election Commissioner Gyanesh Kumar and the Special Intensive Revision of electoral rolls, per WION (Oct 20). Citing B.R. Ambedkar&rsquo;s warning to &ldquo;hold fast to constitutional methods&rdquo; and &ldquo;abandon the bloody methods of revolution,&rdquo; the signatories said some groups were exploiting matters pending before courts to fuel &ldquo;the grammar of anarchy&rdquo; through street protests. The release clarified that the listed university affiliations do not imply institutional endorsement.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.wionews.com/india-news/spare-india-from-anarchy-over-400-indian-origin-academics-from-mit-oxford-condemn-anti-cec-protests-1792434690199" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-31" data-share-title="400 Indian-Origin Academics From MIT, Oxford Urge India To ‘Spare’ Nation From Anarchy" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="country" id="card-32">
+          <div class="thumb"><img src="https://cdn3.wionews.com/prod/wion/images/2026/20261019/image-1792411117316.jpg?imwidth=1200&imheight=900" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">02</span></div>
+            <h3 class="headline"><a href="https://www.wionews.com/world/very-close-to-trade-deal-with-india-says-marco-rubio-ahead-of-his-mumbai-arrival-on-tuesday-1792411026672" target="_blank" rel="noopener noreferrer">Rubio Says US &lsquo;Very Close&rsquo; To India Trade Deal Ahead Of Mumbai Visit</a></h3>
+            <p class="story-text">Secretary of State Marco Rubio said in Samarkand, &ldquo;We&rsquo;re trying to finalise a trade deal with India right now. We&rsquo;re very close to doing that,&rdquo; ahead of landing in Mumbai Tuesday to meet External Affairs Minister S. Jaishankar, per WION (Oct 19). It is Rubio&rsquo;s second India trip this year, coming as Washington reviews India&rsquo;s continued Russian oil purchases under a 60-day pause on the Russia/Iran sanctions act, with the review due around December 15 when Modi is set to attend the G20 summit in Florida.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.wionews.com/world/very-close-to-trade-deal-with-india-says-marco-rubio-ahead-of-his-mumbai-arrival-on-tuesday-1792411026672" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-32" data-share-title="Rubio Says US ‘Very Close’ To India Trade Deal Ahead Of Mumbai Visit" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="country" id="card-33">
+          <div class="thumb"><img src="https://cdn3.wionews.com/prod/wion/images/2026/20261019/image-1792415853027.jpg?imwidth=1200&imheight=900" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">03</span><span class="tag continuing">Continuing</span></div>
+            <h3 class="headline"><a href="https://www.wionews.com/entertainment/bollywood/tiger-shroff-firing-probe-mumbai-police-reveal-new-details-confirm-all-three-accused-are-adults-1792415663200" target="_blank" rel="noopener noreferrer">Mumbai Police Confirm All Three Accused In Tiger Shroff Firing Case Are Adults</a></h3>
+            <p class="story-text">Crime Branch DCP Rajtilak Roshan confirmed all three suspects in the October 18 Juhu firing targeting Tiger Shroff&rsquo;s residence are adults &mdash; two aged 18 and one 22 &mdash; after a 20-team manhunt tracked them from Mumbai through Surat and Kota via the Pune&ndash;Jaipur Express, per WION (Oct 19). Police recovered the getaway motorcycle at Andheri station and pulled all three off the train in a 15-minute operation with Rajasthan&rsquo;s Anti-Gangster Task Force; officers said they had received no prior complaint from Shroff about threats.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.wionews.com/entertainment/bollywood/tiger-shroff-firing-probe-mumbai-police-reveal-new-details-confirm-all-three-accused-are-adults-1792415663200" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-33" data-share-title="Mumbai Police Confirm All Three Accused In Tiger Shroff Firing Case Are Adults" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="country" id="card-34">
+          <div class="thumb"><img src="https://cdn3.wionews.com/prod/wion/images/2026/20261019/image-1792412983908.jpg?imwidth=1200&imheight=900" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">04</span></div>
+            <h3 class="headline"><a href="https://www.wionews.com/india-news/four-killed-in-fresh-manipur-violence-locals-take-bodies-to-cm-s-residence-1792412253953" target="_blank" rel="noopener noreferrer">Four Killed In Fresh Manipur Violence, Bodies Taken To CM&rsquo;s Residence In Protest</a></h3>
+            <p class="story-text">Violence in two separate incidents since Thursday night killed at least four in Manipur &mdash; three villagers, named as Arubam Ronil, Lairenlakpam Inaobi and Kshetrimayum Sushil, were allegedly shot dead by suspected tribal militants while collecting firewood near the Imphal East&ndash;Kangpokpi boundary, while a 24-year-old died of bullet wounds after stone-pelting and gunfire at a musical event, per WION (Oct 19). Residents carried two bodies to Chief Minister Yumnam Khemchand Singh&rsquo;s residence in Babupara before police removed the protesters, as normal life in Imphal nears a standstill amid fears of renewed Meitei-Kuki tensions.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.wionews.com/india-news/four-killed-in-fresh-manipur-violence-locals-take-bodies-to-cm-s-residence-1792412253953" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-34" data-share-title="Four Killed In Fresh Manipur Violence, Bodies Taken To CM’s Residence In Protest" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article></div>
+      </div>
+      <div class="country-group">
+        <h3 class="subblock-label">United Kingdom</h3>
+        <div class="card-grid">
+        <article class="card" data-cat="country" id="card-35">
+          <div class="thumb"><img src="https://www.cityam.com/wp-content/uploads/2026/09/healey-e1789054887466.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">01</span><span class="tag continuing">Continuing</span></div>
+            <h3 class="headline"><a href="https://www.cityam.com/john-healey-poised-to-target-banks-with-budget-tax-raid/" target="_blank" rel="noopener noreferrer">Healey &lsquo;Poised&rsquo; To Hike Bank Tax As Lloyds, Barclays Shares Slide</a></h3>
+            <p class="story-text">Bank shares fell after reports that Chancellor John Healey will target lenders in his October 28 Budget, with NatWest down 2% to 660.40p and Lloyds down roughly 2.5% to 103.40p; reversing Jeremy Hunt&rsquo;s 2023 cut to the banking surcharge from 3% back toward 8% could raise about &pound;2bn a year, per City AM (Oct 16). Healey called banks &ldquo;a part of the jewel&rdquo; in the UK economy, while Shadow Chancellor Andrew Griffith warned &ldquo;a raid on the financial services sector will stifle&rdquo; growth, and bank bosses jointly warned a higher tax burden &ldquo;may not necessarily generate higher tax receipts if capital, people and businesses move elsewhere.&rdquo;</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.cityam.com/john-healey-poised-to-target-banks-with-budget-tax-raid/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-35" data-share-title="Healey ‘Poised’ To Hike Bank Tax As Lloyds, Barclays Shares Slide" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="country" id="card-36">
+          <div class="thumb"><img src="https://images.euronews.com/articles/stories/09/94/91/99/1200x675_cmsv2_1a2e4e44-2511-5ca5-a469-45c872fbe856-9949199.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">02</span><span class="tag continuing">Continuing</span></div>
+            <h3 class="headline"><a href="https://www.euronews.com/2026/10/12/uk-pm-burnham-says-status-quo-with-brussels-not-good-enough-as-he-details-upcoming-eu-summ" target="_blank" rel="noopener noreferrer">Burnham Confirms UK-EU Summit For November 20 As He Pushes Closer Ties</a></h3>
+            <p class="story-text">PM Andy Burnham told MPs &ldquo;sticking with the current status quo is not good enough for Britain&rdquo; and warned ignoring closer EU ties would be &ldquo;a major dereliction of duty,&rdquo; confirming a UK-EU summit in Brussels on November 20, per Euronews (Oct 12). The summit will focus on growth and illegal immigration alongside a food and drink trade deal, linked energy systems and an emissions-trading agreement; Conservative leader Kemi Badenoch accused Burnham of &ldquo;unpicking&rdquo; the withdrawal agreement, while EU chief Ursula von der Leyen said she was &ldquo;really looking forward&rdquo; to the talks.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.euronews.com/2026/10/12/uk-pm-burnham-says-status-quo-with-brussels-not-good-enough-as-he-details-upcoming-eu-summ" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-36" data-share-title="Burnham Confirms UK-EU Summit For November 20 As He Pushes Closer Ties" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="country" id="card-37">
+          <div class="thumb"><img src="https://www.cityam.com/wp-content/uploads/2026/10/01KY4RG87B5XRHN7K8K7BH1A5T-e1792391644906.jpg" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">03</span></div>
+            <h3 class="headline"><a href="https://www.cityam.com/fines-up-to-100-in-new-crackdown-on-playing-music-on-buses/" target="_blank" rel="noopener noreferrer">Burnham Unveils &pound;100 Fines For Blasting Music On Buses</a></h3>
+            <p class="story-text">Local councils gained new powers to issue &pound;100 fixed penalty notices to bus passengers playing loud music, under rules Transport Secretary Heidi Alexander framed as &ldquo;share the carriage, not the noise,&rdquo; per City AM (Oct 19). PM Andy Burnham said &ldquo;we&rsquo;ve all been on the train when someone starts blasting music or videos from their phone,&rdquo; as the government also launches a campaign reminding rail passengers they already face fines of up to &pound;1,000; Shadow Transport Secretary Richard Holden called it Labour &ldquo;finally catching up with the Conservatives.&rdquo;</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.cityam.com/fines-up-to-100-in-new-crackdown-on-playing-music-on-buses/" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-37" data-share-title="Burnham Unveils £100 Fines For Blasting Music On Buses" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article></div>
+      </div>
+      <div class="country-group">
+        <h3 class="subblock-label">Qatar & the GCC</h3>
+        <div class="card-grid">
+        <article class="card" data-cat="country" id="card-38">
+          <div class="thumb"><img src="https://www.aljazeera.com/wp-content/uploads/2026/10/Screenshot-2026-10-19-at-11.39.31-AM-copy-1792399284.jpg?resize=1920%2C1440" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">01</span></div>
+            <h3 class="headline"><a href="https://www.aljazeera.com/news/2026/10/19/qatar-warns-global-energy-shockwaves-from-iran-war-have-yet-to-peak" target="_blank" rel="noopener noreferrer">Qatar Warns Iran War&rsquo;s Energy Shockwaves &lsquo;Yet To Peak&rsquo;, Unveils New Defence Pact</a></h3>
+            <p class="story-text">Deputy PM and Defence Minister Sheikh Saoud bin Abdulrahman Al Thani told Doha&rsquo;s Global Security Forum &ldquo;we haven&rsquo;t reached the peak with respect to energy&rdquo; fallout from the US-Israeli war on Iran, warning of further hits to supply, trade and growth &ldquo;in the coming days and months,&rdquo; per Al Jazeera (Oct 19). He announced Qatar will soon unveil a new regional defence partnership prioritising air defence, counter-drone measures and cybersecurity, and said Doha continues mediating between Washington and Tehran because &ldquo;Iran is our neighbour. We need to find ways to live with them,&rdquo; while rejecting proposed transit fees on Strait of Hormuz shipping.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.aljazeera.com/news/2026/10/19/qatar-warns-global-energy-shockwaves-from-iran-war-have-yet-to-peak" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-38" data-share-title="Qatar Warns Iran War’s Energy Shockwaves ‘Yet To Peak’, Unveils New Defence Pact" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="country" id="card-39">
+          <div class="thumb"><img src="https://thepeninsulaqatar.com/get/maximage/20220224_1645690453-151.jpg?1645690636" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">02</span></div>
+            <h3 class="headline"><a href="https://thepeninsulaqatar.com/article/19/10/2026/amir-to-receive-french-president-tomorrow" target="_blank" rel="noopener noreferrer">Amir To Host French President Macron In Doha For State Visit</a></h3>
+            <p class="story-text">Amir Sheikh Tamim bin Hamad Al Thani is set to receive French President Emmanuel Macron on a state visit to Qatar, with official talks scheduled at Lusail Palace, per The Peninsula Qatar (Oct 19). The two leaders are expected to discuss strengthening bilateral strategic relations across multiple fields alongside shared regional and international concerns.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://thepeninsulaqatar.com/article/19/10/2026/amir-to-receive-french-president-tomorrow" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-39" data-share-title="Amir To Host French President Macron In Doha For State Visit" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="country" id="card-40">
+          <div class="thumb"><img src="https://thepeninsulaqatar.com/get/maximage/20261018_1792336784-543.jpeg?1792336784" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">03</span></div>
+            <h3 class="headline"><a href="https://thepeninsulaqatar.com/article/18/10/2026/qatar-participates-in-ninth-joint-ministerial-meeting-of-the-strategic-dialogue-between-gulf-cooperation-council-and-russia" target="_blank" rel="noopener noreferrer">Qatar Joins GCC-Russia Strategic Dialogue Meeting In Manama</a></h3>
+            <p class="story-text">Qatar&rsquo;s delegation, led by Minister of State for Foreign Affairs Sultan bin Saad Al Muraikhi, took part in the Ninth Joint Ministerial Meeting of the Strategic Dialogue between the Gulf Cooperation Council and Russia, held in Manama, Bahrain, per The Peninsula Qatar (Oct 18).</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://thepeninsulaqatar.com/article/18/10/2026/qatar-participates-in-ninth-joint-ministerial-meeting-of-the-strategic-dialogue-between-gulf-cooperation-council-and-russia" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-40" data-share-title="Qatar Joins GCC-Russia Strategic Dialogue Meeting In Manama" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article></div>
+      </div>
+    </section>
+
+    <section class="news-section" id="sec-doha" data-section="doha" data-cat="doha">
+      <header class="section-head">
+        <h2>Doha Events</h2>
+      </header>
+      
+      <div class="card-grid">
+        <article class="card" data-cat="doha" id="card-41">
+          
+          <div class="card-body">
+            <div class="card-meta"><span class="num">01</span></div>
+            <h3 class="headline"><a href="https://www.qatarliving.com/en/article/qatar-calendar-brings-concerts-culture-sport-and-family-experiences-to-qatar-this-october" target="_blank" rel="noopener noreferrer">Qatar World Cup 10-Ball 2026</a></h3>
+            <p class="story-text">The world&rsquo;s top 10-ball players compete for a $450,000 prize fund at Ezdan Palace Hotel.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.qatarliving.com/en/article/qatar-calendar-brings-concerts-culture-sport-and-family-experiences-to-qatar-this-october" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-41" data-share-title="Qatar World Cup 10-Ball 2026" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="doha" id="card-42">
+          <div class="thumb"><img src="https://thepeninsulaqatar.com/get/maximage/20261018_1792331602-58.jpg?1792331602" alt="" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="thumb-fallback"><svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="6" height="54"/></svg></div></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="num">02</span></div>
+            <h3 class="headline"><a href="https://thepeninsulaqatar.com/article/18/10/2026/milipol-qatar-2026-to-open-on-tuesday-with-participation-of-over-270-companies" target="_blank" rel="noopener noreferrer">Milipol Qatar 2026</a></h3>
+            <p class="story-text">The 16th edition of this global homeland-security exhibition opens at DECC with over 270 companies and seven international pavilions, marking 30 years since it launched in 1996.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://thepeninsulaqatar.com/article/18/10/2026/milipol-qatar-2026-to-open-on-tuesday-with-participation-of-over-270-companies" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-42" data-share-title="Milipol Qatar 2026" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="doha" id="card-43">
+          
+          <div class="card-body">
+            <div class="card-meta"><span class="num">03</span></div>
+            <h3 class="headline"><a href="https://www.qatarliving.com/en/article/qatar-calendar-brings-concerts-culture-sport-and-family-experiences-to-qatar-this-october" target="_blank" rel="noopener noreferrer">MOQ Drift Show 2026</a></h3>
+            <p class="story-text">A motorsport drift show returns to Mall of Qatar.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.qatarliving.com/en/article/qatar-calendar-brings-concerts-culture-sport-and-family-experiences-to-qatar-this-october" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-43" data-share-title="MOQ Drift Show 2026" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="doha" id="card-44">
+          
+          <div class="card-body">
+            <div class="card-meta"><span class="num">04</span></div>
+            <h3 class="headline"><a href="https://www.qatarliving.com/en/article/qatar-calendar-brings-concerts-culture-sport-and-family-experiences-to-qatar-this-october" target="_blank" rel="noopener noreferrer">Marilyne Naaman Concert</a></h3>
+            <p class="story-text">The Lebanese singer performs live at Al Mayassa Theater, Qatar National Convention Centre.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.qatarliving.com/en/article/qatar-calendar-brings-concerts-culture-sport-and-family-experiences-to-qatar-this-october" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-44" data-share-title="Marilyne Naaman Concert" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="doha" id="card-45">
+          
+          <div class="card-body">
+            <div class="card-meta"><span class="num">05</span></div>
+            <h3 class="headline"><a href="https://www.qatarliving.com/en/article/qatar-calendar-brings-concerts-culture-sport-and-family-experiences-to-qatar-this-october" target="_blank" rel="noopener noreferrer">Moscow Ballet La Classique: Swan Lake</a></h3>
+            <p class="story-text">The Russian touring company stages its classical production of Swan Lake at Al Mayassa Theater, QNCC.</p>
+            <div class="card-actions">
+              <a class="read-more" href="https://www.qatarliving.com/en/article/qatar-calendar-brings-concerts-culture-sport-and-family-experiences-to-qatar-this-october" target="_blank" rel="noopener noreferrer">Read more &rarr;</a>
+              <button class="share-btn" data-share-id="card-45" data-share-title="Moscow Ballet La Classique: Swan Lake" aria-label="Share this story" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg></button>
+            </div>
+          </div>
+        </article></div>
+    </section>
+</main>
+
+<footer class="colophon">
+  <svg class="mark" viewBox="11 3 42 58" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M24 22a11 11 0 1 0 0 22 11 11 0 1 0 0-22Zm-.6 3a5.6 8 0 1 0 0 16 5.6 8 0 1 0 0-16Z"/><rect x="36" y="40.6" width="15" height="3.4"/><rect x="30" y="5" width="2.5" height="54"/><rect x="33.5" y="5" width="2.5" height="54"/><rect x="30" y="5" width="6" height="1.5"/><rect x="30" y="8" width="6" height="2"/><rect x="30" y="11.5" width="6" height="2"/><rect x="30" y="15" width="6" height="2"/><rect x="30" y="18.5" width="6" height="2"/><rect x="30" y="22" width="6" height="2"/><rect x="30" y="25.5" width="6" height="2"/><rect x="30" y="29" width="6" height="2"/><rect x="30" y="32.5" width="6" height="2"/><rect x="30" y="36" width="6" height="2"/><rect x="30" y="39.5" width="6" height="2"/><rect x="30" y="43" width="6" height="2"/><rect x="30" y="46.5" width="6" height="2"/><rect x="30" y="50" width="6" height="2"/><rect x="30" y="53.5" width="6" height="2"/><rect x="30" y="57" width="6" height="0.5"/><rect x="30" y="57.5" width="6" height="1.5"/></svg>
+  <p>Compiled from public reporting &middot; Doha, Qatar<br>Tuesday, October 20, 2026</p>
+</footer>
+
+<button class="back-to-top" id="back-to-top" aria-label="Back to top" title="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg></button>
+
+<script>
+(function () {
+  var links = document.querySelectorAll('.index-link');
+  var sections = document.querySelectorAll('.news-section');
+  links.forEach(function (link) {
+    link.addEventListener('click', function () {
+      links.forEach(function (l) { l.classList.remove('active'); });
+      link.classList.add('active');
+      var filter = link.getAttribute('data-filter');
+      sections.forEach(function (sec) {
+        sec.classList.toggle('hidden-by-filter',
+          filter !== 'all' && sec.getAttribute('data-section') !== filter);
+      });
+      if (filter !== 'all') {
+        var target = document.getElementById('sec-' + filter);
+        if (target) target.scrollIntoView({ block: 'start' });
+      }
+    });
+  });
+
+  // --- Share: native share sheet on mobile, "Link copied" toast elsewhere ---
+  function showToast(msg) {
+    var t = document.getElementById('share-toast');
+    if (!t) {
+      t = document.createElement('div');
+      t.id = 'share-toast';
+      t.className = 'share-toast';
+      document.body.appendChild(t);
+    }
+    t.textContent = msg;
+    t.classList.add('show');
+    clearTimeout(t._hideTimer);
+    t._hideTimer = setTimeout(function () { t.classList.remove('show'); }, 1800);
+  }
+
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    try { document.execCommand('copy'); showToast('Link copied'); } catch (e) { /* no-op */ }
+    document.body.removeChild(ta);
+  }
+
+  document.querySelectorAll('.share-btn').forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var id = btn.getAttribute('data-share-id');
+      var title = btn.getAttribute('data-share-title') || document.title;
+      var url = location.origin + location.pathname + '#' + id;
+      if (navigator.share) {
+        navigator.share({ title: title, url: url }).catch(function () { /* cancelled */ });
+      } else if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(function () { showToast('Link copied'); })
+          .catch(function () { fallbackCopy(url); });
+      } else {
+        fallbackCopy(url);
+      }
+    });
+  });
+
+  // --- Jump straight to a shared card/fixture and mark it briefly ---
+  if (location.hash) {
+    var target = document.getElementById(location.hash.slice(1));
+    if (target) {
+      setTimeout(function () {
+        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        target.classList.add('highlight-pulse');
+        setTimeout(function () { target.classList.remove('highlight-pulse'); }, 2200);
+      }, 60);
+    }
+  }
+
+  var themeBtn = document.getElementById('theme-toggle');
+  if (themeBtn) {
+    themeBtn.addEventListener('click', function () {
+      var root = document.documentElement;
+      var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('dateline-theme', next); } catch (e) { /* no-op */ }
+      var meta = document.querySelector('meta[name="theme-color"]');
+      if (meta) meta.setAttribute('content', next === 'dark' ? '#15140F' : '#1A1815');
+    });
+  }
+
+  // The section index scrolls horizontally on a phone with its scrollbar
+  // hidden; a fade on the right edge is the only cue that it does. Clear the
+  // fade once there is nothing left to scroll to.
+  var indexInner = document.querySelector('.index-inner');
+  if (indexInner) {
+    var syncEdge = function () {
+      var atEnd = indexInner.scrollLeft + indexInner.clientWidth >= indexInner.scrollWidth - 2;
+      indexInner.classList.toggle('scroll-end', atEnd);
+    };
+    indexInner.addEventListener('scroll', syncEdge, { passive: true });
+    window.addEventListener('resize', syncEdge);
+    syncEdge();
+  }
+
+  var backToTop = document.getElementById('back-to-top');
+  if (backToTop) {
+    window.addEventListener('scroll', function () {
+      backToTop.classList.toggle('show', window.scrollY > window.innerHeight * 0.9);
+    }, { passive: true });
+    backToTop.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+})();
+</script>
+</body>
+</html>

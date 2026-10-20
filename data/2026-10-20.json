@@ -1,0 +1,390 @@
+{
+  "skim": [
+    "Nationwide protests over cost-of-living and school funding turned violent across France, with roughly 550,000 marchers, 2,400 arrests and Macron convening a crisis unit, while Alberta&rsquo;s independence referendum count ran past midnight with no official result yet.",
+    "Wall Street clawed back some of last week&rsquo;s AI-debt rout as CoreWeave&rsquo;s default-swap costs hit a record and Fed rate-hike odds climbed to 42% ahead of the Oct 28 decision.",
+    "Trump gave Netanyahu a &lsquo;Complete and Total Endorsement&rsquo; nine days before Israel&rsquo;s election, lashed out at Zelensky over his Russia sanctions pause, and said the US is still hitting Iran &lsquo;economically and militarily.&rsquo;",
+    "Arsenal and Spurs won late in the Premier League, Kimi Antonelli could clinch the 2026 F1 title at this weekend&rsquo;s US Grand Prix, and Pakistan faces England today in Rawalpindi&rsquo;s ODI tri-series.",
+    "Rubio said the US is &lsquo;very close&rsquo; to an India trade deal ahead of a Mumbai visit, Qatar&rsquo;s Amir hosted Macron for a state visit in Doha, and Healey was reported poised to hike UK bank taxes in next month&rsquo;s Budget."
+  ],
+  "sections": [
+    {
+      "key": "world",
+      "title": "World",
+      "icon": "news",
+      "stories": [
+        {
+          "headline": "France Rocked By Worst Unrest In Years As Cost-Of-Living Protests Turn Violent",
+          "body": "Nationwide protests that began last month over underfunded schools merged with anger over living costs and a proposed &euro;54 billion austerity budget, drawing roughly 550,000 marchers before erupting into looting and arson in Paris and other cities, with nearly 2,400 people arrested and about 1,000 police officers injured, per Al Jazeera (Oct 18). President Emmanuel Macron said he felt &ldquo;anger and shame&rdquo; at attempts &ldquo;to bring down the republic,&rdquo; vowed rioters would &ldquo;pay for their crimes,&rdquo; and announced a crisis unit, while far-right leader Jordan Bardella called his response &ldquo;lamentable&rdquo; and &ldquo;cowardly.&rdquo;",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ad519db-1792350683.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/10/18/macron-denounces-frances-nationwide-rioting-looting",
+          "continues": false
+        },
+        {
+          "headline": "Alberta Referendum Count Delayed As Vote On Leaving Canada Heads To The Wire",
+          "body": "Official results of Monday&rsquo;s historic referendum on whether Alberta should start the legal process toward independence were pushed back after delays at more than 100 polling stations, with Elections Alberta now expecting Question 10 results between 1am and 4am MT Tuesday &mdash; late morning into early afternoon in Doha &mdash; per CTV News (Oct 19). Pre-vote surveys had found roughly four in five Albertans opposed separation, and Premier Danielle Smith, who called the vote but says she voted to remain, urged support for nine other ballot questions even as Prime Minister Mark Carney warned against using a &ldquo;yes&rdquo; vote to &ldquo;send a message&rdquo; to Ottawa, per Al Jazeera (Oct 18).",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ad50c753c64-1792347253.jpg?resize=1920%2C1440",
+          "url": "https://www.ctvnews.ca/edmonton/article/delays-at-more-than-100-alberta-polling-stations-push-back-referendum-results-live-updates-here/",
+          "continues": true
+        },
+        {
+          "headline": "Investigators Probe Why Alberta Military Base Fire Turned Deadly In Seconds",
+          "body": "Canada&rsquo;s military said investigators are examining why a grass fire that appeared contained before live-fire training suddenly overtook soldiers at Canadian Forces Base Wainwright, killing four and injuring 39; Major-General Wade Rutland said &ldquo;the fire was a kilometre away when the wind shifted &mdash; that is not normal for a fire to move a kilometre in 36 seconds,&rdquo; per Al Jazeera (Oct 19). A leaked memo reportedly rated the live-fire exercise&rsquo;s risk as low despite an Environment Canada warning of gusts up to 100 km/h that day, and Prime Minister Mark Carney called it &ldquo;one of the worst peacetime tragedies for Canada&rsquo;s military on domestic soil.&rdquo;",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ad5cd888509-1792396680.jpg?resize=1920%2C1331",
+          "url": "https://www.aljazeera.com/news/2026/10/19/how-a-grass-fire-at-a-canadian-military-base-killed-four-soldiers",
+          "continues": true
+        },
+        {
+          "headline": "Lula And Bolsonaro&rsquo;s Son Clash In Brazil&rsquo;s First Runoff Debate",
+          "body": "President Lula da Silva and Senator Flavio Bolsonaro traded insults in their first head-to-head debate ahead of Brazil&rsquo;s Oct 25 presidential runoff, with Lula calling his rival a &ldquo;habitual liar&rdquo; and alleged &ldquo;militiaman,&rdquo; and Flavio branding the president a &ldquo;clown&rdquo; while raising a graft case tied to one of Lula&rsquo;s sons, per Al Jazeera (Oct 19). Flavio, who led the first round 47% to 45% on turnout that saw one in five eligible voters stay home, offered a rare &ldquo;mea culpa&rdquo; over his father Jair Bolsonaro&rsquo;s COVID-19 response, with a second debate set for Oct 23.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261018__D3NT9QY__v1__HighRes__BrazilElectionRunoffDebate-1792377876.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/10/19/lula-and-bolsonaro-spar-in-brazils-fiery-first-presidential-run-off-debate",
+          "continues": false
+        },
+        {
+          "headline": "Ebola Outbreak Widens As Kenya Confirms Eighth Case",
+          "body": "Kenya confirmed an eighth Ebola case &mdash; a 49-year-old patient attendant exposed to the country&rsquo;s first case, who died Oct 5 after traveling from the Democratic Republic of Congo &mdash; as the region&rsquo;s outbreak became the DRC&rsquo;s deadliest ever, with more than 9,400 cases and over 4,500 deaths since May, per Al Jazeera (Oct 19). Health official Patrick Amoth said the new patient &ldquo;developed fever, headache and muscle pain&rdquo;; neighbouring Uganda has logged 20 cases and two deaths despite being declared Ebola-free in August, and North Kivu province plans to bar entry from the hard-hit Ituri province for a week starting Monday.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/AP26280382243949-1792367191.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/10/19/kenya-confirms-eighth-ebola-case-amid-widening-regional-outbreak",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "sports",
+      "title": "Sports",
+      "icon": "trophy",
+      "stories": [
+        {
+          "headline": "Brighton Thrash Crystal Palace 5-0 To Climb Into Top Three",
+          "body": "Brighton hammered Crystal Palace 5-0 at the Amex on Oct 18, with Jefferson Canvot&rsquo;s fourth-minute own goal sparking a rout completed by Diego Gómez, Yasin Ayari, Charalampos Kostoulas and Jack Hinshelwood, per TheScore (Oct 18). The result lifts Albion to third in the table on 16 points from seven games with a +18 goal difference, while Palace slump to 14th on seven points after a fifth defeat in seven outings.",
+          "img": "https://www.thescore.com/epl/event/98331/og-image",
+          "url": "https://www.thescore.com/epl/event/98331",
+          "continues": false
+        },
+        {
+          "headline": "Tottenham Snatch Late Winner Over Coventry At The Death",
+          "body": "Tottenham needed a stoppage-time header from Ben Davies in the 90+7th minute to see off Coventry City 3-1 at home on Oct 19, after Omar Marmoush had struck his first goal for the club in the 58th minute, per TheScore (Oct 19). James Maddison had put Spurs ahead in the 14th minute before Josh Rudoni leveled for newly promoted Coventry just after half-time, in front of 60,913 fans at the Tottenham Hotspur Stadium.",
+          "img": "https://www.thescore.com/epl/event/98324/og-image",
+          "url": "https://www.thescore.com/epl/event/98324",
+          "continues": false
+        },
+        {
+          "headline": "Antonelli Could Seal Maiden F1 Title At Austin As Verstappen Surges",
+          "body": "Kimi Antonelli could clinch his first Formula 1 Drivers&rsquo; Championship as early as this weekend&rsquo;s United States Grand Prix (Oct 23&ndash;25) at the Circuit of the Americas, needing only a win while nearest rival George Russell finishes ninth or lower and Lewis Hamilton fifth or lower, per Formula1.com (Oct 19). Max Verstappen, who has won the last two races including a sprint-and-race double in Singapore, sits fourth in the standings 119 points back and was called &ldquo;very, very scary&rdquo; by Antonelli himself heading into Austin.",
+          "img": "https://media.formula1.com/image/upload/c_lfill,w_2048/q_auto/v1740000001/fom-website/2026/United%20States/GettyImages-2242055817.webp",
+          "url": "https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-united-states-grand-prix.4utgT1kLqHM2HAM98YP4TW",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "title": "Business &amp; Markets",
+      "icon": "chart",
+      "stories": [
+        {
+          "headline": "Brent Steadies Above $109 As Gulf Oil Flows Partly Recover",
+          "body": "Brent crude held near $109.70 a barrel on Tuesday, consolidating after last week&rsquo;s roughly 5% rally to a five-month high, per Trading Economics (Oct 19). A US official cited in the same report said Gulf energy shipments have recovered to &ldquo;about 80% of pre-war levels,&rdquo; though refined-product deliveries through the Strait of Hormuz remain limited as IRGC attacks on tankers continue.",
+          "img": null,
+          "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+          "continues": true
+        },
+        {
+          "headline": "Fed Rate-Hike Odds Climb To 42% Ahead Of Oct. 28 Decision",
+          "body": "Traders now price a 41.5% chance the Fed raises rates at its October 28 meeting, up from 22.1% before the hot September CPI report, per 247wallst.com (Oct 15) citing CME Group&rsquo;s FedWatch tool. A hike six days before the November 3 election would be almost unprecedented &mdash; UBS&rsquo;s Simon Penn called it &ldquo;politically untenable&rdquo; and still expects Chair Kevin Warsh to wait until December, even after Warsh said September&rsquo;s move had already removed &ldquo;a dose of accommodation.&rdquo;",
+          "img": "https://247wallst.com/wp-content/uploads/2026/05/Kevin-Warsh-1.png",
+          "url": "https://247wallst.com/investing/2026/10/15/traders-give-warsh-a-42-chance-of-doing-something-this-month-that-has-only-happened-once-in-the-past-36-years/",
+          "continues": true
+        },
+        {
+          "headline": "Wall Street Rebounds As Tech Shares Recover From AI-Debt Rout",
+          "body": "The Nasdaq 100 jumped 1.17% and the S&amp;P 500 rose about 0.2&ndash;0.4% on Monday as AI heavyweights bounced back from last week&rsquo;s selloff, per Trading Economics (Oct 19). The Dow Jones slipped 0.07% to 51,966, with JPMorgan among the biggest decliners as bank stocks fell on earnings even while the broader market stabilized after the Nasdaq&rsquo;s worst week since June.",
+          "img": null,
+          "url": "https://tradingeconomics.com/united-states/stock-market",
+          "continues": true
+        },
+        {
+          "headline": "Netflix Reports Q3 Earnings Today With Ad Tier, Margins In Focus",
+          "body": "Netflix reports third-quarter results after Tuesday&rsquo;s close, with Wall Street consensus near $12.87&ndash;$12.88 billion in revenue and EPS around $0.82, per InsiderFinance. Analysts are watching whether ad-tier revenue &mdash; expected to roughly double year over year to about $3 billion &mdash; and a guided 33.2% operating margin hold up after both Wells Fargo and HSBC cut their ratings last month on competitive pressure from YouTube.",
+          "img": null,
+          "url": "https://www.insiderfinance.io/news/netflix-q3-2026-earnings-oct-20",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "AI &amp; Technology",
+      "icon": "cpu",
+      "stories": [
+        {
+          "headline": "CoreWeave&rsquo;s Credit Stress Deepens As Default Swaps Hit Record 1,194bps",
+          "body": "CoreWeave&rsquo;s five-year credit default swaps hit a record 1,194.5 basis points &mdash; pricing better-than-60% odds of default within five years, per LetsDataScience (Oct 15) citing ICE Data Services and Bloomberg. Its unsecured 2032 bonds traded below 80 cents on the dollar as shares fell another 6.9% on Oct 16, per Roic (Oct 16); Bernstein&rsquo;s Madison Rezaei maintains an Underperform rating, writing &ldquo;the company&rsquo;s long-term business model remains economically challenged,&rdquo; while CEO Mike Intrator insists its $104 billion backlog &ldquo;more than supports&rdquo; its debt obligations.",
+          "img": "https://www.roic.ai/api/og/news/coreweave-shares-tumble-69-as-leverage-fears-return-to-haunt-ai-darling-10-16-2026",
+          "url": "https://www.roic.ai/news/coreweave-shares-tumble-69-as-leverage-fears-return-to-haunt-ai-darling-10-16-2026",
+          "continues": true
+        },
+        {
+          "headline": "Anthropic&rsquo;s IPO Valuation Talk Slips To $1.5 Trillion, Roadshow Targets Nov. 9",
+          "body": "Investors who attended Anthropic&rsquo;s San Francisco investor day are now discussing a $1.5 trillion IPO valuation, down from the roughly $2 trillion previously floated, per Reuters (Oct 15, via AI Weekly) &mdash; attributed to a Q3 growth slowdown even as Q3 revenue hit $16.8 billion. Anthropic is aiming to begin formally marketing shares the week of November 9 and list before Thanksgiving, with cloud and compute commitments exceeding $518 billion over the next decade.",
+          "img": null,
+          "url": "https://aiweekly.co/alerts/reuters-anthropic-ipo-investors-push-valuation-down-to-15t-from-2t-over-q3",
+          "continues": true
+        },
+        {
+          "headline": "Nvidia Guides To $108 Billion Q3 Revenue, Unveils $150 Billion Buyback",
+          "body": "Nvidia is projecting roughly $108 billion in third-quarter revenue and has announced a $150 billion share-repurchase program &mdash; one of the largest buybacks in tech history &mdash; per TechInsider (Oct 8). The company credits surging demand for AI chips and its new Vera Rubin platform, while flagging regulatory scrutiny and competition from AMD as key risks to the outlook.",
+          "img": "https://media.af.net/img/41f9fb29aa890d57.jpg",
+          "url": "https://af.net/fr/realtime/nvidia-projects-record-q3-2026-revenue-and-announces-150-billion-share-repurchase-program/",
+          "continues": false
+        },
+        {
+          "headline": "First RTX Spark AI Laptops Ship, Draw MacBook Pro Comparisons",
+          "body": "The first wave of Windows laptops built on Nvidia&rsquo;s RTX Spark superchip &mdash; seven models from Microsoft, Asus, Lenovo, Dell, HP and MSI &mdash; began shipping Oct. 16 starting at $2,599.99, per Windows Central (Oct 17). Reviewers praised the on-device AI power for creators, with The Verge saying Microsoft&rsquo;s Surface Laptop Ultra &ldquo;has come closer than ever to building a Windows alternative to the MacBook Pro,&rdquo; though Wired flagged weak battery life as its main drawback.",
+          "img": "https://cdn.mos.cms.futurecdn.net/vTWtQPpYKKP4U9pMoa7dNR-2560-80.jpg",
+          "url": "https://www.windowscentral.com/hardware/nvidia/rtx-spark-laptops-are-being-hailed-as-true-macbook-pro-competitors-with-reviewers-praising-their-ai-power-and-creator-focused-performance",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "key": "geopolitics",
+      "title": "Geopolitics",
+      "icon": "globe",
+      "stories": [
+        {
+          "headline": "Trump Says US Still Hitting Iran &lsquo;Economically And Militarily&rsquo; As China Condemns Strikes",
+          "body": "President Trump said the United States continues to hit Iran &ldquo;economically and militarily&rdquo; and praised Russia for &ldquo;laying off Iran&rdquo; and doing &ldquo;nothing&rdquo; in the conflict, as the US-Israeli war on Iran ground on, per Al Jazeera (Oct 20). Chinese Premier Li Qiang condemned the strikes as &ldquo;blatant aggression&rdquo; carried out without UN Security Council consultation, while an Iranian Revolutionary Guard spokesman threatened to target undersea communication cables in the Strait of Hormuz if US attacks continue to disrupt Iran&rsquo;s regional security.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20260217__97WL4GM__v1__HighRes__IranUsConflictIrgcDrills-1792449681.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/20/draft-3",
+          "continues": false
+        },
+        {
+          "headline": "Trump Lashes Out At Zelensky Over Sanctions Relief For Russia",
+          "body": "Trump defended pausing new Russia sanctions days before they would have taken effect, warning against anything that would &ldquo;drive, foolishly, Russia away from the bargaining table,&rdquo; and writing that Ukraine&rsquo;s Zelensky &ldquo;doesn&rsquo;t want to end this war, and probably never did,&rdquo; per Al Jazeera (Oct 19). Zelensky told NBC&rsquo;s Meet the Press the sanctions waiver &ldquo;will hurt Ukraine&rdquo; and strengthen Putin&rsquo;s war effort, as Ukraine launched more than 1,000 drones overnight at Russian oil and energy sites around St Petersburg, killing one person and cutting power to roughly 20,000 people, per Al Jazeera (Oct 18).",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/07/AP26078614880785-1785217104.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/10/19/trump-defends-russian-sanctions-relief-lashes-out-at-zelenskyy",
+          "continues": true
+        },
+        {
+          "headline": "Trump Gives Netanyahu &lsquo;Complete And Total Endorsement&rsquo; Before Israeli Vote",
+          "body": "Nine days before Israel&rsquo;s Oct 27 election, Trump posted a &ldquo;Complete and Total Endorsement&rdquo; of Prime Minister Netanyahu, calling him &ldquo;Strong, Brave, and Brilliant&rdquo; and warning that if Israelis chose a different leader, the US would &ldquo;have to handle things&rdquo; itself, per Al Jazeera (Oct 18). Netanyahu&rsquo;s Likud-led bloc still trails Gadi Eisenkot&rsquo;s centrist Yashar party in recent polling, and the endorsement follows reported friction between the two leaders over the Iran war and Israeli strikes in Lebanon.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a84a378d96a-1787077496.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/10/18/trump-endorses-netanyahu-in-israeli-legislative-elections",
+          "continues": true
+        },
+        {
+          "headline": "Taiwan Repels 16 Chinese Vessels In &lsquo;Hybrid Warfare&rsquo; Incident",
+          "body": "Taiwan&rsquo;s coastguard said it drove away 16 Chinese coastguard, research and fishing vessels conducting coordinated &ldquo;maritime harassment&rdquo; around Taiwan&rsquo;s main island and the disputed Pratas Islands, some of which entered restricted waters, per Al Jazeera (Oct 18). Taipei accused Beijing of &ldquo;attempting to unilaterally alter the status quo&rdquo; through what it called hybrid warfare, noting China deployed 244 vessels near Taiwan in July alone &mdash; more than four times July 2025&rsquo;s count.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ad4d4ad6b6c-1792332973.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/10/18/taiwan-drives-away-16-chinese-ships-accused-of-maritime-harassment",
+          "continues": false
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "sport": "Cricket",
+      "headline": "Tri-Series Shifts To England As Sri Lanka Regroup",
+      "body": "Pakistan face England in Rawalpindi later on Oct 20 in the tri-series&rsquo; second match, with Sri Lanka &ndash; beaten by Salman Ali Agha&rsquo;s century in the opener &ndash; returning to face England on Oct 22. The seven-match league stage then shifts to Lahore&rsquo;s Gaddafi Stadium from Oct 25 ahead of the Oct 31 final.",
+      "url": "https://wisden.com/series/pakistan-odi-tri-series-2026/cricket-news/pakistan-tri-series-2026-all-you-need-to-know-full-schedule-squads-venues-and-match-timings-for-the-odi-tri-series",
+      "when": "Oct 20-22"
+    },
+    {
+      "sport": "Cricket",
+      "headline": "India Open Bumper New Zealand Tour With First T20I",
+      "body": "India begin a 12-match tour of New Zealand &ndash; five T20Is, five ODIs and two Tests &ndash; with the opening T20I on Oct 22, per Khel Now.",
+      "url": "https://khelnow.com/cricket/india-squad-new-zealand-tour-this-date-202610",
+      "when": "Oct 22"
+    },
+    {
+      "sport": "Football",
+      "headline": "El Clásico Returns To Camp Nou",
+      "body": "Barcelona host Real Madrid in Matchday 10&rsquo;s El Clásico on Sunday, Oct 25, at Spotify Camp Nou, per Real Madrid&rsquo;s official fixture calendar.",
+      "url": "https://www.realmadrid.com/en/football/first-team/calendar",
+      "when": "Oct 25"
+    },
+    {
+      "sport": "F1",
+      "headline": "United States Grand Prix Could Decide The Title",
+      "body": "F1 heads to the Circuit of the Americas for the United States Grand Prix (Oct 23&ndash;25), where points leader Kimi Antonelli has a chance to clinch the championship outright depending on how George Russell and Lewis Hamilton finish.",
+      "url": "https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-united-states-grand-prix.4utgT1kLqHM2HAM98YP4TW",
+      "when": "Oct 23-25"
+    }
+  ],
+  "portfolio": [
+    {
+      "ticker": "AMZN",
+      "headline": "Morgan Stanley Lifts Amazon Price Target To $350 On AWS-Nvidia GPU Deal",
+      "body": "Morgan Stanley&rsquo;s Brian Nowak raised his Amazon price target to $350 from $335 and reiterated a Buy rating, citing Amazon&rsquo;s agreement to buy roughly two million Nvidia GPUs, which he expects to help drive AWS revenue growth of around 47% in 2027 and push AWS operating margins toward 42% that year, per TipRanks (Oct 19). Nowak also pointed to Amazon&rsquo;s AI shopping assistants and warehouse robotics as additional catalysts heading into 2027.",
+      "img": "https://blog.tipranks.com/wp-content/uploads/2026/10/amznstock-4-750x406.jpg",
+      "url": "https://www.tipranks.com/news/amazon-stock-amzn-gains-5-thanks-to-a-new-price-target-from-morgan-stanley",
+      "continues": false
+    },
+    {
+      "ticker": "TSLA",
+      "headline": "Tesla Heads Into Wednesday&rsquo;s Earnings With Robotaxi Progress And SpaceX Merger Buzz",
+      "body": "Tesla reports third-quarter results on Oct 21, with Wall Street watching for margin pressure from lower vehicle prices; Morgan Stanley&rsquo;s Andrew Percoco notes that Tesla&rsquo;s Austin robotaxi fleet has grown past 300 Cybercabs and surpassed 1 million cumulative unsupervised miles, calling utilization, safety and unit economics the next tests, per TipRanks (Oct 18). Separately, Reuters (Oct 19) reports that speculation over a possible Tesla-SpaceX merger has intensified as both companies&rsquo; AI spending plans face scrutiny this earnings season.",
+      "img": "https://blog.tipranks.com/wp-content/uploads/2026/10/shutterstock_1491230117-750x406.jpg",
+      "url": "https://www.tipranks.com/news/will-teslas-q3-earnings-help-tsla-stock-recover-heres-what-analysts-expect",
+      "continues": false
+    },
+    {
+      "ticker": "PLTR",
+      "headline": "Palantir And Knox Systems Partner To Fast-Track Software Into Federal Cloud",
+      "body": "Palantir and Knox Systems announced a partnership on Oct 19 pairing Palantir&rsquo;s FedRAMP- and IL5-accredited infrastructure with Knox&rsquo;s accelerated authorization process, aiming to get commercial software vendors into government use faster; Knox says it already supports more than 100 AI and enterprise applications across federal environments and can deliver FedRAMP authorization in 90 days or less, per Business Wire (Oct 19). Palantir&rsquo;s global head of business development, Kevin Kawasaki, said the goal is to ensure &ldquo;the mission can&rsquo;t wait for technology to catch up.&rdquo;",
+      "img": "https://mms.businesswire.com/media/20261019277683/en/1872898/22/Palantir_Logo.jpg",
+      "url": "https://www.businesswire.com/news/home/20261019277683/en/Knox-and-Palantir-Partner-to-Further-Accelerate-Delivery-of-Software-through-Largest-Federal-Cloud/",
+      "continues": true
+    },
+    {
+      "ticker": "INTC",
+      "headline": "JPMorgan Upgrades Intel To Neutral, Citing Improved Execution Under Lip-Bu Tan",
+      "body": "JPMorgan analyst Harlan Sur upgraded Intel to Neutral from Underweight on Oct 19, keeping an $85 price target, pointing to improved execution and competitiveness in data-center compute plus better manufacturing yields and advanced-packaging progress since CEO Lip-Bu Tan took over, per TipRanks and Invezz (Oct 19). Intel also announced day-zero support for Meta&rsquo;s Muse Spark open model on its Xeon processors and upcoming D-series GPUs, part of a broader rebound across chip stocks nine days ahead of Intel&rsquo;s Oct 29 earnings report.",
+      "img": "https://blog.tipranks.com/wp-content/uploads/2022/09/shutterstock_1437974372-750x406.jpg",
+      "url": "https://www.tipranks.com/news/the-fly/intel-upgraded-to-neutral-from-underweight-at-jpmorgan-thefly-news",
+      "continues": true
+    },
+    {
+      "ticker": "TWLO",
+      "headline": "Twilio Rebounds As Wall Street&rsquo;s Price-Target Hikes Pile Up Ahead Of Earnings",
+      "body": "No fresh company-specific announcement accompanied Twilio&rsquo;s move on Oct 19; the rebound instead follows a string of recent analyst price-target increases &mdash; JPMorgan to $335 and BofA to $320 &mdash; with JPMorgan&rsquo;s Samik Chatterjee citing &ldquo;strong adoption of its messaging platform&rdquo; even as he stays cautious given how far expectations have risen ahead of Twilio&rsquo;s Oct 29 third-quarter report, per TheFly/TipRanks (Oct 8, Oct 14). No new catalyst specific to today&rsquo;s session was found.",
+      "img": "https://blog.tipranks.com/wp-content/uploads/2022/09/shutterstock_1928816210-750x406.jpg",
+      "url": "https://www.tipranks.com/news/the-fly/twilio-price-target-raised-to-335-from-260-at-jpmorgan-thefly-news",
+      "continues": true
+    },
+    {
+      "ticker": "BYND",
+      "headline": "Beyond Meat Slips With No Clear Catalyst As Product Rollout Continues",
+      "body": "No company-specific news accompanied Beyond Meat&rsquo;s decline on Oct 19; its most recent announcements are routine product rollouts, including an Oct 15 launch of a caffeinated &ldquo;Beyond Immerse&rdquo; sparkling protein drink and an Oct 13 purity-award win for its Starmatter ingredient platform, per GlobeNewswire &mdash; rather than anything tied to the session&rsquo;s move. Beyond Meat remains a small-cap name with a history of high volatility following its 2026 reverse stock split.",
+      "img": null,
+      "url": "https://www.globenewswire.com/news-release/2026/10/15/3381432/0/en/beyond-meat-launches-beyond-immerse-protein-energy-a-sparkling-protein-drink-with-caffeine.html",
+      "continues": false
+    }
+  ],
+  "country_groups": [
+    {
+      "label": "India",
+      "stories": [
+        {
+          "headline": "400 Indian-Origin Academics From MIT, Oxford Urge India To &lsquo;Spare&rsquo; Nation From Anarchy",
+          "body": "More than 400 people of Indian origin &mdash; academics, students and alumni from MIT, Oxford, Cambridge, Harvard, Yale, Princeton and Stanford across 27 countries &mdash; signed a statement titled &ldquo;Spare India from Anarchy,&rdquo; condemning protests against Chief Election Commissioner Gyanesh Kumar and the Special Intensive Revision of electoral rolls, per WION (Oct 20). Citing B.R. Ambedkar&rsquo;s warning to &ldquo;hold fast to constitutional methods&rdquo; and &ldquo;abandon the bloody methods of revolution,&rdquo; the signatories said some groups were exploiting matters pending before courts to fuel &ldquo;the grammar of anarchy&rdquo; through street protests. The release clarified that the listed university affiliations do not imply institutional endorsement.",
+          "img": "https://cdn3.wionews.com/prod/wion/images/2026/20261020/image-1792434973426.jpg?imwidth=1200&imheight=900",
+          "url": "https://www.wionews.com/india-news/spare-india-from-anarchy-over-400-indian-origin-academics-from-mit-oxford-condemn-anti-cec-protests-1792434690199",
+          "continues": false
+        },
+        {
+          "headline": "Rubio Says US &lsquo;Very Close&rsquo; To India Trade Deal Ahead Of Mumbai Visit",
+          "body": "Secretary of State Marco Rubio said in Samarkand, &ldquo;We&rsquo;re trying to finalise a trade deal with India right now. We&rsquo;re very close to doing that,&rdquo; ahead of landing in Mumbai Tuesday to meet External Affairs Minister S. Jaishankar, per WION (Oct 19). It is Rubio&rsquo;s second India trip this year, coming as Washington reviews India&rsquo;s continued Russian oil purchases under a 60-day pause on the Russia/Iran sanctions act, with the review due around December 15 when Modi is set to attend the G20 summit in Florida.",
+          "img": "https://cdn3.wionews.com/prod/wion/images/2026/20261019/image-1792411117316.jpg?imwidth=1200&imheight=900",
+          "url": "https://www.wionews.com/world/very-close-to-trade-deal-with-india-says-marco-rubio-ahead-of-his-mumbai-arrival-on-tuesday-1792411026672",
+          "continues": false
+        },
+        {
+          "headline": "Mumbai Police Confirm All Three Accused In Tiger Shroff Firing Case Are Adults",
+          "body": "Crime Branch DCP Rajtilak Roshan confirmed all three suspects in the October 18 Juhu firing targeting Tiger Shroff&rsquo;s residence are adults &mdash; two aged 18 and one 22 &mdash; after a 20-team manhunt tracked them from Mumbai through Surat and Kota via the Pune&ndash;Jaipur Express, per WION (Oct 19). Police recovered the getaway motorcycle at Andheri station and pulled all three off the train in a 15-minute operation with Rajasthan&rsquo;s Anti-Gangster Task Force; officers said they had received no prior complaint from Shroff about threats.",
+          "img": "https://cdn3.wionews.com/prod/wion/images/2026/20261019/image-1792415853027.jpg?imwidth=1200&imheight=900",
+          "url": "https://www.wionews.com/entertainment/bollywood/tiger-shroff-firing-probe-mumbai-police-reveal-new-details-confirm-all-three-accused-are-adults-1792415663200",
+          "continues": true
+        },
+        {
+          "headline": "Four Killed In Fresh Manipur Violence, Bodies Taken To CM&rsquo;s Residence In Protest",
+          "body": "Violence in two separate incidents since Thursday night killed at least four in Manipur &mdash; three villagers, named as Arubam Ronil, Lairenlakpam Inaobi and Kshetrimayum Sushil, were allegedly shot dead by suspected tribal militants while collecting firewood near the Imphal East&ndash;Kangpokpi boundary, while a 24-year-old died of bullet wounds after stone-pelting and gunfire at a musical event, per WION (Oct 19). Residents carried two bodies to Chief Minister Yumnam Khemchand Singh&rsquo;s residence in Babupara before police removed the protesters, as normal life in Imphal nears a standstill amid fears of renewed Meitei-Kuki tensions.",
+          "img": "https://cdn3.wionews.com/prod/wion/images/2026/20261019/image-1792412983908.jpg?imwidth=1200&imheight=900",
+          "url": "https://www.wionews.com/india-news/four-killed-in-fresh-manipur-violence-locals-take-bodies-to-cm-s-residence-1792412253953",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "stories": [
+        {
+          "headline": "Healey &lsquo;Poised&rsquo; To Hike Bank Tax As Lloyds, Barclays Shares Slide",
+          "body": "Bank shares fell after reports that Chancellor John Healey will target lenders in his October 28 Budget, with NatWest down 2% to 660.40p and Lloyds down roughly 2.5% to 103.40p; reversing Jeremy Hunt&rsquo;s 2023 cut to the banking surcharge from 3% back toward 8% could raise about &pound;2bn a year, per City AM (Oct 16). Healey called banks &ldquo;a part of the jewel&rdquo; in the UK economy, while Shadow Chancellor Andrew Griffith warned &ldquo;a raid on the financial services sector will stifle&rdquo; growth, and bank bosses jointly warned a higher tax burden &ldquo;may not necessarily generate higher tax receipts if capital, people and businesses move elsewhere.&rdquo;",
+          "img": "https://www.cityam.com/wp-content/uploads/2026/09/healey-e1789054887466.jpg",
+          "url": "https://www.cityam.com/john-healey-poised-to-target-banks-with-budget-tax-raid/",
+          "continues": true
+        },
+        {
+          "headline": "Burnham Confirms UK-EU Summit For November 20 As He Pushes Closer Ties",
+          "body": "PM Andy Burnham told MPs &ldquo;sticking with the current status quo is not good enough for Britain&rdquo; and warned ignoring closer EU ties would be &ldquo;a major dereliction of duty,&rdquo; confirming a UK-EU summit in Brussels on November 20, per Euronews (Oct 12). The summit will focus on growth and illegal immigration alongside a food and drink trade deal, linked energy systems and an emissions-trading agreement; Conservative leader Kemi Badenoch accused Burnham of &ldquo;unpicking&rdquo; the withdrawal agreement, while EU chief Ursula von der Leyen said she was &ldquo;really looking forward&rdquo; to the talks.",
+          "img": "https://images.euronews.com/articles/stories/09/94/91/99/1200x675_cmsv2_1a2e4e44-2511-5ca5-a469-45c872fbe856-9949199.jpg",
+          "url": "https://www.euronews.com/2026/10/12/uk-pm-burnham-says-status-quo-with-brussels-not-good-enough-as-he-details-upcoming-eu-summ",
+          "continues": true
+        },
+        {
+          "headline": "Burnham Unveils &pound;100 Fines For Blasting Music On Buses",
+          "body": "Local councils gained new powers to issue &pound;100 fixed penalty notices to bus passengers playing loud music, under rules Transport Secretary Heidi Alexander framed as &ldquo;share the carriage, not the noise,&rdquo; per City AM (Oct 19). PM Andy Burnham said &ldquo;we&rsquo;ve all been on the train when someone starts blasting music or videos from their phone,&rdquo; as the government also launches a campaign reminding rail passengers they already face fines of up to &pound;1,000; Shadow Transport Secretary Richard Holden called it Labour &ldquo;finally catching up with the Conservatives.&rdquo;",
+          "img": "https://www.cityam.com/wp-content/uploads/2026/10/01KY4RG87B5XRHN7K8K7BH1A5T-e1792391644906.jpg",
+          "url": "https://www.cityam.com/fines-up-to-100-in-new-crackdown-on-playing-music-on-buses/",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "label": "Qatar & the GCC",
+      "stories": [
+        {
+          "headline": "Qatar Warns Iran War&rsquo;s Energy Shockwaves &lsquo;Yet To Peak&rsquo;, Unveils New Defence Pact",
+          "body": "Deputy PM and Defence Minister Sheikh Saoud bin Abdulrahman Al Thani told Doha&rsquo;s Global Security Forum &ldquo;we haven&rsquo;t reached the peak with respect to energy&rdquo; fallout from the US-Israeli war on Iran, warning of further hits to supply, trade and growth &ldquo;in the coming days and months,&rdquo; per Al Jazeera (Oct 19). He announced Qatar will soon unveil a new regional defence partnership prioritising air defence, counter-drone measures and cybersecurity, and said Doha continues mediating between Washington and Tehran because &ldquo;Iran is our neighbour. We need to find ways to live with them,&rdquo; while rejecting proposed transit fees on Strait of Hormuz shipping.",
+          "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/Screenshot-2026-10-19-at-11.39.31-AM-copy-1792399284.jpg?resize=1920%2C1440",
+          "url": "https://www.aljazeera.com/news/2026/10/19/qatar-warns-global-energy-shockwaves-from-iran-war-have-yet-to-peak",
+          "continues": false
+        },
+        {
+          "headline": "Amir To Host French President Macron In Doha For State Visit",
+          "body": "Amir Sheikh Tamim bin Hamad Al Thani is set to receive French President Emmanuel Macron on a state visit to Qatar, with official talks scheduled at Lusail Palace, per The Peninsula Qatar (Oct 19). The two leaders are expected to discuss strengthening bilateral strategic relations across multiple fields alongside shared regional and international concerns.",
+          "img": "https://thepeninsulaqatar.com/get/maximage/20220224_1645690453-151.jpg?1645690636",
+          "url": "https://thepeninsulaqatar.com/article/19/10/2026/amir-to-receive-french-president-tomorrow",
+          "continues": false
+        },
+        {
+          "headline": "Qatar Joins GCC-Russia Strategic Dialogue Meeting In Manama",
+          "body": "Qatar&rsquo;s delegation, led by Minister of State for Foreign Affairs Sultan bin Saad Al Muraikhi, took part in the Ninth Joint Ministerial Meeting of the Strategic Dialogue between the Gulf Cooperation Council and Russia, held in Manama, Bahrain, per The Peninsula Qatar (Oct 18).",
+          "img": "https://thepeninsulaqatar.com/get/maximage/20261018_1792336784-543.jpeg?1792336784",
+          "url": "https://thepeninsulaqatar.com/article/18/10/2026/qatar-participates-in-ninth-joint-ministerial-meeting-of-the-strategic-dialogue-between-gulf-cooperation-council-and-russia",
+          "continues": false
+        }
+      ]
+    }
+  ],
+  "doha_events": [
+    {
+      "headline": "Qatar World Cup 10-Ball 2026",
+      "body": "The world&rsquo;s top 10-ball players compete for a $450,000 prize fund at Ezdan Palace Hotel.",
+      "img": null,
+      "url": "https://www.qatarliving.com/en/article/qatar-calendar-brings-concerts-culture-sport-and-family-experiences-to-qatar-this-october",
+      "when": "Oct 19-29"
+    },
+    {
+      "headline": "Milipol Qatar 2026",
+      "body": "The 16th edition of this global homeland-security exhibition opens at DECC with over 270 companies and seven international pavilions, marking 30 years since it launched in 1996.",
+      "img": "https://thepeninsulaqatar.com/get/maximage/20261018_1792331602-58.jpg?1792331602",
+      "url": "https://thepeninsulaqatar.com/article/18/10/2026/milipol-qatar-2026-to-open-on-tuesday-with-participation-of-over-270-companies",
+      "when": "Oct 20-22"
+    },
+    {
+      "headline": "MOQ Drift Show 2026",
+      "body": "A motorsport drift show returns to Mall of Qatar.",
+      "img": null,
+      "url": "https://www.qatarliving.com/en/article/qatar-calendar-brings-concerts-culture-sport-and-family-experiences-to-qatar-this-october",
+      "when": "Oct 21-31"
+    },
+    {
+      "headline": "Marilyne Naaman Concert",
+      "body": "The Lebanese singer performs live at Al Mayassa Theater, Qatar National Convention Centre.",
+      "img": null,
+      "url": "https://www.qatarliving.com/en/article/qatar-calendar-brings-concerts-culture-sport-and-family-experiences-to-qatar-this-october",
+      "when": "Oct 22"
+    },
+    {
+      "headline": "Moscow Ballet La Classique: Swan Lake",
+      "body": "The Russian touring company stages its classical production of Swan Lake at Al Mayassa Theater, QNCC.",
+      "img": null,
+      "url": "https://www.qatarliving.com/en/article/qatar-calendar-brings-concerts-culture-sport-and-family-experiences-to-qatar-this-october",
+      "when": "Oct 30"
+    }
+  ]
+}
